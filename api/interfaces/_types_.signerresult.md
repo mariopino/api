@@ -17,7 +17,7 @@
 
 • **id**: *number*
 
-*Defined in [types.ts:293](https://github.com/polkadot-js/api/blob/35622a9/packages/api/src/types.ts#L293)*
+*Defined in [types.ts:295](https://github.com/polkadot-js/api/blob/d905b4f/packages/api/src/types.ts#L295)*
 
 **`description`** The id for this request
 
@@ -27,6 +27,6 @@ ___
 
 • **signature**: *string*
 
-*Defined in [types.ts:298](https://github.com/polkadot-js/api/blob/35622a9/packages/api/src/types.ts#L298)*
+*Defined in [types.ts:300](https://github.com/polkadot-js/api/blob/d905b4f/packages/api/src/types.ts#L300)*
 
 **`description`** The resulting signature in hex

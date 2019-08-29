@@ -8,30 +8,17 @@
 
 ### Properties
 
-* [sign](_types_.signer.md#optional-sign)
 * [signPayload](_types_.signer.md#optional-signpayload)
 * [signRaw](_types_.signer.md#optional-signraw)
 * [update](_types_.signer.md#optional-update)
 
 ## Properties
 
-### `Optional` sign
-
-• **sign**? : *undefined | function*
-
-*Defined in [types.ts:306](https://github.com/polkadot-js/api/blob/35622a9/packages/api/src/types.ts#L306)*
-
-**`deprecated`** Implement and use signPayload and/or signRaw instead
-
-**`description`** Signs an extrinsic, returning an id (>0) that can be used to retrieve updates
-
-___
-
 ### `Optional` signPayload
 
 • **signPayload**? : *undefined | function*
 
-*Defined in [types.ts:311](https://github.com/polkadot-js/api/blob/35622a9/packages/api/src/types.ts#L311)*
+*Defined in [types.ts:307](https://github.com/polkadot-js/api/blob/d905b4f/packages/api/src/types.ts#L307)*
 
 **`description`** signs an extrinsic payload from a serialized form
 
@@ -41,7 +28,7 @@ ___
 
 • **signRaw**? : *undefined | function*
 
-*Defined in [types.ts:316](https://github.com/polkadot-js/api/blob/35622a9/packages/api/src/types.ts#L316)*
+*Defined in [types.ts:312](https://github.com/polkadot-js/api/blob/d905b4f/packages/api/src/types.ts#L312)*
 
 **`description`** signs a raw payload, only the bytes data as supplied
 
@@ -51,6 +38,6 @@ ___
 
 • **update**? : *undefined | function*
 
-*Defined in [types.ts:321](https://github.com/polkadot-js/api/blob/35622a9/packages/api/src/types.ts#L321)*
+*Defined in [types.ts:317](https://github.com/polkadot-js/api/blob/d905b4f/packages/api/src/types.ts#L317)*
 
 **`description`** Receives an update for the extrinsic signed by a `signer.sign`
