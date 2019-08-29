@@ -8,12 +8,21 @@
 
 ### Properties
 
-* [isSigned](_primitive_extrinsic_types_.extrinsicoptions.md#optional-issigned)
+* [isSigned](_primitive_extrinsic_types_.extrinsicoptions.md#issigned)
+* [version](_primitive_extrinsic_types_.extrinsicoptions.md#version)
 
 ## Properties
 
-### `Optional` isSigned
+###  isSigned
 
-• **isSigned**? : *undefined | false | true*
+• **isSigned**: *boolean*
 
-*Defined in [primitive/Extrinsic/types.ts:8](https://github.com/polkadot-js/api/blob/098a7a0/packages/types/src/primitive/Extrinsic/types.ts#L8)*
+*Defined in [primitive/Extrinsic/types.ts:8](https://github.com/polkadot-js/api/blob/87f195d/packages/types/src/primitive/Extrinsic/types.ts#L8)*
+
+___
+
+###  version
+
+• **version**: *number*
+
+*Defined in [primitive/Extrinsic/types.ts:9](https://github.com/polkadot-js/api/blob/87f195d/packages/types/src/primitive/Extrinsic/types.ts#L9)*

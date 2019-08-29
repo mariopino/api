@@ -134,6 +134,7 @@
 * ["primitive/Extrinsic/Extrinsic"](modules/_primitive_extrinsic_extrinsic_.md)
 * ["primitive/Extrinsic/ExtrinsicEra"](modules/_primitive_extrinsic_extrinsicera_.md)
 * ["primitive/Extrinsic/ExtrinsicPayload"](modules/_primitive_extrinsic_extrinsicpayload_.md)
+* ["primitive/Extrinsic/ExtrinsicUnknown"](modules/_primitive_extrinsic_extrinsicunknown_.md)
 * ["primitive/Extrinsic/constants"](modules/_primitive_extrinsic_constants_.md)
 * ["primitive/Extrinsic/types"](modules/_primitive_extrinsic_types_.md)
 * ["primitive/Extrinsic/util"](modules/_primitive_extrinsic_util_.md)
