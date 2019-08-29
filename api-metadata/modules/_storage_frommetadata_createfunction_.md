@@ -15,9 +15,9 @@
 
 ###  createFunction
 
-▸ **createFunction**(`__namedParameters`: object, `options`: [CreateItemOptions](../interfaces/_storage_frommetadata_createfunction_.createitemoptions.md)): *StorageEntry*
+▸ **createFunction**(`item`: [CreateItemFn](../interfaces/_storage_frommetadata_createfunction_.createitemfn.md), `options`: [CreateItemOptions](../interfaces/_storage_frommetadata_createfunction_.createitemoptions.md)): *StorageEntry*
 
-*Defined in [storage/fromMetadata/createFunction.ts:40](https://github.com/polkadot-js/api/blob/a019468/packages/api-metadata/src/storage/fromMetadata/createFunction.ts#L40)*
+*Defined in [storage/fromMetadata/createFunction.ts:150](https://github.com/polkadot-js/api/blob/07d23d5/packages/api-metadata/src/storage/fromMetadata/createFunction.ts#L150)*
 
 From the schema of a function in the module's storage, generate the function
 that will return the correct storage key.
@@ -26,7 +26,7 @@ that will return the correct storage key.
 
 Name | Type | Default | Description |
 ------ | ------ | ------ | ------ |
-`__namedParameters` | object | - | - |
+`item` | [CreateItemFn](../interfaces/_storage_frommetadata_createfunction_.createitemfn.md) | - | The function's definition schema to create the function from. The schema is taken from state_getMetadata. |
 `options` | [CreateItemOptions](../interfaces/_storage_frommetadata_createfunction_.createitemoptions.md) |  {} | Additional options when creating the function. These options are not known at runtime (from state_getMetadata), they need to be supplied by us manually at compile time.  |
 
 **Returns:** *StorageEntry*
