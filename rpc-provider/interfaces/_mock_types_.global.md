@@ -473,7 +473,7 @@ ___
 
 • **WebSocket**: *Constructor‹WebSocket›*
 
-*Defined in [mock/types.ts:9](https://github.com/polkadot-js/api/blob/a47b2ec/packages/rpc-provider/src/mock/types.ts#L9)*
+*Defined in [mock/types.ts:9](https://github.com/polkadot-js/api/blob/417a9ff/packages/rpc-provider/src/mock/types.ts#L9)*
 
 ___
 
@@ -619,9 +619,9 @@ ___
 
 ###  fetch
 
-• **fetch**: *GlobalFetch*
+• **fetch**: *any*
 
-*Defined in [mock/types.ts:10](https://github.com/polkadot-js/api/blob/a47b2ec/packages/rpc-provider/src/mock/types.ts#L10)*
+*Defined in [mock/types.ts:10](https://github.com/polkadot-js/api/blob/417a9ff/packages/rpc-provider/src/mock/types.ts#L10)*
 
 ___
 

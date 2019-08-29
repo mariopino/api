@@ -8,7 +8,7 @@
 
 ▸ (...`params`: any[]): *Observable‹any›*
 
-*Defined in [types.ts:7](https://github.com/polkadot-js/api/blob/a47b2ec/packages/rpc-core/src/types.ts#L7)*
+*Defined in [types.ts:7](https://github.com/polkadot-js/api/blob/417a9ff/packages/rpc-core/src/types.ts#L7)*
 
 **Parameters:**
 

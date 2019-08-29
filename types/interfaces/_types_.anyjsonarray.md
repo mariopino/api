@@ -81,7 +81,7 @@ Gets or sets the length of the array. This is a number one higher than the highe
 
 *Inherited from void*
 
-Defined in /home/travis/build/polkadot-js/api/node_modules/typescript/lib/lib.es2015.iterable.d.ts:52
+Defined in /home/travis/build/polkadot-js/api/node_modules/typescript/lib/lib.es2015.iterable.d.ts:60
 
 Iterator
 
@@ -169,7 +169,7 @@ ___
 
 *Inherited from void*
 
-Defined in /home/travis/build/polkadot-js/api/node_modules/typescript/lib/lib.es2015.iterable.d.ts:57
+Defined in /home/travis/build/polkadot-js/api/node_modules/typescript/lib/lib.es2015.iterable.d.ts:65
 
 Returns an iterable of key, value pairs for every entry in the array
 
@@ -754,7 +754,7 @@ ___
 
 *Inherited from void*
 
-Defined in /home/travis/build/polkadot-js/api/node_modules/typescript/lib/lib.es2015.iterable.d.ts:62
+Defined in /home/travis/build/polkadot-js/api/node_modules/typescript/lib/lib.es2015.iterable.d.ts:70
 
 Returns an iterable of keys in the array
 
@@ -1233,7 +1233,7 @@ ___
 
 *Inherited from void*
 
-Defined in /home/travis/build/polkadot-js/api/node_modules/typescript/lib/lib.es2015.iterable.d.ts:67
+Defined in /home/travis/build/polkadot-js/api/node_modules/typescript/lib/lib.es2015.iterable.d.ts:75
 
 Returns an iterable of values in the array
 

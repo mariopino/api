@@ -20,7 +20,7 @@
 
 Ƭ **MockStateDb**: *Record‹string, Uint8Array›*
 
-*Defined in [mock/types.ts:27](https://github.com/polkadot-js/api/blob/a47b2ec/packages/rpc-provider/src/mock/types.ts#L27)*
+*Defined in [mock/types.ts:27](https://github.com/polkadot-js/api/blob/417a9ff/packages/rpc-provider/src/mock/types.ts#L27)*
 
 ___
 
@@ -28,7 +28,7 @@ ___
 
 Ƭ **MockStateRequests**: *Record‹string, function›*
 
-*Defined in [mock/types.ts:29](https://github.com/polkadot-js/api/blob/a47b2ec/packages/rpc-provider/src/mock/types.ts#L29)*
+*Defined in [mock/types.ts:29](https://github.com/polkadot-js/api/blob/417a9ff/packages/rpc-provider/src/mock/types.ts#L29)*
 
 ___
 
@@ -36,7 +36,7 @@ ___
 
 Ƭ **MockStateSubscriptionCallback**: *function*
 
-*Defined in [mock/types.ts:20](https://github.com/polkadot-js/api/blob/a47b2ec/packages/rpc-provider/src/mock/types.ts#L20)*
+*Defined in [mock/types.ts:20](https://github.com/polkadot-js/api/blob/417a9ff/packages/rpc-provider/src/mock/types.ts#L20)*
 
 #### Type declaration:
 
@@ -55,4 +55,4 @@ ___
 
 Ƭ **MockStateSubscriptions**: *Record‹string, object›*
 
-*Defined in [mock/types.ts:22](https://github.com/polkadot-js/api/blob/a47b2ec/packages/rpc-provider/src/mock/types.ts#L22)*
+*Defined in [mock/types.ts:22](https://github.com/polkadot-js/api/blob/417a9ff/packages/rpc-provider/src/mock/types.ts#L22)*
