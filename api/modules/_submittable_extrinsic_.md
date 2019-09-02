@@ -10,9 +10,9 @@
 
 ###  createSubmittableExtrinsic
 
-▸ **createSubmittableExtrinsic**<**ApiType**>(`type`: [ApiTypes](_types_.md#apitypes), `api`: [ApiInterfaceRx](../interfaces/_types_.apiinterfacerx.md), `decorateMethod`: decorateMethod): *Creator‹ApiType›*
+▸ **createSubmittableExtrinsic**<**ApiType**>(`type`: [ApiTypes](_types_.md#apitypes), `api`: [ApiInterfaceRx](../interfaces/_types_.apiinterfacerx.md), `decorateMethod`: function): *Creator‹ApiType›*
 
-*Defined in [submittable/Extrinsic.ts:259](https://github.com/polkadot-js/api/blob/d905b4f/packages/api/src/submittable/Extrinsic.ts#L259)*
+*Defined in [submittable/Extrinsic.ts:259](https://github.com/polkadot-js/api/blob/2dd7cc0/packages/api/src/submittable/Extrinsic.ts#L259)*
 
 **Type parameters:**
 
@@ -20,10 +20,26 @@
 
 **Parameters:**
 
+▪ **type**: *[ApiTypes](_types_.md#apitypes)*
+
+▪ **api**: *[ApiInterfaceRx](../interfaces/_types_.apiinterfacerx.md)*
+
+▪ **decorateMethod**: *function*
+
+▸ (`method`: function, `options?`: [DecorateMethodOptions](../interfaces/_types_.decoratemethodoptions.md)): *any*
+
+**Parameters:**
+
+▪ **method**: *function*
+
+▸ (...`args`: any[]): *Observable‹any›*
+
+**Parameters:**
+
 Name | Type |
 ------ | ------ |
-`type` | [ApiTypes](_types_.md#apitypes) |
-`api` | [ApiInterfaceRx](../interfaces/_types_.apiinterfacerx.md) |
-`decorateMethod` | decorateMethod |
+`...args` | any[] |
+
+▪`Optional`  **options**: *[DecorateMethodOptions](../interfaces/_types_.decoratemethodoptions.md)*
 
 **Returns:** *Creator‹ApiType›*

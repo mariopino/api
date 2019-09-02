@@ -30,6 +30,7 @@
 
 * [ApiInterfaceEvents](_types_.md#apiinterfaceevents)
 * [ApiTypes](_types_.md#apitypes)
+* [DecorateMethod](_types_.md#decoratemethod)
 * [DecoratedRpc](_types_.md#decoratedrpc)
 * [DecoratedRpcSection](_types_.md#decoratedrpcsection)
 * [MethodResult](_types_.md#methodresult)
@@ -47,7 +48,7 @@
 
 Ƭ **ApiInterfaceEvents**: *ProviderInterfaceEmitted | "ready"*
 
-*Defined in [types.ts:206](https://github.com/polkadot-js/api/blob/d905b4f/packages/api/src/types.ts#L206)*
+*Defined in [types.ts:208](https://github.com/polkadot-js/api/blob/2dd7cc0/packages/api/src/types.ts#L208)*
 
 ___
 
@@ -55,7 +56,33 @@ ___
 
 Ƭ **ApiTypes**: *"promise" | "rxjs"*
 
-*Defined in [types.ts:208](https://github.com/polkadot-js/api/blob/d905b4f/packages/api/src/types.ts#L208)*
+*Defined in [types.ts:210](https://github.com/polkadot-js/api/blob/2dd7cc0/packages/api/src/types.ts#L210)*
+
+___
+
+###  DecorateMethod
+
+Ƭ **DecorateMethod**: *function*
+
+*Defined in [types.ts:53](https://github.com/polkadot-js/api/blob/2dd7cc0/packages/api/src/types.ts#L53)*
+
+#### Type declaration:
+
+▸ (`method`: function, `options?`: [DecorateMethodOptions](../interfaces/_types_.decoratemethodoptions.md)): *any*
+
+**Parameters:**
+
+▪ **method**: *function*
+
+▸ (...`args`: any[]): *Observable‹any›*
+
+**Parameters:**
+
+Name | Type |
+------ | ------ |
+`...args` | any[] |
+
+▪`Optional`  **options**: *[DecorateMethodOptions](../interfaces/_types_.decoratemethodoptions.md)*
 
 ___
 
@@ -63,7 +90,7 @@ ___
 
 Ƭ **DecoratedRpc**: *object*
 
-*Defined in [types.ts:81](https://github.com/polkadot-js/api/blob/d905b4f/packages/api/src/types.ts#L81)*
+*Defined in [types.ts:83](https://github.com/polkadot-js/api/blob/2dd7cc0/packages/api/src/types.ts#L83)*
 
 #### Type declaration:
 
@@ -73,7 +100,7 @@ ___
 
 Ƭ **DecoratedRpcSection**: *object*
 
-*Defined in [types.ts:75](https://github.com/polkadot-js/api/blob/d905b4f/packages/api/src/types.ts#L75)*
+*Defined in [types.ts:77](https://github.com/polkadot-js/api/blob/2dd7cc0/packages/api/src/types.ts#L77)*
 
 #### Type declaration:
 
@@ -83,7 +110,7 @@ ___
 
 Ƭ **MethodResult**: *MethodResult<ApiType, F>*
 
-*Defined in [types.ts:71](https://github.com/polkadot-js/api/blob/d905b4f/packages/api/src/types.ts#L71)*
+*Defined in [types.ts:73](https://github.com/polkadot-js/api/blob/2dd7cc0/packages/api/src/types.ts#L73)*
 
 ___
 
@@ -91,7 +118,7 @@ ___
 
 Ƭ **ObsInnerType**: *ObsInnerType<O>*
 
-*Defined in [types.ts:43](https://github.com/polkadot-js/api/blob/d905b4f/packages/api/src/types.ts#L43)*
+*Defined in [types.ts:43](https://github.com/polkadot-js/api/blob/2dd7cc0/packages/api/src/types.ts#L43)*
 
 ___
 
@@ -99,7 +126,7 @@ ___
 
 Ƭ **QueryableStorageEntry**: *QueryableStorageEntry<ApiType>*
 
-*Defined in [types.ts:116](https://github.com/polkadot-js/api/blob/d905b4f/packages/api/src/types.ts#L116)*
+*Defined in [types.ts:118](https://github.com/polkadot-js/api/blob/2dd7cc0/packages/api/src/types.ts#L118)*
 
 ___
 
@@ -107,7 +134,7 @@ ___
 
 Ƭ **QueryableStorageMulti**: *QueryableStorageMulti<ApiType>*
 
-*Defined in [types.ts:139](https://github.com/polkadot-js/api/blob/d905b4f/packages/api/src/types.ts#L139)*
+*Defined in [types.ts:141](https://github.com/polkadot-js/api/blob/2dd7cc0/packages/api/src/types.ts#L141)*
 
 ___
 
@@ -115,7 +142,7 @@ ___
 
 Ƭ **QueryableStorageMultiArg**: *[QueryableStorageEntry](_types_.md#queryablestorageentry)‹ApiType› | [[QueryableStorageEntry](_types_.md#queryablestorageentry)‹ApiType›, Array]*
 
-*Defined in [types.ts:125](https://github.com/polkadot-js/api/blob/d905b4f/packages/api/src/types.ts#L125)*
+*Defined in [types.ts:127](https://github.com/polkadot-js/api/blob/2dd7cc0/packages/api/src/types.ts#L127)*
 
 ___
 
@@ -123,7 +150,7 @@ ___
 
 Ƭ **QueryableStorageMultiArgs**: *[QueryableStorageMultiArg](_types_.md#queryablestoragemultiarg)‹ApiType›[]*
 
-*Defined in [types.ts:129](https://github.com/polkadot-js/api/blob/d905b4f/packages/api/src/types.ts#L129)*
+*Defined in [types.ts:131](https://github.com/polkadot-js/api/blob/2dd7cc0/packages/api/src/types.ts#L131)*
 
 ___
 
@@ -131,7 +158,7 @@ ___
 
 Ƭ **RxResult**: *function*
 
-*Defined in [types.ts:61](https://github.com/polkadot-js/api/blob/d905b4f/packages/api/src/types.ts#L61)*
+*Defined in [types.ts:63](https://github.com/polkadot-js/api/blob/2dd7cc0/packages/api/src/types.ts#L63)*
 
 #### Type declaration:
 
@@ -149,4 +176,4 @@ ___
 
 Ƭ **UnsubscribePromise**: *Promise‹function›*
 
-*Defined in [types.ts:45](https://github.com/polkadot-js/api/blob/d905b4f/packages/api/src/types.ts#L45)*
+*Defined in [types.ts:45](https://github.com/polkadot-js/api/blob/2dd7cc0/packages/api/src/types.ts#L45)*
