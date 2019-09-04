@@ -16,6 +16,6 @@
 
 ▸ **getTypeRegistry**(): *[TypeRegistry](../classes/_codec_create_registry_.typeregistry.md)*
 
-*Defined in [codec/create/registry.ts:101](https://github.com/polkadot-js/api/blob/6ec3815/packages/types/src/codec/create/registry.ts#L101)*
+*Defined in [codec/create/registry.ts:101](https://github.com/polkadot-js/api/blob/f66b2d0/packages/types/src/codec/create/registry.ts#L101)*
 
 **Returns:** *[TypeRegistry](../classes/_codec_create_registry_.typeregistry.md)*

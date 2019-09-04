@@ -4,7 +4,6 @@
 
 ### External modules
 
-* ["SignerPayload"](modules/_signerpayload_.md)
 * ["base/Decorate"](modules/_base_decorate_.md)
 * ["base/Events"](modules/_base_events_.md)
 * ["base/Init"](modules/_base_init_.md)
