@@ -12,7 +12,7 @@
 
 ▸ **createSubmittableExtrinsic**<**ApiType**>(`type`: [ApiTypes](_types_.md#apitypes), `api`: [ApiInterfaceRx](../interfaces/_types_.apiinterfacerx.md), `decorateMethod`: function): *Creator‹ApiType›*
 
-*Defined in [submittable/Extrinsic.ts:258](https://github.com/polkadot-js/api/blob/630b831/packages/api/src/submittable/Extrinsic.ts#L258)*
+*Defined in [submittable/Extrinsic.ts:258](https://github.com/polkadot-js/api/blob/b889e56/packages/api/src/submittable/Extrinsic.ts#L258)*
 
 **Type parameters:**
 
