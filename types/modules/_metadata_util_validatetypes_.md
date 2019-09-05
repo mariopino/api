@@ -1,4 +1,8 @@
-> # External module: "Metadata/util/validateTypes"
+**[Polkadot JS API](../README.md)**
+
+[Globals](../globals.md) › ["Metadata/util/validateTypes"](_metadata_util_validatetypes_.md)
+
+# External module: "Metadata/util/validateTypes"
 
 ## Index
 
@@ -12,7 +16,7 @@
 
 ▸ **validateTypes**(`types`: string[], `throwError`: boolean): *void*
 
-*Defined in [Metadata/util/validateTypes.ts:38](https://github.com/polkadot-js/api/blob/fac0934/packages/types/src/Metadata/util/validateTypes.ts#L38)*
+*Defined in [Metadata/util/validateTypes.ts:38](https://github.com/polkadot-js/api/blob/a0c6cd5/packages/types/src/Metadata/util/validateTypes.ts#L38)*
 
 **Parameters:**
 

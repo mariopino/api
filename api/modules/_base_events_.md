@@ -1,4 +1,8 @@
-> # External module: "base/Events"
+**[Polkadot JS API](../README.md)**
+
+[Globals](../globals.md) › ["base/Events"](_base_events_.md)
+
+# External module: "base/Events"
 
 ## Index
 

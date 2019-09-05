@@ -1,4 +1,8 @@
-> # External module: "primitive/Data"
+**[Polkadot JS API](../README.md)**
+
+[Globals](../globals.md) › ["primitive/Data"](_primitive_data_.md)
+
+# External module: "primitive/Data"
 
 ## Index
 

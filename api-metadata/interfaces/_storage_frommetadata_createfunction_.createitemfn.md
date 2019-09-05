@@ -1,4 +1,8 @@
-> # Interface: CreateItemFn
+**[Polkadot JS API](../README.md)**
+
+[Globals](../globals.md) › ["storage/fromMetadata/createFunction"](../modules/_storage_frommetadata_createfunction_.md) › [CreateItemFn](_storage_frommetadata_createfunction_.createitemfn.md)
+
+# Interface: CreateItemFn
 
 ## Hierarchy
 
@@ -19,7 +23,7 @@
 
 • **meta**: *StorageEntryMetadata*
 
-*Defined in [storage/fromMetadata/createFunction.ts:22](https://github.com/polkadot-js/api/blob/fac0934/packages/api-metadata/src/storage/fromMetadata/createFunction.ts#L22)*
+*Defined in [storage/fromMetadata/createFunction.ts:22](https://github.com/polkadot-js/api/blob/a0c6cd5/packages/api-metadata/src/storage/fromMetadata/createFunction.ts#L22)*
 
 ___
 
@@ -27,7 +31,7 @@ ___
 
 • **method**: *string*
 
-*Defined in [storage/fromMetadata/createFunction.ts:23](https://github.com/polkadot-js/api/blob/fac0934/packages/api-metadata/src/storage/fromMetadata/createFunction.ts#L23)*
+*Defined in [storage/fromMetadata/createFunction.ts:23](https://github.com/polkadot-js/api/blob/a0c6cd5/packages/api-metadata/src/storage/fromMetadata/createFunction.ts#L23)*
 
 ___
 
@@ -35,7 +39,7 @@ ___
 
 • **prefix**: *string*
 
-*Defined in [storage/fromMetadata/createFunction.ts:24](https://github.com/polkadot-js/api/blob/fac0934/packages/api-metadata/src/storage/fromMetadata/createFunction.ts#L24)*
+*Defined in [storage/fromMetadata/createFunction.ts:24](https://github.com/polkadot-js/api/blob/a0c6cd5/packages/api-metadata/src/storage/fromMetadata/createFunction.ts#L24)*
 
 ___
 
@@ -43,4 +47,4 @@ ___
 
 • **section**: *string*
 
-*Defined in [storage/fromMetadata/createFunction.ts:25](https://github.com/polkadot-js/api/blob/fac0934/packages/api-metadata/src/storage/fromMetadata/createFunction.ts#L25)*
+*Defined in [storage/fromMetadata/createFunction.ts:25](https://github.com/polkadot-js/api/blob/a0c6cd5/packages/api-metadata/src/storage/fromMetadata/createFunction.ts#L25)*

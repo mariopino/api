@@ -1,4 +1,8 @@
-> # Interface: VoterPosition
+**[Polkadot JS API](../README.md)**
+
+[Globals](../globals.md) › ["types"](../modules/_types_.md) › [VoterPosition](_types_.voterposition.md)
+
+# Interface: VoterPosition
 
 ## Hierarchy
 
@@ -18,7 +22,7 @@
 
 • **globalIndex**: *BN*
 
-*Defined in [types.ts:117](https://github.com/polkadot-js/api/blob/fac0934/packages/api-derive/src/types.ts#L117)*
+*Defined in [types.ts:117](https://github.com/polkadot-js/api/blob/a0c6cd5/packages/api-derive/src/types.ts#L117)*
 
 ___
 
@@ -26,7 +30,7 @@ ___
 
 • **index**: *BN*
 
-*Defined in [types.ts:118](https://github.com/polkadot-js/api/blob/fac0934/packages/api-derive/src/types.ts#L118)*
+*Defined in [types.ts:118](https://github.com/polkadot-js/api/blob/a0c6cd5/packages/api-derive/src/types.ts#L118)*
 
 ___
 
@@ -34,4 +38,4 @@ ___
 
 • **setIndex**: *SetIndex*
 
-*Defined in [types.ts:119](https://github.com/polkadot-js/api/blob/fac0934/packages/api-derive/src/types.ts#L119)*
+*Defined in [types.ts:119](https://github.com/polkadot-js/api/blob/a0c6cd5/packages/api-derive/src/types.ts#L119)*

@@ -1,4 +1,8 @@
-> # Interface: RecentlyOffline
+**[Polkadot JS API](../README.md)**
+
+[Globals](../globals.md) › ["types"](../modules/_types_.md) › [RecentlyOffline](_types_.recentlyoffline.md)
+
+# Interface: RecentlyOffline
 
 ## Hierarchy
 
@@ -17,7 +21,7 @@
 
 • **blockNumber**: *BlockNumber*
 
-*Defined in [types.ts:55](https://github.com/polkadot-js/api/blob/fac0934/packages/api-derive/src/types.ts#L55)*
+*Defined in [types.ts:55](https://github.com/polkadot-js/api/blob/a0c6cd5/packages/api-derive/src/types.ts#L55)*
 
 ___
 
@@ -25,4 +29,4 @@ ___
 
 • **count**: *BN*
 
-*Defined in [types.ts:56](https://github.com/polkadot-js/api/blob/fac0934/packages/api-derive/src/types.ts#L56)*
+*Defined in [types.ts:56](https://github.com/polkadot-js/api/blob/a0c6cd5/packages/api-derive/src/types.ts#L56)*

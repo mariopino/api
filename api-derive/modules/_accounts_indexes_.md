@@ -1,4 +1,8 @@
-> # External module: "accounts/indexes"
+**[Polkadot JS API](../README.md)**
+
+[Globals](../globals.md) › ["accounts/indexes"](_accounts_indexes_.md)
+
+# External module: "accounts/indexes"
 
 ## Index
 
@@ -16,7 +20,7 @@
 
 Ƭ **AccountIndexes**: *Record‹string, AccountIndex›*
 
-*Defined in [accounts/indexes.ts:15](https://github.com/polkadot-js/api/blob/fac0934/packages/api-derive/src/accounts/indexes.ts#L15)*
+*Defined in [accounts/indexes.ts:15](https://github.com/polkadot-js/api/blob/a0c6cd5/packages/api-derive/src/accounts/indexes.ts#L15)*
 
 ## Functions
 
@@ -24,7 +28,7 @@
 
 ▸ **indexes**(`api`: ApiInterfaceRx): *function*
 
-*Defined in [accounts/indexes.ts:34](https://github.com/polkadot-js/api/blob/fac0934/packages/api-derive/src/accounts/indexes.ts#L34)*
+*Defined in [accounts/indexes.ts:34](https://github.com/polkadot-js/api/blob/a0c6cd5/packages/api-derive/src/accounts/indexes.ts#L34)*
 
 **`name`** indexes
 

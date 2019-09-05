@@ -1,4 +1,8 @@
-> # Interface: RpcInterfaceMethod
+**[Polkadot JS API](../README.md)**
+
+[Globals](../globals.md) › ["types"](../modules/_types_.md) › [RpcInterfaceMethod](_types_.rpcinterfacemethod.md)
+
+# Interface: RpcInterfaceMethod
 
 ## Hierarchy
 
@@ -8,7 +12,7 @@
 
 ▸ (...`params`: any[]): *Observable‹any›*
 
-*Defined in [types.ts:7](https://github.com/polkadot-js/api/blob/fac0934/packages/rpc-core/src/types.ts#L7)*
+*Defined in [types.ts:7](https://github.com/polkadot-js/api/blob/a0c6cd5/packages/rpc-core/src/types.ts#L7)*
 
 **Parameters:**
 

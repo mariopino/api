@@ -1,4 +1,8 @@
-> # External module: "types"
+**[Polkadot JS API](../README.md)**
+
+[Globals](../globals.md) › ["types"](_types_.md)
+
+# External module: "types"
 
 ## Index
 
@@ -29,7 +33,7 @@
 
 Ƭ **AbiMessages**: *Record‹string, [ContractABIFn](../interfaces/_types_.contractabifn.md)›*
 
-*Defined in [types.ts:71](https://github.com/polkadot-js/api/blob/fac0934/packages/api-contract/src/types.ts#L71)*
+*Defined in [types.ts:71](https://github.com/polkadot-js/api/blob/a0c6cd5/packages/api-contract/src/types.ts#L71)*
 
 ___
 
@@ -37,7 +41,7 @@ ___
 
 Ƭ **ApiObject**: *ApiObject<ApiType>*
 
-*Defined in [types.ts:11](https://github.com/polkadot-js/api/blob/fac0934/packages/api-contract/src/types.ts#L11)*
+*Defined in [types.ts:11](https://github.com/polkadot-js/api/blob/a0c6cd5/packages/api-contract/src/types.ts#L11)*
 
 ___
 
@@ -45,4 +49,4 @@ ___
 
 Ƭ **ContractABITypes**: *string | [ContractABITypesStruct](../interfaces/_types_.contractabitypesstruct.md) | string | [ContractABITypesStruct](../interfaces/_types_.contractabitypesstruct.md)[]*
 
-*Defined in [types.ts:32](https://github.com/polkadot-js/api/blob/fac0934/packages/api-contract/src/types.ts#L32)*
+*Defined in [types.ts:32](https://github.com/polkadot-js/api/blob/a0c6cd5/packages/api-contract/src/types.ts#L32)*

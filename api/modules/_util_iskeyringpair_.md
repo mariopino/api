@@ -1,4 +1,8 @@
-> # External module: "util/isKeyringPair"
+**[Polkadot JS API](../README.md)**
+
+[Globals](../globals.md) › ["util/isKeyringPair"](_util_iskeyringpair_.md)
+
+# External module: "util/isKeyringPair"
 
 ## Index
 
@@ -12,7 +16,7 @@
 
 ▸ **isKeyringPair**(`account`: string | IKeyringPair | AccountId | Address): *boolean*
 
-*Defined in [util/isKeyringPair.ts:10](https://github.com/polkadot-js/api/blob/fac0934/packages/api/src/util/isKeyringPair.ts#L10)*
+*Defined in [util/isKeyringPair.ts:10](https://github.com/polkadot-js/api/blob/a0c6cd5/packages/api/src/util/isKeyringPair.ts#L10)*
 
 **Parameters:**
 

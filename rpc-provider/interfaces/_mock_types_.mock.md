@@ -1,4 +1,8 @@
-> # Interface: Mock
+**[Polkadot JS API](../README.md)**
+
+[Globals](../globals.md) › ["mock/types"](../modules/_mock_types_.md) › [Mock](_mock_types_.mock.md)
+
+# Interface: Mock
 
 ## Hierarchy
 
@@ -19,7 +23,7 @@
 
 • **body**: *Record‹string, any›*
 
-*Defined in [mock/types.ts:14](https://github.com/polkadot-js/api/blob/fac0934/packages/rpc-provider/src/mock/types.ts#L14)*
+*Defined in [mock/types.ts:14](https://github.com/polkadot-js/api/blob/a0c6cd5/packages/rpc-provider/src/mock/types.ts#L14)*
 
 ___
 
@@ -27,7 +31,7 @@ ___
 
 • **done**: *function*
 
-*Defined in [mock/types.ts:17](https://github.com/polkadot-js/api/blob/fac0934/packages/rpc-provider/src/mock/types.ts#L17)*
+*Defined in [mock/types.ts:17](https://github.com/polkadot-js/api/blob/a0c6cd5/packages/rpc-provider/src/mock/types.ts#L17)*
 
 #### Type declaration:
 
@@ -39,7 +43,7 @@ ___
 
 • **requests**: *number*
 
-*Defined in [mock/types.ts:15](https://github.com/polkadot-js/api/blob/fac0934/packages/rpc-provider/src/mock/types.ts#L15)*
+*Defined in [mock/types.ts:15](https://github.com/polkadot-js/api/blob/a0c6cd5/packages/rpc-provider/src/mock/types.ts#L15)*
 
 ___
 
@@ -47,4 +51,4 @@ ___
 
 • **server**: *Server*
 
-*Defined in [mock/types.ts:16](https://github.com/polkadot-js/api/blob/fac0934/packages/rpc-provider/src/mock/types.ts#L16)*
+*Defined in [mock/types.ts:16](https://github.com/polkadot-js/api/blob/a0c6cd5/packages/rpc-provider/src/mock/types.ts#L16)*

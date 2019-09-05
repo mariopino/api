@@ -1,4 +1,8 @@
-> # Interface: ExtrinsicOptions
+**[Polkadot JS API](../README.md)**
+
+[Globals](../globals.md) › ["primitive/Extrinsic/types"](../modules/_primitive_extrinsic_types_.md) › [ExtrinsicOptions](_primitive_extrinsic_types_.extrinsicoptions.md)
+
+# Interface: ExtrinsicOptions
 
 ## Hierarchy
 
@@ -17,7 +21,7 @@
 
 • **isSigned**: *boolean*
 
-*Defined in [primitive/Extrinsic/types.ts:8](https://github.com/polkadot-js/api/blob/fac0934/packages/types/src/primitive/Extrinsic/types.ts#L8)*
+*Defined in [primitive/Extrinsic/types.ts:8](https://github.com/polkadot-js/api/blob/a0c6cd5/packages/types/src/primitive/Extrinsic/types.ts#L8)*
 
 ___
 
@@ -25,4 +29,4 @@ ___
 
 • **version**: *number*
 
-*Defined in [primitive/Extrinsic/types.ts:9](https://github.com/polkadot-js/api/blob/fac0934/packages/types/src/primitive/Extrinsic/types.ts#L9)*
+*Defined in [primitive/Extrinsic/types.ts:9](https://github.com/polkadot-js/api/blob/a0c6cd5/packages/types/src/primitive/Extrinsic/types.ts#L9)*

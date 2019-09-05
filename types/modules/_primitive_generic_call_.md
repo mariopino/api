@@ -1,4 +1,8 @@
-> # External module: "primitive/Generic/Call"
+**[Polkadot JS API](../README.md)**
+
+[Globals](../globals.md) › ["primitive/Generic/Call"](_primitive_generic_call_.md)
+
+# External module: "primitive/Generic/Call"
 
 ## Index
 

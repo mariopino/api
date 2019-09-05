@@ -1,4 +1,8 @@
-> # Interface: SubmittableResultValue
+**[Polkadot JS API](../README.md)**
+
+[Globals](../globals.md) › ["submittable/types"](../modules/_submittable_types_.md) › [SubmittableResultValue](_submittable_types_.submittableresultvalue.md)
+
+# Interface: SubmittableResultValue
 
 ## Hierarchy
 
@@ -17,7 +21,7 @@
 
 • **events**? : *EventRecord[]*
 
-*Defined in [submittable/types.ts:21](https://github.com/polkadot-js/api/blob/fac0934/packages/api/src/submittable/types.ts#L21)*
+*Defined in [submittable/types.ts:21](https://github.com/polkadot-js/api/blob/a0c6cd5/packages/api/src/submittable/types.ts#L21)*
 
 ___
 
@@ -25,4 +29,4 @@ ___
 
 • **status**: *ExtrinsicStatus*
 
-*Defined in [submittable/types.ts:22](https://github.com/polkadot-js/api/blob/fac0934/packages/api/src/submittable/types.ts#L22)*
+*Defined in [submittable/types.ts:22](https://github.com/polkadot-js/api/blob/a0c6cd5/packages/api/src/submittable/types.ts#L22)*

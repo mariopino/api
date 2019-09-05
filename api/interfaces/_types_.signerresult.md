@@ -1,4 +1,8 @@
-> # Interface: SignerResult
+**[Polkadot JS API](../README.md)**
+
+[Globals](../globals.md) › ["types"](../modules/_types_.md) › [SignerResult](_types_.signerresult.md)
+
+# Interface: SignerResult
 
 ## Hierarchy
 
@@ -17,7 +21,7 @@
 
 • **id**: *number*
 
-*Defined in [types.ts:229](https://github.com/polkadot-js/api/blob/fac0934/packages/api/src/types.ts#L229)*
+*Defined in [types.ts:229](https://github.com/polkadot-js/api/blob/a0c6cd5/packages/api/src/types.ts#L229)*
 
 **`description`** The id for this request
 
@@ -27,6 +31,6 @@ ___
 
 • **signature**: *string*
 
-*Defined in [types.ts:234](https://github.com/polkadot-js/api/blob/fac0934/packages/api/src/types.ts#L234)*
+*Defined in [types.ts:234](https://github.com/polkadot-js/api/blob/a0c6cd5/packages/api/src/types.ts#L234)*
 
 **`description`** The resulting signature in hex

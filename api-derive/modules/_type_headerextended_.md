@@ -1,4 +1,8 @@
-> # External module: "type/HeaderExtended"
+**[Polkadot JS API](../README.md)**
+
+[Globals](../globals.md) › ["type/HeaderExtended"](_type_headerextended_.md)
+
+# External module: "type/HeaderExtended"
 
 ## Index
 

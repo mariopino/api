@@ -1,4 +1,8 @@
-> # Interface: AnyJsonArray
+**[Polkadot JS API](../README.md)**
+
+[Globals](../globals.md) › ["types"](../modules/_types_.md) › [AnyJsonArray](_types_.anyjsonarray.md)
+
+# Interface: AnyJsonArray
 
 ## Hierarchy
 
@@ -609,7 +613,7 @@ ___
 
 ###  flatMap
 
-▸ **flatMap**<**U**, **This**>(`callback`: function, `thisArg?`: [This]()): *U[]*
+▸ **flatMap**<**U**, **This**>(`callback`: function, `thisArg?`: [This](undefined)): *U[]*
 
 *Inherited from void*
 
@@ -643,7 +647,7 @@ Name | Type |
 `index` | number |
 `array` | [AnyJson](../modules/_types_.md#anyjson)[] |
 
-▪`Optional`  **thisArg**: *[This]()*
+▪`Optional`  **thisArg**: *[This](undefined)*
 
 An object to which the this keyword can refer in the callback function. If
 thisArg is omitted, undefined is used as the this value.

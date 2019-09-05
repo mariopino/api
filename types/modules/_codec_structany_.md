@@ -1,4 +1,8 @@
-> # External module: "codec/StructAny"
+**[Polkadot JS API](../README.md)**
+
+[Globals](../globals.md) › ["codec/StructAny"](_codec_structany_.md)
+
+# External module: "codec/StructAny"
 
 ## Index
 

@@ -1,4 +1,8 @@
-> # External module: "codec/Compact"
+**[Polkadot JS API](../README.md)**
+
+[Globals](../globals.md) › ["codec/Compact"](_codec_compact_.md)
+
+# External module: "codec/Compact"
 
 ## Index
 

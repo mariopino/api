@@ -1,4 +1,8 @@
-> # External module: "chain/bestNumberFinalized"
+**[Polkadot JS API](../README.md)**
+
+[Globals](../globals.md) › ["chain/bestNumberFinalized"](_chain_bestnumberfinalized_.md)
+
+# External module: "chain/bestNumberFinalized"
 
 ## Index
 
@@ -12,7 +16,7 @@
 
 ▸ **bestNumberFinalized**(`api`: ApiInterfaceRx): *function*
 
-*Defined in [chain/bestNumberFinalized.ts:26](https://github.com/polkadot-js/api/blob/fac0934/packages/api-derive/src/chain/bestNumberFinalized.ts#L26)*
+*Defined in [chain/bestNumberFinalized.ts:26](https://github.com/polkadot-js/api/blob/a0c6cd5/packages/api-derive/src/chain/bestNumberFinalized.ts#L26)*
 
 **`name`** bestNumberFinalized
 

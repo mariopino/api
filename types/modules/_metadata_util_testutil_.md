@@ -1,4 +1,8 @@
-> # External module: "Metadata/util/testUtil"
+**[Polkadot JS API](../README.md)**
+
+[Globals](../globals.md) › ["Metadata/util/testUtil"](_metadata_util_testutil_.md)
+
+# External module: "Metadata/util/testUtil"
 
 ## Index
 
@@ -14,7 +18,7 @@
 
 ▸ **decodeLatestSubstrate**<**Modules**>(`version`: number, `rpcData`: string, `staticSubstrate`: object): *void*
 
-*Defined in [Metadata/util/testUtil.ts:20](https://github.com/polkadot-js/api/blob/fac0934/packages/types/src/Metadata/util/testUtil.ts#L20)*
+*Defined in [Metadata/util/testUtil.ts:20](https://github.com/polkadot-js/api/blob/a0c6cd5/packages/types/src/Metadata/util/testUtil.ts#L20)*
 
 Given the static `rpcData` and the `staticSubstrate` JSON file, Metadata
 should decode `rpcData` and output `staticSubstrate`.
@@ -39,7 +43,7 @@ ___
 
 ▸ **defaultValues**(`rpcData`: string): *void*
 
-*Defined in [Metadata/util/testUtil.ts:56](https://github.com/polkadot-js/api/blob/fac0934/packages/types/src/Metadata/util/testUtil.ts#L56)*
+*Defined in [Metadata/util/testUtil.ts:56](https://github.com/polkadot-js/api/blob/a0c6cd5/packages/types/src/Metadata/util/testUtil.ts#L56)*
 
 Given a Metadata, no type should throw when given its fallback value.
 
@@ -57,7 +61,7 @@ ___
 
 ▸ **toV7**<**Modules**>(`version`: number, `rpcData`: string): *void*
 
-*Defined in [Metadata/util/testUtil.ts:40](https://github.com/polkadot-js/api/blob/fac0934/packages/types/src/Metadata/util/testUtil.ts#L40)*
+*Defined in [Metadata/util/testUtil.ts:40](https://github.com/polkadot-js/api/blob/a0c6cd5/packages/types/src/Metadata/util/testUtil.ts#L40)*
 
 Given a `version`, MetadataV7 and MetadataV{version} should output the same
 unique types.

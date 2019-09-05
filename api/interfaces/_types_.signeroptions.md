@@ -1,4 +1,8 @@
-> # Interface: SignerOptions
+**[Polkadot JS API](../README.md)**
+
+[Globals](../globals.md) › ["types"](../modules/_types_.md) › [SignerOptions](_types_.signeroptions.md)
+
+# Interface: SignerOptions
 
 ## Hierarchy
 
@@ -26,7 +30,7 @@
 
 *Inherited from void*
 
-*Defined in [/home/travis/build/polkadot-js/api/packages/types/src/types.ts:147](https://github.com/polkadot-js/api/blob/fac0934/packages/types/src/types.ts#L147)*
+*Defined in [/home/travis/build/polkadot-js/api/packages/types/src/types.ts:147](https://github.com/polkadot-js/api/blob/a0c6cd5/packages/types/src/types.ts#L147)*
 
 ___
 
@@ -34,7 +38,7 @@ ___
 
 • **blockNumber**: *BN*
 
-*Defined in [types.ts:221](https://github.com/polkadot-js/api/blob/fac0934/packages/api/src/types.ts#L221)*
+*Defined in [types.ts:221](https://github.com/polkadot-js/api/blob/a0c6cd5/packages/api/src/types.ts#L221)*
 
 ___
 
@@ -44,7 +48,7 @@ ___
 
 *Inherited from void*
 
-*Defined in [/home/travis/build/polkadot-js/api/packages/types/src/types.ts:148](https://github.com/polkadot-js/api/blob/fac0934/packages/types/src/types.ts#L148)*
+*Defined in [/home/travis/build/polkadot-js/api/packages/types/src/types.ts:148](https://github.com/polkadot-js/api/blob/a0c6cd5/packages/types/src/types.ts#L148)*
 
 ___
 
@@ -54,7 +58,7 @@ ___
 
 *Overrides void*
 
-*Defined in [types.ts:222](https://github.com/polkadot-js/api/blob/fac0934/packages/api/src/types.ts#L222)*
+*Defined in [types.ts:222](https://github.com/polkadot-js/api/blob/a0c6cd5/packages/api/src/types.ts#L222)*
 
 ___
 
@@ -64,7 +68,7 @@ ___
 
 *Inherited from void*
 
-*Defined in [/home/travis/build/polkadot-js/api/packages/types/src/types.ts:150](https://github.com/polkadot-js/api/blob/fac0934/packages/types/src/types.ts#L150)*
+*Defined in [/home/travis/build/polkadot-js/api/packages/types/src/types.ts:150](https://github.com/polkadot-js/api/blob/a0c6cd5/packages/types/src/types.ts#L150)*
 
 ___
 
@@ -74,7 +78,7 @@ ___
 
 *Inherited from void*
 
-*Defined in [/home/travis/build/polkadot-js/api/packages/types/src/types.ts:151](https://github.com/polkadot-js/api/blob/fac0934/packages/types/src/types.ts#L151)*
+*Defined in [/home/travis/build/polkadot-js/api/packages/types/src/types.ts:151](https://github.com/polkadot-js/api/blob/a0c6cd5/packages/types/src/types.ts#L151)*
 
 ___
 
@@ -84,4 +88,4 @@ ___
 
 *Inherited from void*
 
-*Defined in [/home/travis/build/polkadot-js/api/packages/types/src/types.ts:152](https://github.com/polkadot-js/api/blob/fac0934/packages/types/src/types.ts#L152)*
+*Defined in [/home/travis/build/polkadot-js/api/packages/types/src/types.ts:152](https://github.com/polkadot-js/api/blob/a0c6cd5/packages/types/src/types.ts#L152)*

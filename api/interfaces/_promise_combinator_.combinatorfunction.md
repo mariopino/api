@@ -1,4 +1,8 @@
-> # Interface: CombinatorFunction
+**[Polkadot JS API](../README.md)**
+
+[Globals](../globals.md) › ["promise/Combinator"](../modules/_promise_combinator_.md) › [CombinatorFunction](_promise_combinator_.combinatorfunction.md)
+
+# Interface: CombinatorFunction
 
 ## Hierarchy
 
@@ -8,7 +12,7 @@
 
 ▸ (`cb`: Callback‹any›): *[UnsubscribePromise](../modules/_types_.md#unsubscribepromise)*
 
-*Defined in [promise/Combinator.ts:11](https://github.com/polkadot-js/api/blob/fac0934/packages/api/src/promise/Combinator.ts#L11)*
+*Defined in [promise/Combinator.ts:11](https://github.com/polkadot-js/api/blob/a0c6cd5/packages/api/src/promise/Combinator.ts#L11)*
 
 **Parameters:**
 

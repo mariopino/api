@@ -1,4 +1,8 @@
-> # External module: "primitive/Extrinsic/ExtrinsicPayloadUnknown"
+**[Polkadot JS API](../README.md)**
+
+[Globals](../globals.md) › ["primitive/Extrinsic/ExtrinsicPayloadUnknown"](_primitive_extrinsic_extrinsicpayloadunknown_.md)
+
+# External module: "primitive/Extrinsic/ExtrinsicPayloadUnknown"
 
 ## Index
 

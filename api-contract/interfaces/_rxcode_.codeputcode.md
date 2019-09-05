@@ -1,4 +1,8 @@
-> # Interface: CodePutCode
+**[Polkadot JS API](../README.md)**
+
+[Globals](../globals.md) › ["RxCode"](../modules/_rxcode_.md) › [CodePutCode](_rxcode_.codeputcode.md)
+
+# Interface: CodePutCode
 
 ## Hierarchy
 
@@ -16,7 +20,7 @@
 
 ▸ **signAndSend**(`account`: IKeyringPair | string | AccountId | Address): *CodePutCodeResultSubscription*
 
-*Defined in [RxCode.ts:36](https://github.com/polkadot-js/api/blob/fac0934/packages/api-contract/src/RxCode.ts#L36)*
+*Defined in [RxCode.ts:36](https://github.com/polkadot-js/api/blob/a0c6cd5/packages/api-contract/src/RxCode.ts#L36)*
 
 **Parameters:**
 

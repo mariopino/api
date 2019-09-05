@@ -1,4 +1,8 @@
-> # External module: "imOnline/receivedHeartbeats"
+**[Polkadot JS API](../README.md)**
+
+[Globals](../globals.md) › ["imOnline/receivedHeartbeats"](_imonline_receivedheartbeats_.md)
+
+# External module: "imOnline/receivedHeartbeats"
 
 ## Index
 
@@ -12,7 +16,7 @@
 
 ▸ **receivedHeartbeats**(`api`: ApiInterfaceRx): *function*
 
-*Defined in [imOnline/receivedHeartbeats.ts:17](https://github.com/polkadot-js/api/blob/fac0934/packages/api-derive/src/imOnline/receivedHeartbeats.ts#L17)*
+*Defined in [imOnline/receivedHeartbeats.ts:17](https://github.com/polkadot-js/api/blob/a0c6cd5/packages/api-derive/src/imOnline/receivedHeartbeats.ts#L17)*
 
 **`description`** Return a boolean array indicating whether the passed accounts had received heartbeats in the current session
 

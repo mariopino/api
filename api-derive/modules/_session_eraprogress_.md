@@ -1,4 +1,8 @@
-> # External module: "session/eraProgress"
+**[Polkadot JS API](../README.md)**
+
+[Globals](../globals.md) › ["session/eraProgress"](_session_eraprogress_.md)
+
+# External module: "session/eraProgress"
 
 ## Index
 
@@ -12,7 +16,7 @@
 
 ▸ **eraProgress**(`api`: ApiInterfaceRx): *function*
 
-*Defined in [session/eraProgress.ts:13](https://github.com/polkadot-js/api/blob/fac0934/packages/api-derive/src/session/eraProgress.ts#L13)*
+*Defined in [session/eraProgress.ts:13](https://github.com/polkadot-js/api/blob/a0c6cd5/packages/api-derive/src/session/eraProgress.ts#L13)*
 
 **Parameters:**
 

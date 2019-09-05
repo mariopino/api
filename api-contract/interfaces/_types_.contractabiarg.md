@@ -1,4 +1,8 @@
-> # Interface: ContractABIArg
+**[Polkadot JS API](../README.md)**
+
+[Globals](../globals.md) › ["types"](../modules/_types_.md) › [ContractABIArg](_types_.contractabiarg.md)
+
+# Interface: ContractABIArg
 
 ## Hierarchy
 
@@ -17,7 +21,7 @@
 
 • **name**: *string*
 
-*Defined in [types.ts:35](https://github.com/polkadot-js/api/blob/fac0934/packages/api-contract/src/types.ts#L35)*
+*Defined in [types.ts:35](https://github.com/polkadot-js/api/blob/a0c6cd5/packages/api-contract/src/types.ts#L35)*
 
 ___
 
@@ -25,4 +29,4 @@ ___
 
 • **type**: *[ContractABITypes](../modules/_types_.md#contractabitypes)*
 
-*Defined in [types.ts:36](https://github.com/polkadot-js/api/blob/fac0934/packages/api-contract/src/types.ts#L36)*
+*Defined in [types.ts:36](https://github.com/polkadot-js/api/blob/a0c6cd5/packages/api-contract/src/types.ts#L36)*

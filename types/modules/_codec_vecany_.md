@@ -1,4 +1,8 @@
-> # External module: "codec/VecAny"
+**[Polkadot JS API](../README.md)**
+
+[Globals](../globals.md) › ["codec/VecAny"](_codec_vecany_.md)
+
+# External module: "codec/VecAny"
 
 ## Index
 

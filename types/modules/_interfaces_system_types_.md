@@ -1,4 +1,8 @@
-> # External module: "interfaces/system/types"
+**[Polkadot JS API](../README.md)**
+
+[Globals](../globals.md) › ["interfaces/system/types"](_interfaces_system_types_.md)
+
+# External module: "interfaces/system/types"
 
 ## Index
 
@@ -23,7 +27,7 @@
 
 Ƭ **DigestOf**: *[Digest](../classes/_primitive_generic_digest_.digest.md)*
 
-*Defined in [interfaces/system/types.ts:10](https://github.com/polkadot-js/api/blob/fac0934/packages/types/src/interfaces/system/types.ts#L10)*
+*Defined in [interfaces/system/types.ts:10](https://github.com/polkadot-js/api/blob/a0c6cd5/packages/types/src/interfaces/system/types.ts#L10)*
 
 Digest
 
@@ -33,7 +37,7 @@ ___
 
 Ƭ **Event**: *GenericEvent*
 
-*Defined in [interfaces/system/types.ts:21](https://github.com/polkadot-js/api/blob/fac0934/packages/types/src/interfaces/system/types.ts#L21)*
+*Defined in [interfaces/system/types.ts:21](https://github.com/polkadot-js/api/blob/a0c6cd5/packages/types/src/interfaces/system/types.ts#L21)*
 
 GenericEvent
 
@@ -43,7 +47,7 @@ ___
 
 Ƭ **EventId**: *Uint8Array & [Codec](../interfaces/_types_.codec.md)*
 
-*Defined in [interfaces/system/types.ts:24](https://github.com/polkadot-js/api/blob/fac0934/packages/types/src/interfaces/system/types.ts#L24)*
+*Defined in [interfaces/system/types.ts:24](https://github.com/polkadot-js/api/blob/a0c6cd5/packages/types/src/interfaces/system/types.ts#L24)*
 
 Uint8Array & Codec
 
@@ -53,7 +57,7 @@ ___
 
 Ƭ **EventIndex**: *[u32](../interfaces/_interfaceregistry_.interfaceregistry.md#u32)*
 
-*Defined in [interfaces/system/types.ts:27](https://github.com/polkadot-js/api/blob/fac0934/packages/types/src/interfaces/system/types.ts#L27)*
+*Defined in [interfaces/system/types.ts:27](https://github.com/polkadot-js/api/blob/a0c6cd5/packages/types/src/interfaces/system/types.ts#L27)*
 
 u32
 
@@ -63,6 +67,6 @@ ___
 
 Ƭ **Key**: *[Bytes](../classes/_primitive_bytes_.bytes.md)*
 
-*Defined in [interfaces/system/types.ts:48](https://github.com/polkadot-js/api/blob/fac0934/packages/types/src/interfaces/system/types.ts#L48)*
+*Defined in [interfaces/system/types.ts:48](https://github.com/polkadot-js/api/blob/a0c6cd5/packages/types/src/interfaces/system/types.ts#L48)*
 
 Bytes

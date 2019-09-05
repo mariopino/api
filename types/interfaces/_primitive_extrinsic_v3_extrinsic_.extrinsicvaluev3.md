@@ -1,4 +1,8 @@
-> # Interface: ExtrinsicValueV3
+**[Polkadot JS API](../README.md)**
+
+[Globals](../globals.md) › ["primitive/Extrinsic/v3/Extrinsic"](../modules/_primitive_extrinsic_v3_extrinsic_.md) › [ExtrinsicValueV3](_primitive_extrinsic_v3_extrinsic_.extrinsicvaluev3.md)
+
+# Interface: ExtrinsicValueV3
 
 ## Hierarchy
 
@@ -17,7 +21,7 @@
 
 • **method**? : *[Call](../modules/_interfaces_runtime_types_.md#call)*
 
-*Defined in [primitive/Extrinsic/v3/Extrinsic.ts:18](https://github.com/polkadot-js/api/blob/fac0934/packages/types/src/primitive/Extrinsic/v3/Extrinsic.ts#L18)*
+*Defined in [primitive/Extrinsic/v3/Extrinsic.ts:18](https://github.com/polkadot-js/api/blob/a0c6cd5/packages/types/src/primitive/Extrinsic/v3/Extrinsic.ts#L18)*
 
 ___
 
@@ -25,4 +29,4 @@ ___
 
 • **signature**? : *[ExtrinsicSignatureV3](../classes/_primitive_extrinsic_v3_extrinsicsignature_.extrinsicsignaturev3.md)*
 
-*Defined in [primitive/Extrinsic/v3/Extrinsic.ts:19](https://github.com/polkadot-js/api/blob/fac0934/packages/types/src/primitive/Extrinsic/v3/Extrinsic.ts#L19)*
+*Defined in [primitive/Extrinsic/v3/Extrinsic.ts:19](https://github.com/polkadot-js/api/blob/a0c6cd5/packages/types/src/primitive/Extrinsic/v3/Extrinsic.ts#L19)*

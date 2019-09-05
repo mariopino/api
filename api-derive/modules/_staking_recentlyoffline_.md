@@ -1,4 +1,8 @@
-> # External module: "staking/recentlyOffline"
+**[Polkadot JS API](../README.md)**
+
+[Globals](../globals.md) › ["staking/recentlyOffline"](_staking_recentlyoffline_.md)
+
+# External module: "staking/recentlyOffline"
 
 ## Index
 
@@ -12,7 +16,7 @@
 
 ▸ **recentlyOffline**(`api`: ApiInterfaceRx): *function*
 
-*Defined in [staking/recentlyOffline.ts:38](https://github.com/polkadot-js/api/blob/fac0934/packages/api-derive/src/staking/recentlyOffline.ts#L38)*
+*Defined in [staking/recentlyOffline.ts:38](https://github.com/polkadot-js/api/blob/a0c6cd5/packages/api-derive/src/staking/recentlyOffline.ts#L38)*
 
 **`description`** Retrieve a keyed record of accounts recently reported to be offline
 

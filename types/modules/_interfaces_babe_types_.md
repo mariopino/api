@@ -1,4 +1,8 @@
-> # External module: "interfaces/babe/types"
+**[Polkadot JS API](../README.md)**
+
+[Globals](../globals.md) › ["interfaces/babe/types"](_interfaces_babe_types_.md)
+
+# External module: "interfaces/babe/types"
 
 ## Index
 
@@ -21,7 +25,7 @@
 
 Ƭ **BabeAuthorityWeight**: *[u64](../interfaces/_interfaceregistry_.interfaceregistry.md#u64)*
 
-*Defined in [interfaces/babe/types.ts:8](https://github.com/polkadot-js/api/blob/fac0934/packages/types/src/interfaces/babe/types.ts#L8)*
+*Defined in [interfaces/babe/types.ts:8](https://github.com/polkadot-js/api/blob/a0c6cd5/packages/types/src/interfaces/babe/types.ts#L8)*
 
 u64
 
@@ -31,7 +35,7 @@ ___
 
 Ƭ **BabeBlockWeight**: *[u32](../interfaces/_interfaceregistry_.interfaceregistry.md#u32)*
 
-*Defined in [interfaces/babe/types.ts:11](https://github.com/polkadot-js/api/blob/fac0934/packages/types/src/interfaces/babe/types.ts#L11)*
+*Defined in [interfaces/babe/types.ts:11](https://github.com/polkadot-js/api/blob/a0c6cd5/packages/types/src/interfaces/babe/types.ts#L11)*
 
 u32
 
@@ -41,7 +45,7 @@ ___
 
 Ƭ **BabeWeight**: *[u64](../interfaces/_interfaceregistry_.interfaceregistry.md#u64)*
 
-*Defined in [interfaces/babe/types.ts:14](https://github.com/polkadot-js/api/blob/fac0934/packages/types/src/interfaces/babe/types.ts#L14)*
+*Defined in [interfaces/babe/types.ts:14](https://github.com/polkadot-js/api/blob/a0c6cd5/packages/types/src/interfaces/babe/types.ts#L14)*
 
 u64
 
@@ -51,6 +55,6 @@ ___
 
 Ƭ **SlotNumber**: *[u64](../interfaces/_interfaceregistry_.interfaceregistry.md#u64)*
 
-*Defined in [interfaces/babe/types.ts:53](https://github.com/polkadot-js/api/blob/fac0934/packages/types/src/interfaces/babe/types.ts#L53)*
+*Defined in [interfaces/babe/types.ts:53](https://github.com/polkadot-js/api/blob/a0c6cd5/packages/types/src/interfaces/babe/types.ts#L53)*
 
 u64

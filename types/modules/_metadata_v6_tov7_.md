@@ -1,4 +1,8 @@
-> # External module: "Metadata/v6/toV7"
+**[Polkadot JS API](../README.md)**
+
+[Globals](../globals.md) › ["Metadata/v6/toV7"](_metadata_v6_tov7_.md)
+
+# External module: "Metadata/v6/toV7"
 
 ## Index
 
@@ -12,7 +16,7 @@
 
 ▸ **toV7**(`__namedParameters`: object): *[MetadataV7](../classes/_metadata_v7_metadata_.metadatav7.md)*
 
-*Defined in [Metadata/v6/toV7.ts:13](https://github.com/polkadot-js/api/blob/fac0934/packages/types/src/Metadata/v6/toV7.ts#L13)*
+*Defined in [Metadata/v6/toV7.ts:13](https://github.com/polkadot-js/api/blob/a0c6cd5/packages/types/src/Metadata/v6/toV7.ts#L13)*
 
 Convert from MetadataV6 to MetadataV7
 

@@ -1,4 +1,8 @@
-> # External module: "democracy/referendums"
+**[Polkadot JS API](../README.md)**
+
+[Globals](../globals.md) › ["democracy/referendums"](_democracy_referendums_.md)
+
+# External module: "democracy/referendums"
 
 ## Index
 
@@ -12,7 +16,7 @@
 
 ▸ **referendums**(`api`: ApiInterfaceRx): *function*
 
-*Defined in [democracy/referendums.ts:17](https://github.com/polkadot-js/api/blob/fac0934/packages/api-derive/src/democracy/referendums.ts#L17)*
+*Defined in [democracy/referendums.ts:17](https://github.com/polkadot-js/api/blob/a0c6cd5/packages/api-derive/src/democracy/referendums.ts#L17)*
 
 **Parameters:**
 

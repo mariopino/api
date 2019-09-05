@@ -1,3 +1,7 @@
+**[Polkadot JS API](README.md)**
+
+[Globals](globals.md)
+
 # @polkadot/jsonrpc
 
 A definition of all the methods exposed in a general Polkadot client application. These are used not only to provide a comprehensive code-generated document of the available methods, but are also used in the API to auto-generate endpoints with the required type-checking.

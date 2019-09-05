@@ -1,4 +1,8 @@
-> # External module: "RxContract"
+**[Polkadot JS API](../README.md)**
+
+[Globals](../globals.md) › ["RxContract"](_rxcontract_.md)
+
+# External module: "RxContract"
 
 ## Index
 
@@ -20,4 +24,4 @@
 
 Ƭ **ContractCallResultSubscription**: *Observable‹SubmittableResult›*
 
-*Defined in [RxContract.ts:16](https://github.com/polkadot-js/api/blob/fac0934/packages/api-contract/src/RxContract.ts#L16)*
+*Defined in [RxContract.ts:16](https://github.com/polkadot-js/api/blob/a0c6cd5/packages/api-contract/src/RxContract.ts#L16)*

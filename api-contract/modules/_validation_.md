@@ -1,4 +1,8 @@
-> # External module: "validation"
+**[Polkadot JS API](../README.md)**
+
+[Globals](../globals.md) › ["validation"](_validation_.md)
+
+# External module: "validation"
 
 ## Index
 
@@ -15,7 +19,7 @@
 
 ▸ **validateAbi**(`abi`: [ContractABI](../interfaces/_types_.contractabi.md)): *void*
 
-*Defined in [validation.ts:42](https://github.com/polkadot-js/api/blob/fac0934/packages/api-contract/src/validation.ts#L42)*
+*Defined in [validation.ts:42](https://github.com/polkadot-js/api/blob/a0c6cd5/packages/api-contract/src/validation.ts#L42)*
 
 **Parameters:**
 
@@ -31,7 +35,7 @@ ___
 
 ▸ **validateArgs**(`name`: string, `args`: [ContractABIArg](../interfaces/_types_.contractabiarg.md)[]): *void*
 
-*Defined in [validation.ts:9](https://github.com/polkadot-js/api/blob/fac0934/packages/api-contract/src/validation.ts#L9)*
+*Defined in [validation.ts:9](https://github.com/polkadot-js/api/blob/a0c6cd5/packages/api-contract/src/validation.ts#L9)*
 
 **Parameters:**
 
@@ -48,7 +52,7 @@ ___
 
 ▸ **validateDeploy**(`__namedParameters`: object): *void*
 
-*Defined in [validation.ts:21](https://github.com/polkadot-js/api/blob/fac0934/packages/api-contract/src/validation.ts#L21)*
+*Defined in [validation.ts:21](https://github.com/polkadot-js/api/blob/a0c6cd5/packages/api-contract/src/validation.ts#L21)*
 
 **Parameters:**
 
@@ -64,7 +68,7 @@ ___
 
 ▸ **validateMethods**(`__namedParameters`: object): *void*
 
-*Defined in [validation.ts:29](https://github.com/polkadot-js/api/blob/fac0934/packages/api-contract/src/validation.ts#L29)*
+*Defined in [validation.ts:29](https://github.com/polkadot-js/api/blob/a0c6cd5/packages/api-contract/src/validation.ts#L29)*
 
 **Parameters:**
 

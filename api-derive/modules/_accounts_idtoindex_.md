@@ -1,4 +1,8 @@
-> # External module: "accounts/idToIndex"
+**[Polkadot JS API](../README.md)**
+
+[Globals](../globals.md) › ["accounts/idToIndex"](_accounts_idtoindex_.md)
+
+# External module: "accounts/idToIndex"
 
 ## Index
 
@@ -12,7 +16,7 @@
 
 ▸ **idToIndex**(`api`: ApiInterfaceRx): *function*
 
-*Defined in [accounts/idToIndex.ts:28](https://github.com/polkadot-js/api/blob/fac0934/packages/api-derive/src/accounts/idToIndex.ts#L28)*
+*Defined in [accounts/idToIndex.ts:28](https://github.com/polkadot-js/api/blob/a0c6cd5/packages/api-derive/src/accounts/idToIndex.ts#L28)*
 
 **`name`** idToIndex
 

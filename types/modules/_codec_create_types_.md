@@ -1,4 +1,8 @@
-> # External module: "codec/create/types"
+**[Polkadot JS API](../README.md)**
+
+[Globals](../globals.md) › ["codec/create/types"](_codec_create_types_.md)
+
+# External module: "codec/create/types"
 
 ## Index
 
@@ -21,4 +25,4 @@
 
 Ƭ **FromReg**: *FromReg<T, K>*
 
-*Defined in [codec/create/types.ts:10](https://github.com/polkadot-js/api/blob/fac0934/packages/types/src/codec/create/types.ts#L10)*
+*Defined in [codec/create/types.ts:10](https://github.com/polkadot-js/api/blob/a0c6cd5/packages/types/src/codec/create/types.ts#L10)*

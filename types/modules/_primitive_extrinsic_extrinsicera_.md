@@ -1,4 +1,8 @@
-> # External module: "primitive/Extrinsic/ExtrinsicEra"
+**[Polkadot JS API](../README.md)**
+
+[Globals](../globals.md) › ["primitive/Extrinsic/ExtrinsicEra"](_primitive_extrinsic_extrinsicera_.md)
+
+# External module: "primitive/Extrinsic/ExtrinsicEra"
 
 ## Index
 

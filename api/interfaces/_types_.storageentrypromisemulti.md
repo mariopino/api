@@ -1,4 +1,8 @@
-> # Interface: StorageEntryPromiseMulti
+**[Polkadot JS API](../README.md)**
+
+[Globals](../globals.md) › ["types"](../modules/_types_.md) › [StorageEntryPromiseMulti](_types_.storageentrypromisemulti.md)
+
+# Interface: StorageEntryPromiseMulti
 
 ## Hierarchy
 
@@ -8,7 +12,7 @@
 
 ▸ <**T**>(`args`: undefined | string | number | false | true | Uint8Array | Codec | BN | CodecArgArray | CodecArgObject | undefined | string | number | false | true | Uint8Array | Codec | BN | CodecArgArray | CodecArgObject[][]): *Promise‹T[]›*
 
-*Defined in [types.ts:109](https://github.com/polkadot-js/api/blob/fac0934/packages/api/src/types.ts#L109)*
+*Defined in [types.ts:109](https://github.com/polkadot-js/api/blob/a0c6cd5/packages/api/src/types.ts#L109)*
 
 **Type parameters:**
 
@@ -24,7 +28,7 @@ Name | Type |
 
 ▸ <**T**>(`args`: undefined | string | number | false | true | Uint8Array | Codec | BN | CodecArgArray | CodecArgObject | undefined | string | number | false | true | Uint8Array | Codec | BN | CodecArgArray | CodecArgObject[][], `callback`: Callback‹T[]›): *[UnsubscribePromise](../modules/_types_.md#unsubscribepromise)*
 
-*Defined in [types.ts:110](https://github.com/polkadot-js/api/blob/fac0934/packages/api/src/types.ts#L110)*
+*Defined in [types.ts:110](https://github.com/polkadot-js/api/blob/a0c6cd5/packages/api/src/types.ts#L110)*
 
 **Type parameters:**
 

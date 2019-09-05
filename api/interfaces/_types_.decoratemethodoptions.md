@@ -1,4 +1,8 @@
-> # Interface: DecorateMethodOptions
+**[Polkadot JS API](../README.md)**
+
+[Globals](../globals.md) › ["types"](../modules/_types_.md) › [DecorateMethodOptions](_types_.decoratemethodoptions.md)
+
+# Interface: DecorateMethodOptions
 
 ## Hierarchy
 
@@ -16,4 +20,4 @@
 
 • **methodName**? : *undefined | string*
 
-*Defined in [types.ts:50](https://github.com/polkadot-js/api/blob/fac0934/packages/api/src/types.ts#L50)*
+*Defined in [types.ts:50](https://github.com/polkadot-js/api/blob/a0c6cd5/packages/api/src/types.ts#L50)*

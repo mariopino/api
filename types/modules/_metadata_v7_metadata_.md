@@ -1,4 +1,8 @@
-> # External module: "Metadata/v7/Metadata"
+**[Polkadot JS API](../README.md)**
+
+[Globals](../globals.md) › ["Metadata/v7/Metadata"](_metadata_v7_metadata_.md)
+
+# External module: "Metadata/v7/Metadata"
 
 ## Index
 

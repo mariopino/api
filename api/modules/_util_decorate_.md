@@ -1,4 +1,8 @@
-> # External module: "util/decorate"
+**[Polkadot JS API](../README.md)**
+
+[Globals](../globals.md) › ["util/decorate"](_util_decorate_.md)
+
+# External module: "util/decorate"
 
 ## Index
 
@@ -12,7 +16,7 @@
 
 ▸ **decorateSections**<**ApiType**, **AllSections**>(`allSections`: AllSections, `decorateMethod`: function): *object*
 
-*Defined in [util/decorate.ts:38](https://github.com/polkadot-js/api/blob/fac0934/packages/api/src/util/decorate.ts#L38)*
+*Defined in [util/decorate.ts:38](https://github.com/polkadot-js/api/blob/a0c6cd5/packages/api/src/util/decorate.ts#L38)*
 
 This is a section decorator which keeps all type information.
 

@@ -1,4 +1,8 @@
-> # External module: "primitive/Extrinsic/util"
+**[Polkadot JS API](../README.md)**
+
+[Globals](../globals.md) › ["primitive/Extrinsic/util"](_primitive_extrinsic_util_.md)
+
+# External module: "primitive/Extrinsic/util"
 
 ## Index
 
@@ -12,7 +16,7 @@
 
 ▸ **sign**(`signerPair`: [IKeyringPair](../interfaces/_types_.ikeyringpair.md), `u8a`: Uint8Array): *Uint8Array*
 
-*Defined in [primitive/Extrinsic/util.ts:10](https://github.com/polkadot-js/api/blob/fac0934/packages/types/src/primitive/Extrinsic/util.ts#L10)*
+*Defined in [primitive/Extrinsic/util.ts:10](https://github.com/polkadot-js/api/blob/a0c6cd5/packages/types/src/primitive/Extrinsic/util.ts#L10)*
 
 **Parameters:**
 

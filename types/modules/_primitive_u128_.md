@@ -1,4 +1,8 @@
-> # External module: "primitive/U128"
+**[Polkadot JS API](../README.md)**
+
+[Globals](../globals.md) › ["primitive/U128"](_primitive_u128_.md)
+
+# External module: "primitive/U128"
 
 ## Index
 

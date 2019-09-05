@@ -1,4 +1,8 @@
-> # External module: "elections/voterPositions"
+**[Polkadot JS API](../README.md)**
+
+[Globals](../globals.md) › ["elections/voterPositions"](_elections_voterpositions_.md)
+
+# External module: "elections/voterPositions"
 
 ## Index
 
@@ -12,7 +16,7 @@
 
 ▸ **voterPositions**(`api`: ApiInterfaceRx): *function*
 
-*Defined in [elections/voterPositions.ts:28](https://github.com/polkadot-js/api/blob/fac0934/packages/api-derive/src/elections/voterPositions.ts#L28)*
+*Defined in [elections/voterPositions.ts:28](https://github.com/polkadot-js/api/blob/a0c6cd5/packages/api-derive/src/elections/voterPositions.ts#L28)*
 
 **`name`** voterPositions
 

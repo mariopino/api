@@ -1,4 +1,8 @@
-> # External module: "primitive/StorageKey"
+**[Polkadot JS API](../README.md)**
+
+[Globals](../globals.md) › ["primitive/StorageKey"](_primitive_storagekey_.md)
+
+# External module: "primitive/StorageKey"
 
 ## Index
 

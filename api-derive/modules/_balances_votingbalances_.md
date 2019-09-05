@@ -1,4 +1,8 @@
-> # External module: "balances/votingBalances"
+**[Polkadot JS API](../README.md)**
+
+[Globals](../globals.md) › ["balances/votingBalances"](_balances_votingbalances_.md)
+
+# External module: "balances/votingBalances"
 
 ## Index
 
@@ -12,7 +16,7 @@
 
 ▸ **votingBalances**(`api`: ApiInterfaceRx): *function*
 
-*Defined in [balances/votingBalances.ts:14](https://github.com/polkadot-js/api/blob/fac0934/packages/api-derive/src/balances/votingBalances.ts#L14)*
+*Defined in [balances/votingBalances.ts:14](https://github.com/polkadot-js/api/blob/a0c6cd5/packages/api-derive/src/balances/votingBalances.ts#L14)*
 
 **Parameters:**
 

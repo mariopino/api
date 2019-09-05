@@ -1,4 +1,8 @@
-> # External module: "primitive/StorageData"
+**[Polkadot JS API](../README.md)**
+
+[Globals](../globals.md) › ["primitive/StorageData"](_primitive_storagedata_.md)
+
+# External module: "primitive/StorageData"
 
 ## Index
 

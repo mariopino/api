@@ -1,4 +1,8 @@
-> # Interface: BlueprintCreate
+**[Polkadot JS API](../README.md)**
+
+[Globals](../globals.md) › ["RxBlueprint"](../modules/_rxblueprint_.md) › [BlueprintCreate](_rxblueprint_.blueprintcreate.md)
+
+# Interface: BlueprintCreate
 
 ## Hierarchy
 
@@ -16,7 +20,7 @@
 
 ▸ **signAndSend**(`account`: IKeyringPair | string | AccountId | Address): *BlueprintCreateResultSubscription*
 
-*Defined in [RxBlueprint.ts:23](https://github.com/polkadot-js/api/blob/fac0934/packages/api-contract/src/RxBlueprint.ts#L23)*
+*Defined in [RxBlueprint.ts:23](https://github.com/polkadot-js/api/blob/a0c6cd5/packages/api-contract/src/RxBlueprint.ts#L23)*
 
 **Parameters:**
 

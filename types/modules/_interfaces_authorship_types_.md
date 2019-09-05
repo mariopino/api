@@ -1,4 +1,8 @@
-> # External module: "interfaces/authorship/types"
+**[Polkadot JS API](../README.md)**
+
+[Globals](../globals.md) › ["interfaces/authorship/types"](_interfaces_authorship_types_.md)
+
+# External module: "interfaces/authorship/types"
 
 ## Index
 
@@ -17,7 +21,7 @@
 
 Ƭ **InclusionHeight**: *[BlockNumber](_interfaces_runtime_types_.md#blocknumber)*
 
-*Defined in [interfaces/authorship/types.ts:9](https://github.com/polkadot-js/api/blob/fac0934/packages/types/src/interfaces/authorship/types.ts#L9)*
+*Defined in [interfaces/authorship/types.ts:9](https://github.com/polkadot-js/api/blob/a0c6cd5/packages/types/src/interfaces/authorship/types.ts#L9)*
 
 BlockNumber
 
@@ -27,6 +31,6 @@ ___
 
 Ƭ **Uncle**: *[[Hash](_interfaces_runtime_types_.md#hash), [Option](../classes/_codec_option_.option.md)‹[AccountId](../classes/_primitive_generic_accountid_.accountid.md)›] & [Codec](../interfaces/_types_.codec.md)*
 
-*Defined in [interfaces/authorship/types.ts:12](https://github.com/polkadot-js/api/blob/fac0934/packages/types/src/interfaces/authorship/types.ts#L12)*
+*Defined in [interfaces/authorship/types.ts:12](https://github.com/polkadot-js/api/blob/a0c6cd5/packages/types/src/interfaces/authorship/types.ts#L12)*
 
 [Hash, Option<AccountId>] & Codec

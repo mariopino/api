@@ -1,4 +1,8 @@
-> # Polkadot JS API
+**[Polkadot JS API](README.md)**
+
+[Globals](globals.md)
+
+# Polkadot JS API
 
 ## Index
 

@@ -1,4 +1,8 @@
-> # Interface: QueryableModuleStorage <**ApiType**>
+**[Polkadot JS API](../README.md)**
+
+[Globals](../globals.md) › ["types"](../modules/_types_.md) › [QueryableModuleStorage](_types_.queryablemodulestorage.md)
+
+# Interface: QueryableModuleStorage <**ApiType**>
 
 ## Type parameters
 

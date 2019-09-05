@@ -1,4 +1,8 @@
-> # External module: "Metadata/util/getUniqTypes"
+**[Polkadot JS API](../README.md)**
+
+[Globals](../globals.md) › ["Metadata/util/getUniqTypes"](_metadata_util_getuniqtypes_.md)
+
+# External module: "Metadata/util/getUniqTypes"
 
 ## Index
 
@@ -12,7 +16,7 @@
 
 ▸ **getUniqTypes**(`meta`: ExtractionMetadata, `throwError`: boolean): *string[]*
 
-*Defined in [Metadata/util/getUniqTypes.ts:162](https://github.com/polkadot-js/api/blob/fac0934/packages/types/src/Metadata/util/getUniqTypes.ts#L162)*
+*Defined in [Metadata/util/getUniqTypes.ts:162](https://github.com/polkadot-js/api/blob/a0c6cd5/packages/types/src/Metadata/util/getUniqTypes.ts#L162)*
 
 **Parameters:**
 

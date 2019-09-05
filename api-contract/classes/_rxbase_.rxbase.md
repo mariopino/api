@@ -1,4 +1,8 @@
-> # Class: RxBase
+**[Polkadot JS API](../README.md)**
+
+[Globals](../globals.md) › ["RxBase"](../modules/_rxbase_.md) › [RxBase](_rxbase_.rxbase.md)
+
+# Class: RxBase
 
 ## Hierarchy
 
@@ -32,7 +36,7 @@
 
 \+ **new RxBase**(`api`: [ApiObject](../modules/_types_.md#apiobject)‹"rxjs"›, `abi`: [ContractABI](../interfaces/_types_.contractabi.md) | Abi): *[RxBase](_rxbase_.rxbase.md)*
 
-*Defined in [RxBase.ts:18](https://github.com/polkadot-js/api/blob/fac0934/packages/api-contract/src/RxBase.ts#L18)*
+*Defined in [RxBase.ts:18](https://github.com/polkadot-js/api/blob/a0c6cd5/packages/api-contract/src/RxBase.ts#L18)*
 
 **Parameters:**
 
@@ -51,7 +55,7 @@ Name | Type |
 
 *Implementation of [ContractBase](../interfaces/_types_.contractbase.md).[abi](../interfaces/_types_.contractbase.md#abi)*
 
-*Defined in [RxBase.ts:14](https://github.com/polkadot-js/api/blob/fac0934/packages/api-contract/src/RxBase.ts#L14)*
+*Defined in [RxBase.ts:14](https://github.com/polkadot-js/api/blob/a0c6cd5/packages/api-contract/src/RxBase.ts#L14)*
 
 ___
 
@@ -61,7 +65,7 @@ ___
 
 *Implementation of [ContractBase](../interfaces/_types_.contractbase.md).[api](../interfaces/_types_.contractbase.md#api)*
 
-*Defined in [RxBase.ts:16](https://github.com/polkadot-js/api/blob/fac0934/packages/api-contract/src/RxBase.ts#L16)*
+*Defined in [RxBase.ts:16](https://github.com/polkadot-js/api/blob/a0c6cd5/packages/api-contract/src/RxBase.ts#L16)*
 
 ___
 
@@ -71,4 +75,4 @@ ___
 
 *Implementation of [ContractBase](../interfaces/_types_.contractbase.md).[apiContracts](../interfaces/_types_.contractbase.md#apicontracts)*
 
-*Defined in [RxBase.ts:18](https://github.com/polkadot-js/api/blob/fac0934/packages/api-contract/src/RxBase.ts#L18)*
+*Defined in [RxBase.ts:18](https://github.com/polkadot-js/api/blob/a0c6cd5/packages/api-contract/src/RxBase.ts#L18)*

@@ -1,4 +1,8 @@
-> # External module: "accounts/idAndIndex"
+**[Polkadot JS API](../README.md)**
+
+[Globals](../globals.md) › ["accounts/idAndIndex"](_accounts_idandindex_.md)
+
+# External module: "accounts/idAndIndex"
 
 ## Index
 
@@ -16,7 +20,7 @@
 
 Ƭ **AccountIdAndIndex**: *[undefined | AccountId, undefined | AccountIndex]*
 
-*Defined in [accounts/idAndIndex.ts:17](https://github.com/polkadot-js/api/blob/fac0934/packages/api-derive/src/accounts/idAndIndex.ts#L17)*
+*Defined in [accounts/idAndIndex.ts:17](https://github.com/polkadot-js/api/blob/a0c6cd5/packages/api-derive/src/accounts/idAndIndex.ts#L17)*
 
 ## Functions
 
@@ -24,7 +28,7 @@
 
 ▸ **idAndIndex**(`api`: ApiInterfaceRx): *function*
 
-*Defined in [accounts/idAndIndex.ts:32](https://github.com/polkadot-js/api/blob/fac0934/packages/api-derive/src/accounts/idAndIndex.ts#L32)*
+*Defined in [accounts/idAndIndex.ts:32](https://github.com/polkadot-js/api/blob/a0c6cd5/packages/api-derive/src/accounts/idAndIndex.ts#L32)*
 
 **`name`** idAndIndex
 

@@ -1,4 +1,8 @@
-> # External module: "Metadata/v3/toV4"
+**[Polkadot JS API](../README.md)**
+
+[Globals](../globals.md) › ["Metadata/v3/toV4"](_metadata_v3_tov4_.md)
+
+# External module: "Metadata/v3/toV4"
 
 ## Index
 
@@ -12,7 +16,7 @@
 
 ▸ **toV4**(`__namedParameters`: object): *[MetadataV4](../classes/_metadata_v4_metadata_.metadatav4.md)*
 
-*Defined in [Metadata/v3/toV4.ts:52](https://github.com/polkadot-js/api/blob/fac0934/packages/types/src/Metadata/v3/toV4.ts#L52)*
+*Defined in [Metadata/v3/toV4.ts:52](https://github.com/polkadot-js/api/blob/a0c6cd5/packages/types/src/Metadata/v3/toV4.ts#L52)*
 
 Convert from MetadataV3 to MetadataV4
 See https://github.com/paritytech/substrate/pull/2268 for details

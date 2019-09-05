@@ -1,4 +1,8 @@
-> # External module: "chain/getHeader"
+**[Polkadot JS API](../README.md)**
+
+[Globals](../globals.md) › ["chain/getHeader"](_chain_getheader_.md)
+
+# External module: "chain/getHeader"
 
 ## Index
 
@@ -12,7 +16,7 @@
 
 ▸ **getHeader**(`api`: ApiInterfaceRx): *function*
 
-*Defined in [chain/getHeader.ts:27](https://github.com/polkadot-js/api/blob/fac0934/packages/api-derive/src/chain/getHeader.ts#L27)*
+*Defined in [chain/getHeader.ts:27](https://github.com/polkadot-js/api/blob/a0c6cd5/packages/api-derive/src/chain/getHeader.ts#L27)*
 
 **`name`** bestNumberFinalized
 

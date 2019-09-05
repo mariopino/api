@@ -1,4 +1,8 @@
-> # External module: "democracy/votes"
+**[Polkadot JS API](../README.md)**
+
+[Globals](../globals.md) › ["democracy/votes"](_democracy_votes_.md)
+
+# External module: "democracy/votes"
 
 ## Index
 
@@ -12,7 +16,7 @@
 
 ▸ **votes**(`api`: ApiInterfaceRx): *function*
 
-*Defined in [democracy/votes.ts:14](https://github.com/polkadot-js/api/blob/fac0934/packages/api-derive/src/democracy/votes.ts#L14)*
+*Defined in [democracy/votes.ts:14](https://github.com/polkadot-js/api/blob/a0c6cd5/packages/api-derive/src/democracy/votes.ts#L14)*
 
 **Parameters:**
 

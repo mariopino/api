@@ -1,4 +1,8 @@
-> # Interface: ContractABIFn
+**[Polkadot JS API](../README.md)**
+
+[Globals](../globals.md) › ["types"](../modules/_types_.md) › [ContractABIFn](_types_.contractabifn.md)
+
+# Interface: ContractABIFn
 
 ## Hierarchy
 
@@ -10,7 +14,7 @@
 
 ▸ (...`args`: CodecArg[]): *Uint8Array*
 
-*Defined in [types.ts:67](https://github.com/polkadot-js/api/blob/fac0934/packages/api-contract/src/types.ts#L67)*
+*Defined in [types.ts:67](https://github.com/polkadot-js/api/blob/a0c6cd5/packages/api-contract/src/types.ts#L67)*
 
 **Parameters:**
 
@@ -36,7 +40,7 @@ Name | Type |
 
 *Inherited from [ContractABIMeta](_types_.contractabimeta.md).[args](_types_.contractabimeta.md#args)*
 
-*Defined in [types.ts:62](https://github.com/polkadot-js/api/blob/fac0934/packages/api-contract/src/types.ts#L62)*
+*Defined in [types.ts:62](https://github.com/polkadot-js/api/blob/a0c6cd5/packages/api-contract/src/types.ts#L62)*
 
 ___
 
@@ -46,7 +50,7 @@ ___
 
 *Inherited from [ContractABIMeta](_types_.contractabimeta.md).[isConstant](_types_.contractabimeta.md#isconstant)*
 
-*Defined in [types.ts:63](https://github.com/polkadot-js/api/blob/fac0934/packages/api-contract/src/types.ts#L63)*
+*Defined in [types.ts:63](https://github.com/polkadot-js/api/blob/a0c6cd5/packages/api-contract/src/types.ts#L63)*
 
 ___
 
@@ -56,4 +60,4 @@ ___
 
 *Inherited from [ContractABIMeta](_types_.contractabimeta.md).[type](_types_.contractabimeta.md#type)*
 
-*Defined in [types.ts:64](https://github.com/polkadot-js/api/blob/fac0934/packages/api-contract/src/types.ts#L64)*
+*Defined in [types.ts:64](https://github.com/polkadot-js/api/blob/a0c6cd5/packages/api-contract/src/types.ts#L64)*

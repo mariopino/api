@@ -1,4 +1,8 @@
-> # Interface: Storage
+**[Polkadot JS API](../README.md)**
+
+[Globals](../globals.md) › ["storage/types"](../modules/_storage_types_.md) › [Storage](_storage_types_.storage.md)
+
+# Interface: Storage
 
 ## Hierarchy
 
@@ -20,7 +24,7 @@
 
 • **substrate**: *object*
 
-*Defined in [storage/types.ts:13](https://github.com/polkadot-js/api/blob/fac0934/packages/api-metadata/src/storage/types.ts#L13)*
+*Defined in [storage/types.ts:13](https://github.com/polkadot-js/api/blob/a0c6cd5/packages/api-metadata/src/storage/types.ts#L13)*
 
 #### Type declaration:
 

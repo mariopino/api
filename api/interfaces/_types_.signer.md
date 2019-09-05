@@ -1,4 +1,8 @@
-> # Interface: Signer
+**[Polkadot JS API](../README.md)**
+
+[Globals](../globals.md) › ["types"](../modules/_types_.md) › [Signer](_types_.signer.md)
+
+# Interface: Signer
 
 ## Hierarchy
 
@@ -18,7 +22,7 @@
 
 • **signPayload**? : *undefined | function*
 
-*Defined in [types.ts:241](https://github.com/polkadot-js/api/blob/fac0934/packages/api/src/types.ts#L241)*
+*Defined in [types.ts:241](https://github.com/polkadot-js/api/blob/a0c6cd5/packages/api/src/types.ts#L241)*
 
 **`description`** signs an extrinsic payload from a serialized form
 
@@ -28,7 +32,7 @@ ___
 
 • **signRaw**? : *undefined | function*
 
-*Defined in [types.ts:246](https://github.com/polkadot-js/api/blob/fac0934/packages/api/src/types.ts#L246)*
+*Defined in [types.ts:246](https://github.com/polkadot-js/api/blob/a0c6cd5/packages/api/src/types.ts#L246)*
 
 **`description`** signs a raw payload, only the bytes data as supplied
 
@@ -38,6 +42,6 @@ ___
 
 • **update**? : *undefined | function*
 
-*Defined in [types.ts:251](https://github.com/polkadot-js/api/blob/fac0934/packages/api/src/types.ts#L251)*
+*Defined in [types.ts:251](https://github.com/polkadot-js/api/blob/a0c6cd5/packages/api/src/types.ts#L251)*
 
 **`description`** Receives an update for the extrinsic signed by a `signer.sign`

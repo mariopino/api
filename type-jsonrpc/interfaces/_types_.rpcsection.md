@@ -1,4 +1,8 @@
-> # Interface: RpcSection
+**[Polkadot JS API](../README.md)**
+
+[Globals](../globals.md) › ["types"](../modules/_types_.md) › [RpcSection](_types_.rpcsection.md)
+
+# Interface: RpcSection
 
 ## Hierarchy
 
@@ -20,7 +24,7 @@
 
 • **description**: *string*
 
-*Defined in [types.ts:43](https://github.com/polkadot-js/api/blob/fac0934/packages/type-jsonrpc/src/types.ts#L43)*
+*Defined in [types.ts:43](https://github.com/polkadot-js/api/blob/a0c6cd5/packages/type-jsonrpc/src/types.ts#L43)*
 
 ___
 
@@ -28,7 +32,7 @@ ___
 
 • **isDeprecated**: *boolean*
 
-*Defined in [types.ts:41](https://github.com/polkadot-js/api/blob/fac0934/packages/type-jsonrpc/src/types.ts#L41)*
+*Defined in [types.ts:41](https://github.com/polkadot-js/api/blob/a0c6cd5/packages/type-jsonrpc/src/types.ts#L41)*
 
 ___
 
@@ -36,7 +40,7 @@ ___
 
 • **isHidden**: *boolean*
 
-*Defined in [types.ts:42](https://github.com/polkadot-js/api/blob/fac0934/packages/type-jsonrpc/src/types.ts#L42)*
+*Defined in [types.ts:42](https://github.com/polkadot-js/api/blob/a0c6cd5/packages/type-jsonrpc/src/types.ts#L42)*
 
 ___
 
@@ -44,7 +48,7 @@ ___
 
 • **methods**: *Record‹string, [RpcMethod](_types_.rpcmethod.md)›*
 
-*Defined in [types.ts:45](https://github.com/polkadot-js/api/blob/fac0934/packages/type-jsonrpc/src/types.ts#L45)*
+*Defined in [types.ts:45](https://github.com/polkadot-js/api/blob/a0c6cd5/packages/type-jsonrpc/src/types.ts#L45)*
 
 ___
 
@@ -52,4 +56,4 @@ ___
 
 • **section**: *string*
 
-*Defined in [types.ts:44](https://github.com/polkadot-js/api/blob/fac0934/packages/type-jsonrpc/src/types.ts#L44)*
+*Defined in [types.ts:44](https://github.com/polkadot-js/api/blob/a0c6cd5/packages/type-jsonrpc/src/types.ts#L44)*

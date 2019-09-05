@@ -1,4 +1,8 @@
-> # External module: "balances/fees"
+**[Polkadot JS API](../README.md)**
+
+[Globals](../globals.md) › ["balances/fees"](_balances_fees_.md)
+
+# External module: "balances/fees"
 
 ## Index
 
@@ -12,7 +16,7 @@
 
 ▸ **fees**(`api`: ApiInterfaceRx): *function*
 
-*Defined in [balances/fees.ts:52](https://github.com/polkadot-js/api/blob/fac0934/packages/api-derive/src/balances/fees.ts#L52)*
+*Defined in [balances/fees.ts:52](https://github.com/polkadot-js/api/blob/a0c6cd5/packages/api-derive/src/balances/fees.ts#L52)*
 
 **`name`** fees
 

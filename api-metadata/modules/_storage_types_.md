@@ -1,4 +1,8 @@
-> # External module: "storage/types"
+**[Polkadot JS API](../README.md)**
+
+[Globals](../globals.md) › ["storage/types"](_storage_types_.md)
+
+# External module: "storage/types"
 
 ## Index
 

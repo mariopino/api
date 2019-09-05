@@ -1,4 +1,8 @@
-> # Class: SubmittableResult
+**[Polkadot JS API](../README.md)**
+
+[Globals](../globals.md) › ["submittable/Result"](../modules/_submittable_result_.md) › [SubmittableResult](_submittable_result_.submittableresult.md)
+
+# Class: SubmittableResult
 
 ## Hierarchy
 
@@ -35,7 +39,7 @@
 
 \+ **new SubmittableResult**(`__namedParameters`: object): *[SubmittableResult](_submittable_result_.submittableresult.md)*
 
-*Defined in [submittable/Result.ts:11](https://github.com/polkadot-js/api/blob/fac0934/packages/api/src/submittable/Result.ts#L11)*
+*Defined in [submittable/Result.ts:11](https://github.com/polkadot-js/api/blob/a0c6cd5/packages/api/src/submittable/Result.ts#L11)*
 
 **Parameters:**
 
@@ -53,7 +57,7 @@ Name | Type |
 
 *Implementation of [SubmittableResultImpl](../interfaces/_submittable_types_.submittableresultimpl.md).[events](../interfaces/_submittable_types_.submittableresultimpl.md#events)*
 
-*Defined in [submittable/Result.ts:9](https://github.com/polkadot-js/api/blob/fac0934/packages/api/src/submittable/Result.ts#L9)*
+*Defined in [submittable/Result.ts:9](https://github.com/polkadot-js/api/blob/a0c6cd5/packages/api/src/submittable/Result.ts#L9)*
 
 ___
 
@@ -63,7 +67,7 @@ ___
 
 *Implementation of [SubmittableResultImpl](../interfaces/_submittable_types_.submittableresultimpl.md).[status](../interfaces/_submittable_types_.submittableresultimpl.md#status)*
 
-*Defined in [submittable/Result.ts:11](https://github.com/polkadot-js/api/blob/fac0934/packages/api/src/submittable/Result.ts#L11)*
+*Defined in [submittable/Result.ts:11](https://github.com/polkadot-js/api/blob/a0c6cd5/packages/api/src/submittable/Result.ts#L11)*
 
 ## Accessors
 
@@ -71,7 +75,7 @@ ___
 
 • **get isCompleted**(): *boolean*
 
-*Defined in [submittable/Result.ts:18](https://github.com/polkadot-js/api/blob/fac0934/packages/api/src/submittable/Result.ts#L18)*
+*Defined in [submittable/Result.ts:18](https://github.com/polkadot-js/api/blob/a0c6cd5/packages/api/src/submittable/Result.ts#L18)*
 
 **Returns:** *boolean*
 
@@ -81,7 +85,7 @@ ___
 
 • **get isError**(): *boolean*
 
-*Defined in [submittable/Result.ts:22](https://github.com/polkadot-js/api/blob/fac0934/packages/api/src/submittable/Result.ts#L22)*
+*Defined in [submittable/Result.ts:22](https://github.com/polkadot-js/api/blob/a0c6cd5/packages/api/src/submittable/Result.ts#L22)*
 
 **Returns:** *boolean*
 
@@ -91,7 +95,7 @@ ___
 
 • **get isFinalized**(): *boolean*
 
-*Defined in [submittable/Result.ts:26](https://github.com/polkadot-js/api/blob/fac0934/packages/api/src/submittable/Result.ts#L26)*
+*Defined in [submittable/Result.ts:26](https://github.com/polkadot-js/api/blob/a0c6cd5/packages/api/src/submittable/Result.ts#L26)*
 
 **Returns:** *boolean*
 
@@ -103,7 +107,7 @@ ___
 
 *Implementation of [SubmittableResultImpl](../interfaces/_submittable_types_.submittableresultimpl.md)*
 
-*Defined in [submittable/Result.ts:33](https://github.com/polkadot-js/api/blob/fac0934/packages/api/src/submittable/Result.ts#L33)*
+*Defined in [submittable/Result.ts:33](https://github.com/polkadot-js/api/blob/a0c6cd5/packages/api/src/submittable/Result.ts#L33)*
 
 **`description`** Finds an EventRecord for the specified method & section
 

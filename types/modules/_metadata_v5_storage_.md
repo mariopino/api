@@ -1,4 +1,8 @@
-> # External module: "Metadata/v5/Storage"
+**[Polkadot JS API](../README.md)**
+
+[Globals](../globals.md) › ["Metadata/v5/Storage"](_metadata_v5_storage_.md)
+
+# External module: "Metadata/v5/Storage"
 
 ## Index
 

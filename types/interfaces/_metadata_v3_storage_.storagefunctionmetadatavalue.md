@@ -1,4 +1,8 @@
-> # Interface: StorageFunctionMetadataValue
+**[Polkadot JS API](../README.md)**
+
+[Globals](../globals.md) › ["Metadata/v3/Storage"](../modules/_metadata_v3_storage_.md) › [StorageFunctionMetadataValue](_metadata_v3_storage_.storagefunctionmetadatavalue.md)
+
+# Interface: StorageFunctionMetadataValue
 
 ## Hierarchy
 
@@ -20,7 +24,7 @@
 
 • **documentation**: *[Vec](../classes/_codec_vec_.vec.md)‹[Text](../classes/_primitive_text_.text.md)› | string[]*
 
-*Defined in [Metadata/v3/Storage.ts:98](https://github.com/polkadot-js/api/blob/fac0934/packages/types/src/Metadata/v3/Storage.ts#L98)*
+*Defined in [Metadata/v3/Storage.ts:98](https://github.com/polkadot-js/api/blob/a0c6cd5/packages/types/src/Metadata/v3/Storage.ts#L98)*
 
 ___
 
@@ -28,7 +32,7 @@ ___
 
 • **fallback**: *[Bytes](../classes/_primitive_bytes_.bytes.md)*
 
-*Defined in [Metadata/v3/Storage.ts:97](https://github.com/polkadot-js/api/blob/fac0934/packages/types/src/Metadata/v3/Storage.ts#L97)*
+*Defined in [Metadata/v3/Storage.ts:97](https://github.com/polkadot-js/api/blob/a0c6cd5/packages/types/src/Metadata/v3/Storage.ts#L97)*
 
 ___
 
@@ -36,7 +40,7 @@ ___
 
 • **modifier**: *[StorageFunctionModifierV3](_interfaceregistry_.interfaceregistry.md#storagefunctionmodifierv3) | [AnyNumber](../modules/_types_.md#anynumber)*
 
-*Defined in [Metadata/v3/Storage.ts:95](https://github.com/polkadot-js/api/blob/fac0934/packages/types/src/Metadata/v3/Storage.ts#L95)*
+*Defined in [Metadata/v3/Storage.ts:95](https://github.com/polkadot-js/api/blob/a0c6cd5/packages/types/src/Metadata/v3/Storage.ts#L95)*
 
 ___
 
@@ -44,7 +48,7 @@ ___
 
 • **name**: *string | [Text](../classes/_primitive_text_.text.md)*
 
-*Defined in [Metadata/v3/Storage.ts:94](https://github.com/polkadot-js/api/blob/fac0934/packages/types/src/Metadata/v3/Storage.ts#L94)*
+*Defined in [Metadata/v3/Storage.ts:94](https://github.com/polkadot-js/api/blob/a0c6cd5/packages/types/src/Metadata/v3/Storage.ts#L94)*
 
 ___
 
@@ -52,4 +56,4 @@ ___
 
 • **type**: *[StorageFunctionType](../classes/_metadata_v3_storage_.storagefunctiontype.md)*
 
-*Defined in [Metadata/v3/Storage.ts:96](https://github.com/polkadot-js/api/blob/fac0934/packages/types/src/Metadata/v3/Storage.ts#L96)*
+*Defined in [Metadata/v3/Storage.ts:96](https://github.com/polkadot-js/api/blob/a0c6cd5/packages/types/src/Metadata/v3/Storage.ts#L96)*

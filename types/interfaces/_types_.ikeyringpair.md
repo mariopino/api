@@ -1,4 +1,8 @@
-> # Interface: IKeyringPair
+**[Polkadot JS API](../README.md)**
+
+[Globals](../globals.md) › ["types"](../modules/_types_.md) › [IKeyringPair](_types_.ikeyringpair.md)
+
+# Interface: IKeyringPair
 
 ## Hierarchy
 
@@ -18,7 +22,7 @@
 
 • **address**: *string*
 
-*Defined in [types.ts:35](https://github.com/polkadot-js/api/blob/fac0934/packages/types/src/types.ts#L35)*
+*Defined in [types.ts:35](https://github.com/polkadot-js/api/blob/a0c6cd5/packages/types/src/types.ts#L35)*
 
 ___
 
@@ -26,7 +30,7 @@ ___
 
 • **publicKey**: *Uint8Array*
 
-*Defined in [types.ts:36](https://github.com/polkadot-js/api/blob/fac0934/packages/types/src/types.ts#L36)*
+*Defined in [types.ts:36](https://github.com/polkadot-js/api/blob/a0c6cd5/packages/types/src/types.ts#L36)*
 
 ___
 
@@ -34,7 +38,7 @@ ___
 
 • **sign**: *function*
 
-*Defined in [types.ts:37](https://github.com/polkadot-js/api/blob/fac0934/packages/types/src/types.ts#L37)*
+*Defined in [types.ts:37](https://github.com/polkadot-js/api/blob/a0c6cd5/packages/types/src/types.ts#L37)*
 
 #### Type declaration:
 

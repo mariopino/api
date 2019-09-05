@@ -1,4 +1,8 @@
-> # Interface: ContractCall
+**[Polkadot JS API](../README.md)**
+
+[Globals](../globals.md) › ["RxContract"](../modules/_rxcontract_.md) › [ContractCall](_rxcontract_.contractcall.md)
+
+# Interface: ContractCall
 
 ## Hierarchy
 
@@ -16,7 +20,7 @@
 
 ▸ **signAndSend**(`account`: IKeyringPair | string | AccountId | Address): *[ContractCallResultSubscription](../modules/_rxcontract_.md#contractcallresultsubscription)*
 
-*Defined in [RxContract.ts:19](https://github.com/polkadot-js/api/blob/fac0934/packages/api-contract/src/RxContract.ts#L19)*
+*Defined in [RxContract.ts:19](https://github.com/polkadot-js/api/blob/a0c6cd5/packages/api-contract/src/RxContract.ts#L19)*
 
 **Parameters:**
 

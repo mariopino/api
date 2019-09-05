@@ -1,4 +1,8 @@
-> # Interface: DerivedReferendumVote
+**[Polkadot JS API](../README.md)**
+
+[Globals](../globals.md) › ["types"](../modules/_types_.md) › [DerivedReferendumVote](_types_.derivedreferendumvote.md)
+
+# Interface: DerivedReferendumVote
 
 ## Hierarchy
 
@@ -18,7 +22,7 @@
 
 • **accountId**: *AccountId*
 
-*Defined in [types.ts:62](https://github.com/polkadot-js/api/blob/fac0934/packages/api-derive/src/types.ts#L62)*
+*Defined in [types.ts:62](https://github.com/polkadot-js/api/blob/a0c6cd5/packages/api-derive/src/types.ts#L62)*
 
 ___
 
@@ -26,7 +30,7 @@ ___
 
 • **balance**: *Balance*
 
-*Defined in [types.ts:63](https://github.com/polkadot-js/api/blob/fac0934/packages/api-derive/src/types.ts#L63)*
+*Defined in [types.ts:63](https://github.com/polkadot-js/api/blob/a0c6cd5/packages/api-derive/src/types.ts#L63)*
 
 ___
 
@@ -34,4 +38,4 @@ ___
 
 • **vote**: *Vote*
 
-*Defined in [types.ts:64](https://github.com/polkadot-js/api/blob/fac0934/packages/api-derive/src/types.ts#L64)*
+*Defined in [types.ts:64](https://github.com/polkadot-js/api/blob/a0c6cd5/packages/api-derive/src/types.ts#L64)*
