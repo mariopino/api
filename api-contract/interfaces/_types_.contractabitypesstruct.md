@@ -23,7 +23,7 @@
 
 • **Option<T>**? : *undefined | object*
 
-*Defined in [types.ts:16](https://github.com/polkadot-js/api/blob/aebe56f/packages/api-contract/src/types.ts#L16)*
+*Defined in [types.ts:16](https://github.com/polkadot-js/api/blob/05d697c/packages/api-contract/src/types.ts#L16)*
 
 ___
 
@@ -31,7 +31,7 @@ ___
 
 • **Result<T,E>**? : *undefined | object*
 
-*Defined in [types.ts:19](https://github.com/polkadot-js/api/blob/aebe56f/packages/api-contract/src/types.ts#L19)*
+*Defined in [types.ts:19](https://github.com/polkadot-js/api/blob/05d697c/packages/api-contract/src/types.ts#L19)*
 
 ___
 
@@ -39,7 +39,7 @@ ___
 
 • **Vec<T>**? : *undefined | object*
 
-*Defined in [types.ts:23](https://github.com/polkadot-js/api/blob/aebe56f/packages/api-contract/src/types.ts#L23)*
+*Defined in [types.ts:23](https://github.com/polkadot-js/api/blob/05d697c/packages/api-contract/src/types.ts#L23)*
 
 ___
 
@@ -47,4 +47,4 @@ ___
 
 • **[T;n]**? : *undefined | object*
 
-*Defined in [types.ts:26](https://github.com/polkadot-js/api/blob/aebe56f/packages/api-contract/src/types.ts#L26)*
+*Defined in [types.ts:26](https://github.com/polkadot-js/api/blob/05d697c/packages/api-contract/src/types.ts#L26)*
