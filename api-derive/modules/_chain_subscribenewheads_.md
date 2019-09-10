@@ -20,7 +20,7 @@
 
 Ƭ **HeaderAndValidators**: *[Header, AccountId[]]*
 
-*Defined in [chain/subscribeNewHeads.ts:14](https://github.com/polkadot-js/api/blob/a1a52fb/packages/api-derive/src/chain/subscribeNewHeads.ts#L14)*
+*Defined in [chain/subscribeNewHeads.ts:14](https://github.com/polkadot-js/api/blob/ad9d21c/packages/api-derive/src/chain/subscribeNewHeads.ts#L14)*
 
 ## Functions
 
@@ -28,7 +28,7 @@
 
 ▸ **subscribeNewHeads**(`api`: ApiInterfaceRx): *function*
 
-*Defined in [chain/subscribeNewHeads.ts:29](https://github.com/polkadot-js/api/blob/a1a52fb/packages/api-derive/src/chain/subscribeNewHeads.ts#L29)*
+*Defined in [chain/subscribeNewHeads.ts:29](https://github.com/polkadot-js/api/blob/ad9d21c/packages/api-derive/src/chain/subscribeNewHeads.ts#L29)*
 
 **`name`** subscribeNewHeads
 
@@ -38,8 +38,8 @@
 <BR>
 
 ```javascript
-api.derive.chain.subscribeNewHeads(({ author, blockNumber }) => {
-  console.log(`block #${blockNumber} was authored by ${author}`);
+api.derive.chain.subscribeNewHeads((header) => {
+  console.log(`block #${header.number} was authored by ${header.author}`);
 });
 ```
 

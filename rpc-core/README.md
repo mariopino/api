@@ -47,7 +47,7 @@ rpc.chain
   )
   .subscribe(
     (header) => {
-      console.log(`best #${header.blockNumber.toString()}`);
+      console.log(`best #${header.number.toString()}`);
       console.log(`parentHash: ${header.parentHash.toString()}`);
       console.log(`stateRoot: ${header.stateRoot.toString()}`);
       console.log(`extrinsicsRoot: ${header.extrinsicsRoot.toString()}`);
@@ -67,7 +67,7 @@ rpc
   .subscribeNewHeads()
   .subscribe(
     (header) => {
-      console.log(`best #${header.blockNumber}`);
+      console.log(`best #${header.number}`);
     },
     (error) => {
       console.error('error subscribing:', error);
