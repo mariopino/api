@@ -39,7 +39,7 @@
 
 *Overrides [RxBase](_rxbase_.rxbase.md).[constructor](_rxbase_.rxbase.md#constructor)*
 
-*Defined in [RxCode.ts:51](https://github.com/polkadot-js/api/blob/3e3d036/packages/api-contract/src/RxCode.ts#L51)*
+*Defined in [RxCode.ts:51](https://github.com/polkadot-js/api/blob/bdd0cb9/packages/api-contract/src/RxCode.ts#L51)*
 
 **Parameters:**
 
@@ -61,7 +61,7 @@ Name | Type |
 
 *Inherited from [RxBase](_rxbase_.rxbase.md).[abi](_rxbase_.rxbase.md#abi)*
 
-*Defined in [RxBase.ts:14](https://github.com/polkadot-js/api/blob/3e3d036/packages/api-contract/src/RxBase.ts#L14)*
+*Defined in [RxBase.ts:14](https://github.com/polkadot-js/api/blob/bdd0cb9/packages/api-contract/src/RxBase.ts#L14)*
 
 ___
 
@@ -73,7 +73,7 @@ ___
 
 *Inherited from [RxBase](_rxbase_.rxbase.md).[api](_rxbase_.rxbase.md#api)*
 
-*Defined in [RxBase.ts:16](https://github.com/polkadot-js/api/blob/3e3d036/packages/api-contract/src/RxBase.ts#L16)*
+*Defined in [RxBase.ts:16](https://github.com/polkadot-js/api/blob/bdd0cb9/packages/api-contract/src/RxBase.ts#L16)*
 
 ___
 
@@ -85,7 +85,7 @@ ___
 
 *Inherited from [RxBase](_rxbase_.rxbase.md).[apiContracts](_rxbase_.rxbase.md#apicontracts)*
 
-*Defined in [RxBase.ts:18](https://github.com/polkadot-js/api/blob/3e3d036/packages/api-contract/src/RxBase.ts#L18)*
+*Defined in [RxBase.ts:18](https://github.com/polkadot-js/api/blob/bdd0cb9/packages/api-contract/src/RxBase.ts#L18)*
 
 ___
 
@@ -93,7 +93,7 @@ ___
 
 • **code**: *Uint8Array*
 
-*Defined in [RxCode.ts:51](https://github.com/polkadot-js/api/blob/3e3d036/packages/api-contract/src/RxCode.ts#L51)*
+*Defined in [RxCode.ts:51](https://github.com/polkadot-js/api/blob/bdd0cb9/packages/api-contract/src/RxCode.ts#L51)*
 
 ## Methods
 
@@ -101,7 +101,7 @@ ___
 
 ▸ **createBlueprint**(`maxGas`: number | BN): *[CodePutCode](../interfaces/_rxcode_.codeputcode.md)*
 
-*Defined in [RxCode.ts:59](https://github.com/polkadot-js/api/blob/3e3d036/packages/api-contract/src/RxCode.ts#L59)*
+*Defined in [RxCode.ts:59](https://github.com/polkadot-js/api/blob/bdd0cb9/packages/api-contract/src/RxCode.ts#L59)*
 
 **Parameters:**
 

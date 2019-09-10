@@ -25,7 +25,7 @@
 
 ▸ **toPayload**(): *[SignerPayloadJSON](_types_.signerpayloadjson.md)*
 
-*Defined in [types.ts:298](https://github.com/polkadot-js/api/blob/3e3d036/packages/types/src/types.ts#L298)*
+*Defined in [types.ts:298](https://github.com/polkadot-js/api/blob/bdd0cb9/packages/types/src/types.ts#L298)*
 
 **Returns:** *[SignerPayloadJSON](_types_.signerpayloadjson.md)*
 
@@ -35,6 +35,6 @@ ___
 
 ▸ **toRaw**(): *[SignerPayloadRaw](_types_.signerpayloadraw.md)*
 
-*Defined in [types.ts:299](https://github.com/polkadot-js/api/blob/3e3d036/packages/types/src/types.ts#L299)*
+*Defined in [types.ts:299](https://github.com/polkadot-js/api/blob/bdd0cb9/packages/types/src/types.ts#L299)*
 
 **Returns:** *[SignerPayloadRaw](_types_.signerpayloadraw.md)*
