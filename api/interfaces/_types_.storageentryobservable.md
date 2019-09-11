@@ -14,7 +14,7 @@
 
 ▸ (`arg1?`: CodecArg, `arg2?`: CodecArg): *Observable‹Codec›*
 
-*Defined in [types.ts:95](https://github.com/polkadot-js/api/blob/55fb391/packages/api/src/types.ts#L95)*
+*Defined in [types.ts:95](https://github.com/polkadot-js/api/blob/f8ec93a/packages/api/src/types.ts#L95)*
 
 **Parameters:**
 
@@ -27,7 +27,7 @@ Name | Type |
 
 ▸ <**T**>(`arg1?`: CodecArg, `arg2?`: CodecArg): *Observable‹T›*
 
-*Defined in [types.ts:96](https://github.com/polkadot-js/api/blob/55fb391/packages/api/src/types.ts#L96)*
+*Defined in [types.ts:96](https://github.com/polkadot-js/api/blob/f8ec93a/packages/api/src/types.ts#L96)*
 
 **Type parameters:**
 
@@ -61,7 +61,7 @@ Name | Type |
 
 *Inherited from void*
 
-*Defined in [types.ts:88](https://github.com/polkadot-js/api/blob/55fb391/packages/api/src/types.ts#L88)*
+*Defined in [types.ts:88](https://github.com/polkadot-js/api/blob/f8ec93a/packages/api/src/types.ts#L88)*
 
 #### Type declaration:
 
@@ -83,7 +83,7 @@ ___
 
 *Inherited from void*
 
-*Defined in [types.ts:89](https://github.com/polkadot-js/api/blob/55fb391/packages/api/src/types.ts#L89)*
+*Defined in [types.ts:89](https://github.com/polkadot-js/api/blob/f8ec93a/packages/api/src/types.ts#L89)*
 
 ___
 
@@ -93,7 +93,7 @@ ___
 
 *Inherited from void*
 
-*Defined in [types.ts:90](https://github.com/polkadot-js/api/blob/55fb391/packages/api/src/types.ts#L90)*
+*Defined in [types.ts:90](https://github.com/polkadot-js/api/blob/f8ec93a/packages/api/src/types.ts#L90)*
 
 #### Type declaration:
 
@@ -114,7 +114,7 @@ ___
 
 *Inherited from void*
 
-*Defined in [types.ts:91](https://github.com/polkadot-js/api/blob/55fb391/packages/api/src/types.ts#L91)*
+*Defined in [types.ts:91](https://github.com/polkadot-js/api/blob/f8ec93a/packages/api/src/types.ts#L91)*
 
 #### Type declaration:
 
@@ -133,7 +133,7 @@ ___
 
 • **multi**: *function*
 
-*Defined in [types.ts:98](https://github.com/polkadot-js/api/blob/55fb391/packages/api/src/types.ts#L98)*
+*Defined in [types.ts:98](https://github.com/polkadot-js/api/blob/f8ec93a/packages/api/src/types.ts#L98)*
 
 #### Type declaration:
 
@@ -157,7 +157,7 @@ ___
 
 *Inherited from void*
 
-*Defined in [types.ts:92](https://github.com/polkadot-js/api/blob/55fb391/packages/api/src/types.ts#L92)*
+*Defined in [types.ts:92](https://github.com/polkadot-js/api/blob/f8ec93a/packages/api/src/types.ts#L92)*
 
 #### Type declaration:
 
