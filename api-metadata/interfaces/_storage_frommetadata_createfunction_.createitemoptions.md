@@ -1,6 +1,6 @@
 **[Polkadot JS API](../README.md)**
 
-[Globals](../globals.md) › ["storage/fromMetadata/createFunction"](../modules/_storage_frommetadata_createfunction_.md) › [CreateItemOptions](_storage_frommetadata_createfunction_.createitemoptions.md)
+[Globals](../globals.md) › [&quot;storage/fromMetadata/createFunction&quot;](../modules/_storage_frommetadata_createfunction_.md) › [CreateItemOptions](_storage_frommetadata_createfunction_.createitemoptions.md)
 
 # Interface: CreateItemOptions
 
@@ -21,7 +21,7 @@
 
 • **key**? : *undefined | string*
 
-*Defined in [storage/fromMetadata/createFunction.ts:17](https://github.com/polkadot-js/api/blob/ad9d21c/packages/api-metadata/src/storage/fromMetadata/createFunction.ts#L17)*
+*Defined in [storage/fromMetadata/createFunction.ts:17](https://github.com/polkadot-js/api/blob/1584100/packages/api-metadata/src/storage/fromMetadata/createFunction.ts#L17)*
 
 ___
 
@@ -29,4 +29,4 @@ ___
 
 • **skipHashing**? : *undefined | false | true*
 
-*Defined in [storage/fromMetadata/createFunction.ts:18](https://github.com/polkadot-js/api/blob/ad9d21c/packages/api-metadata/src/storage/fromMetadata/createFunction.ts#L18)*
+*Defined in [storage/fromMetadata/createFunction.ts:18](https://github.com/polkadot-js/api/blob/1584100/packages/api-metadata/src/storage/fromMetadata/createFunction.ts#L18)*

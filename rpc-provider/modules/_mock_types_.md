@@ -1,6 +1,6 @@
 **[Polkadot JS API](../README.md)**
 
-[Globals](../globals.md) › ["mock/types"](_mock_types_.md)
+[Globals](../globals.md) › [&quot;mock/types&quot;](_mock_types_.md)
 
 # External module: "mock/types"
 
@@ -24,7 +24,7 @@
 
 Ƭ **MockStateDb**: *Record‹string, Uint8Array›*
 
-*Defined in [mock/types.ts:27](https://github.com/polkadot-js/api/blob/ad9d21c/packages/rpc-provider/src/mock/types.ts#L27)*
+*Defined in [mock/types.ts:27](https://github.com/polkadot-js/api/blob/1584100/packages/rpc-provider/src/mock/types.ts#L27)*
 
 ___
 
@@ -32,7 +32,7 @@ ___
 
 Ƭ **MockStateRequests**: *Record‹string, function›*
 
-*Defined in [mock/types.ts:29](https://github.com/polkadot-js/api/blob/ad9d21c/packages/rpc-provider/src/mock/types.ts#L29)*
+*Defined in [mock/types.ts:29](https://github.com/polkadot-js/api/blob/1584100/packages/rpc-provider/src/mock/types.ts#L29)*
 
 ___
 
@@ -40,7 +40,7 @@ ___
 
 Ƭ **MockStateSubscriptionCallback**: *function*
 
-*Defined in [mock/types.ts:20](https://github.com/polkadot-js/api/blob/ad9d21c/packages/rpc-provider/src/mock/types.ts#L20)*
+*Defined in [mock/types.ts:20](https://github.com/polkadot-js/api/blob/1584100/packages/rpc-provider/src/mock/types.ts#L20)*
 
 #### Type declaration:
 
@@ -50,7 +50,7 @@ ___
 
 Name | Type |
 ------ | ------ |
-`error` | Error \| null |
+`error` | Error &#124; null |
 `value` | any |
 
 ___
@@ -59,4 +59,4 @@ ___
 
 Ƭ **MockStateSubscriptions**: *Record‹string, object›*
 
-*Defined in [mock/types.ts:22](https://github.com/polkadot-js/api/blob/ad9d21c/packages/rpc-provider/src/mock/types.ts#L22)*
+*Defined in [mock/types.ts:22](https://github.com/polkadot-js/api/blob/1584100/packages/rpc-provider/src/mock/types.ts#L22)*

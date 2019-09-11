@@ -2,6 +2,8 @@
 
 [Globals](globals.md)
 
+# Polkadot JS API
+
 # @polkadot/rpc-core
 
 This library provides a clean wrapper around all the methods exposed by a Polkadot network client.

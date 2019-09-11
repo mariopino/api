@@ -1,6 +1,6 @@
 **[Polkadot JS API](../README.md)**
 
-[Globals](../globals.md) › ["primitive/U8"](_primitive_u8_.md)
+[Globals](../globals.md) › [&quot;primitive/U8&quot;](_primitive_u8_.md)
 
 # External module: "primitive/U8"
 

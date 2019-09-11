@@ -1,6 +1,6 @@
 **[Polkadot JS API](../README.md)**
 
-[Globals](../globals.md) › ["contracts/fees"](_contracts_fees_.md)
+[Globals](../globals.md) › [&quot;contracts/fees&quot;](_contracts_fees_.md)
 
 # External module: "contracts/fees"
 
@@ -16,7 +16,7 @@
 
 ▸ **fees**(`api`: ApiInterfaceRx): *function*
 
-*Defined in [contracts/fees.ts:106](https://github.com/polkadot-js/api/blob/ad9d21c/packages/api-derive/src/contracts/fees.ts#L106)*
+*Defined in [contracts/fees.ts:106](https://github.com/polkadot-js/api/blob/1584100/packages/api-derive/src/contracts/fees.ts#L106)*
 
 **`name`** fees
 

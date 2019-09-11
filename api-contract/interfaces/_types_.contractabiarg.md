@@ -1,6 +1,6 @@
 **[Polkadot JS API](../README.md)**
 
-[Globals](../globals.md) › ["types"](../modules/_types_.md) › [ContractABIArg](_types_.contractabiarg.md)
+[Globals](../globals.md) › [&quot;types&quot;](../modules/_types_.md) › [ContractABIArg](_types_.contractabiarg.md)
 
 # Interface: ContractABIArg
 
@@ -21,7 +21,7 @@
 
 • **name**: *string*
 
-*Defined in [types.ts:35](https://github.com/polkadot-js/api/blob/ad9d21c/packages/api-contract/src/types.ts#L35)*
+*Defined in [types.ts:35](https://github.com/polkadot-js/api/blob/1584100/packages/api-contract/src/types.ts#L35)*
 
 ___
 
@@ -29,4 +29,4 @@ ___
 
 • **type**: *[ContractABITypes](../modules/_types_.md#contractabitypes)*
 
-*Defined in [types.ts:36](https://github.com/polkadot-js/api/blob/ad9d21c/packages/api-contract/src/types.ts#L36)*
+*Defined in [types.ts:36](https://github.com/polkadot-js/api/blob/1584100/packages/api-contract/src/types.ts#L36)*

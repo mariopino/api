@@ -1,6 +1,6 @@
 **[Polkadot JS API](../README.md)**
 
-[Globals](../globals.md) › ["interfaces/collective/types"](_interfaces_collective_types_.md)
+[Globals](../globals.md) › [&quot;interfaces/collective/types&quot;](_interfaces_collective_types_.md)
 
 # External module: "interfaces/collective/types"
 
@@ -21,7 +21,7 @@
 
 Ƭ **MemberCount**: *[u32](../interfaces/_interfaceregistry_.interfaceregistry.md#u32)*
 
-*Defined in [interfaces/collective/types.ts:9](https://github.com/polkadot-js/api/blob/ad9d21c/packages/types/src/interfaces/collective/types.ts#L9)*
+*Defined in [interfaces/collective/types.ts:9](https://github.com/polkadot-js/api/blob/1584100/packages/types/src/interfaces/collective/types.ts#L9)*
 
 u32
 
@@ -31,6 +31,6 @@ ___
 
 Ƭ **ProposalIndex**: *[u32](../interfaces/_interfaceregistry_.interfaceregistry.md#u32)*
 
-*Defined in [interfaces/collective/types.ts:12](https://github.com/polkadot-js/api/blob/ad9d21c/packages/types/src/interfaces/collective/types.ts#L12)*
+*Defined in [interfaces/collective/types.ts:12](https://github.com/polkadot-js/api/blob/1584100/packages/types/src/interfaces/collective/types.ts#L12)*
 
 u32

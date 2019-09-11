@@ -1,6 +1,6 @@
 **[Polkadot JS API](../README.md)**
 
-[Globals](../globals.md) › ["types"](../modules/_types_.md) › [RecentlyOffline](_types_.recentlyoffline.md)
+[Globals](../globals.md) › [&quot;types&quot;](../modules/_types_.md) › [RecentlyOffline](_types_.recentlyoffline.md)
 
 # Interface: RecentlyOffline
 
@@ -21,7 +21,7 @@
 
 • **blockNumber**: *BlockNumber*
 
-*Defined in [types.ts:55](https://github.com/polkadot-js/api/blob/ad9d21c/packages/api-derive/src/types.ts#L55)*
+*Defined in [types.ts:55](https://github.com/polkadot-js/api/blob/1584100/packages/api-derive/src/types.ts#L55)*
 
 ___
 
@@ -29,4 +29,4 @@ ___
 
 • **count**: *BN*
 
-*Defined in [types.ts:56](https://github.com/polkadot-js/api/blob/ad9d21c/packages/api-derive/src/types.ts#L56)*
+*Defined in [types.ts:56](https://github.com/polkadot-js/api/blob/1584100/packages/api-derive/src/types.ts#L56)*

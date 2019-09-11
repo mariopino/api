@@ -1,6 +1,6 @@
 **[Polkadot JS API](../README.md)**
 
-[Globals](../globals.md) › ["types"](../modules/_types_.md) › [DerivedStakingOnlineStatus](_types_.derivedstakingonlinestatus.md)
+[Globals](../globals.md) › [&quot;types&quot;](../modules/_types_.md) › [DerivedStakingOnlineStatus](_types_.derivedstakingonlinestatus.md)
 
 # Interface: DerivedStakingOnlineStatus
 
@@ -23,7 +23,7 @@
 
 • **offline**? : *object[]*
 
-*Defined in [types.ts:89](https://github.com/polkadot-js/api/blob/ad9d21c/packages/api-derive/src/types.ts#L89)*
+*Defined in [types.ts:89](https://github.com/polkadot-js/api/blob/1584100/packages/api-derive/src/types.ts#L89)*
 
 ___
 
@@ -31,4 +31,4 @@ ___
 
 • **online**? : *undefined | object*
 
-*Defined in [types.ts:85](https://github.com/polkadot-js/api/blob/ad9d21c/packages/api-derive/src/types.ts#L85)*
+*Defined in [types.ts:85](https://github.com/polkadot-js/api/blob/1584100/packages/api-derive/src/types.ts#L85)*

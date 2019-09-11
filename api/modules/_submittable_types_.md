@@ -1,6 +1,6 @@
 **[Polkadot JS API](../README.md)**
 
-[Globals](../globals.md) › ["submittable/types"](_submittable_types_.md)
+[Globals](../globals.md) › [&quot;submittable/types&quot;](_submittable_types_.md)
 
 # External module: "submittable/types"
 
@@ -24,7 +24,7 @@
 
 Ƭ **SubmitableResultResult**: *SubmitableResultResult<ApiType>*
 
-*Defined in [submittable/types.ts:25](https://github.com/polkadot-js/api/blob/ad9d21c/packages/api/src/submittable/types.ts#L25)*
+*Defined in [submittable/types.ts:25](https://github.com/polkadot-js/api/blob/1584100/packages/api/src/submittable/types.ts#L25)*
 
 ___
 
@@ -32,4 +32,4 @@ ___
 
 Ƭ **SubmitableResultSubscription**: *SubmitableResultSubscription<ApiType>*
 
-*Defined in [submittable/types.ts:30](https://github.com/polkadot-js/api/blob/ad9d21c/packages/api/src/submittable/types.ts#L30)*
+*Defined in [submittable/types.ts:30](https://github.com/polkadot-js/api/blob/1584100/packages/api/src/submittable/types.ts#L30)*

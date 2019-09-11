@@ -1,6 +1,6 @@
 **[Polkadot JS API](../README.md)**
 
-[Globals](../globals.md) › ["promise/Combinator"](../modules/_promise_combinator_.md) › [Combinator](_promise_combinator_.combinator.md)
+[Globals](../globals.md) › [&quot;promise/Combinator&quot;](../modules/_promise_combinator_.md) › [Combinator](_promise_combinator_.combinator.md)
 
 # Class: Combinator
 
@@ -24,13 +24,13 @@
 
 \+ **new Combinator**(`fns`: [CombinatorFunction](../interfaces/_promise_combinator_.combinatorfunction.md) | [[CombinatorFunction](../interfaces/_promise_combinator_.combinatorfunction.md), any][], `callback`: [CombinatorCallback](../modules/_promise_combinator_.md#combinatorcallback)): *[Combinator](_promise_combinator_.combinator.md)*
 
-*Defined in [promise/Combinator.ts:28](https://github.com/polkadot-js/api/blob/ad9d21c/packages/api/src/promise/Combinator.ts#L28)*
+*Defined in [promise/Combinator.ts:28](https://github.com/polkadot-js/api/blob/1584100/packages/api/src/promise/Combinator.ts#L28)*
 
 **Parameters:**
 
 Name | Type |
 ------ | ------ |
-`fns` | [CombinatorFunction](../interfaces/_promise_combinator_.combinatorfunction.md) \| [[CombinatorFunction](../interfaces/_promise_combinator_.combinatorfunction.md), any][] |
+`fns` | [CombinatorFunction](../interfaces/_promise_combinator_.combinatorfunction.md) &#124; [[CombinatorFunction](../interfaces/_promise_combinator_.combinatorfunction.md), any][] |
 `callback` | [CombinatorCallback](../modules/_promise_combinator_.md#combinatorcallback) |
 
 **Returns:** *[Combinator](_promise_combinator_.combinator.md)*
@@ -41,6 +41,6 @@ Name | Type |
 
 ▸ **unsubscribe**(): *void*
 
-*Defined in [promise/Combinator.ts:76](https://github.com/polkadot-js/api/blob/ad9d21c/packages/api/src/promise/Combinator.ts#L76)*
+*Defined in [promise/Combinator.ts:76](https://github.com/polkadot-js/api/blob/1584100/packages/api/src/promise/Combinator.ts#L76)*
 
 **Returns:** *void*

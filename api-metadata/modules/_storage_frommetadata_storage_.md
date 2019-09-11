@@ -1,6 +1,6 @@
 **[Polkadot JS API](../README.md)**
 
-[Globals](../globals.md) › ["storage/fromMetadata/storage"](_storage_frommetadata_storage_.md)
+[Globals](../globals.md) › [&quot;storage/fromMetadata/storage&quot;](_storage_frommetadata_storage_.md)
 
 # External module: "storage/fromMetadata/storage"
 
@@ -16,10 +16,10 @@
 
 ### ▪ **storage**: *object*
 
-*Defined in [storage/fromMetadata/storage.ts:8](https://github.com/polkadot-js/api/blob/ad9d21c/packages/api-metadata/src/storage/fromMetadata/storage.ts#L8)*
+*Defined in [storage/fromMetadata/storage.ts:8](https://github.com/polkadot-js/api/blob/1584100/packages/api-metadata/src/storage/fromMetadata/storage.ts#L8)*
 
 ###  substrate
 
 • **substrate**: *["storage/fromMetadata/substrate"](_storage_frommetadata_substrate_.md)*
 
-*Defined in [storage/fromMetadata/storage.ts:9](https://github.com/polkadot-js/api/blob/ad9d21c/packages/api-metadata/src/storage/fromMetadata/storage.ts#L9)*
+*Defined in [storage/fromMetadata/storage.ts:9](https://github.com/polkadot-js/api/blob/1584100/packages/api-metadata/src/storage/fromMetadata/storage.ts#L9)*

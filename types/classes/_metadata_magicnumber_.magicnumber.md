@@ -1,6 +1,6 @@
 **[Polkadot JS API](../README.md)**
 
-[Globals](../globals.md) › ["Metadata/MagicNumber"](../modules/_metadata_magicnumber_.md) › [MagicNumber](_metadata_magicnumber_.magicnumber.md)
+[Globals](../globals.md) › [&quot;Metadata/MagicNumber&quot;](../modules/_metadata_magicnumber_.md) › [MagicNumber](_metadata_magicnumber_.magicnumber.md)
 
 # Class: MagicNumber
 
@@ -34,7 +34,7 @@
 
 *Overrides [U32](_primitive_u32_.u32.md).[constructor](_primitive_u32_.u32.md#constructor)*
 
-*Defined in [Metadata/MagicNumber.ts:11](https://github.com/polkadot-js/api/blob/ad9d21c/packages/types/src/Metadata/MagicNumber.ts#L11)*
+*Defined in [Metadata/MagicNumber.ts:11](https://github.com/polkadot-js/api/blob/1584100/packages/types/src/Metadata/MagicNumber.ts#L11)*
 
 **Parameters:**
 
@@ -54,7 +54,7 @@ Name | Type |
 
 *Overrides void*
 
-*Defined in [codec/UInt.ts:37](https://github.com/polkadot-js/api/blob/ad9d21c/packages/types/src/codec/UInt.ts#L37)*
+*Defined in [codec/UInt.ts:37](https://github.com/polkadot-js/api/blob/1584100/packages/types/src/codec/UInt.ts#L37)*
 
 **`description`** Returns a hex string representation of the value
 
@@ -78,7 +78,7 @@ ___
 
 *Overrides void*
 
-*Defined in [codec/UInt.ts:49](https://github.com/polkadot-js/api/blob/ad9d21c/packages/types/src/codec/UInt.ts#L49)*
+*Defined in [codec/UInt.ts:49](https://github.com/polkadot-js/api/blob/1584100/packages/types/src/codec/UInt.ts#L49)*
 
 **`description`** Returns the base runtime type name for this instance
 
@@ -96,7 +96,7 @@ ___
 
 *Overrides void*
 
-*Defined in [codec/UInt.ts:63](https://github.com/polkadot-js/api/blob/ad9d21c/packages/types/src/codec/UInt.ts#L63)*
+*Defined in [codec/UInt.ts:63](https://github.com/polkadot-js/api/blob/1584100/packages/types/src/codec/UInt.ts#L63)*
 
 **`description`** Encodes the value as a Uint8Array as per the SCALE specifications
 
@@ -104,6 +104,6 @@ ___
 
 Name | Type | Description |
 ------ | ------ | ------ |
-`isBare?` | undefined \| false \| true | true when the value has none of the type-specific prefixes (internal)  |
+`isBare?` | undefined &#124; false &#124; true | true when the value has none of the type-specific prefixes (internal)  |
 
 **Returns:** *Uint8Array*

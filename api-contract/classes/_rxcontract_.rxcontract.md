@@ -1,6 +1,6 @@
 **[Polkadot JS API](../README.md)**
 
-[Globals](../globals.md) › ["RxContract"](../modules/_rxcontract_.md) › [RxContract](_rxcontract_.rxcontract.md)
+[Globals](../globals.md) › [&quot;RxContract&quot;](../modules/_rxcontract_.md) › [RxContract](_rxcontract_.rxcontract.md)
 
 # Class: RxContract
 
@@ -37,15 +37,15 @@
 
 *Overrides [RxBase](_rxbase_.rxbase.md).[constructor](_rxbase_.rxbase.md#constructor)*
 
-*Defined in [RxContract.ts:28](https://github.com/polkadot-js/api/blob/ad9d21c/packages/api-contract/src/RxContract.ts#L28)*
+*Defined in [RxContract.ts:28](https://github.com/polkadot-js/api/blob/1584100/packages/api-contract/src/RxContract.ts#L28)*
 
 **Parameters:**
 
 Name | Type |
 ------ | ------ |
 `api` | ApiRx |
-`abi` | [ContractABI](../interfaces/_types_.contractabi.md) \| Abi |
-`address` | string \| AccountId \| Address |
+`abi` | [ContractABI](../interfaces/_types_.contractabi.md) &#124; Abi |
+`address` | string &#124; AccountId &#124; Address |
 
 **Returns:** *[RxContract](_rxcontract_.rxcontract.md)*
 
@@ -59,7 +59,7 @@ Name | Type |
 
 *Inherited from [RxBase](_rxbase_.rxbase.md).[abi](_rxbase_.rxbase.md#abi)*
 
-*Defined in [RxBase.ts:14](https://github.com/polkadot-js/api/blob/ad9d21c/packages/api-contract/src/RxBase.ts#L14)*
+*Defined in [RxBase.ts:14](https://github.com/polkadot-js/api/blob/1584100/packages/api-contract/src/RxBase.ts#L14)*
 
 ___
 
@@ -69,7 +69,7 @@ ___
 
 *Implementation of [InterfaceContract](../interfaces/_types_.interfacecontract.md).[address](../interfaces/_types_.interfacecontract.md#address)*
 
-*Defined in [RxContract.ts:26](https://github.com/polkadot-js/api/blob/ad9d21c/packages/api-contract/src/RxContract.ts#L26)*
+*Defined in [RxContract.ts:26](https://github.com/polkadot-js/api/blob/1584100/packages/api-contract/src/RxContract.ts#L26)*
 
 ___
 
@@ -81,7 +81,7 @@ ___
 
 *Inherited from [RxBase](_rxbase_.rxbase.md).[api](_rxbase_.rxbase.md#api)*
 
-*Defined in [RxBase.ts:16](https://github.com/polkadot-js/api/blob/ad9d21c/packages/api-contract/src/RxBase.ts#L16)*
+*Defined in [RxBase.ts:16](https://github.com/polkadot-js/api/blob/1584100/packages/api-contract/src/RxBase.ts#L16)*
 
 ___
 
@@ -93,7 +93,7 @@ ___
 
 *Inherited from [RxBase](_rxbase_.rxbase.md).[apiContracts](_rxbase_.rxbase.md#apicontracts)*
 
-*Defined in [RxBase.ts:18](https://github.com/polkadot-js/api/blob/ad9d21c/packages/api-contract/src/RxBase.ts#L18)*
+*Defined in [RxBase.ts:18](https://github.com/polkadot-js/api/blob/1584100/packages/api-contract/src/RxBase.ts#L18)*
 
 ___
 
@@ -103,4 +103,4 @@ ___
 
 *Implementation of [InterfaceContract](../interfaces/_types_.interfacecontract.md).[calls](../interfaces/_types_.interfacecontract.md#calls)*
 
-*Defined in [RxContract.ts:28](https://github.com/polkadot-js/api/blob/ad9d21c/packages/api-contract/src/RxContract.ts#L28)*
+*Defined in [RxContract.ts:28](https://github.com/polkadot-js/api/blob/1584100/packages/api-contract/src/RxContract.ts#L28)*

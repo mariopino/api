@@ -1,6 +1,6 @@
 **[Polkadot JS API](../README.md)**
 
-[Globals](../globals.md) › ["primitive/Type"](../modules/_primitive_type_.md) › [Type](_primitive_type_.type.md)
+[Globals](../globals.md) › [&quot;primitive/Type&quot;](../modules/_primitive_type_.md) › [Type](_primitive_type_.type.md)
 
 # Class: Type
 
@@ -55,13 +55,13 @@ i.e. we remove the `T::` prefixes found in some types for consistency accross im
 
 *Overrides [Text](_primitive_text_.text.md).[constructor](_primitive_text_.text.md#constructor)*
 
-*Defined in [primitive/Type.ts:61](https://github.com/polkadot-js/api/blob/ad9d21c/packages/types/src/primitive/Type.ts#L61)*
+*Defined in [primitive/Type.ts:61](https://github.com/polkadot-js/api/blob/1584100/packages/types/src/primitive/Type.ts#L61)*
 
 **Parameters:**
 
 Name | Type | Default |
 ------ | ------ | ------ |
-`value` | [Text](_primitive_text_.text.md) \| Uint8Array \| string | "" |
+`value` | [Text](_primitive_text_.text.md) &#124; Uint8Array &#124; string | "" |
 
 **Returns:** *[Type](_primitive_type_.type.md)*
 
@@ -73,7 +73,7 @@ Name | Type | Default |
 
 *Overrides [Text](_primitive_text_.text.md).[encodedLength](_primitive_text_.text.md#encodedlength)*
 
-*Defined in [primitive/Type.ts:87](https://github.com/polkadot-js/api/blob/ad9d21c/packages/types/src/primitive/Type.ts#L87)*
+*Defined in [primitive/Type.ts:87](https://github.com/polkadot-js/api/blob/1584100/packages/types/src/primitive/Type.ts#L87)*
 
 **`description`** The length of the value when encoded as a Uint8Array
 
@@ -87,7 +87,7 @@ ___
 
 *Inherited from [Text](_primitive_text_.text.md).[hash](_primitive_text_.text.md#hash)*
 
-*Defined in [primitive/Text.ts:59](https://github.com/polkadot-js/api/blob/ad9d21c/packages/types/src/primitive/Text.ts#L59)*
+*Defined in [primitive/Text.ts:59](https://github.com/polkadot-js/api/blob/1584100/packages/types/src/primitive/Text.ts#L59)*
 
 **`description`** returns a hash of the contents
 
@@ -101,7 +101,7 @@ ___
 
 *Inherited from [Text](_primitive_text_.text.md).[isEmpty](_primitive_text_.text.md#isempty)*
 
-*Defined in [primitive/Text.ts:66](https://github.com/polkadot-js/api/blob/ad9d21c/packages/types/src/primitive/Text.ts#L66)*
+*Defined in [primitive/Text.ts:66](https://github.com/polkadot-js/api/blob/1584100/packages/types/src/primitive/Text.ts#L66)*
 
 **`description`** Checks if the value is an empty value
 
@@ -117,7 +117,7 @@ ___
 
 *Overrides void*
 
-*Defined in [primitive/Text.ts:73](https://github.com/polkadot-js/api/blob/ad9d21c/packages/types/src/primitive/Text.ts#L73)*
+*Defined in [primitive/Text.ts:73](https://github.com/polkadot-js/api/blob/1584100/packages/types/src/primitive/Text.ts#L73)*
 
 **`description`** The length of the value
 
@@ -133,7 +133,7 @@ ___
 
 *Inherited from [Text](_primitive_text_.text.md).[eq](_primitive_text_.text.md#eq)*
 
-*Defined in [primitive/Text.ts:81](https://github.com/polkadot-js/api/blob/ad9d21c/packages/types/src/primitive/Text.ts#L81)*
+*Defined in [primitive/Text.ts:81](https://github.com/polkadot-js/api/blob/1584100/packages/types/src/primitive/Text.ts#L81)*
 
 **`description`** Compares the value of the input to see if there is a match
 
@@ -153,7 +153,7 @@ ___
 
 *Inherited from [Text](_primitive_text_.text.md).[toHex](_primitive_text_.text.md#tohex)*
 
-*Defined in [primitive/Text.ts:90](https://github.com/polkadot-js/api/blob/ad9d21c/packages/types/src/primitive/Text.ts#L90)*
+*Defined in [primitive/Text.ts:90](https://github.com/polkadot-js/api/blob/1584100/packages/types/src/primitive/Text.ts#L90)*
 
 **`description`** Returns a hex string representation of the value
 
@@ -169,7 +169,7 @@ ___
 
 *Inherited from [Text](_primitive_text_.text.md).[toJSON](_primitive_text_.text.md#tojson)*
 
-*Defined in [primitive/Text.ts:99](https://github.com/polkadot-js/api/blob/ad9d21c/packages/types/src/primitive/Text.ts#L99)*
+*Defined in [primitive/Text.ts:99](https://github.com/polkadot-js/api/blob/1584100/packages/types/src/primitive/Text.ts#L99)*
 
 **`description`** Converts the Object to JSON, typically used for RPC transfers
 
@@ -185,7 +185,7 @@ ___
 
 *Overrides [Text](_primitive_text_.text.md).[toRawType](_primitive_text_.text.md#torawtype)*
 
-*Defined in [primitive/Type.ts:246](https://github.com/polkadot-js/api/blob/ad9d21c/packages/types/src/primitive/Type.ts#L246)*
+*Defined in [primitive/Type.ts:246](https://github.com/polkadot-js/api/blob/1584100/packages/types/src/primitive/Type.ts#L246)*
 
 **`description`** Returns the base runtime type name for this instance
 
@@ -203,7 +203,7 @@ ___
 
 *Overrides void*
 
-*Defined in [primitive/Text.ts:113](https://github.com/polkadot-js/api/blob/ad9d21c/packages/types/src/primitive/Text.ts#L113)*
+*Defined in [primitive/Text.ts:113](https://github.com/polkadot-js/api/blob/1584100/packages/types/src/primitive/Text.ts#L113)*
 
 **`description`** Returns the string representation of the value
 
@@ -219,7 +219,7 @@ ___
 
 *Inherited from [Text](_primitive_text_.text.md).[toU8a](_primitive_text_.text.md#tou8a)*
 
-*Defined in [primitive/Text.ts:122](https://github.com/polkadot-js/api/blob/ad9d21c/packages/types/src/primitive/Text.ts#L122)*
+*Defined in [primitive/Text.ts:122](https://github.com/polkadot-js/api/blob/1584100/packages/types/src/primitive/Text.ts#L122)*
 
 **`description`** Encodes the value as a Uint8Array as per the SCALE specifications
 
@@ -227,6 +227,6 @@ ___
 
 Name | Type | Description |
 ------ | ------ | ------ |
-`isBare?` | undefined \| false \| true | true when the value has none of the type-specific prefixes (internal)  |
+`isBare?` | undefined &#124; false &#124; true | true when the value has none of the type-specific prefixes (internal)  |
 
 **Returns:** *Uint8Array*

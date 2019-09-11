@@ -1,6 +1,6 @@
 **[Polkadot JS API](../README.md)**
 
-[Globals](../globals.md) › ["chain/getHeader"](_chain_getheader_.md)
+[Globals](../globals.md) › [&quot;chain/getHeader&quot;](_chain_getheader_.md)
 
 # External module: "chain/getHeader"
 
@@ -16,7 +16,7 @@
 
 ▸ **getHeader**(`api`: ApiInterfaceRx): *function*
 
-*Defined in [chain/getHeader.ts:27](https://github.com/polkadot-js/api/blob/ad9d21c/packages/api-derive/src/chain/getHeader.ts#L27)*
+*Defined in [chain/getHeader.ts:27](https://github.com/polkadot-js/api/blob/1584100/packages/api-derive/src/chain/getHeader.ts#L27)*
 
 **`name`** bestNumberFinalized
 
@@ -47,4 +47,4 @@ An array containing the block header and the block author
 
 Name | Type | Description |
 ------ | ------ | ------ |
-`hash` | Uint8Array \| string | A block hash as U8 array or string. |
+`hash` | Uint8Array &#124; string | A block hash as U8 array or string. |

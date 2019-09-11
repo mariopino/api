@@ -1,6 +1,6 @@
 **[Polkadot JS API](../README.md)**
 
-[Globals](../globals.md) › ["primitive/Extrinsic/types"](_primitive_extrinsic_types_.md)
+[Globals](../globals.md) › [&quot;primitive/Extrinsic/types&quot;](_primitive_extrinsic_types_.md)
 
 # External module: "primitive/Extrinsic/types"
 

@@ -1,6 +1,6 @@
 **[Polkadot JS API](../README.md)**
 
-[Globals](../globals.md) › ["types"](../modules/_types_.md) › [SignerResult](_types_.signerresult.md)
+[Globals](../globals.md) › [&quot;types&quot;](../modules/_types_.md) › [SignerResult](_types_.signerresult.md)
 
 # Interface: SignerResult
 
@@ -21,7 +21,7 @@
 
 • **id**: *number*
 
-*Defined in [types.ts:229](https://github.com/polkadot-js/api/blob/ad9d21c/packages/api/src/types.ts#L229)*
+*Defined in [types.ts:229](https://github.com/polkadot-js/api/blob/1584100/packages/api/src/types.ts#L229)*
 
 **`description`** The id for this request
 
@@ -31,6 +31,6 @@ ___
 
 • **signature**: *string*
 
-*Defined in [types.ts:234](https://github.com/polkadot-js/api/blob/ad9d21c/packages/api/src/types.ts#L234)*
+*Defined in [types.ts:234](https://github.com/polkadot-js/api/blob/1584100/packages/api/src/types.ts#L234)*
 
 **`description`** The resulting signature in hex

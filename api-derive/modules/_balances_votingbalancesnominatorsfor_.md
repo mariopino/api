@@ -1,6 +1,6 @@
 **[Polkadot JS API](../README.md)**
 
-[Globals](../globals.md) › ["balances/votingBalancesNominatorsFor"](_balances_votingbalancesnominatorsfor_.md)
+[Globals](../globals.md) › [&quot;balances/votingBalancesNominatorsFor&quot;](_balances_votingbalancesnominatorsfor_.md)
 
 # External module: "balances/votingBalancesNominatorsFor"
 
@@ -16,7 +16,7 @@
 
 ▸ **votingBalancesNominatorsFor**(`api`: ApiInterfaceRx): *function*
 
-*Defined in [balances/votingBalancesNominatorsFor.ts:17](https://github.com/polkadot-js/api/blob/ad9d21c/packages/api-derive/src/balances/votingBalancesNominatorsFor.ts#L17)*
+*Defined in [balances/votingBalancesNominatorsFor.ts:17](https://github.com/polkadot-js/api/blob/1584100/packages/api-derive/src/balances/votingBalancesNominatorsFor.ts#L17)*
 
 **Parameters:**
 
@@ -32,4 +32,4 @@ Name | Type |
 
 Name | Type |
 ------ | ------ |
-`address` | AccountId \| AccountIndex \| Address \| string |
+`address` | AccountId &#124; AccountIndex &#124; Address &#124; string |

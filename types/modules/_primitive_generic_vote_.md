@@ -1,6 +1,6 @@
 **[Polkadot JS API](../README.md)**
 
-[Globals](../globals.md) › ["primitive/Generic/Vote"](_primitive_generic_vote_.md)
+[Globals](../globals.md) › [&quot;primitive/Generic/Vote&quot;](_primitive_generic_vote_.md)
 
 # External module: "primitive/Generic/Vote"
 

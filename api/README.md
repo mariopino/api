@@ -2,6 +2,8 @@
 
 [Globals](globals.md)
 
+# Polkadot JS API
+
 # @polkadot/api
 
 The Polkadot-JS API provides easy-to-use wrappers around JSONRPC calls that flow from an application to a node. It handles all the encoding and decoding or parameters, provides access to RPC functions and allows for the query of chain state and the submission of transactions.

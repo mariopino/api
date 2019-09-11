@@ -1,6 +1,6 @@
 **[Polkadot JS API](../README.md)**
 
-[Globals](../globals.md) › ["types"](../modules/_types_.md) › [RpcInterfaceMethod](_types_.rpcinterfacemethod.md)
+[Globals](../globals.md) › [&quot;types&quot;](../modules/_types_.md) › [RpcInterfaceMethod](_types_.rpcinterfacemethod.md)
 
 # Interface: RpcInterfaceMethod
 
@@ -12,7 +12,7 @@
 
 ▸ (...`params`: any[]): *Observable‹any›*
 
-*Defined in [types.ts:7](https://github.com/polkadot-js/api/blob/ad9d21c/packages/rpc-core/src/types.ts#L7)*
+*Defined in [types.ts:7](https://github.com/polkadot-js/api/blob/1584100/packages/rpc-core/src/types.ts#L7)*
 
 **Parameters:**
 

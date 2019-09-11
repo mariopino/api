@@ -1,6 +1,6 @@
 **[Polkadot JS API](../README.md)**
 
-[Globals](../globals.md) › ["Metadata/v5/Metadata"](_metadata_v5_metadata_.md)
+[Globals](../globals.md) › [&quot;Metadata/v5/Metadata&quot;](_metadata_v5_metadata_.md)
 
 # External module: "Metadata/v5/Metadata"
 

@@ -1,6 +1,6 @@
 **[Polkadot JS API](../README.md)**
 
-[Globals](../globals.md) › ["accounts/indexToId"](_accounts_indextoid_.md)
+[Globals](../globals.md) › [&quot;accounts/indexToId&quot;](_accounts_indextoid_.md)
 
 # External module: "accounts/indexToId"
 
@@ -16,7 +16,7 @@
 
 ▸ **indexToId**(`api`: ApiInterfaceRx): *function*
 
-*Defined in [accounts/indexToId.ts:28](https://github.com/polkadot-js/api/blob/ad9d21c/packages/api-derive/src/accounts/indexToId.ts#L28)*
+*Defined in [accounts/indexToId.ts:28](https://github.com/polkadot-js/api/blob/1584100/packages/api-derive/src/accounts/indexToId.ts#L28)*
 
 **`name`** indexToId
 
@@ -45,4 +45,4 @@ Returns the corresponding AccountId.
 
 Name | Type | Description |
 ------ | ------ | ------ |
-`accountIndex` | AccountIndex \| string | An accounts index in different formats. |
+`accountIndex` | AccountIndex &#124; string | An accounts index in different formats. |

@@ -1,6 +1,6 @@
 **[Polkadot JS API](../README.md)**
 
-[Globals](../globals.md) › ["types"](../modules/_types_.md) › [ContractABIMeta](_types_.contractabimeta.md)
+[Globals](../globals.md) › [&quot;types&quot;](../modules/_types_.md) › [ContractABIMeta](_types_.contractabimeta.md)
 
 # Interface: ContractABIMeta
 
@@ -24,7 +24,7 @@
 
 • **args**: *[ContractABIFnArg](_types_.contractabifnarg.md)[]*
 
-*Defined in [types.ts:62](https://github.com/polkadot-js/api/blob/ad9d21c/packages/api-contract/src/types.ts#L62)*
+*Defined in [types.ts:62](https://github.com/polkadot-js/api/blob/1584100/packages/api-contract/src/types.ts#L62)*
 
 ___
 
@@ -32,7 +32,7 @@ ___
 
 • **isConstant**: *boolean*
 
-*Defined in [types.ts:63](https://github.com/polkadot-js/api/blob/ad9d21c/packages/api-contract/src/types.ts#L63)*
+*Defined in [types.ts:63](https://github.com/polkadot-js/api/blob/1584100/packages/api-contract/src/types.ts#L63)*
 
 ___
 
@@ -40,4 +40,4 @@ ___
 
 • **type**: *string | null*
 
-*Defined in [types.ts:64](https://github.com/polkadot-js/api/blob/ad9d21c/packages/api-contract/src/types.ts#L64)*
+*Defined in [types.ts:64](https://github.com/polkadot-js/api/blob/1584100/packages/api-contract/src/types.ts#L64)*

@@ -1,6 +1,6 @@
 **[Polkadot JS API](../README.md)**
 
-[Globals](../globals.md) › ["rx/Api"](_rx_api_.md)
+[Globals](../globals.md) › [&quot;rx/Api&quot;](_rx_api_.md)
 
 # External module: "rx/Api"
 

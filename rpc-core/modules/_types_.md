@@ -1,6 +1,6 @@
 **[Polkadot JS API](../README.md)**
 
-[Globals](../globals.md) › ["types"](_types_.md)
+[Globals](../globals.md) › [&quot;types&quot;](_types_.md)
 
 # External module: "types"
 

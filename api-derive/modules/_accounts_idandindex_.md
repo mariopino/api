@@ -1,6 +1,6 @@
 **[Polkadot JS API](../README.md)**
 
-[Globals](../globals.md) › ["accounts/idAndIndex"](_accounts_idandindex_.md)
+[Globals](../globals.md) › [&quot;accounts/idAndIndex&quot;](_accounts_idandindex_.md)
 
 # External module: "accounts/idAndIndex"
 
@@ -20,7 +20,7 @@
 
 Ƭ **AccountIdAndIndex**: *[undefined | AccountId, undefined | AccountIndex]*
 
-*Defined in [accounts/idAndIndex.ts:17](https://github.com/polkadot-js/api/blob/ad9d21c/packages/api-derive/src/accounts/idAndIndex.ts#L17)*
+*Defined in [accounts/idAndIndex.ts:17](https://github.com/polkadot-js/api/blob/1584100/packages/api-derive/src/accounts/idAndIndex.ts#L17)*
 
 ## Functions
 
@@ -28,7 +28,7 @@
 
 ▸ **idAndIndex**(`api`: ApiInterfaceRx): *function*
 
-*Defined in [accounts/idAndIndex.ts:32](https://github.com/polkadot-js/api/blob/ad9d21c/packages/api-derive/src/accounts/idAndIndex.ts#L32)*
+*Defined in [accounts/idAndIndex.ts:32](https://github.com/polkadot-js/api/blob/1584100/packages/api-derive/src/accounts/idAndIndex.ts#L32)*
 
 **`name`** idAndIndex
 
@@ -57,4 +57,4 @@ Name | Type |
 
 Name | Type | Description |
 ------ | ------ | ------ |
-`address?` | Address \| AccountId \| AccountIndex \| string \| null | An accounts address in various formats. |
+`address?` | Address &#124; AccountId &#124; AccountIndex &#124; string &#124; null | An accounts address in various formats. |

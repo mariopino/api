@@ -1,6 +1,6 @@
 **[Polkadot JS API](../README.md)**
 
-[Globals](../globals.md) › ["Abi"](_abi_.md)
+[Globals](../globals.md) › [&quot;Abi&quot;](_abi_.md)
 
 # External module: "Abi"
 

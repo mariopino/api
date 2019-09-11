@@ -1,6 +1,6 @@
 **[Polkadot JS API](../README.md)**
 
-[Globals](../globals.md) › ["primitive/Generic/Digest"](_primitive_generic_digest_.md)
+[Globals](../globals.md) › [&quot;primitive/Generic/Digest&quot;](_primitive_generic_digest_.md)
 
 # External module: "primitive/Generic/Digest"
 

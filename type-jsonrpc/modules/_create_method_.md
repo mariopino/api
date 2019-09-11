@@ -1,6 +1,6 @@
 **[Polkadot JS API](../README.md)**
 
-[Globals](../globals.md) › ["create/method"](_create_method_.md)
+[Globals](../globals.md) › [&quot;create/method&quot;](_create_method_.md)
 
 # External module: "create/method"
 
@@ -16,7 +16,7 @@
 
 ▸ **createMethod**(`section`: string, `method`: string, `__namedParameters`: object): *[RpcMethod](../interfaces/_types_.rpcmethod.md)*
 
-*Defined in [create/method.ts:9](https://github.com/polkadot-js/api/blob/ad9d21c/packages/type-jsonrpc/src/create/method.ts#L9)*
+*Defined in [create/method.ts:9](https://github.com/polkadot-js/api/blob/1584100/packages/type-jsonrpc/src/create/method.ts#L9)*
 
 **Parameters:**
 

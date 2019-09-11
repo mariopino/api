@@ -1,6 +1,6 @@
 **[Polkadot JS API](../README.md)**
 
-[Globals](../globals.md) › ["types"](../modules/_types_.md) › [DecorateMethodOptions](_types_.decoratemethodoptions.md)
+[Globals](../globals.md) › [&quot;types&quot;](../modules/_types_.md) › [DecorateMethodOptions](_types_.decoratemethodoptions.md)
 
 # Interface: DecorateMethodOptions
 
@@ -20,4 +20,4 @@
 
 • **methodName**? : *undefined | string*
 
-*Defined in [types.ts:50](https://github.com/polkadot-js/api/blob/ad9d21c/packages/api/src/types.ts#L50)*
+*Defined in [types.ts:50](https://github.com/polkadot-js/api/blob/1584100/packages/api/src/types.ts#L50)*

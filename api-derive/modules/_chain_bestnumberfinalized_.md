@@ -1,6 +1,6 @@
 **[Polkadot JS API](../README.md)**
 
-[Globals](../globals.md) › ["chain/bestNumberFinalized"](_chain_bestnumberfinalized_.md)
+[Globals](../globals.md) › [&quot;chain/bestNumberFinalized&quot;](_chain_bestnumberfinalized_.md)
 
 # External module: "chain/bestNumberFinalized"
 
@@ -16,7 +16,7 @@
 
 ▸ **bestNumberFinalized**(`api`: ApiInterfaceRx): *function*
 
-*Defined in [chain/bestNumberFinalized.ts:26](https://github.com/polkadot-js/api/blob/ad9d21c/packages/api-derive/src/chain/bestNumberFinalized.ts#L26)*
+*Defined in [chain/bestNumberFinalized.ts:26](https://github.com/polkadot-js/api/blob/1584100/packages/api-derive/src/chain/bestNumberFinalized.ts#L26)*
 
 **`name`** bestNumberFinalized
 

@@ -1,6 +1,6 @@
 **[Polkadot JS API](../README.md)**
 
-[Globals](../globals.md) › ["codec/Int"](_codec_int_.md)
+[Globals](../globals.md) › [&quot;codec/Int&quot;](_codec_int_.md)
 
 # External module: "codec/Int"
 

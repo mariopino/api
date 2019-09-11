@@ -1,6 +1,6 @@
 **[Polkadot JS API](../README.md)**
 
-[Globals](../globals.md) › ["primitive/Extrinsic/SignerPayload"](_primitive_extrinsic_signerpayload_.md)
+[Globals](../globals.md) › [&quot;primitive/Extrinsic/SignerPayload&quot;](_primitive_extrinsic_signerpayload_.md)
 
 # External module: "primitive/Extrinsic/SignerPayload"
 

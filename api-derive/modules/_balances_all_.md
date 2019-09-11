@@ -1,6 +1,6 @@
 **[Polkadot JS API](../README.md)**
 
-[Globals](../globals.md) › ["balances/all"](_balances_all_.md)
+[Globals](../globals.md) › [&quot;balances/all&quot;](_balances_all_.md)
 
 # External module: "balances/all"
 
@@ -16,7 +16,7 @@
 
 ▸ **all**(`api`: ApiInterfaceRx): *function*
 
-*Defined in [balances/all.ts:75](https://github.com/polkadot-js/api/blob/ad9d21c/packages/api-derive/src/balances/all.ts#L75)*
+*Defined in [balances/all.ts:75](https://github.com/polkadot-js/api/blob/1584100/packages/api-derive/src/balances/all.ts#L75)*
 
 **`name`** all
 
@@ -48,4 +48,4 @@ all relevant fees as declared in the substrate chain spec.
 
 Name | Type | Description |
 ------ | ------ | ------ |
-`address` | AccountIndex \| AccountId \| Address \| string | An accounts Id in different formats. |
+`address` | AccountIndex &#124; AccountId &#124; Address &#124; string | An accounts Id in different formats. |

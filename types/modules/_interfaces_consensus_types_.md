@@ -1,6 +1,6 @@
 **[Polkadot JS API](../README.md)**
 
-[Globals](../globals.md) › ["interfaces/consensus/types"](_interfaces_consensus_types_.md)
+[Globals](../globals.md) › [&quot;interfaces/consensus/types&quot;](_interfaces_consensus_types_.md)
 
 # External module: "interfaces/consensus/types"
 
@@ -16,6 +16,6 @@
 
 Ƭ **AuthorityId**: *[AccountId](../classes/_primitive_generic_accountid_.accountid.md)*
 
-*Defined in [interfaces/consensus/types.ts:7](https://github.com/polkadot-js/api/blob/ad9d21c/packages/types/src/interfaces/consensus/types.ts#L7)*
+*Defined in [interfaces/consensus/types.ts:7](https://github.com/polkadot-js/api/blob/1584100/packages/types/src/interfaces/consensus/types.ts#L7)*
 
 AccountId

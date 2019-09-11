@@ -2,6 +2,8 @@
 
 [Globals](globals.md)
 
+# Polkadot JS API
+
 # @polkadot/types
 
 Implementation of the types and their (de-)serialisation via SCALE codec.<br>

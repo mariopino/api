@@ -1,6 +1,6 @@
 **[Polkadot JS API](../README.md)**
 
-[Globals](../globals.md) › ["base/Decorate"](_base_decorate_.md)
+[Globals](../globals.md) › [&quot;base/Decorate&quot;](_base_decorate_.md)
 
 # External module: "base/Decorate"
 

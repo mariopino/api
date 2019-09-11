@@ -1,6 +1,6 @@
 **[Polkadot JS API](../README.md)**
 
-[Globals](../globals.md) › ["types"](../modules/_types_.md) › [Constructor](_types_.constructor.md)
+[Globals](../globals.md) › [&quot;types&quot;](../modules/_types_.md) › [Constructor](_types_.constructor.md)
 
 # Interface: Constructor <**T**>
 
@@ -24,7 +24,7 @@
 
 \+ **new Constructor**(...`value`: any[]): *T*
 
-*Defined in [types.ts:125](https://github.com/polkadot-js/api/blob/ad9d21c/packages/types/src/types.ts#L125)*
+*Defined in [types.ts:125](https://github.com/polkadot-js/api/blob/1584100/packages/types/src/types.ts#L125)*
 
 **Parameters:**
 

@@ -1,6 +1,6 @@
 **[Polkadot JS API](../README.md)**
 
-[Globals](../globals.md) › ["RxBase"](_rxbase_.md)
+[Globals](../globals.md) › [&quot;RxBase&quot;](_rxbase_.md)
 
 # External module: "RxBase"
 

@@ -2,6 +2,8 @@
 
 [Globals](globals.md)
 
+# Polkadot JS API
+
 # @polkadot/api-contract
 
 Interfaces to allow for the encoding and decoding of Substrate contract ABIs.

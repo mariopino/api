@@ -1,6 +1,6 @@
 **[Polkadot JS API](../README.md)**
 
-[Globals](../globals.md) › ["primitive/Extrinsic/types"](../modules/_primitive_extrinsic_types_.md) › [ExtrinsicPayloadOptions](_primitive_extrinsic_types_.extrinsicpayloadoptions.md)
+[Globals](../globals.md) › [&quot;primitive/Extrinsic/types&quot;](../modules/_primitive_extrinsic_types_.md) › [ExtrinsicPayloadOptions](_primitive_extrinsic_types_.extrinsicpayloadoptions.md)
 
 # Interface: ExtrinsicPayloadOptions
 
@@ -20,4 +20,4 @@
 
 • **version**: *number*
 
-*Defined in [primitive/Extrinsic/types.ts:13](https://github.com/polkadot-js/api/blob/ad9d21c/packages/types/src/primitive/Extrinsic/types.ts#L13)*
+*Defined in [primitive/Extrinsic/types.ts:13](https://github.com/polkadot-js/api/blob/1584100/packages/types/src/primitive/Extrinsic/types.ts#L13)*

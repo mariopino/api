@@ -1,6 +1,6 @@
 **[Polkadot JS API](../README.md)**
 
-[Globals](../globals.md) › ["util/approvalFlagsToBools"](_util_approvalflagstobools_.md)
+[Globals](../globals.md) › [&quot;util/approvalFlagsToBools&quot;](_util_approvalflagstobools_.md)
 
 # External module: "util/approvalFlagsToBools"
 
@@ -16,12 +16,12 @@
 
 ▸ **approvalFlagsToBools**(`flags`: Vec‹ApprovalFlag› | ApprovalFlag[]): *boolean[]*
 
-*Defined in [util/approvalFlagsToBools.ts:9](https://github.com/polkadot-js/api/blob/ad9d21c/packages/api-derive/src/util/approvalFlagsToBools.ts#L9)*
+*Defined in [util/approvalFlagsToBools.ts:9](https://github.com/polkadot-js/api/blob/1584100/packages/api-derive/src/util/approvalFlagsToBools.ts#L9)*
 
 **Parameters:**
 
 Name | Type |
 ------ | ------ |
-`flags` | Vec‹ApprovalFlag› \| ApprovalFlag[] |
+`flags` | Vec‹ApprovalFlag› &#124; ApprovalFlag[] |
 
 **Returns:** *boolean[]*

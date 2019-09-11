@@ -1,6 +1,6 @@
 **[Polkadot JS API](../README.md)**
 
-[Globals](../globals.md) › ["types"](../modules/_types_.md) › [InterfaceContract](_types_.interfacecontract.md)
+[Globals](../globals.md) › [&quot;types&quot;](../modules/_types_.md) › [InterfaceContract](_types_.interfacecontract.md)
 
 # Interface: InterfaceContract
 
@@ -25,7 +25,7 @@
 
 • **address**: *Address*
 
-*Defined in [types.ts:90](https://github.com/polkadot-js/api/blob/ad9d21c/packages/api-contract/src/types.ts#L90)*
+*Defined in [types.ts:90](https://github.com/polkadot-js/api/blob/1584100/packages/api-contract/src/types.ts#L90)*
 
 ___
 
@@ -33,4 +33,4 @@ ___
 
 • **calls**: *[InterfaceContractCalls](_types_.interfacecontractcalls.md)*
 
-*Defined in [types.ts:91](https://github.com/polkadot-js/api/blob/ad9d21c/packages/api-contract/src/types.ts#L91)*
+*Defined in [types.ts:91](https://github.com/polkadot-js/api/blob/1584100/packages/api-contract/src/types.ts#L91)*

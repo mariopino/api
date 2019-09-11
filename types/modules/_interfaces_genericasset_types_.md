@@ -1,6 +1,6 @@
 **[Polkadot JS API](../README.md)**
 
-[Globals](../globals.md) › ["interfaces/genericAsset/types"](_interfaces_genericasset_types_.md)
+[Globals](../globals.md) › [&quot;interfaces/genericAsset/types&quot;](_interfaces_genericasset_types_.md)
 
 # External module: "interfaces/genericAsset/types"
 
@@ -23,6 +23,6 @@
 
 Ƭ **PermissionLatest**: *[PermissionsV1](../interfaces/_interfaces_genericasset_types_.permissionsv1.md)*
 
-*Defined in [interfaces/genericAsset/types.ts:26](https://github.com/polkadot-js/api/blob/ad9d21c/packages/types/src/interfaces/genericAsset/types.ts#L26)*
+*Defined in [interfaces/genericAsset/types.ts:26](https://github.com/polkadot-js/api/blob/1584100/packages/types/src/interfaces/genericAsset/types.ts#L26)*
 
 PermissionsV1

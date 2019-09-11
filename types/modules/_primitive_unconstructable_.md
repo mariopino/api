@@ -1,6 +1,6 @@
 **[Polkadot JS API](../README.md)**
 
-[Globals](../globals.md) › ["primitive/Unconstructable"](_primitive_unconstructable_.md)
+[Globals](../globals.md) › [&quot;primitive/Unconstructable&quot;](_primitive_unconstructable_.md)
 
 # External module: "primitive/Unconstructable"
 

@@ -1,6 +1,6 @@
 **[Polkadot JS API](../README.md)**
 
-[Globals](../globals.md) › ["interfaces/attestations/types"](_interfaces_attestations_types_.md)
+[Globals](../globals.md) › [&quot;interfaces/attestations/types&quot;](_interfaces_attestations_types_.md)
 
 # External module: "interfaces/attestations/types"
 

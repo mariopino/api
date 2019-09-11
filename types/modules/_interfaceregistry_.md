@@ -1,6 +1,6 @@
 **[Polkadot JS API](../README.md)**
 
-[Globals](../globals.md) › ["interfaceRegistry"](_interfaceregistry_.md)
+[Globals](../globals.md) › [&quot;interfaceRegistry&quot;](_interfaceregistry_.md)
 
 # External module: "interfaceRegistry"
 

@@ -1,6 +1,6 @@
 **[Polkadot JS API](../README.md)**
 
-[Globals](../globals.md) › ["Metadata/types"](_metadata_types_.md)
+[Globals](../globals.md) › [&quot;Metadata/types&quot;](_metadata_types_.md)
 
 # External module: "Metadata/types"
 

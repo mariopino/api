@@ -1,6 +1,6 @@
 **[Polkadot JS API](../README.md)**
 
-[Globals](../globals.md) › ["interfaces/staking/types"](_interfaces_staking_types_.md)
+[Globals](../globals.md) › [&quot;interfaces/staking/types&quot;](_interfaces_staking_types_.md)
 
 # External module: "interfaces/staking/types"
 
@@ -30,7 +30,7 @@
 
 Ƭ **EraIndex**: *[u32](../interfaces/_interfaceregistry_.interfaceregistry.md#u32)*
 
-*Defined in [interfaces/staking/types.ts:9](https://github.com/polkadot-js/api/blob/ad9d21c/packages/types/src/interfaces/staking/types.ts#L9)*
+*Defined in [interfaces/staking/types.ts:9](https://github.com/polkadot-js/api/blob/1584100/packages/types/src/interfaces/staking/types.ts#L9)*
 
 u32
 
@@ -40,6 +40,6 @@ ___
 
 Ƭ **MomentOf**: *[Moment](_interfaces_runtime_types_.md#moment)*
 
-*Defined in [interfaces/staking/types.ts:48](https://github.com/polkadot-js/api/blob/ad9d21c/packages/types/src/interfaces/staking/types.ts#L48)*
+*Defined in [interfaces/staking/types.ts:48](https://github.com/polkadot-js/api/blob/1584100/packages/types/src/interfaces/staking/types.ts#L48)*
 
 Moment

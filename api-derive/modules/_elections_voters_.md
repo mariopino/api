@@ -1,6 +1,6 @@
 **[Polkadot JS API](../README.md)**
 
-[Globals](../globals.md) › ["elections/voters"](_elections_voters_.md)
+[Globals](../globals.md) › [&quot;elections/voters&quot;](_elections_voters_.md)
 
 # External module: "elections/voters"
 
@@ -16,7 +16,7 @@
 
 ▸ **voters**(`api`: ApiInterfaceRx): *function*
 
-*Defined in [elections/voters.ts:28](https://github.com/polkadot-js/api/blob/ad9d21c/packages/api-derive/src/elections/voters.ts#L28)*
+*Defined in [elections/voters.ts:28](https://github.com/polkadot-js/api/blob/1584100/packages/api-derive/src/elections/voters.ts#L28)*
 
 **`name`** voters
 

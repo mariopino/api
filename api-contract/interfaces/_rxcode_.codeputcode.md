@@ -1,6 +1,6 @@
 **[Polkadot JS API](../README.md)**
 
-[Globals](../globals.md) › ["RxCode"](../modules/_rxcode_.md) › [CodePutCode](_rxcode_.codeputcode.md)
+[Globals](../globals.md) › [&quot;RxCode&quot;](../modules/_rxcode_.md) › [CodePutCode](_rxcode_.codeputcode.md)
 
 # Interface: CodePutCode
 
@@ -20,12 +20,12 @@
 
 ▸ **signAndSend**(`account`: IKeyringPair | string | AccountId | Address): *CodePutCodeResultSubscription*
 
-*Defined in [RxCode.ts:36](https://github.com/polkadot-js/api/blob/ad9d21c/packages/api-contract/src/RxCode.ts#L36)*
+*Defined in [RxCode.ts:36](https://github.com/polkadot-js/api/blob/1584100/packages/api-contract/src/RxCode.ts#L36)*
 
 **Parameters:**
 
 Name | Type |
 ------ | ------ |
-`account` | IKeyringPair \| string \| AccountId \| Address |
+`account` | IKeyringPair &#124; string &#124; AccountId &#124; Address |
 
 **Returns:** *CodePutCodeResultSubscription*
