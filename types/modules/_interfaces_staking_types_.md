@@ -8,6 +8,7 @@
 
 ### Interfaces
 
+* [EraPoints](../interfaces/_interfaces_staking_types_.erapoints.md)
 * [EraRewards](../interfaces/_interfaces_staking_types_.erarewards.md)
 * [Exposure](../interfaces/_interfaces_staking_types_.exposure.md)
 * [Forcing](../interfaces/_interfaces_staking_types_.forcing.md)
@@ -23,6 +24,7 @@
 
 * [EraIndex](_interfaces_staking_types_.md#eraindex)
 * [MomentOf](_interfaces_staking_types_.md#momentof)
+* [Points](_interfaces_staking_types_.md#points)
 
 ## Type aliases
 
@@ -30,7 +32,7 @@
 
 Ƭ **EraIndex**: *[u32](../interfaces/_interfaceregistry_.interfaceregistry.md#u32)*
 
-*Defined in [interfaces/staking/types.ts:9](https://github.com/polkadot-js/api/blob/ebe77c2/packages/types/src/interfaces/staking/types.ts#L9)*
+*Defined in [interfaces/staking/types.ts:9](https://github.com/polkadot-js/api/blob/d1105c8/packages/types/src/interfaces/staking/types.ts#L9)*
 
 u32
 
@@ -40,6 +42,16 @@ ___
 
 Ƭ **MomentOf**: *[Moment](_interfaces_runtime_types_.md#moment)*
 
-*Defined in [interfaces/staking/types.ts:48](https://github.com/polkadot-js/api/blob/ebe77c2/packages/types/src/interfaces/staking/types.ts#L48)*
+*Defined in [interfaces/staking/types.ts:56](https://github.com/polkadot-js/api/blob/d1105c8/packages/types/src/interfaces/staking/types.ts#L56)*
 
 Moment
+
+___
+
+###  Points
+
+Ƭ **Points**: *[u32](../interfaces/_interfaceregistry_.interfaceregistry.md#u32)*
+
+*Defined in [interfaces/staking/types.ts:59](https://github.com/polkadot-js/api/blob/d1105c8/packages/types/src/interfaces/staking/types.ts#L59)*
+
+u32
