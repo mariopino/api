@@ -24,7 +24,7 @@
 
 \+ **new EnumConstructor**(`value?`: any, `index?`: undefined | number): *T*
 
-*Defined in [codec/Enum.ts:15](https://github.com/polkadot-js/api/blob/8b80ce7/packages/types/src/codec/Enum.ts#L15)*
+*Defined in [codec/Enum.ts:15](https://github.com/polkadot-js/api/blob/b62b1b2/packages/types/src/codec/Enum.ts#L15)*
 
 **Parameters:**
 
