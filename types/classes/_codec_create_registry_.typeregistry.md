@@ -19,6 +19,8 @@
 * [get](_codec_create_registry_.typeregistry.md#get)
 * [getDefinition](_codec_create_registry_.typeregistry.md#getdefinition)
 * [getOrThrow](_codec_create_registry_.typeregistry.md#getorthrow)
+* [hasClass](_codec_create_registry_.typeregistry.md#hasclass)
+* [hasDef](_codec_create_registry_.typeregistry.md#hasdef)
 * [hasType](_codec_create_registry_.typeregistry.md#hastype)
 * [register](_codec_create_registry_.typeregistry.md#register)
 
@@ -28,7 +30,7 @@
 
 ▪ **defaultRegistry**: *[TypeRegistry](_codec_create_registry_.typeregistry.md)* =  new TypeRegistry()
 
-*Defined in [codec/create/registry.ts:12](https://github.com/polkadot-js/api/blob/0f21d52/packages/types/src/codec/create/registry.ts#L12)*
+*Defined in [codec/create/registry.ts:12](https://github.com/polkadot-js/api/blob/5d2cadd/packages/types/src/codec/create/registry.ts#L12)*
 
 ## Methods
 
@@ -36,7 +38,7 @@
 
 ▸ **get**<**T**>(`name`: string): *[Constructor](../interfaces/_types_.constructor.md)‹T› | undefined*
 
-*Defined in [codec/create/registry.ts:60](https://github.com/polkadot-js/api/blob/0f21d52/packages/types/src/codec/create/registry.ts#L60)*
+*Defined in [codec/create/registry.ts:60](https://github.com/polkadot-js/api/blob/5d2cadd/packages/types/src/codec/create/registry.ts#L60)*
 
 **Type parameters:**
 
@@ -56,7 +58,7 @@ ___
 
 ▸ **getDefinition**(`name`: string): *string | undefined*
 
-*Defined in [codec/create/registry.ts:82](https://github.com/polkadot-js/api/blob/0f21d52/packages/types/src/codec/create/registry.ts#L82)*
+*Defined in [codec/create/registry.ts:82](https://github.com/polkadot-js/api/blob/5d2cadd/packages/types/src/codec/create/registry.ts#L82)*
 
 **Parameters:**
 
@@ -72,7 +74,7 @@ ___
 
 ▸ **getOrThrow**<**T**>(`name`: string, `msg?`: undefined | string): *[Constructor](../interfaces/_types_.constructor.md)‹T›*
 
-*Defined in [codec/create/registry.ts:86](https://github.com/polkadot-js/api/blob/0f21d52/packages/types/src/codec/create/registry.ts#L86)*
+*Defined in [codec/create/registry.ts:86](https://github.com/polkadot-js/api/blob/5d2cadd/packages/types/src/codec/create/registry.ts#L86)*
 
 **Type parameters:**
 
@@ -89,11 +91,43 @@ Name | Type |
 
 ___
 
+###  hasClass
+
+▸ **hasClass**(`name`: string): *boolean*
+
+*Defined in [codec/create/registry.ts:96](https://github.com/polkadot-js/api/blob/5d2cadd/packages/types/src/codec/create/registry.ts#L96)*
+
+**Parameters:**
+
+Name | Type |
+------ | ------ |
+`name` | string |
+
+**Returns:** *boolean*
+
+___
+
+###  hasDef
+
+▸ **hasDef**(`name`: string): *boolean*
+
+*Defined in [codec/create/registry.ts:100](https://github.com/polkadot-js/api/blob/5d2cadd/packages/types/src/codec/create/registry.ts#L100)*
+
+**Parameters:**
+
+Name | Type |
+------ | ------ |
+`name` | string |
+
+**Returns:** *boolean*
+
+___
+
 ###  hasType
 
 ▸ **hasType**(`name`: string): *boolean*
 
-*Defined in [codec/create/registry.ts:96](https://github.com/polkadot-js/api/blob/0f21d52/packages/types/src/codec/create/registry.ts#L96)*
+*Defined in [codec/create/registry.ts:104](https://github.com/polkadot-js/api/blob/5d2cadd/packages/types/src/codec/create/registry.ts#L104)*
 
 **Parameters:**
 
@@ -109,7 +143,7 @@ ___
 
 ▸ **register**(`type`: [Constructor](../interfaces/_types_.constructor.md) | [RegistryTypes](../modules/_types_.md#registrytypes)): *void*
 
-*Defined in [codec/create/registry.ts:18](https://github.com/polkadot-js/api/blob/0f21d52/packages/types/src/codec/create/registry.ts#L18)*
+*Defined in [codec/create/registry.ts:18](https://github.com/polkadot-js/api/blob/5d2cadd/packages/types/src/codec/create/registry.ts#L18)*
 
 **Parameters:**
 
@@ -121,7 +155,7 @@ Name | Type |
 
 ▸ **register**(`name`: string, `type`: [Constructor](../interfaces/_types_.constructor.md)): *void*
 
-*Defined in [codec/create/registry.ts:21](https://github.com/polkadot-js/api/blob/0f21d52/packages/types/src/codec/create/registry.ts#L21)*
+*Defined in [codec/create/registry.ts:21](https://github.com/polkadot-js/api/blob/5d2cadd/packages/types/src/codec/create/registry.ts#L21)*
 
 **Parameters:**
 

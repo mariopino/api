@@ -70,7 +70,7 @@
 
 *Overrides void*
 
-*Defined in [submittable/Submittable.ts:40](https://github.com/polkadot-js/api/blob/0f21d52/packages/api/src/submittable/Submittable.ts#L40)*
+*Defined in [submittable/Submittable.ts:40](https://github.com/polkadot-js/api/blob/5d2cadd/packages/api/src/submittable/Submittable.ts#L40)*
 
 **Parameters:**
 
@@ -89,7 +89,7 @@ Name | Type |
 
 *Inherited from void*
 
-*Defined in [/home/travis/build/polkadot-js/api/packages/types/src/primitive/Extrinsic/Extrinsic.ts:116](https://github.com/polkadot-js/api/blob/0f21d52/packages/types/src/primitive/Extrinsic/Extrinsic.ts#L116)*
+*Defined in [/home/travis/build/polkadot-js/api/packages/types/src/primitive/Extrinsic/Extrinsic.ts:116](https://github.com/polkadot-js/api/blob/5d2cadd/packages/types/src/primitive/Extrinsic/Extrinsic.ts#L116)*
 
 **`description`** The arguments passed to for the call, exposes args so it is compatible with [[Call]]
 
@@ -103,7 +103,7 @@ ___
 
 *Inherited from void*
 
-*Defined in [/home/travis/build/polkadot-js/api/packages/types/src/primitive/Extrinsic/Extrinsic.ts:123](https://github.com/polkadot-js/api/blob/0f21d52/packages/types/src/primitive/Extrinsic/Extrinsic.ts#L123)*
+*Defined in [/home/travis/build/polkadot-js/api/packages/types/src/primitive/Extrinsic/Extrinsic.ts:123](https://github.com/polkadot-js/api/blob/5d2cadd/packages/types/src/primitive/Extrinsic/Extrinsic.ts#L123)*
 
 **`description`** Thge argument defintions, compatible with [[Call]]
 
@@ -117,7 +117,7 @@ ___
 
 *Inherited from void*
 
-*Defined in [/home/travis/build/polkadot-js/api/packages/types/src/primitive/Extrinsic/Extrinsic.ts:130](https://github.com/polkadot-js/api/blob/0f21d52/packages/types/src/primitive/Extrinsic/Extrinsic.ts#L130)*
+*Defined in [/home/travis/build/polkadot-js/api/packages/types/src/primitive/Extrinsic/Extrinsic.ts:130](https://github.com/polkadot-js/api/blob/5d2cadd/packages/types/src/primitive/Extrinsic/Extrinsic.ts#L130)*
 
 **`description`** The actual `[sectionIndex, methodIndex]` as used in the Call
 
@@ -131,7 +131,7 @@ ___
 
 *Inherited from void*
 
-*Defined in [/home/travis/build/polkadot-js/api/packages/types/src/primitive/Extrinsic/Extrinsic.ts:137](https://github.com/polkadot-js/api/blob/0f21d52/packages/types/src/primitive/Extrinsic/Extrinsic.ts#L137)*
+*Defined in [/home/travis/build/polkadot-js/api/packages/types/src/primitive/Extrinsic/Extrinsic.ts:137](https://github.com/polkadot-js/api/blob/5d2cadd/packages/types/src/primitive/Extrinsic/Extrinsic.ts#L137)*
 
 **`description`** The actual data for the Call
 
@@ -147,7 +147,7 @@ ___
 
 *Overrides void*
 
-*Defined in [/home/travis/build/polkadot-js/api/packages/types/src/primitive/Extrinsic/Extrinsic.ts:151](https://github.com/polkadot-js/api/blob/0f21d52/packages/types/src/primitive/Extrinsic/Extrinsic.ts#L151)*
+*Defined in [/home/travis/build/polkadot-js/api/packages/types/src/primitive/Extrinsic/Extrinsic.ts:151](https://github.com/polkadot-js/api/blob/5d2cadd/packages/types/src/primitive/Extrinsic/Extrinsic.ts#L151)*
 
 **`description`** The length of the value when encoded as a Uint8Array
 
@@ -161,7 +161,7 @@ ___
 
 *Inherited from void*
 
-*Defined in [/home/travis/build/polkadot-js/api/packages/types/src/primitive/Extrinsic/Extrinsic.ts:144](https://github.com/polkadot-js/api/blob/0f21d52/packages/types/src/primitive/Extrinsic/Extrinsic.ts#L144)*
+*Defined in [/home/travis/build/polkadot-js/api/packages/types/src/primitive/Extrinsic/Extrinsic.ts:144](https://github.com/polkadot-js/api/blob/5d2cadd/packages/types/src/primitive/Extrinsic/Extrinsic.ts#L144)*
 
 **`description`** The era for thios extrinsic
 
@@ -175,7 +175,7 @@ ___
 
 *Inherited from void*
 
-*Defined in [/home/travis/build/polkadot-js/api/packages/types/src/primitive/Extrinsic/Extrinsic.ts:158](https://github.com/polkadot-js/api/blob/0f21d52/packages/types/src/primitive/Extrinsic/Extrinsic.ts#L158)*
+*Defined in [/home/travis/build/polkadot-js/api/packages/types/src/primitive/Extrinsic/Extrinsic.ts:158](https://github.com/polkadot-js/api/blob/5d2cadd/packages/types/src/primitive/Extrinsic/Extrinsic.ts#L158)*
 
 **`description`** `true` is method has `Origin` argument (compatibility with [Call])
 
@@ -189,7 +189,7 @@ ___
 
 *Inherited from void*
 
-*Defined in [/home/travis/build/polkadot-js/api/packages/types/src/codec/Base.ts:32](https://github.com/polkadot-js/api/blob/0f21d52/packages/types/src/codec/Base.ts#L32)*
+*Defined in [/home/travis/build/polkadot-js/api/packages/types/src/codec/Base.ts:32](https://github.com/polkadot-js/api/blob/5d2cadd/packages/types/src/codec/Base.ts#L32)*
 
 **`description`** returns a hash of the contents
 
@@ -203,7 +203,7 @@ ___
 
 *Inherited from void*
 
-*Defined in [/home/travis/build/polkadot-js/api/packages/types/src/codec/Base.ts:39](https://github.com/polkadot-js/api/blob/0f21d52/packages/types/src/codec/Base.ts#L39)*
+*Defined in [/home/travis/build/polkadot-js/api/packages/types/src/codec/Base.ts:39](https://github.com/polkadot-js/api/blob/5d2cadd/packages/types/src/codec/Base.ts#L39)*
 
 **`description`** Checks if the value is an empty value
 
@@ -217,7 +217,7 @@ ___
 
 *Inherited from void*
 
-*Defined in [/home/travis/build/polkadot-js/api/packages/types/src/primitive/Extrinsic/Extrinsic.ts:165](https://github.com/polkadot-js/api/blob/0f21d52/packages/types/src/primitive/Extrinsic/Extrinsic.ts#L165)*
+*Defined in [/home/travis/build/polkadot-js/api/packages/types/src/primitive/Extrinsic/Extrinsic.ts:165](https://github.com/polkadot-js/api/blob/5d2cadd/packages/types/src/primitive/Extrinsic/Extrinsic.ts#L165)*
 
 **`description`** `true` id the extrinsic is signed
 
@@ -231,7 +231,7 @@ ___
 
 *Inherited from void*
 
-*Defined in [/home/travis/build/polkadot-js/api/packages/types/src/primitive/Extrinsic/Extrinsic.ts:172](https://github.com/polkadot-js/api/blob/0f21d52/packages/types/src/primitive/Extrinsic/Extrinsic.ts#L172)*
+*Defined in [/home/travis/build/polkadot-js/api/packages/types/src/primitive/Extrinsic/Extrinsic.ts:172](https://github.com/polkadot-js/api/blob/5d2cadd/packages/types/src/primitive/Extrinsic/Extrinsic.ts#L172)*
 
 **`description`** The length of the actual data, excluding prefix
 
@@ -245,7 +245,7 @@ ___
 
 *Inherited from void*
 
-*Defined in [/home/travis/build/polkadot-js/api/packages/types/src/primitive/Extrinsic/Extrinsic.ts:179](https://github.com/polkadot-js/api/blob/0f21d52/packages/types/src/primitive/Extrinsic/Extrinsic.ts#L179)*
+*Defined in [/home/travis/build/polkadot-js/api/packages/types/src/primitive/Extrinsic/Extrinsic.ts:179](https://github.com/polkadot-js/api/blob/5d2cadd/packages/types/src/primitive/Extrinsic/Extrinsic.ts#L179)*
 
 **`description`** The [[FunctionMetadataV7]] that describes the extrinsic
 
@@ -259,7 +259,7 @@ ___
 
 *Inherited from void*
 
-*Defined in [/home/travis/build/polkadot-js/api/packages/types/src/primitive/Extrinsic/Extrinsic.ts:186](https://github.com/polkadot-js/api/blob/0f21d52/packages/types/src/primitive/Extrinsic/Extrinsic.ts#L186)*
+*Defined in [/home/travis/build/polkadot-js/api/packages/types/src/primitive/Extrinsic/Extrinsic.ts:186](https://github.com/polkadot-js/api/blob/5d2cadd/packages/types/src/primitive/Extrinsic/Extrinsic.ts#L186)*
 
 **`description`** The [[Call]] this extrinsic wraps
 
@@ -273,7 +273,7 @@ ___
 
 *Inherited from void*
 
-*Defined in [/home/travis/build/polkadot-js/api/packages/types/src/primitive/Extrinsic/Extrinsic.ts:193](https://github.com/polkadot-js/api/blob/0f21d52/packages/types/src/primitive/Extrinsic/Extrinsic.ts#L193)*
+*Defined in [/home/travis/build/polkadot-js/api/packages/types/src/primitive/Extrinsic/Extrinsic.ts:193](https://github.com/polkadot-js/api/blob/5d2cadd/packages/types/src/primitive/Extrinsic/Extrinsic.ts#L193)*
 
 **`description`** The nonce for this extrinsic
 
@@ -287,7 +287,7 @@ ___
 
 *Inherited from void*
 
-*Defined in [/home/travis/build/polkadot-js/api/packages/types/src/primitive/Extrinsic/Extrinsic.ts:200](https://github.com/polkadot-js/api/blob/0f21d52/packages/types/src/primitive/Extrinsic/Extrinsic.ts#L200)*
+*Defined in [/home/travis/build/polkadot-js/api/packages/types/src/primitive/Extrinsic/Extrinsic.ts:200](https://github.com/polkadot-js/api/blob/5d2cadd/packages/types/src/primitive/Extrinsic/Extrinsic.ts#L200)*
 
 **`description`** The [[ExtrinsicSignature]]
 
@@ -301,7 +301,7 @@ ___
 
 *Inherited from void*
 
-*Defined in [/home/travis/build/polkadot-js/api/packages/types/src/primitive/Extrinsic/Extrinsic.ts:207](https://github.com/polkadot-js/api/blob/0f21d52/packages/types/src/primitive/Extrinsic/Extrinsic.ts#L207)*
+*Defined in [/home/travis/build/polkadot-js/api/packages/types/src/primitive/Extrinsic/Extrinsic.ts:207](https://github.com/polkadot-js/api/blob/5d2cadd/packages/types/src/primitive/Extrinsic/Extrinsic.ts#L207)*
 
 **`description`** The [[Address]] that signed
 
@@ -315,7 +315,7 @@ ___
 
 *Inherited from void*
 
-*Defined in [/home/travis/build/polkadot-js/api/packages/types/src/primitive/Extrinsic/Extrinsic.ts:214](https://github.com/polkadot-js/api/blob/0f21d52/packages/types/src/primitive/Extrinsic/Extrinsic.ts#L214)*
+*Defined in [/home/travis/build/polkadot-js/api/packages/types/src/primitive/Extrinsic/Extrinsic.ts:214](https://github.com/polkadot-js/api/blob/5d2cadd/packages/types/src/primitive/Extrinsic/Extrinsic.ts#L214)*
 
 **`description`** Forwards compat
 
@@ -329,7 +329,7 @@ ___
 
 *Inherited from void*
 
-*Defined in [/home/travis/build/polkadot-js/api/packages/types/src/primitive/Extrinsic/Extrinsic.ts:221](https://github.com/polkadot-js/api/blob/0f21d52/packages/types/src/primitive/Extrinsic/Extrinsic.ts#L221)*
+*Defined in [/home/travis/build/polkadot-js/api/packages/types/src/primitive/Extrinsic/Extrinsic.ts:221](https://github.com/polkadot-js/api/blob/5d2cadd/packages/types/src/primitive/Extrinsic/Extrinsic.ts#L221)*
 
 **`description`** Returns the raw transaction version (not flagged with signing information)
 
@@ -343,7 +343,7 @@ ___
 
 *Inherited from void*
 
-*Defined in [/home/travis/build/polkadot-js/api/packages/types/src/primitive/Extrinsic/Extrinsic.ts:228](https://github.com/polkadot-js/api/blob/0f21d52/packages/types/src/primitive/Extrinsic/Extrinsic.ts#L228)*
+*Defined in [/home/travis/build/polkadot-js/api/packages/types/src/primitive/Extrinsic/Extrinsic.ts:228](https://github.com/polkadot-js/api/blob/5d2cadd/packages/types/src/primitive/Extrinsic/Extrinsic.ts#L228)*
 
 **`description`** Returns the encoded version flag
 
@@ -357,7 +357,7 @@ ___
 
 *Inherited from void*
 
-*Defined in [/home/travis/build/polkadot-js/api/packages/types/src/primitive/Extrinsic/Extrinsic.ts:235](https://github.com/polkadot-js/api/blob/0f21d52/packages/types/src/primitive/Extrinsic/Extrinsic.ts#L235)*
+*Defined in [/home/travis/build/polkadot-js/api/packages/types/src/primitive/Extrinsic/Extrinsic.ts:235](https://github.com/polkadot-js/api/blob/5d2cadd/packages/types/src/primitive/Extrinsic/Extrinsic.ts#L235)*
 
 **`description`** Injects an already-generated signature into the extrinsic
 
@@ -381,7 +381,7 @@ ___
 
 *Inherited from void*
 
-*Defined in [/home/travis/build/polkadot-js/api/packages/types/src/codec/Base.ts:46](https://github.com/polkadot-js/api/blob/0f21d52/packages/types/src/codec/Base.ts#L46)*
+*Defined in [/home/travis/build/polkadot-js/api/packages/types/src/codec/Base.ts:46](https://github.com/polkadot-js/api/blob/5d2cadd/packages/types/src/codec/Base.ts#L46)*
 
 **`description`** Compares the value of the input to see if there is a match
 
@@ -401,7 +401,7 @@ ___
 
 *Implementation of [SubmittableExtrinsic](../interfaces/_submittable_types_.submittableextrinsic.md)*
 
-*Defined in [submittable/Submittable.ts:102](https://github.com/polkadot-js/api/blob/0f21d52/packages/api/src/submittable/Submittable.ts#L102)*
+*Defined in [submittable/Submittable.ts:102](https://github.com/polkadot-js/api/blob/5d2cadd/packages/api/src/submittable/Submittable.ts#L102)*
 
 **Returns:** *[SubmitableResultResult](../modules/_submittable_types_.md#submitableresultresult)‹ApiType›*
 
@@ -409,7 +409,7 @@ ___
 
 *Implementation of [SubmittableExtrinsic](../interfaces/_submittable_types_.submittableextrinsic.md)*
 
-*Defined in [submittable/Submittable.ts:105](https://github.com/polkadot-js/api/blob/0f21d52/packages/api/src/submittable/Submittable.ts#L105)*
+*Defined in [submittable/Submittable.ts:105](https://github.com/polkadot-js/api/blob/5d2cadd/packages/api/src/submittable/Submittable.ts#L105)*
 
 **Parameters:**
 
@@ -429,7 +429,7 @@ ___
 
 *Overrides void*
 
-*Defined in [submittable/Submittable.ts:51](https://github.com/polkadot-js/api/blob/0f21d52/packages/api/src/submittable/Submittable.ts#L51)*
+*Defined in [submittable/Submittable.ts:51](https://github.com/polkadot-js/api/blob/5d2cadd/packages/api/src/submittable/Submittable.ts#L51)*
 
 **Parameters:**
 
@@ -448,7 +448,7 @@ ___
 
 *Implementation of [SubmittableExtrinsic](../interfaces/_submittable_types_.submittableextrinsic.md)*
 
-*Defined in [submittable/Submittable.ts:64](https://github.com/polkadot-js/api/blob/0f21d52/packages/api/src/submittable/Submittable.ts#L64)*
+*Defined in [submittable/Submittable.ts:64](https://github.com/polkadot-js/api/blob/5d2cadd/packages/api/src/submittable/Submittable.ts#L64)*
 
 **Parameters:**
 
@@ -463,7 +463,7 @@ Name | Type |
 
 *Implementation of [SubmittableExtrinsic](../interfaces/_submittable_types_.submittableextrinsic.md)*
 
-*Defined in [submittable/Submittable.ts:67](https://github.com/polkadot-js/api/blob/0f21d52/packages/api/src/submittable/Submittable.ts#L67)*
+*Defined in [submittable/Submittable.ts:67](https://github.com/polkadot-js/api/blob/5d2cadd/packages/api/src/submittable/Submittable.ts#L67)*
 
 **Parameters:**
 
@@ -478,7 +478,7 @@ Name | Type |
 
 *Implementation of [SubmittableExtrinsic](../interfaces/_submittable_types_.submittableextrinsic.md)*
 
-*Defined in [submittable/Submittable.ts:70](https://github.com/polkadot-js/api/blob/0f21d52/packages/api/src/submittable/Submittable.ts#L70)*
+*Defined in [submittable/Submittable.ts:70](https://github.com/polkadot-js/api/blob/5d2cadd/packages/api/src/submittable/Submittable.ts#L70)*
 
 **Parameters:**
 
@@ -500,7 +500,7 @@ ___
 
 *Overrides void*
 
-*Defined in [/home/travis/build/polkadot-js/api/packages/types/src/primitive/Extrinsic/Extrinsic.ts:272](https://github.com/polkadot-js/api/blob/0f21d52/packages/types/src/primitive/Extrinsic/Extrinsic.ts#L272)*
+*Defined in [/home/travis/build/polkadot-js/api/packages/types/src/primitive/Extrinsic/Extrinsic.ts:272](https://github.com/polkadot-js/api/blob/5d2cadd/packages/types/src/primitive/Extrinsic/Extrinsic.ts#L272)*
 
 **`description`** Returns a hex string representation of the value
 
@@ -518,7 +518,7 @@ ___
 
 *Overrides void*
 
-*Defined in [/home/travis/build/polkadot-js/api/packages/types/src/primitive/Extrinsic/Extrinsic.ts:279](https://github.com/polkadot-js/api/blob/0f21d52/packages/types/src/primitive/Extrinsic/Extrinsic.ts#L279)*
+*Defined in [/home/travis/build/polkadot-js/api/packages/types/src/primitive/Extrinsic/Extrinsic.ts:279](https://github.com/polkadot-js/api/blob/5d2cadd/packages/types/src/primitive/Extrinsic/Extrinsic.ts#L279)*
 
 **`description`** Converts the Object to JSON, typically used for RPC transfers
 
@@ -536,7 +536,7 @@ ___
 
 *Overrides void*
 
-*Defined in [/home/travis/build/polkadot-js/api/packages/types/src/primitive/Extrinsic/Extrinsic.ts:286](https://github.com/polkadot-js/api/blob/0f21d52/packages/types/src/primitive/Extrinsic/Extrinsic.ts#L286)*
+*Defined in [/home/travis/build/polkadot-js/api/packages/types/src/primitive/Extrinsic/Extrinsic.ts:286](https://github.com/polkadot-js/api/blob/5d2cadd/packages/types/src/primitive/Extrinsic/Extrinsic.ts#L286)*
 
 **`description`** Returns the base runtime type name for this instance
 
@@ -552,7 +552,7 @@ ___
 
 *Inherited from void*
 
-*Defined in [/home/travis/build/polkadot-js/api/packages/types/src/codec/Base.ts:67](https://github.com/polkadot-js/api/blob/0f21d52/packages/types/src/codec/Base.ts#L67)*
+*Defined in [/home/travis/build/polkadot-js/api/packages/types/src/codec/Base.ts:67](https://github.com/polkadot-js/api/blob/5d2cadd/packages/types/src/codec/Base.ts#L67)*
 
 **`description`** Returns the string representation of the value
 
@@ -570,7 +570,7 @@ ___
 
 *Overrides void*
 
-*Defined in [/home/travis/build/polkadot-js/api/packages/types/src/primitive/Extrinsic/Extrinsic.ts:294](https://github.com/polkadot-js/api/blob/0f21d52/packages/types/src/primitive/Extrinsic/Extrinsic.ts#L294)*
+*Defined in [/home/travis/build/polkadot-js/api/packages/types/src/primitive/Extrinsic/Extrinsic.ts:294](https://github.com/polkadot-js/api/blob/5d2cadd/packages/types/src/primitive/Extrinsic/Extrinsic.ts#L294)*
 
 **`description`** Encodes the value as a Uint8Array as per the SCALE specifications
 
@@ -590,7 +590,7 @@ ___
 
 *Inherited from void*
 
-*Defined in [/home/travis/build/polkadot-js/api/packages/types/src/primitive/Extrinsic/Extrinsic.ts:67](https://github.com/polkadot-js/api/blob/0f21d52/packages/types/src/primitive/Extrinsic/Extrinsic.ts#L67)*
+*Defined in [/home/travis/build/polkadot-js/api/packages/types/src/primitive/Extrinsic/Extrinsic.ts:67](https://github.com/polkadot-js/api/blob/5d2cadd/packages/types/src/primitive/Extrinsic/Extrinsic.ts#L67)*
 
 **Parameters:**
 

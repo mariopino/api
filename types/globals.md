@@ -73,6 +73,7 @@
 * ["codec/create/getTypeClass"](modules/_codec_create_gettypeclass_.md)
 * ["codec/create/getTypeDef"](modules/_codec_create_gettypedef_.md)
 * ["codec/create/registry"](modules/_codec_create_registry_.md)
+* ["codec/create/sanitize"](modules/_codec_create_sanitize_.md)
 * ["codec/create/typeSplit"](modules/_codec_create_typesplit_.md)
 * ["codec/create/types"](modules/_codec_create_types_.md)
 * ["codec/types"](modules/_codec_types_.md)
