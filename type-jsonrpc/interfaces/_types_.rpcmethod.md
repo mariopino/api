@@ -16,6 +16,7 @@
 * [description](_types_.rpcmethod.md#description)
 * [isDeprecated](_types_.rpcmethod.md#isdeprecated)
 * [isHidden](_types_.rpcmethod.md#ishidden)
+* [isOptional](_types_.rpcmethod.md#isoptional)
 * [isSigned](_types_.rpcmethod.md#issigned)
 * [isSubscription](_types_.rpcmethod.md#issubscription)
 * [method](_types_.rpcmethod.md#method)
@@ -30,7 +31,7 @@
 
 • **alias**? : *undefined | string*
 
-*Defined in [types.ts:27](https://github.com/polkadot-js/api/blob/5d2cadd/packages/type-jsonrpc/src/types.ts#L27)*
+*Defined in [types.ts:28](https://github.com/polkadot-js/api/blob/bed3f9f/packages/type-jsonrpc/src/types.ts#L28)*
 
 ___
 
@@ -38,7 +39,7 @@ ___
 
 • **description**: *string*
 
-*Defined in [types.ts:28](https://github.com/polkadot-js/api/blob/5d2cadd/packages/type-jsonrpc/src/types.ts#L28)*
+*Defined in [types.ts:29](https://github.com/polkadot-js/api/blob/bed3f9f/packages/type-jsonrpc/src/types.ts#L29)*
 
 ___
 
@@ -46,7 +47,7 @@ ___
 
 • **isDeprecated**: *boolean*
 
-*Defined in [types.ts:29](https://github.com/polkadot-js/api/blob/5d2cadd/packages/type-jsonrpc/src/types.ts#L29)*
+*Defined in [types.ts:30](https://github.com/polkadot-js/api/blob/bed3f9f/packages/type-jsonrpc/src/types.ts#L30)*
 
 ___
 
@@ -54,7 +55,15 @@ ___
 
 • **isHidden**: *boolean*
 
-*Defined in [types.ts:30](https://github.com/polkadot-js/api/blob/5d2cadd/packages/type-jsonrpc/src/types.ts#L30)*
+*Defined in [types.ts:31](https://github.com/polkadot-js/api/blob/bed3f9f/packages/type-jsonrpc/src/types.ts#L31)*
+
+___
+
+###  isOptional
+
+• **isOptional**: *boolean*
+
+*Defined in [types.ts:32](https://github.com/polkadot-js/api/blob/bed3f9f/packages/type-jsonrpc/src/types.ts#L32)*
 
 ___
 
@@ -62,7 +71,7 @@ ___
 
 • **isSigned**: *boolean*
 
-*Defined in [types.ts:31](https://github.com/polkadot-js/api/blob/5d2cadd/packages/type-jsonrpc/src/types.ts#L31)*
+*Defined in [types.ts:33](https://github.com/polkadot-js/api/blob/bed3f9f/packages/type-jsonrpc/src/types.ts#L33)*
 
 ___
 
@@ -70,7 +79,7 @@ ___
 
 • **isSubscription**: *boolean*
 
-*Defined in [types.ts:32](https://github.com/polkadot-js/api/blob/5d2cadd/packages/type-jsonrpc/src/types.ts#L32)*
+*Defined in [types.ts:34](https://github.com/polkadot-js/api/blob/bed3f9f/packages/type-jsonrpc/src/types.ts#L34)*
 
 ___
 
@@ -78,7 +87,7 @@ ___
 
 • **method**: *string*
 
-*Defined in [types.ts:33](https://github.com/polkadot-js/api/blob/5d2cadd/packages/type-jsonrpc/src/types.ts#L33)*
+*Defined in [types.ts:35](https://github.com/polkadot-js/api/blob/bed3f9f/packages/type-jsonrpc/src/types.ts#L35)*
 
 ___
 
@@ -86,7 +95,7 @@ ___
 
 • **params**: *[RpcParam](_types_.rpcparam.md)[]*
 
-*Defined in [types.ts:34](https://github.com/polkadot-js/api/blob/5d2cadd/packages/type-jsonrpc/src/types.ts#L34)*
+*Defined in [types.ts:36](https://github.com/polkadot-js/api/blob/bed3f9f/packages/type-jsonrpc/src/types.ts#L36)*
 
 ___
 
@@ -94,7 +103,7 @@ ___
 
 • **pubsub**: *PubSub*
 
-*Defined in [types.ts:35](https://github.com/polkadot-js/api/blob/5d2cadd/packages/type-jsonrpc/src/types.ts#L35)*
+*Defined in [types.ts:37](https://github.com/polkadot-js/api/blob/bed3f9f/packages/type-jsonrpc/src/types.ts#L37)*
 
 ___
 
@@ -102,7 +111,7 @@ ___
 
 • **section**: *string*
 
-*Defined in [types.ts:36](https://github.com/polkadot-js/api/blob/5d2cadd/packages/type-jsonrpc/src/types.ts#L36)*
+*Defined in [types.ts:38](https://github.com/polkadot-js/api/blob/bed3f9f/packages/type-jsonrpc/src/types.ts#L38)*
 
 ___
 
@@ -110,4 +119,4 @@ ___
 
 • **type**: *InterfaceTypes*
 
-*Defined in [types.ts:37](https://github.com/polkadot-js/api/blob/5d2cadd/packages/type-jsonrpc/src/types.ts#L37)*
+*Defined in [types.ts:39](https://github.com/polkadot-js/api/blob/bed3f9f/packages/type-jsonrpc/src/types.ts#L39)*

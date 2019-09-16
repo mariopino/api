@@ -15,6 +15,7 @@
 * [description](_types_.rpcmethodopt.md#description)
 * [isDeprecated](_types_.rpcmethodopt.md#optional-isdeprecated)
 * [isHidden](_types_.rpcmethodopt.md#optional-ishidden)
+* [isOptional](_types_.rpcmethodopt.md#optional-isoptional)
 * [isSigned](_types_.rpcmethodopt.md#optional-issigned)
 * [isSubscription](_types_.rpcmethodopt.md#optional-issubscription)
 * [params](_types_.rpcmethodopt.md#params)
@@ -27,7 +28,7 @@
 
 • **description**: *string*
 
-*Defined in [types.ts:16](https://github.com/polkadot-js/api/blob/5d2cadd/packages/type-jsonrpc/src/types.ts#L16)*
+*Defined in [types.ts:16](https://github.com/polkadot-js/api/blob/bed3f9f/packages/type-jsonrpc/src/types.ts#L16)*
 
 ___
 
@@ -35,7 +36,7 @@ ___
 
 • **isDeprecated**? : *undefined | false | true*
 
-*Defined in [types.ts:17](https://github.com/polkadot-js/api/blob/5d2cadd/packages/type-jsonrpc/src/types.ts#L17)*
+*Defined in [types.ts:17](https://github.com/polkadot-js/api/blob/bed3f9f/packages/type-jsonrpc/src/types.ts#L17)*
 
 ___
 
@@ -43,7 +44,15 @@ ___
 
 • **isHidden**? : *undefined | false | true*
 
-*Defined in [types.ts:18](https://github.com/polkadot-js/api/blob/5d2cadd/packages/type-jsonrpc/src/types.ts#L18)*
+*Defined in [types.ts:18](https://github.com/polkadot-js/api/blob/bed3f9f/packages/type-jsonrpc/src/types.ts#L18)*
+
+___
+
+### `Optional` isOptional
+
+• **isOptional**? : *undefined | false | true*
+
+*Defined in [types.ts:19](https://github.com/polkadot-js/api/blob/bed3f9f/packages/type-jsonrpc/src/types.ts#L19)*
 
 ___
 
@@ -51,7 +60,7 @@ ___
 
 • **isSigned**? : *undefined | false | true*
 
-*Defined in [types.ts:19](https://github.com/polkadot-js/api/blob/5d2cadd/packages/type-jsonrpc/src/types.ts#L19)*
+*Defined in [types.ts:20](https://github.com/polkadot-js/api/blob/bed3f9f/packages/type-jsonrpc/src/types.ts#L20)*
 
 ___
 
@@ -59,7 +68,7 @@ ___
 
 • **isSubscription**? : *undefined | false | true*
 
-*Defined in [types.ts:20](https://github.com/polkadot-js/api/blob/5d2cadd/packages/type-jsonrpc/src/types.ts#L20)*
+*Defined in [types.ts:21](https://github.com/polkadot-js/api/blob/bed3f9f/packages/type-jsonrpc/src/types.ts#L21)*
 
 ___
 
@@ -67,7 +76,7 @@ ___
 
 • **params**: *[RpcParam](_types_.rpcparam.md)[]*
 
-*Defined in [types.ts:21](https://github.com/polkadot-js/api/blob/5d2cadd/packages/type-jsonrpc/src/types.ts#L21)*
+*Defined in [types.ts:22](https://github.com/polkadot-js/api/blob/bed3f9f/packages/type-jsonrpc/src/types.ts#L22)*
 
 ___
 
@@ -75,7 +84,7 @@ ___
 
 • **pubsub**? : *PubSub*
 
-*Defined in [types.ts:22](https://github.com/polkadot-js/api/blob/5d2cadd/packages/type-jsonrpc/src/types.ts#L22)*
+*Defined in [types.ts:23](https://github.com/polkadot-js/api/blob/bed3f9f/packages/type-jsonrpc/src/types.ts#L23)*
 
 ___
 
@@ -83,4 +92,4 @@ ___
 
 • **type**: *InterfaceTypes*
 
-*Defined in [types.ts:23](https://github.com/polkadot-js/api/blob/5d2cadd/packages/type-jsonrpc/src/types.ts#L23)*
+*Defined in [types.ts:24](https://github.com/polkadot-js/api/blob/bed3f9f/packages/type-jsonrpc/src/types.ts#L24)*

@@ -16,7 +16,7 @@
 
 ▸ **injectTypes**(): *void*
 
-*Defined in [injector.ts:12](https://github.com/polkadot-js/api/blob/5d2cadd/packages/types/src/injector.ts#L12)*
+*Defined in [injector.ts:12](https://github.com/polkadot-js/api/blob/bed3f9f/packages/types/src/injector.ts#L12)*
 
 **`description`** A utility method that injects all the srml definitions into the type registry
 
