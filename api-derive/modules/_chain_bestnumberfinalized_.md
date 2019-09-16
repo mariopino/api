@@ -16,7 +16,7 @@
 
 ▸ **bestNumberFinalized**(`api`: ApiInterfaceRx): *function*
 
-*Defined in [chain/bestNumberFinalized.ts:26](https://github.com/polkadot-js/api/blob/bed3f9f/packages/api-derive/src/chain/bestNumberFinalized.ts#L26)*
+*Defined in [chain/bestNumberFinalized.ts:26](https://github.com/polkadot-js/api/blob/587c988/packages/api-derive/src/chain/bestNumberFinalized.ts#L26)*
 
 **`name`** bestNumberFinalized
 

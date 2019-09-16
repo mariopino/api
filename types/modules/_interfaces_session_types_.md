@@ -21,7 +21,7 @@
 
 Ƭ **FullIdentification**: *[Exposure](../interfaces/_interfaces_staking_types_.exposure.md)*
 
-*Defined in [interfaces/session/types.ts:10](https://github.com/polkadot-js/api/blob/bed3f9f/packages/types/src/interfaces/session/types.ts#L10)*
+*Defined in [interfaces/session/types.ts:10](https://github.com/polkadot-js/api/blob/587c988/packages/types/src/interfaces/session/types.ts#L10)*
 
 Exposure
 
@@ -31,7 +31,7 @@ ___
 
 Ƭ **IdentificationTuple**: *[[ValidatorId](_interfaces_runtime_types_.md#validatorid), [FullIdentification](_interfaces_session_types_.md#fullidentification)] & [Codec](../interfaces/_types_.codec.md)*
 
-*Defined in [interfaces/session/types.ts:13](https://github.com/polkadot-js/api/blob/bed3f9f/packages/types/src/interfaces/session/types.ts#L13)*
+*Defined in [interfaces/session/types.ts:13](https://github.com/polkadot-js/api/blob/587c988/packages/types/src/interfaces/session/types.ts#L13)*
 
 [ValidatorId, FullIdentification] & Codec
 
@@ -41,7 +41,7 @@ ___
 
 Ƭ **Keys**: *[SessionKeysSubstrate](_interfaces_session_types_.md#sessionkeyssubstrate)*
 
-*Defined in [interfaces/session/types.ts:16](https://github.com/polkadot-js/api/blob/bed3f9f/packages/types/src/interfaces/session/types.ts#L16)*
+*Defined in [interfaces/session/types.ts:16](https://github.com/polkadot-js/api/blob/587c988/packages/types/src/interfaces/session/types.ts#L16)*
 
 SessionKeysSubstrate
 
@@ -51,7 +51,7 @@ ___
 
 Ƭ **SessionIndex**: *[u32](../interfaces/_interfaceregistry_.interfaceregistry.md#u32)*
 
-*Defined in [interfaces/session/types.ts:19](https://github.com/polkadot-js/api/blob/bed3f9f/packages/types/src/interfaces/session/types.ts#L19)*
+*Defined in [interfaces/session/types.ts:19](https://github.com/polkadot-js/api/blob/587c988/packages/types/src/interfaces/session/types.ts#L19)*
 
 u32
 
@@ -61,7 +61,7 @@ ___
 
 Ƭ **SessionKeysPolkadot**: *[[AccountId](../classes/_primitive_generic_accountid_.accountid.md), [AccountId](../classes/_primitive_generic_accountid_.accountid.md), [AccountId](../classes/_primitive_generic_accountid_.accountid.md), [AccountId](../classes/_primitive_generic_accountid_.accountid.md)] & [Codec](../interfaces/_types_.codec.md)*
 
-*Defined in [interfaces/session/types.ts:22](https://github.com/polkadot-js/api/blob/bed3f9f/packages/types/src/interfaces/session/types.ts#L22)*
+*Defined in [interfaces/session/types.ts:22](https://github.com/polkadot-js/api/blob/587c988/packages/types/src/interfaces/session/types.ts#L22)*
 
 [AccountId, AccountId, AccountId, AccountId] & Codec
 
@@ -71,6 +71,6 @@ ___
 
 Ƭ **SessionKeysSubstrate**: *[[AccountId](../classes/_primitive_generic_accountid_.accountid.md), [AccountId](../classes/_primitive_generic_accountid_.accountid.md), [AccountId](../classes/_primitive_generic_accountid_.accountid.md)] & [Codec](../interfaces/_types_.codec.md)*
 
-*Defined in [interfaces/session/types.ts:25](https://github.com/polkadot-js/api/blob/bed3f9f/packages/types/src/interfaces/session/types.ts#L25)*
+*Defined in [interfaces/session/types.ts:25](https://github.com/polkadot-js/api/blob/587c988/packages/types/src/interfaces/session/types.ts#L25)*
 
 [AccountId, AccountId, AccountId] & Codec
