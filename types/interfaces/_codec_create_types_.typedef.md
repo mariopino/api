@@ -25,7 +25,7 @@
 
 • **ext**? : *[TypeDefExtVecFixed](_codec_create_types_.typedefextvecfixed.md)*
 
-*Defined in [codec/create/types.ts:38](https://github.com/polkadot-js/api/blob/587c988/packages/types/src/codec/create/types.ts#L38)*
+*Defined in [codec/create/types.ts:38](https://github.com/polkadot-js/api/blob/3720cf8/packages/types/src/codec/create/types.ts#L38)*
 
 ___
 
@@ -33,7 +33,7 @@ ___
 
 • **index**? : *undefined | number*
 
-*Defined in [codec/create/types.ts:37](https://github.com/polkadot-js/api/blob/587c988/packages/types/src/codec/create/types.ts#L37)*
+*Defined in [codec/create/types.ts:37](https://github.com/polkadot-js/api/blob/3720cf8/packages/types/src/codec/create/types.ts#L37)*
 
 ___
 
@@ -41,7 +41,7 @@ ___
 
 • **info**: *[TypeDefInfo](../enums/_codec_create_types_.typedefinfo.md)*
 
-*Defined in [codec/create/types.ts:36](https://github.com/polkadot-js/api/blob/587c988/packages/types/src/codec/create/types.ts#L36)*
+*Defined in [codec/create/types.ts:36](https://github.com/polkadot-js/api/blob/3720cf8/packages/types/src/codec/create/types.ts#L36)*
 
 ___
 
@@ -49,7 +49,7 @@ ___
 
 • **name**? : *undefined | string*
 
-*Defined in [codec/create/types.ts:39](https://github.com/polkadot-js/api/blob/587c988/packages/types/src/codec/create/types.ts#L39)*
+*Defined in [codec/create/types.ts:39](https://github.com/polkadot-js/api/blob/3720cf8/packages/types/src/codec/create/types.ts#L39)*
 
 ___
 
@@ -57,7 +57,7 @@ ___
 
 • **sub**? : *[TypeDef](_codec_create_types_.typedef.md) | [TypeDef](_codec_create_types_.typedef.md)[]*
 
-*Defined in [codec/create/types.ts:41](https://github.com/polkadot-js/api/blob/587c988/packages/types/src/codec/create/types.ts#L41)*
+*Defined in [codec/create/types.ts:41](https://github.com/polkadot-js/api/blob/3720cf8/packages/types/src/codec/create/types.ts#L41)*
 
 ___
 
@@ -65,4 +65,4 @@ ___
 
 • **type**: *string*
 
-*Defined in [codec/create/types.ts:40](https://github.com/polkadot-js/api/blob/587c988/packages/types/src/codec/create/types.ts#L40)*
+*Defined in [codec/create/types.ts:40](https://github.com/polkadot-js/api/blob/3720cf8/packages/types/src/codec/create/types.ts#L40)*
