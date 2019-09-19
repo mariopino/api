@@ -27,7 +27,7 @@
 
 Ƭ **JsonRpcResponse**: *[JsonRpcObject](../interfaces/_types_.jsonrpcobject.md) & [JsonRpcResponseBase](_types_.md#jsonrpcresponsebase)*
 
-*Defined in [types.ts:37](https://github.com/polkadot-js/api/blob/db9dcbd/packages/rpc-provider/src/types.ts#L37)*
+*Defined in [types.ts:37](https://github.com/polkadot-js/api/blob/73d7a57/packages/rpc-provider/src/types.ts#L37)*
 
 ___
 
@@ -35,7 +35,7 @@ ___
 
 Ƭ **JsonRpcResponseBase**: *JsonRpcResponseSingle & JsonRpcResponseSubscription*
 
-*Defined in [types.ts:35](https://github.com/polkadot-js/api/blob/db9dcbd/packages/rpc-provider/src/types.ts#L35)*
+*Defined in [types.ts:35](https://github.com/polkadot-js/api/blob/73d7a57/packages/rpc-provider/src/types.ts#L35)*
 
 ___
 
@@ -43,7 +43,7 @@ ___
 
 Ƭ **ProviderInterfaceCallback**: *function*
 
-*Defined in [types.ts:39](https://github.com/polkadot-js/api/blob/db9dcbd/packages/rpc-provider/src/types.ts#L39)*
+*Defined in [types.ts:39](https://github.com/polkadot-js/api/blob/73d7a57/packages/rpc-provider/src/types.ts#L39)*
 
 #### Type declaration:
 
@@ -61,7 +61,7 @@ ___
 
 Ƭ **ProviderInterfaceEmitCb**: *function*
 
-*Defined in [types.ts:43](https://github.com/polkadot-js/api/blob/db9dcbd/packages/rpc-provider/src/types.ts#L43)*
+*Defined in [types.ts:43](https://github.com/polkadot-js/api/blob/73d7a57/packages/rpc-provider/src/types.ts#L43)*
 
 #### Type declaration:
 
@@ -79,4 +79,4 @@ ___
 
 Ƭ **ProviderInterfaceEmitted**: *"connected" | "disconnected" | "error"*
 
-*Defined in [types.ts:41](https://github.com/polkadot-js/api/blob/db9dcbd/packages/rpc-provider/src/types.ts#L41)*
+*Defined in [types.ts:41](https://github.com/polkadot-js/api/blob/73d7a57/packages/rpc-provider/src/types.ts#L41)*
