@@ -23,6 +23,6 @@
 
 Ƭ **PermissionLatest**: *[PermissionsV1](../interfaces/_interfaces_genericasset_types_.permissionsv1.md)*
 
-*Defined in [interfaces/genericAsset/types.ts:26](https://github.com/polkadot-js/api/blob/e7f488e/packages/types/src/interfaces/genericAsset/types.ts#L26)*
+*Defined in [interfaces/genericAsset/types.ts:26](https://github.com/polkadot-js/api/blob/06d0c1f/packages/types/src/interfaces/genericAsset/types.ts#L26)*
 
 PermissionsV1
