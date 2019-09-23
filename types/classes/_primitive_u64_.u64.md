@@ -15,6 +15,20 @@ A 64-bit unsigned integer
 
   * **U64**
 
+  * [Moment](../interfaces/_interfaces_runtime_types_.moment.md)
+
+  * [BabeAuthorityWeight](../interfaces/_interfaces_babe_types_.babeauthorityweight.md)
+
+  * [BabeWeight](../interfaces/_interfaces_babe_types_.babeweight.md)
+
+  * [SlotNumber](../interfaces/_interfaces_babe_types_.slotnumber.md)
+
+  * [Gas](../interfaces/_interfaces_contracts_types_.gas.md)
+
+  * [AuthorityWeight](../interfaces/_interfaces_grandpa_types_.authorityweight.md)
+
+  * [SetId](../interfaces/_interfaces_grandpa_types_.setid.md)
+
 ## Implements
 
 * [Codec](../interfaces/_types_.codec.md)
@@ -39,7 +53,7 @@ A 64-bit unsigned integer
 
 *Overrides [UInt](_codec_uint_.uint.md).[constructor](_codec_uint_.uint.md#constructor)*
 
-*Defined in [primitive/U64.ts:14](https://github.com/polkadot-js/api/blob/06d0c1f/packages/types/src/primitive/U64.ts#L14)*
+*Defined in [primitive/U64.ts:14](https://github.com/polkadot-js/api/blob/00d8601/packages/types/src/primitive/U64.ts#L14)*
 
 **Parameters:**
 
@@ -59,7 +73,7 @@ Name | Type |
 
 *Overrides void*
 
-*Defined in [codec/UInt.ts:37](https://github.com/polkadot-js/api/blob/06d0c1f/packages/types/src/codec/UInt.ts#L37)*
+*Defined in [codec/UInt.ts:37](https://github.com/polkadot-js/api/blob/00d8601/packages/types/src/codec/UInt.ts#L37)*
 
 **`description`** Returns a hex string representation of the value
 
@@ -83,7 +97,7 @@ ___
 
 *Overrides void*
 
-*Defined in [codec/UInt.ts:49](https://github.com/polkadot-js/api/blob/06d0c1f/packages/types/src/codec/UInt.ts#L49)*
+*Defined in [codec/UInt.ts:49](https://github.com/polkadot-js/api/blob/00d8601/packages/types/src/codec/UInt.ts#L49)*
 
 **`description`** Returns the base runtime type name for this instance
 
@@ -101,7 +115,7 @@ ___
 
 *Overrides void*
 
-*Defined in [codec/UInt.ts:63](https://github.com/polkadot-js/api/blob/06d0c1f/packages/types/src/codec/UInt.ts#L63)*
+*Defined in [codec/UInt.ts:63](https://github.com/polkadot-js/api/blob/00d8601/packages/types/src/codec/UInt.ts#L63)*
 
 **`description`** Encodes the value as a Uint8Array as per the SCALE specifications
 

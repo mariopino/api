@@ -14,18 +14,18 @@
 
 ## Callable
 
-▸ <**T**>(`calls`: [QueryableStorageMultiArgs](../modules/_types_.md#queryablestoragemultiargs)‹ApiType›): *Observable‹T[]›*
+▸ <**T**>(`calls`: [QueryableStorageMultiArg](../modules/_types_.md#queryablestoragemultiarg)‹ApiType›[]): *Observable‹T›*
 
-*Defined in [types.ts:133](https://github.com/polkadot-js/api/blob/06d0c1f/packages/api/src/types.ts#L133)*
+*Defined in [types.ts:138](https://github.com/polkadot-js/api/blob/00d8601/packages/api/src/types.ts#L138)*
 
 **Type parameters:**
 
-▪ **T**: *Codec*
+▪ **T**: *Codec[]*
 
 **Parameters:**
 
 Name | Type |
 ------ | ------ |
-`calls` | [QueryableStorageMultiArgs](../modules/_types_.md#queryablestoragemultiargs)‹ApiType› |
+`calls` | [QueryableStorageMultiArg](../modules/_types_.md#queryablestoragemultiarg)‹ApiType›[] |
 
-**Returns:** *Observable‹T[]›*
+**Returns:** *Observable‹T›*

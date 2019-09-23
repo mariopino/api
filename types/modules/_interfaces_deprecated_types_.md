@@ -9,73 +9,10 @@
 ### Interfaces
 
 * [AccountInfo](../interfaces/_interfaces_deprecated_types_.accountinfo.md)
+* [Amount](../interfaces/_interfaces_deprecated_types_.amount.md)
+* [AssetOf](../interfaces/_interfaces_deprecated_types_.assetof.md)
+* [InherentOfflineReport](../interfaces/_interfaces_deprecated_types_.inherentofflinereport.md)
+* [LockPeriods](../interfaces/_interfaces_deprecated_types_.lockperiods.md)
 * [NewAccountOutcome](../interfaces/_interfaces_deprecated_types_.newaccountoutcome.md)
-
-### Type aliases
-
-* [Amount](_interfaces_deprecated_types_.md#amount)
-* [AssetOf](_interfaces_deprecated_types_.md#assetof)
-* [InherentOfflineReport](_interfaces_deprecated_types_.md#inherentofflinereport)
-* [LockPeriods](_interfaces_deprecated_types_.md#lockperiods)
-* [OpaqueKey](_interfaces_deprecated_types_.md#opaquekey)
-* [SessionKey](_interfaces_deprecated_types_.md#sessionkey)
-
-## Type aliases
-
-###  Amount
-
-Ƭ **Amount**: *[Balance](_interfaces_runtime_types_.md#balance)*
-
-*Defined in [interfaces/deprecated/types.ts:17](https://github.com/polkadot-js/api/blob/06d0c1f/packages/types/src/interfaces/deprecated/types.ts#L17)*
-
-Balance
-
-___
-
-###  AssetOf
-
-Ƭ **AssetOf**: *[u32](../interfaces/_interfaceregistry_.interfaceregistry.md#u32)*
-
-*Defined in [interfaces/deprecated/types.ts:20](https://github.com/polkadot-js/api/blob/06d0c1f/packages/types/src/interfaces/deprecated/types.ts#L20)*
-
-u32
-
-___
-
-###  InherentOfflineReport
-
-Ƭ **InherentOfflineReport**: *[Null](../classes/_primitive_null_.null.md)*
-
-*Defined in [interfaces/deprecated/types.ts:23](https://github.com/polkadot-js/api/blob/06d0c1f/packages/types/src/interfaces/deprecated/types.ts#L23)*
-
-Null
-
-___
-
-###  LockPeriods
-
-Ƭ **LockPeriods**: *[i8](../interfaces/_interfaceregistry_.interfaceregistry.md#i8)*
-
-*Defined in [interfaces/deprecated/types.ts:26](https://github.com/polkadot-js/api/blob/06d0c1f/packages/types/src/interfaces/deprecated/types.ts#L26)*
-
-i8
-
-___
-
-###  OpaqueKey
-
-Ƭ **OpaqueKey**: *[Bytes](../classes/_primitive_bytes_.bytes.md)*
-
-*Defined in [interfaces/deprecated/types.ts:39](https://github.com/polkadot-js/api/blob/06d0c1f/packages/types/src/interfaces/deprecated/types.ts#L39)*
-
-Bytes
-
-___
-
-###  SessionKey
-
-Ƭ **SessionKey**: *[AccountId](../classes/_primitive_generic_accountid_.accountid.md)*
-
-*Defined in [interfaces/deprecated/types.ts:42](https://github.com/polkadot-js/api/blob/06d0c1f/packages/types/src/interfaces/deprecated/types.ts#L42)*
-
-AccountId
+* [OpaqueKey](../interfaces/_interfaces_deprecated_types_.opaquekey.md)
+* [SessionKey](../interfaces/_interfaces_deprecated_types_.sessionkey.md)

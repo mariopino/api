@@ -15,6 +15,7 @@
 * ["promise/Api"](modules/_promise_api_.md)
 * ["promise/Combinator"](modules/_promise_combinator_.md)
 * ["promise/types"](modules/_promise_types_.md)
+* ["query.types"](modules/_query_types_.md)
 * ["rx/Api"](modules/_rx_api_.md)
 * ["submittable/Result"](modules/_submittable_result_.md)
 * ["submittable/Submittable"](modules/_submittable_submittable_.md)
