@@ -20,7 +20,7 @@
 
 ▸ **signAndSend**(`account`: IKeyringPair | string | AccountId | Address): *BlueprintCreateResultSubscription*
 
-*Defined in [RxBlueprint.ts:23](https://github.com/polkadot-js/api/blob/00d8601/packages/api-contract/src/RxBlueprint.ts#L23)*
+*Defined in [RxBlueprint.ts:23](https://github.com/polkadot-js/api/blob/fff6f31/packages/api-contract/src/RxBlueprint.ts#L23)*
 
 **Parameters:**
 

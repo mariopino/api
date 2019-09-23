@@ -16,7 +16,7 @@
 
 ▸ <**T**>(`calls`: [QueryableStorageMultiArg](../modules/_types_.md#queryablestoragemultiarg)‹ApiType›[]): *Observable‹T›*
 
-*Defined in [types.ts:138](https://github.com/polkadot-js/api/blob/00d8601/packages/api/src/types.ts#L138)*
+*Defined in [types.ts:138](https://github.com/polkadot-js/api/blob/fff6f31/packages/api/src/types.ts#L138)*
 
 **Type parameters:**
 
