@@ -20,7 +20,7 @@
 
 Ƭ **AccountIndexes**: *Record‹string, AccountIndex›*
 
-*Defined in [accounts/indexes.ts:15](https://github.com/polkadot-js/api/blob/8de45cb/packages/api-derive/src/accounts/indexes.ts#L15)*
+*Defined in [accounts/indexes.ts:15](https://github.com/polkadot-js/api/blob/692c208/packages/api-derive/src/accounts/indexes.ts#L15)*
 
 ## Functions
 
@@ -28,7 +28,7 @@
 
 ▸ **indexes**(`api`: ApiInterfaceRx): *function*
 
-*Defined in [accounts/indexes.ts:34](https://github.com/polkadot-js/api/blob/8de45cb/packages/api-derive/src/accounts/indexes.ts#L34)*
+*Defined in [accounts/indexes.ts:34](https://github.com/polkadot-js/api/blob/692c208/packages/api-derive/src/accounts/indexes.ts#L34)*
 
 **`name`** indexes
 
