@@ -28,7 +28,7 @@
 
 *Inherited from [ContractABIMethodBase](_types_.contractabimethodbase.md).[args](_types_.contractabimethodbase.md#args)*
 
-*Defined in [types.ts:40](https://github.com/polkadot-js/api/blob/68a3b18/packages/api-contract/src/types.ts#L40)*
+*Defined in [types.ts:40](https://github.com/polkadot-js/api/blob/8de45cb/packages/api-contract/src/types.ts#L40)*
 
 ___
 
@@ -36,7 +36,7 @@ ___
 
 • **mutates**? : *undefined | false | true*
 
-*Defined in [types.ts:44](https://github.com/polkadot-js/api/blob/68a3b18/packages/api-contract/src/types.ts#L44)*
+*Defined in [types.ts:44](https://github.com/polkadot-js/api/blob/8de45cb/packages/api-contract/src/types.ts#L44)*
 
 ___
 
@@ -44,7 +44,7 @@ ___
 
 • **name**: *string*
 
-*Defined in [types.ts:45](https://github.com/polkadot-js/api/blob/68a3b18/packages/api-contract/src/types.ts#L45)*
+*Defined in [types.ts:45](https://github.com/polkadot-js/api/blob/8de45cb/packages/api-contract/src/types.ts#L45)*
 
 ___
 
@@ -52,7 +52,7 @@ ___
 
 • **return_type**: *[ContractABITypes](../modules/_types_.md#contractabitypes) | null*
 
-*Defined in [types.ts:47](https://github.com/polkadot-js/api/blob/68a3b18/packages/api-contract/src/types.ts#L47)*
+*Defined in [types.ts:47](https://github.com/polkadot-js/api/blob/8de45cb/packages/api-contract/src/types.ts#L47)*
 
 ___
 
@@ -60,4 +60,4 @@ ___
 
 • **selector**: *number*
 
-*Defined in [types.ts:46](https://github.com/polkadot-js/api/blob/68a3b18/packages/api-contract/src/types.ts#L46)*
+*Defined in [types.ts:46](https://github.com/polkadot-js/api/blob/8de45cb/packages/api-contract/src/types.ts#L46)*

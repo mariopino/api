@@ -50,7 +50,7 @@
 
 *Inherited from void*
 
-*Defined in [query.types.ts:64](https://github.com/polkadot-js/api/blob/68a3b18/packages/api/src/query.types.ts#L64)*
+*Defined in [query.types.ts:62](https://github.com/polkadot-js/api/blob/8de45cb/packages/api/src/query.types.ts#L62)*
 
 #### Type declaration:
 
@@ -64,7 +64,7 @@ ___
 
 *Inherited from void*
 
-*Defined in [query.types.ts:45](https://github.com/polkadot-js/api/blob/68a3b18/packages/api/src/query.types.ts#L45)*
+*Defined in [query.types.ts:45](https://github.com/polkadot-js/api/blob/8de45cb/packages/api/src/query.types.ts#L45)*
 
 #### Type declaration:
 
@@ -78,7 +78,7 @@ ___
 
 *Inherited from void*
 
-*Defined in [query.types.ts:75](https://github.com/polkadot-js/api/blob/68a3b18/packages/api/src/query.types.ts#L75)*
+*Defined in [query.types.ts:73](https://github.com/polkadot-js/api/blob/8de45cb/packages/api/src/query.types.ts#L73)*
 
 #### Type declaration:
 
@@ -92,7 +92,7 @@ ___
 
 *Inherited from void*
 
-*Defined in [query.types.ts:187](https://github.com/polkadot-js/api/blob/68a3b18/packages/api/src/query.types.ts#L187)*
+*Defined in [query.types.ts:186](https://github.com/polkadot-js/api/blob/8de45cb/packages/api/src/query.types.ts#L186)*
 
 #### Type declaration:
 
@@ -106,7 +106,7 @@ ___
 
 *Inherited from void*
 
-*Defined in [query.types.ts:132](https://github.com/polkadot-js/api/blob/68a3b18/packages/api/src/query.types.ts#L132)*
+*Defined in [query.types.ts:131](https://github.com/polkadot-js/api/blob/8de45cb/packages/api/src/query.types.ts#L131)*
 
 #### Type declaration:
 
@@ -120,7 +120,7 @@ ___
 
 *Inherited from void*
 
-*Defined in [query.types.ts:114](https://github.com/polkadot-js/api/blob/68a3b18/packages/api/src/query.types.ts#L114)*
+*Defined in [query.types.ts:113](https://github.com/polkadot-js/api/blob/8de45cb/packages/api/src/query.types.ts#L113)*
 
 #### Type declaration:
 
@@ -134,7 +134,7 @@ ___
 
 *Inherited from void*
 
-*Defined in [query.types.ts:148](https://github.com/polkadot-js/api/blob/68a3b18/packages/api/src/query.types.ts#L148)*
+*Defined in [query.types.ts:147](https://github.com/polkadot-js/api/blob/8de45cb/packages/api/src/query.types.ts#L147)*
 
 #### Type declaration:
 
@@ -148,7 +148,7 @@ ___
 
 *Inherited from void*
 
-*Defined in [query.types.ts:171](https://github.com/polkadot-js/api/blob/68a3b18/packages/api/src/query.types.ts#L171)*
+*Defined in [query.types.ts:170](https://github.com/polkadot-js/api/blob/8de45cb/packages/api/src/query.types.ts#L170)*
 
 #### Type declaration:
 
@@ -162,7 +162,7 @@ ___
 
 *Inherited from void*
 
-*Defined in [query.types.ts:201](https://github.com/polkadot-js/api/blob/68a3b18/packages/api/src/query.types.ts#L201)*
+*Defined in [query.types.ts:200](https://github.com/polkadot-js/api/blob/8de45cb/packages/api/src/query.types.ts#L200)*
 
 #### Type declaration:
 
@@ -176,7 +176,7 @@ ___
 
 *Inherited from void*
 
-*Defined in [query.types.ts:70](https://github.com/polkadot-js/api/blob/68a3b18/packages/api/src/query.types.ts#L70)*
+*Defined in [query.types.ts:68](https://github.com/polkadot-js/api/blob/8de45cb/packages/api/src/query.types.ts#L68)*
 
 #### Type declaration:
 
@@ -190,7 +190,7 @@ ___
 
 *Inherited from void*
 
-*Defined in [query.types.ts:207](https://github.com/polkadot-js/api/blob/68a3b18/packages/api/src/query.types.ts#L207)*
+*Defined in [query.types.ts:206](https://github.com/polkadot-js/api/blob/8de45cb/packages/api/src/query.types.ts#L206)*
 
 #### Type declaration:
 
@@ -204,7 +204,7 @@ ___
 
 *Inherited from void*
 
-*Defined in [query.types.ts:105](https://github.com/polkadot-js/api/blob/68a3b18/packages/api/src/query.types.ts#L105)*
+*Defined in [query.types.ts:103](https://github.com/polkadot-js/api/blob/8de45cb/packages/api/src/query.types.ts#L103)*
 
 #### Type declaration:
 
@@ -218,7 +218,7 @@ ___
 
 *Inherited from void*
 
-*Defined in [query.types.ts:83](https://github.com/polkadot-js/api/blob/68a3b18/packages/api/src/query.types.ts#L83)*
+*Defined in [query.types.ts:81](https://github.com/polkadot-js/api/blob/8de45cb/packages/api/src/query.types.ts#L81)*
 
 #### Type declaration:
 
@@ -232,7 +232,7 @@ ___
 
 *Inherited from void*
 
-*Defined in [query.types.ts:197](https://github.com/polkadot-js/api/blob/68a3b18/packages/api/src/query.types.ts#L197)*
+*Defined in [query.types.ts:196](https://github.com/polkadot-js/api/blob/8de45cb/packages/api/src/query.types.ts#L196)*
 
 #### Type declaration:
 
@@ -246,7 +246,7 @@ ___
 
 *Inherited from void*
 
-*Defined in [query.types.ts:27](https://github.com/polkadot-js/api/blob/68a3b18/packages/api/src/query.types.ts#L27)*
+*Defined in [query.types.ts:27](https://github.com/polkadot-js/api/blob/8de45cb/packages/api/src/query.types.ts#L27)*
 
 #### Type declaration:
 
@@ -260,7 +260,7 @@ ___
 
 *Inherited from void*
 
-*Defined in [query.types.ts:140](https://github.com/polkadot-js/api/blob/68a3b18/packages/api/src/query.types.ts#L140)*
+*Defined in [query.types.ts:139](https://github.com/polkadot-js/api/blob/8de45cb/packages/api/src/query.types.ts#L139)*
 
 #### Type declaration:
 
@@ -274,7 +274,7 @@ ___
 
 *Inherited from void*
 
-*Defined in [query.types.ts:167](https://github.com/polkadot-js/api/blob/68a3b18/packages/api/src/query.types.ts#L167)*
+*Defined in [query.types.ts:166](https://github.com/polkadot-js/api/blob/8de45cb/packages/api/src/query.types.ts#L166)*
 
 #### Type declaration:
 
@@ -288,7 +288,7 @@ ___
 
 *Inherited from void*
 
-*Defined in [query.types.ts:59](https://github.com/polkadot-js/api/blob/68a3b18/packages/api/src/query.types.ts#L59)*
+*Defined in [query.types.ts:57](https://github.com/polkadot-js/api/blob/8de45cb/packages/api/src/query.types.ts#L57)*
 
 #### Type declaration:
 
@@ -302,7 +302,7 @@ ___
 
 *Inherited from void*
 
-*Defined in [query.types.ts:181](https://github.com/polkadot-js/api/blob/68a3b18/packages/api/src/query.types.ts#L181)*
+*Defined in [query.types.ts:180](https://github.com/polkadot-js/api/blob/8de45cb/packages/api/src/query.types.ts#L180)*
 
 #### Type declaration:
 
