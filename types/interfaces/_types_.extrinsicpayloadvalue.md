@@ -26,7 +26,7 @@
 
 • **blockHash**: *[AnyU8a](../modules/_types_.md#anyu8a)*
 
-*Defined in [types.ts:183](https://github.com/polkadot-js/api/blob/692c208/packages/types/src/types.ts#L183)*
+*Defined in [types.ts:183](https://github.com/polkadot-js/api/blob/a0b8619/packages/types/src/types.ts#L183)*
 
 ___
 
@@ -34,7 +34,7 @@ ___
 
 • **era**: *[AnyU8a](../modules/_types_.md#anyu8a) | [IExtrinsicEra](_types_.iextrinsicera.md)*
 
-*Defined in [types.ts:184](https://github.com/polkadot-js/api/blob/692c208/packages/types/src/types.ts#L184)*
+*Defined in [types.ts:184](https://github.com/polkadot-js/api/blob/a0b8619/packages/types/src/types.ts#L184)*
 
 ___
 
@@ -42,7 +42,7 @@ ___
 
 • **genesisHash**: *[AnyU8a](../modules/_types_.md#anyu8a)*
 
-*Defined in [types.ts:185](https://github.com/polkadot-js/api/blob/692c208/packages/types/src/types.ts#L185)*
+*Defined in [types.ts:185](https://github.com/polkadot-js/api/blob/a0b8619/packages/types/src/types.ts#L185)*
 
 ___
 
@@ -50,7 +50,7 @@ ___
 
 • **method**: *[AnyU8a](../modules/_types_.md#anyu8a) | [IMethod](_types_.imethod.md)*
 
-*Defined in [types.ts:186](https://github.com/polkadot-js/api/blob/692c208/packages/types/src/types.ts#L186)*
+*Defined in [types.ts:186](https://github.com/polkadot-js/api/blob/a0b8619/packages/types/src/types.ts#L186)*
 
 ___
 
@@ -58,7 +58,7 @@ ___
 
 • **nonce**: *[AnyNumber](../modules/_types_.md#anynumber)*
 
-*Defined in [types.ts:187](https://github.com/polkadot-js/api/blob/692c208/packages/types/src/types.ts#L187)*
+*Defined in [types.ts:187](https://github.com/polkadot-js/api/blob/a0b8619/packages/types/src/types.ts#L187)*
 
 ___
 
@@ -66,7 +66,7 @@ ___
 
 • **specVersion**: *[AnyNumber](../modules/_types_.md#anynumber)*
 
-*Defined in [types.ts:188](https://github.com/polkadot-js/api/blob/692c208/packages/types/src/types.ts#L188)*
+*Defined in [types.ts:188](https://github.com/polkadot-js/api/blob/a0b8619/packages/types/src/types.ts#L188)*
 
 ___
 
@@ -74,4 +74,4 @@ ___
 
 • **tip**: *[AnyNumber](../modules/_types_.md#anynumber)*
 
-*Defined in [types.ts:189](https://github.com/polkadot-js/api/blob/692c208/packages/types/src/types.ts#L189)*
+*Defined in [types.ts:189](https://github.com/polkadot-js/api/blob/a0b8619/packages/types/src/types.ts#L189)*
