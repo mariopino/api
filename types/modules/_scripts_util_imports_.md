@@ -1,6 +1,4 @@
-**[Polkadot JS API](../README.md)**
-
-[Globals](../globals.md) › [&quot;scripts/util/imports&quot;](_scripts_util_imports_.md)
+[Polkadot JS API](../README.md) › [Globals](../globals.md) › ["scripts/util/imports"](_scripts_util_imports_.md)
 
 # External module: "scripts/util/imports"
 
@@ -21,7 +19,7 @@
 
 ▸ **createImports**(`__namedParameters`: object): *[TypeImports](../interfaces/_scripts_util_imports_.typeimports.md)*
 
-*Defined in [scripts/util/imports.ts:68](https://github.com/polkadot-js/api/blob/a0b8619/packages/types/src/scripts/util/imports.ts#L68)*
+*Defined in [scripts/util/imports.ts:68](https://github.com/polkadot-js/api/blob/32c4aa3/packages/types/src/scripts/util/imports.ts#L68)*
 
 **Parameters:**
 
@@ -37,7 +35,7 @@ ___
 
 ▸ **setImports**(`imports`: [TypeImports](../interfaces/_scripts_util_imports_.typeimports.md), `types`: string[]): *void*
 
-*Defined in [scripts/util/imports.ts:29](https://github.com/polkadot-js/api/blob/a0b8619/packages/types/src/scripts/util/imports.ts#L29)*
+*Defined in [scripts/util/imports.ts:29](https://github.com/polkadot-js/api/blob/32c4aa3/packages/types/src/scripts/util/imports.ts#L29)*
 
 **Parameters:**
 

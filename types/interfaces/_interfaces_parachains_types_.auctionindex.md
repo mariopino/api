@@ -1,6 +1,4 @@
-**[Polkadot JS API](../README.md)**
-
-[Globals](../globals.md) › [&quot;interfaces/parachains/types&quot;](../modules/_interfaces_parachains_types_.md) › [AuctionIndex](_interfaces_parachains_types_.auctionindex.md)
+[Polkadot JS API](../README.md) › [Globals](../globals.md) › ["interfaces/parachains/types"](../modules/_interfaces_parachains_types_.md) › [AuctionIndex](_interfaces_parachains_types_.auctionindex.md)
 
 # Interface: AuctionIndex
 
@@ -8,9 +6,9 @@ u32
 
 ## Hierarchy
 
-  * [U32](../classes/_primitive_u32_.u32.md)
+  ↳ [U32](../classes/_primitive_u32_.u32.md)
 
-  * **AuctionIndex**
+  ↳ **AuctionIndex**
 
 ## Implements
 
@@ -38,7 +36,7 @@ u32
 
 *Overrides [UInt](../classes/_codec_uint_.uint.md).[constructor](../classes/_codec_uint_.uint.md#constructor)*
 
-*Defined in [primitive/U32.ts:14](https://github.com/polkadot-js/api/blob/a0b8619/packages/types/src/primitive/U32.ts#L14)*
+*Defined in [primitive/U32.ts:14](https://github.com/polkadot-js/api/blob/32c4aa3/packages/types/src/primitive/U32.ts#L14)*
 
 **Parameters:**
 
@@ -58,7 +56,7 @@ Name | Type |
 
 *Overrides void*
 
-*Defined in [codec/UInt.ts:37](https://github.com/polkadot-js/api/blob/a0b8619/packages/types/src/codec/UInt.ts#L37)*
+*Defined in [codec/UInt.ts:37](https://github.com/polkadot-js/api/blob/32c4aa3/packages/types/src/codec/UInt.ts#L37)*
 
 **`description`** Returns a hex string representation of the value
 
@@ -80,7 +78,7 @@ ___
 
 *Overrides void*
 
-*Defined in [codec/UInt.ts:49](https://github.com/polkadot-js/api/blob/a0b8619/packages/types/src/codec/UInt.ts#L49)*
+*Defined in [codec/UInt.ts:49](https://github.com/polkadot-js/api/blob/32c4aa3/packages/types/src/codec/UInt.ts#L49)*
 
 **`description`** Returns the base runtime type name for this instance
 
@@ -96,7 +94,7 @@ ___
 
 *Overrides void*
 
-*Defined in [codec/UInt.ts:63](https://github.com/polkadot-js/api/blob/a0b8619/packages/types/src/codec/UInt.ts#L63)*
+*Defined in [codec/UInt.ts:63](https://github.com/polkadot-js/api/blob/32c4aa3/packages/types/src/codec/UInt.ts#L63)*
 
 **`description`** Encodes the value as a Uint8Array as per the SCALE specifications
 

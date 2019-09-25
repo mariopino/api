@@ -1,6 +1,4 @@
-**[Polkadot JS API](../README.md)**
-
-[Globals](../globals.md) › [&quot;types&quot;](../modules/_types_.md) › [CallFunction](_types_.callfunction.md)
+[Polkadot JS API](../README.md) › [Globals](../globals.md) › ["types"](../modules/_types_.md) › [CallFunction](_types_.callfunction.md)
 
 # Interface: CallFunction
 
@@ -12,7 +10,7 @@
 
 ▸ (...`args`: any[]): *[Call](../classes/_primitive_generic_call_.call.md)*
 
-*Defined in [types.ts:20](https://github.com/polkadot-js/api/blob/a0b8619/packages/types/src/types.ts#L20)*
+*Defined in [types.ts:20](https://github.com/polkadot-js/api/blob/32c4aa3/packages/types/src/types.ts#L20)*
 
 **Parameters:**
 
@@ -38,7 +36,7 @@ Name | Type |
 
 • **callIndex**: *Uint8Array*
 
-*Defined in [types.ts:22](https://github.com/polkadot-js/api/blob/a0b8619/packages/types/src/types.ts#L22)*
+*Defined in [types.ts:22](https://github.com/polkadot-js/api/blob/32c4aa3/packages/types/src/types.ts#L22)*
 
 ___
 
@@ -46,7 +44,7 @@ ___
 
 • **meta**: *[FunctionMetadataV7](_interfaces_metadata_types_.functionmetadatav7.md)*
 
-*Defined in [types.ts:23](https://github.com/polkadot-js/api/blob/a0b8619/packages/types/src/types.ts#L23)*
+*Defined in [types.ts:23](https://github.com/polkadot-js/api/blob/32c4aa3/packages/types/src/types.ts#L23)*
 
 ___
 
@@ -54,7 +52,7 @@ ___
 
 • **method**: *string*
 
-*Defined in [types.ts:24](https://github.com/polkadot-js/api/blob/a0b8619/packages/types/src/types.ts#L24)*
+*Defined in [types.ts:24](https://github.com/polkadot-js/api/blob/32c4aa3/packages/types/src/types.ts#L24)*
 
 ___
 
@@ -62,7 +60,7 @@ ___
 
 • **section**: *string*
 
-*Defined in [types.ts:25](https://github.com/polkadot-js/api/blob/a0b8619/packages/types/src/types.ts#L25)*
+*Defined in [types.ts:25](https://github.com/polkadot-js/api/blob/32c4aa3/packages/types/src/types.ts#L25)*
 
 ___
 
@@ -70,7 +68,7 @@ ___
 
 • **toJSON**: *function*
 
-*Defined in [types.ts:26](https://github.com/polkadot-js/api/blob/a0b8619/packages/types/src/types.ts#L26)*
+*Defined in [types.ts:26](https://github.com/polkadot-js/api/blob/32c4aa3/packages/types/src/types.ts#L26)*
 
 #### Type declaration:
 

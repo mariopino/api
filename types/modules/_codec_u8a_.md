@@ -1,6 +1,4 @@
-**[Polkadot JS API](../README.md)**
-
-[Globals](../globals.md) › [&quot;codec/U8a&quot;](_codec_u8a_.md)
+[Polkadot JS API](../README.md) › [Globals](../globals.md) › ["codec/U8a"](_codec_u8a_.md)
 
 # External module: "codec/U8a"
 

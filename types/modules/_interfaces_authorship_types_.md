@@ -1,6 +1,4 @@
-**[Polkadot JS API](../README.md)**
-
-[Globals](../globals.md) › [&quot;interfaces/authorship/types&quot;](_interfaces_authorship_types_.md)
+[Polkadot JS API](../README.md) › [Globals](../globals.md) › ["interfaces/authorship/types"](_interfaces_authorship_types_.md)
 
 # External module: "interfaces/authorship/types"
 

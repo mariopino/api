@@ -1,6 +1,4 @@
-**[Polkadot JS API](../README.md)**
-
-[Globals](../globals.md) › [&quot;codec/utils/decodeU8a&quot;](_codec_utils_decodeu8a_.md)
+[Polkadot JS API](../README.md) › [Globals](../globals.md) › ["codec/utils/decodeU8a"](_codec_utils_decodeu8a_.md)
 
 # External module: "codec/utils/decodeU8a"
 
@@ -16,7 +14,7 @@
 
 ▸ **decodeU8a**(`u8a`: Uint8Array, `_types`: [Constructor](../interfaces/_types_.constructor.md)[] | object): *[Codec](../interfaces/_types_.codec.md)[]*
 
-*Defined in [codec/utils/decodeU8a.ts:14](https://github.com/polkadot-js/api/blob/a0b8619/packages/types/src/codec/utils/decodeU8a.ts#L14)*
+*Defined in [codec/utils/decodeU8a.ts:14](https://github.com/polkadot-js/api/blob/32c4aa3/packages/types/src/codec/utils/decodeU8a.ts#L14)*
 
 Given an u8a, and an array of Type constructors, decode the u8a against the
 types, and return an array of decoded values.

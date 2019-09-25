@@ -1,6 +1,4 @@
-**[Polkadot JS API](../README.md)**
-
-[Globals](../globals.md) › [&quot;types&quot;](../modules/_types_.md) › [QueryableStorageExact](_types_.queryablestorageexact.md)
+[Polkadot JS API](../README.md) › [Globals](../globals.md) › ["types"](../modules/_types_.md) › [QueryableStorageExact](_types_.queryablestorageexact.md)
 
 # Interface: QueryableStorageExact <**ApiType**>
 

@@ -1,6 +1,4 @@
-**[Polkadot JS API](../README.md)**
-
-[Globals](../globals.md) › [&quot;primitive/I64Fixed&quot;](_primitive_i64fixed_.md)
+[Polkadot JS API](../README.md) › [Globals](../globals.md) › ["primitive/I64Fixed"](_primitive_i64fixed_.md)
 
 # External module: "primitive/I64Fixed"
 

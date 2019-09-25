@@ -1,6 +1,4 @@
-**[Polkadot JS API](../README.md)**
-
-[Globals](../globals.md) › [&quot;scripts/generateTypes/tsDef&quot;](_scripts_generatetypes_tsdef_.md)
+[Polkadot JS API](../README.md) › [Globals](../globals.md) › ["scripts/generateTypes/tsDef"](_scripts_generatetypes_tsdef_.md)
 
 # External module: "scripts/generateTypes/tsDef"
 
@@ -17,7 +15,7 @@
 
 ▸ **createGetter**(`name`: string, `type`: string, `imports`: [TypeImports](../interfaces/_scripts_util_imports_.typeimports.md), `doc?`: undefined | string): *string*
 
-*Defined in [scripts/generateTypes/tsDef.ts:25](https://github.com/polkadot-js/api/blob/a0b8619/packages/types/src/scripts/generateTypes/tsDef.ts#L25)*
+*Defined in [scripts/generateTypes/tsDef.ts:25](https://github.com/polkadot-js/api/blob/32c4aa3/packages/types/src/scripts/generateTypes/tsDef.ts#L25)*
 
 **Parameters:**
 
@@ -36,6 +34,6 @@ ___
 
 ▸ **generateTsDef**(): *void*
 
-*Defined in [scripts/generateTypes/tsDef.ts:256](https://github.com/polkadot-js/api/blob/a0b8619/packages/types/src/scripts/generateTypes/tsDef.ts#L256)*
+*Defined in [scripts/generateTypes/tsDef.ts:256](https://github.com/polkadot-js/api/blob/32c4aa3/packages/types/src/scripts/generateTypes/tsDef.ts#L256)*
 
 **Returns:** *void*

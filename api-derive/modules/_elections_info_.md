@@ -1,6 +1,4 @@
-**[Polkadot JS API](../README.md)**
-
-[Globals](../globals.md) › [&quot;elections/info&quot;](_elections_info_.md)
+[Polkadot JS API](../README.md) › [Globals](../globals.md) › ["elections/info"](_elections_info_.md)
 
 # External module: "elections/info"
 
@@ -16,7 +14,7 @@
 
 ▸ **info**(`api`: ApiInterfaceRx): *function*
 
-*Defined in [elections/info.ts:41](https://github.com/polkadot-js/api/blob/a0b8619/packages/api-derive/src/elections/info.ts#L41)*
+*Defined in [elections/info.ts:41](https://github.com/polkadot-js/api/blob/32c4aa3/packages/api-derive/src/elections/info.ts#L41)*
 
 **`name`** info
 

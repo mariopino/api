@@ -1,6 +1,4 @@
-**[Polkadot JS API](../README.md)**
-
-[Globals](../globals.md) › [&quot;democracy/referendumInfo&quot;](_democracy_referenduminfo_.md)
+[Polkadot JS API](../README.md) › [Globals](../globals.md) › ["democracy/referendumInfo"](_democracy_referenduminfo_.md)
 
 # External module: "democracy/referendumInfo"
 
@@ -17,7 +15,7 @@
 
 ▸ **constructInfo**(`index`: BN | number, `optionInfo?`: Option‹ReferendumInfo›): *Option‹[ReferendumInfoExtended](../classes/_type_referenduminfoextended_.referenduminfoextended.md)›*
 
-*Defined in [democracy/referendumInfo.ts:17](https://github.com/polkadot-js/api/blob/a0b8619/packages/api-derive/src/democracy/referendumInfo.ts#L17)*
+*Defined in [democracy/referendumInfo.ts:17](https://github.com/polkadot-js/api/blob/32c4aa3/packages/api-derive/src/democracy/referendumInfo.ts#L17)*
 
 **Parameters:**
 
@@ -34,7 +32,7 @@ ___
 
 ▸ **referendumInfo**(`api`: ApiInterfaceRx): *function*
 
-*Defined in [democracy/referendumInfo.ts:30](https://github.com/polkadot-js/api/blob/a0b8619/packages/api-derive/src/democracy/referendumInfo.ts#L30)*
+*Defined in [democracy/referendumInfo.ts:30](https://github.com/polkadot-js/api/blob/32c4aa3/packages/api-derive/src/democracy/referendumInfo.ts#L30)*
 
 **Parameters:**
 

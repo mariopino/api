@@ -1,6 +1,4 @@
-**[Polkadot JS API](../README.md)**
-
-[Globals](../globals.md) › [&quot;interfaces/imOnline/types&quot;](_interfaces_imonline_types_.md)
+[Polkadot JS API](../README.md) › [Globals](../globals.md) › ["interfaces/imOnline/types"](_interfaces_imonline_types_.md)
 
 # External module: "interfaces/imOnline/types"
 

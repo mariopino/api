@@ -1,6 +1,4 @@
-**[Polkadot JS API](../README.md)**
-
-[Globals](../globals.md) › [&quot;consts/types&quot;](_consts_types_.md)
+[Polkadot JS API](../README.md) › [Globals](../globals.md) › ["consts/types"](_consts_types_.md)
 
 # External module: "consts/types"
 
@@ -21,7 +19,7 @@
 
 Ƭ **Constants**: *Record‹string, [ModuleConstants](_consts_types_.md#moduleconstants)›*
 
-*Defined in [consts/types.ts:14](https://github.com/polkadot-js/api/blob/a0b8619/packages/api-metadata/src/consts/types.ts#L14)*
+*Defined in [consts/types.ts:14](https://github.com/polkadot-js/api/blob/32c4aa3/packages/api-metadata/src/consts/types.ts#L14)*
 
 ___
 
@@ -29,4 +27,4 @@ ___
 
 Ƭ **ModuleConstants**: *Record‹string, Codec›*
 
-*Defined in [consts/types.ts:12](https://github.com/polkadot-js/api/blob/a0b8619/packages/api-metadata/src/consts/types.ts#L12)*
+*Defined in [consts/types.ts:12](https://github.com/polkadot-js/api/blob/32c4aa3/packages/api-metadata/src/consts/types.ts#L12)*

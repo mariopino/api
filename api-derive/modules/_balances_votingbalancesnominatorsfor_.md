@@ -1,6 +1,4 @@
-**[Polkadot JS API](../README.md)**
-
-[Globals](../globals.md) › [&quot;balances/votingBalancesNominatorsFor&quot;](_balances_votingbalancesnominatorsfor_.md)
+[Polkadot JS API](../README.md) › [Globals](../globals.md) › ["balances/votingBalancesNominatorsFor"](_balances_votingbalancesnominatorsfor_.md)
 
 # External module: "balances/votingBalancesNominatorsFor"
 
@@ -16,7 +14,7 @@
 
 ▸ **votingBalancesNominatorsFor**(`api`: ApiInterfaceRx): *function*
 
-*Defined in [balances/votingBalancesNominatorsFor.ts:17](https://github.com/polkadot-js/api/blob/a0b8619/packages/api-derive/src/balances/votingBalancesNominatorsFor.ts#L17)*
+*Defined in [balances/votingBalancesNominatorsFor.ts:17](https://github.com/polkadot-js/api/blob/32c4aa3/packages/api-derive/src/balances/votingBalancesNominatorsFor.ts#L17)*
 
 **Parameters:**
 

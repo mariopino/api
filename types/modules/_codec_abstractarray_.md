@@ -1,6 +1,4 @@
-**[Polkadot JS API](../README.md)**
-
-[Globals](../globals.md) › [&quot;codec/AbstractArray&quot;](_codec_abstractarray_.md)
+[Polkadot JS API](../README.md) › [Globals](../globals.md) › ["codec/AbstractArray"](_codec_abstractarray_.md)
 
 # External module: "codec/AbstractArray"
 

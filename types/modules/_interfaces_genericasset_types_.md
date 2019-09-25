@@ -1,6 +1,4 @@
-**[Polkadot JS API](../README.md)**
-
-[Globals](../globals.md) › [&quot;interfaces/genericAsset/types&quot;](_interfaces_genericasset_types_.md)
+[Polkadot JS API](../README.md) › [Globals](../globals.md) › ["interfaces/genericAsset/types"](_interfaces_genericasset_types_.md)
 
 # External module: "interfaces/genericAsset/types"
 

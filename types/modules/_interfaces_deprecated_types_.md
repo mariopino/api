@@ -1,6 +1,4 @@
-**[Polkadot JS API](../README.md)**
-
-[Globals](../globals.md) › [&quot;interfaces/deprecated/types&quot;](_interfaces_deprecated_types_.md)
+[Polkadot JS API](../README.md) › [Globals](../globals.md) › ["interfaces/deprecated/types"](_interfaces_deprecated_types_.md)
 
 # External module: "interfaces/deprecated/types"
 

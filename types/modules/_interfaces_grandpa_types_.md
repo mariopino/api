@@ -1,6 +1,4 @@
-**[Polkadot JS API](../README.md)**
-
-[Globals](../globals.md) › [&quot;interfaces/grandpa/types&quot;](_interfaces_grandpa_types_.md)
+[Polkadot JS API](../README.md) › [Globals](../globals.md) › ["interfaces/grandpa/types"](_interfaces_grandpa_types_.md)
 
 # External module: "interfaces/grandpa/types"
 

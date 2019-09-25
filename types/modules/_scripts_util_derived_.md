@@ -1,6 +1,4 @@
-**[Polkadot JS API](../README.md)**
-
-[Globals](../globals.md) › [&quot;scripts/util/derived&quot;](_scripts_util_derived_.md)
+[Polkadot JS API](../README.md) › [Globals](../globals.md) › ["scripts/util/derived"](_scripts_util_derived_.md)
 
 # External module: "scripts/util/derived"
 
@@ -17,7 +15,7 @@
 
 ▸ **getDerivedTypes**(`type`: string, `primitiveName`: string, `imports`: [TypeImports](../interfaces/_scripts_util_imports_.typeimports.md)): *string[]*
 
-*Defined in [scripts/util/derived.ts:17](https://github.com/polkadot-js/api/blob/a0b8619/packages/types/src/scripts/util/derived.ts#L17)*
+*Defined in [scripts/util/derived.ts:17](https://github.com/polkadot-js/api/blob/32c4aa3/packages/types/src/scripts/util/derived.ts#L17)*
 
 **Parameters:**
 
@@ -35,7 +33,7 @@ ___
 
 ▸ **getSimilarTypes**(`type`: string, `imports`: [TypeImports](../interfaces/_scripts_util_imports_.typeimports.md)): *string[]*
 
-*Defined in [scripts/util/derived.ts:37](https://github.com/polkadot-js/api/blob/a0b8619/packages/types/src/scripts/util/derived.ts#L37)*
+*Defined in [scripts/util/derived.ts:37](https://github.com/polkadot-js/api/blob/32c4aa3/packages/types/src/scripts/util/derived.ts#L37)*
 
 **Parameters:**
 

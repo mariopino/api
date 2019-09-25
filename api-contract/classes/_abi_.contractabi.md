@@ -1,6 +1,4 @@
-**[Polkadot JS API](../README.md)**
-
-[Globals](../globals.md) › [&quot;Abi&quot;](../modules/_abi_.md) › [ContractAbi](_abi_.contractabi.md)
+[Polkadot JS API](../README.md) › [Globals](../globals.md) › ["Abi"](../modules/_abi_.md) › [ContractAbi](_abi_.contractabi.md)
 
 # Class: ContractAbi
 
@@ -30,7 +28,7 @@
 
 \+ **new ContractAbi**(`abi`: [ContractABI](../interfaces/_types_.contractabi.md)): *[ContractAbi](_abi_.contractabi.md)*
 
-*Defined in [Abi.ts:17](https://github.com/polkadot-js/api/blob/a0b8619/packages/api-contract/src/Abi.ts#L17)*
+*Defined in [Abi.ts:17](https://github.com/polkadot-js/api/blob/32c4aa3/packages/api-contract/src/Abi.ts#L17)*
 
 **Parameters:**
 
@@ -48,7 +46,7 @@ Name | Type |
 
 *Implementation of [InterfaceAbi](../interfaces/_types_.interfaceabi.md).[abi](../interfaces/_types_.interfaceabi.md#abi)*
 
-*Defined in [Abi.ts:13](https://github.com/polkadot-js/api/blob/a0b8619/packages/api-contract/src/Abi.ts#L13)*
+*Defined in [Abi.ts:13](https://github.com/polkadot-js/api/blob/32c4aa3/packages/api-contract/src/Abi.ts#L13)*
 
 ___
 
@@ -58,7 +56,7 @@ ___
 
 *Implementation of [InterfaceAbi](../interfaces/_types_.interfaceabi.md).[deploy](../interfaces/_types_.interfaceabi.md#deploy)*
 
-*Defined in [Abi.ts:15](https://github.com/polkadot-js/api/blob/a0b8619/packages/api-contract/src/Abi.ts#L15)*
+*Defined in [Abi.ts:15](https://github.com/polkadot-js/api/blob/32c4aa3/packages/api-contract/src/Abi.ts#L15)*
 
 ___
 
@@ -68,4 +66,4 @@ ___
 
 *Implementation of [InterfaceAbi](../interfaces/_types_.interfaceabi.md).[messages](../interfaces/_types_.interfaceabi.md#messages)*
 
-*Defined in [Abi.ts:17](https://github.com/polkadot-js/api/blob/a0b8619/packages/api-contract/src/Abi.ts#L17)*
+*Defined in [Abi.ts:17](https://github.com/polkadot-js/api/blob/32c4aa3/packages/api-contract/src/Abi.ts#L17)*

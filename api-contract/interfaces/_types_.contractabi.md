@@ -1,6 +1,4 @@
-**[Polkadot JS API](../README.md)**
-
-[Globals](../globals.md) › [&quot;types&quot;](../modules/_types_.md) › [ContractABI](_types_.contractabi.md)
+[Polkadot JS API](../README.md) › [Globals](../globals.md) › ["types"](../modules/_types_.md) › [ContractABI](_types_.contractabi.md)
 
 # Interface: ContractABI
 
@@ -22,7 +20,7 @@
 
 • **deploy**: *[ContractABIMethodBase](_types_.contractabimethodbase.md)*
 
-*Defined in [types.ts:51](https://github.com/polkadot-js/api/blob/a0b8619/packages/api-contract/src/types.ts#L51)*
+*Defined in [types.ts:51](https://github.com/polkadot-js/api/blob/32c4aa3/packages/api-contract/src/types.ts#L51)*
 
 ___
 
@@ -30,7 +28,7 @@ ___
 
 • **messages**: *[ContractABIMethod](_types_.contractabimethod.md)[]*
 
-*Defined in [types.ts:52](https://github.com/polkadot-js/api/blob/a0b8619/packages/api-contract/src/types.ts#L52)*
+*Defined in [types.ts:52](https://github.com/polkadot-js/api/blob/32c4aa3/packages/api-contract/src/types.ts#L52)*
 
 ___
 
@@ -38,4 +36,4 @@ ___
 
 • **name**: *string*
 
-*Defined in [types.ts:53](https://github.com/polkadot-js/api/blob/a0b8619/packages/api-contract/src/types.ts#L53)*
+*Defined in [types.ts:53](https://github.com/polkadot-js/api/blob/32c4aa3/packages/api-contract/src/types.ts#L53)*

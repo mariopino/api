@@ -1,6 +1,4 @@
-**[Polkadot JS API](../README.md)**
-
-[Globals](../globals.md) › [&quot;codec/create/registry&quot;](_codec_create_registry_.md)
+[Polkadot JS API](../README.md) › [Globals](../globals.md) › ["codec/create/registry"](_codec_create_registry_.md)
 
 # External module: "codec/create/registry"
 
@@ -20,6 +18,6 @@
 
 ▸ **getTypeRegistry**(): *[TypeRegistry](../classes/_codec_create_registry_.typeregistry.md)*
 
-*Defined in [codec/create/registry.ts:109](https://github.com/polkadot-js/api/blob/a0b8619/packages/types/src/codec/create/registry.ts#L109)*
+*Defined in [codec/create/registry.ts:109](https://github.com/polkadot-js/api/blob/32c4aa3/packages/types/src/codec/create/registry.ts#L109)*
 
 **Returns:** *[TypeRegistry](../classes/_codec_create_registry_.typeregistry.md)*

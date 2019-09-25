@@ -1,6 +1,4 @@
-**[Polkadot JS API](../README.md)**
-
-[Globals](../globals.md) › [&quot;primitive/I16&quot;](../modules/_primitive_i16_.md) › [I16](_primitive_i16_.i16.md)
+[Polkadot JS API](../README.md) › [Globals](../globals.md) › ["primitive/I16"](../modules/_primitive_i16_.md) › [I16](_primitive_i16_.i16.md)
 
 # Class: I16
 
@@ -11,9 +9,9 @@ A 16-bit signed integer
 
 ## Hierarchy
 
-  * [Int](_codec_int_.int.md)
+  ↳ [Int](_codec_int_.int.md)
 
-  * **I16**
+  ↳ **I16**
 
 ## Implements
 
@@ -39,7 +37,7 @@ A 16-bit signed integer
 
 *Overrides [Int](_codec_int_.int.md).[constructor](_codec_int_.int.md#constructor)*
 
-*Defined in [primitive/I16.ts:14](https://github.com/polkadot-js/api/blob/a0b8619/packages/types/src/primitive/I16.ts#L14)*
+*Defined in [primitive/I16.ts:14](https://github.com/polkadot-js/api/blob/32c4aa3/packages/types/src/primitive/I16.ts#L14)*
 
 **Parameters:**
 
@@ -59,7 +57,7 @@ Name | Type |
 
 *Overrides void*
 
-*Defined in [codec/Int.ts:36](https://github.com/polkadot-js/api/blob/a0b8619/packages/types/src/codec/Int.ts#L36)*
+*Defined in [codec/Int.ts:36](https://github.com/polkadot-js/api/blob/32c4aa3/packages/types/src/codec/Int.ts#L36)*
 
 **`description`** Returns a hex string representation of the value
 
@@ -83,7 +81,7 @@ ___
 
 *Overrides void*
 
-*Defined in [codec/Int.ts:47](https://github.com/polkadot-js/api/blob/a0b8619/packages/types/src/codec/Int.ts#L47)*
+*Defined in [codec/Int.ts:47](https://github.com/polkadot-js/api/blob/32c4aa3/packages/types/src/codec/Int.ts#L47)*
 
 **`description`** Returns the base runtime type name for this instance
 
@@ -101,7 +99,7 @@ ___
 
 *Overrides void*
 
-*Defined in [codec/Int.ts:56](https://github.com/polkadot-js/api/blob/a0b8619/packages/types/src/codec/Int.ts#L56)*
+*Defined in [codec/Int.ts:56](https://github.com/polkadot-js/api/blob/32c4aa3/packages/types/src/codec/Int.ts#L56)*
 
 **`description`** Encodes the value as a Uint8Array as per the SCALE specifications
 

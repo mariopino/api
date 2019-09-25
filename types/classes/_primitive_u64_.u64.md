@@ -1,6 +1,4 @@
-**[Polkadot JS API](../README.md)**
-
-[Globals](../globals.md) › [&quot;primitive/U64&quot;](../modules/_primitive_u64_.md) › [U64](_primitive_u64_.u64.md)
+[Polkadot JS API](../README.md) › [Globals](../globals.md) › ["primitive/U64"](../modules/_primitive_u64_.md) › [U64](_primitive_u64_.u64.md)
 
 # Class: U64
 
@@ -11,23 +9,23 @@ A 64-bit unsigned integer
 
 ## Hierarchy
 
-  * [UInt](_codec_uint_.uint.md)
+  ↳ [UInt](_codec_uint_.uint.md)
 
-  * **U64**
+  ↳ **U64**
 
-  * [Moment](../interfaces/_interfaces_runtime_types_.moment.md)
+  ↳ [Moment](../interfaces/_interfaces_runtime_types_.moment.md)
 
-  * [BabeAuthorityWeight](../interfaces/_interfaces_babe_types_.babeauthorityweight.md)
+  ↳ [BabeAuthorityWeight](../interfaces/_interfaces_babe_types_.babeauthorityweight.md)
 
-  * [BabeWeight](../interfaces/_interfaces_babe_types_.babeweight.md)
+  ↳ [BabeWeight](../interfaces/_interfaces_babe_types_.babeweight.md)
 
-  * [SlotNumber](../interfaces/_interfaces_babe_types_.slotnumber.md)
+  ↳ [SlotNumber](../interfaces/_interfaces_babe_types_.slotnumber.md)
 
-  * [Gas](../interfaces/_interfaces_contracts_types_.gas.md)
+  ↳ [Gas](../interfaces/_interfaces_contracts_types_.gas.md)
 
-  * [AuthorityWeight](../interfaces/_interfaces_grandpa_types_.authorityweight.md)
+  ↳ [AuthorityWeight](../interfaces/_interfaces_grandpa_types_.authorityweight.md)
 
-  * [SetId](../interfaces/_interfaces_grandpa_types_.setid.md)
+  ↳ [SetId](../interfaces/_interfaces_grandpa_types_.setid.md)
 
 ## Implements
 
@@ -53,7 +51,7 @@ A 64-bit unsigned integer
 
 *Overrides [UInt](_codec_uint_.uint.md).[constructor](_codec_uint_.uint.md#constructor)*
 
-*Defined in [primitive/U64.ts:14](https://github.com/polkadot-js/api/blob/a0b8619/packages/types/src/primitive/U64.ts#L14)*
+*Defined in [primitive/U64.ts:14](https://github.com/polkadot-js/api/blob/32c4aa3/packages/types/src/primitive/U64.ts#L14)*
 
 **Parameters:**
 
@@ -73,7 +71,7 @@ Name | Type |
 
 *Overrides void*
 
-*Defined in [codec/UInt.ts:37](https://github.com/polkadot-js/api/blob/a0b8619/packages/types/src/codec/UInt.ts#L37)*
+*Defined in [codec/UInt.ts:37](https://github.com/polkadot-js/api/blob/32c4aa3/packages/types/src/codec/UInt.ts#L37)*
 
 **`description`** Returns a hex string representation of the value
 
@@ -97,7 +95,7 @@ ___
 
 *Overrides void*
 
-*Defined in [codec/UInt.ts:49](https://github.com/polkadot-js/api/blob/a0b8619/packages/types/src/codec/UInt.ts#L49)*
+*Defined in [codec/UInt.ts:49](https://github.com/polkadot-js/api/blob/32c4aa3/packages/types/src/codec/UInt.ts#L49)*
 
 **`description`** Returns the base runtime type name for this instance
 
@@ -115,7 +113,7 @@ ___
 
 *Overrides void*
 
-*Defined in [codec/UInt.ts:63](https://github.com/polkadot-js/api/blob/a0b8619/packages/types/src/codec/UInt.ts#L63)*
+*Defined in [codec/UInt.ts:63](https://github.com/polkadot-js/api/blob/32c4aa3/packages/types/src/codec/UInt.ts#L63)*
 
 **`description`** Encodes the value as a Uint8Array as per the SCALE specifications
 

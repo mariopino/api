@@ -1,6 +1,4 @@
-**[Polkadot JS API](../README.md)**
-
-[Globals](../globals.md) › [&quot;session/sessionProgress&quot;](_session_sessionprogress_.md)
+[Polkadot JS API](../README.md) › [Globals](../globals.md) › ["session/sessionProgress"](_session_sessionprogress_.md)
 
 # External module: "session/sessionProgress"
 
@@ -16,7 +14,7 @@
 
 ▸ **sessionProgress**(`api`: ApiInterfaceRx): *function*
 
-*Defined in [session/sessionProgress.ts:13](https://github.com/polkadot-js/api/blob/a0b8619/packages/api-derive/src/session/sessionProgress.ts#L13)*
+*Defined in [session/sessionProgress.ts:13](https://github.com/polkadot-js/api/blob/32c4aa3/packages/api-derive/src/session/sessionProgress.ts#L13)*
 
 **Parameters:**
 

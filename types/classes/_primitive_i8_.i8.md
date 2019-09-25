@@ -1,6 +1,4 @@
-**[Polkadot JS API](../README.md)**
-
-[Globals](../globals.md) › [&quot;primitive/I8&quot;](../modules/_primitive_i8_.md) › [I8](_primitive_i8_.i8.md)
+[Polkadot JS API](../README.md) › [Globals](../globals.md) › ["primitive/I8"](../modules/_primitive_i8_.md) › [I8](_primitive_i8_.i8.md)
 
 # Class: I8
 
@@ -11,11 +9,11 @@ An 8-bit signed integer
 
 ## Hierarchy
 
-  * [Int](_codec_int_.int.md)
+  ↳ [Int](_codec_int_.int.md)
 
-  * **I8**
+  ↳ **I8**
 
-  * [LockPeriods](../interfaces/_interfaces_deprecated_types_.lockperiods.md)
+  ↳ [LockPeriods](../interfaces/_interfaces_deprecated_types_.lockperiods.md)
 
 ## Implements
 
@@ -41,7 +39,7 @@ An 8-bit signed integer
 
 *Overrides [Int](_codec_int_.int.md).[constructor](_codec_int_.int.md#constructor)*
 
-*Defined in [primitive/I8.ts:14](https://github.com/polkadot-js/api/blob/a0b8619/packages/types/src/primitive/I8.ts#L14)*
+*Defined in [primitive/I8.ts:14](https://github.com/polkadot-js/api/blob/32c4aa3/packages/types/src/primitive/I8.ts#L14)*
 
 **Parameters:**
 
@@ -61,7 +59,7 @@ Name | Type |
 
 *Overrides void*
 
-*Defined in [codec/Int.ts:36](https://github.com/polkadot-js/api/blob/a0b8619/packages/types/src/codec/Int.ts#L36)*
+*Defined in [codec/Int.ts:36](https://github.com/polkadot-js/api/blob/32c4aa3/packages/types/src/codec/Int.ts#L36)*
 
 **`description`** Returns a hex string representation of the value
 
@@ -85,7 +83,7 @@ ___
 
 *Overrides void*
 
-*Defined in [codec/Int.ts:47](https://github.com/polkadot-js/api/blob/a0b8619/packages/types/src/codec/Int.ts#L47)*
+*Defined in [codec/Int.ts:47](https://github.com/polkadot-js/api/blob/32c4aa3/packages/types/src/codec/Int.ts#L47)*
 
 **`description`** Returns the base runtime type name for this instance
 
@@ -103,7 +101,7 @@ ___
 
 *Overrides void*
 
-*Defined in [codec/Int.ts:56](https://github.com/polkadot-js/api/blob/a0b8619/packages/types/src/codec/Int.ts#L56)*
+*Defined in [codec/Int.ts:56](https://github.com/polkadot-js/api/blob/32c4aa3/packages/types/src/codec/Int.ts#L56)*
 
 **`description`** Encodes the value as a Uint8Array as per the SCALE specifications
 

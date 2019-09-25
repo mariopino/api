@@ -1,6 +1,4 @@
-**[Polkadot JS API](../README.md)**
-
-[Globals](../globals.md) › [&quot;interfaces/treasury/types&quot;](_interfaces_treasury_types_.md)
+[Polkadot JS API](../README.md) › [Globals](../globals.md) › ["interfaces/treasury/types"](_interfaces_treasury_types_.md)
 
 # External module: "interfaces/treasury/types"
 

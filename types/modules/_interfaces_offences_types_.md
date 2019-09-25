@@ -1,6 +1,4 @@
-**[Polkadot JS API](../README.md)**
-
-[Globals](../globals.md) › [&quot;interfaces/offences/types&quot;](_interfaces_offences_types_.md)
+[Polkadot JS API](../README.md) › [Globals](../globals.md) › ["interfaces/offences/types"](_interfaces_offences_types_.md)
 
 # External module: "interfaces/offences/types"
 

@@ -1,6 +1,4 @@
-**[Polkadot JS API](../README.md)**
-
-[Globals](../globals.md) › [&quot;chain/bestNumber&quot;](_chain_bestnumber_.md)
+[Polkadot JS API](../README.md) › [Globals](../globals.md) › ["chain/bestNumber"](_chain_bestnumber_.md)
 
 # External module: "chain/bestNumber"
 
@@ -16,7 +14,7 @@
 
 ▸ **bestNumber**(`api`: ApiInterfaceRx): *function*
 
-*Defined in [chain/bestNumber.ts:25](https://github.com/polkadot-js/api/blob/a0b8619/packages/api-derive/src/chain/bestNumber.ts#L25)*
+*Defined in [chain/bestNumber.ts:25](https://github.com/polkadot-js/api/blob/32c4aa3/packages/api-derive/src/chain/bestNumber.ts#L25)*
 
 **`name`** bestNumber
 

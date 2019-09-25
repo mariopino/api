@@ -1,6 +1,4 @@
-**[Polkadot JS API](../README.md)**
-
-[Globals](../globals.md) › [&quot;codec/Vec&quot;](_codec_vec_.md)
+[Polkadot JS API](../README.md) › [Globals](../globals.md) › ["codec/Vec"](_codec_vec_.md)
 
 # External module: "codec/Vec"
 

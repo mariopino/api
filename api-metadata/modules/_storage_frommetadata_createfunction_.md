@@ -1,6 +1,4 @@
-**[Polkadot JS API](../README.md)**
-
-[Globals](../globals.md) › [&quot;storage/fromMetadata/createFunction&quot;](_storage_frommetadata_createfunction_.md)
+[Polkadot JS API](../README.md) › [Globals](../globals.md) › ["storage/fromMetadata/createFunction"](_storage_frommetadata_createfunction_.md)
 
 # External module: "storage/fromMetadata/createFunction"
 
@@ -21,7 +19,7 @@
 
 ▸ **createFunction**(`item`: [CreateItemFn](../interfaces/_storage_frommetadata_createfunction_.createitemfn.md), `options`: [CreateItemOptions](../interfaces/_storage_frommetadata_createfunction_.createitemoptions.md)): *StorageEntry*
 
-*Defined in [storage/fromMetadata/createFunction.ts:150](https://github.com/polkadot-js/api/blob/a0b8619/packages/api-metadata/src/storage/fromMetadata/createFunction.ts#L150)*
+*Defined in [storage/fromMetadata/createFunction.ts:150](https://github.com/polkadot-js/api/blob/32c4aa3/packages/api-metadata/src/storage/fromMetadata/createFunction.ts#L150)*
 
 From the schema of a function in the module's storage, generate the function
 that will return the correct storage key.

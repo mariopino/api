@@ -1,6 +1,4 @@
-**[Polkadot JS API](../README.md)**
-
-[Globals](../globals.md) › [&quot;util/approvalFlagsToBools&quot;](_util_approvalflagstobools_.md)
+[Polkadot JS API](../README.md) › [Globals](../globals.md) › ["util/approvalFlagsToBools"](_util_approvalflagstobools_.md)
 
 # External module: "util/approvalFlagsToBools"
 
@@ -16,7 +14,7 @@
 
 ▸ **approvalFlagsToBools**(`flags`: Vec‹ApprovalFlag› | ApprovalFlag[]): *boolean[]*
 
-*Defined in [util/approvalFlagsToBools.ts:9](https://github.com/polkadot-js/api/blob/a0b8619/packages/api-derive/src/util/approvalFlagsToBools.ts#L9)*
+*Defined in [util/approvalFlagsToBools.ts:9](https://github.com/polkadot-js/api/blob/32c4aa3/packages/api-derive/src/util/approvalFlagsToBools.ts#L9)*
 
 **Parameters:**
 

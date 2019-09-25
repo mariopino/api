@@ -1,6 +1,4 @@
-**[Polkadot JS API](../README.md)**
-
-[Globals](../globals.md) › [&quot;submittable/Result&quot;](_submittable_result_.md)
+[Polkadot JS API](../README.md) › [Globals](../globals.md) › ["submittable/Result"](_submittable_result_.md)
 
 # External module: "submittable/Result"
 

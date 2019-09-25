@@ -1,6 +1,4 @@
-**[Polkadot JS API](../README.md)**
-
-[Globals](../globals.md) › [&quot;scripts/util/class&quot;](_scripts_util_class_.md)
+[Polkadot JS API](../README.md) › [Globals](../globals.md) › ["scripts/util/class"](_scripts_util_class_.md)
 
 # External module: "scripts/util/class"
 
@@ -17,7 +15,7 @@
 
 ▸ **isChildClass**(`Parent`: [Constructor](../interfaces/_types_.constructor.md)‹any›, `Child`: [Constructor](../interfaces/_types_.constructor.md)‹any›): *boolean*
 
-*Defined in [scripts/util/class.ts:11](https://github.com/polkadot-js/api/blob/a0b8619/packages/types/src/scripts/util/class.ts#L11)*
+*Defined in [scripts/util/class.ts:11](https://github.com/polkadot-js/api/blob/32c4aa3/packages/types/src/scripts/util/class.ts#L11)*
 
 **Parameters:**
 
@@ -34,7 +32,7 @@ ___
 
 ▸ **isCompactEncodable**(`Child`: [Constructor](../interfaces/_types_.constructor.md)‹any›): *boolean*
 
-*Defined in [scripts/util/class.ts:17](https://github.com/polkadot-js/api/blob/a0b8619/packages/types/src/scripts/util/class.ts#L17)*
+*Defined in [scripts/util/class.ts:17](https://github.com/polkadot-js/api/blob/32c4aa3/packages/types/src/scripts/util/class.ts#L17)*
 
 **Parameters:**
 

@@ -1,6 +1,4 @@
-**[Polkadot JS API](../README.md)**
-
-[Globals](../globals.md) › [&quot;primitive/Generic/Address&quot;](_primitive_generic_address_.md)
+[Polkadot JS API](../README.md) › [Globals](../globals.md) › ["primitive/Generic/Address"](_primitive_generic_address_.md)
 
 # External module: "primitive/Generic/Address"
 
@@ -20,4 +18,4 @@
 
 • **ACCOUNT_ID_PREFIX**: *Uint8Array* =  new Uint8Array([0xff])
 
-*Defined in [primitive/Generic/Address.ts:16](https://github.com/polkadot-js/api/blob/a0b8619/packages/types/src/primitive/Generic/Address.ts#L16)*
+*Defined in [primitive/Generic/Address.ts:16](https://github.com/polkadot-js/api/blob/32c4aa3/packages/types/src/primitive/Generic/Address.ts#L16)*

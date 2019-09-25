@@ -1,6 +1,4 @@
-**[Polkadot JS API](../README.md)**
-
-[Globals](../globals.md) › [&quot;chain/getHeader&quot;](_chain_getheader_.md)
+[Polkadot JS API](../README.md) › [Globals](../globals.md) › ["chain/getHeader"](_chain_getheader_.md)
 
 # External module: "chain/getHeader"
 
@@ -16,7 +14,7 @@
 
 ▸ **getHeader**(`api`: ApiInterfaceRx): *function*
 
-*Defined in [chain/getHeader.ts:27](https://github.com/polkadot-js/api/blob/a0b8619/packages/api-derive/src/chain/getHeader.ts#L27)*
+*Defined in [chain/getHeader.ts:27](https://github.com/polkadot-js/api/blob/32c4aa3/packages/api-derive/src/chain/getHeader.ts#L27)*
 
 **`name`** bestNumberFinalized
 

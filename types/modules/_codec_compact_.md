@@ -1,6 +1,4 @@
-**[Polkadot JS API](../README.md)**
-
-[Globals](../globals.md) › [&quot;codec/Compact&quot;](_codec_compact_.md)
+[Polkadot JS API](../README.md) › [Globals](../globals.md) › ["codec/Compact"](_codec_compact_.md)
 
 # External module: "codec/Compact"
 

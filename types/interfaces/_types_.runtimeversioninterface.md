@@ -1,6 +1,4 @@
-**[Polkadot JS API](../README.md)**
-
-[Globals](../globals.md) › [&quot;types&quot;](../modules/_types_.md) › [RuntimeVersionInterface](_types_.runtimeversioninterface.md)
+[Polkadot JS API](../README.md) › [Globals](../globals.md) › ["types"](../modules/_types_.md) › [RuntimeVersionInterface](_types_.runtimeversioninterface.md)
 
 # Interface: RuntimeVersionInterface
 
@@ -25,7 +23,7 @@
 
 • **apis**: *any[]*
 
-*Defined in [types.ts:136](https://github.com/polkadot-js/api/blob/a0b8619/packages/types/src/types.ts#L136)*
+*Defined in [types.ts:136](https://github.com/polkadot-js/api/blob/32c4aa3/packages/types/src/types.ts#L136)*
 
 ___
 
@@ -33,7 +31,7 @@ ___
 
 • **authoringVersion**: *BN*
 
-*Defined in [types.ts:137](https://github.com/polkadot-js/api/blob/a0b8619/packages/types/src/types.ts#L137)*
+*Defined in [types.ts:137](https://github.com/polkadot-js/api/blob/32c4aa3/packages/types/src/types.ts#L137)*
 
 ___
 
@@ -41,7 +39,7 @@ ___
 
 • **implName**: *String*
 
-*Defined in [types.ts:139](https://github.com/polkadot-js/api/blob/a0b8619/packages/types/src/types.ts#L139)*
+*Defined in [types.ts:139](https://github.com/polkadot-js/api/blob/32c4aa3/packages/types/src/types.ts#L139)*
 
 ___
 
@@ -49,7 +47,7 @@ ___
 
 • **implVersion**: *BN*
 
-*Defined in [types.ts:140](https://github.com/polkadot-js/api/blob/a0b8619/packages/types/src/types.ts#L140)*
+*Defined in [types.ts:140](https://github.com/polkadot-js/api/blob/32c4aa3/packages/types/src/types.ts#L140)*
 
 ___
 
@@ -57,7 +55,7 @@ ___
 
 • **specName**: *String*
 
-*Defined in [types.ts:142](https://github.com/polkadot-js/api/blob/a0b8619/packages/types/src/types.ts#L142)*
+*Defined in [types.ts:142](https://github.com/polkadot-js/api/blob/32c4aa3/packages/types/src/types.ts#L142)*
 
 ___
 
@@ -65,4 +63,4 @@ ___
 
 • **specVersion**: *BN*
 
-*Defined in [types.ts:143](https://github.com/polkadot-js/api/blob/a0b8619/packages/types/src/types.ts#L143)*
+*Defined in [types.ts:143](https://github.com/polkadot-js/api/blob/32c4aa3/packages/types/src/types.ts#L143)*

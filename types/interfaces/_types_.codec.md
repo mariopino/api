@@ -1,6 +1,4 @@
-**[Polkadot JS API](../README.md)**
-
-[Globals](../globals.md) › [&quot;types&quot;](../modules/_types_.md) › [Codec](_types_.codec.md)
+[Polkadot JS API](../README.md) › [Globals](../globals.md) › ["types"](../modules/_types_.md) › [Codec](_types_.codec.md)
 
 # Interface: Codec
 
@@ -15,35 +13,35 @@ The Codec Base is however required for operating as an encoding/decoding layer
 
 * **Codec**
 
-  * [LockIdentifier](_interfaces_runtime_types_.lockidentifier.md)
+  ↳ [LockIdentifier](_interfaces_runtime_types_.lockidentifier.md)
 
-  * [VrfData](_interfaces_babe_types_.vrfdata.md)
+  ↳ [VrfData](_interfaces_babe_types_.vrfdata.md)
 
-  * [VrfProof](_interfaces_babe_types_.vrfproof.md)
+  ↳ [VrfProof](_interfaces_babe_types_.vrfproof.md)
 
-  * [ContractStorageKey](_interfaces_contracts_types_.contractstoragekey.md)
+  ↳ [ContractStorageKey](_interfaces_contracts_types_.contractstoragekey.md)
 
-  * [Kind](_interfaces_offences_types_.kind.md)
+  ↳ [Kind](_interfaces_offences_types_.kind.md)
 
-  * [EventId](_interfaces_system_types_.eventid.md)
+  ↳ [EventId](_interfaces_system_types_.eventid.md)
 
-  * [EcdsaSignature](_interfaces_claims_types_.ecdsasignature.md)
+  ↳ [EcdsaSignature](_interfaces_claims_types_.ecdsasignature.md)
 
-  * [ApiId](_interfaces_rpc_types_.apiid.md)
+  ↳ [ApiId](_interfaces_rpc_types_.apiid.md)
 
-  * [SignerPayloadType](_primitive_extrinsic_signerpayload_.signerpayloadtype.md)
+  ↳ [SignerPayloadType](_primitive_extrinsic_signerpayload_.signerpayloadtype.md)
 
-  * [MetadataInterface](_metadata_types_.metadatainterface.md)
+  ↳ [MetadataInterface](_metadata_types_.metadatainterface.md)
 
-  * [CompactEncodable](_codec_compact_.compactencodable.md)
+  ↳ [CompactEncodable](_codec_compact_.compactencodable.md)
 
-  * [IMethod](_types_.imethod.md)
+  ↳ [IMethod](_types_.imethod.md)
 
-  * [IExtrinsicSignature](_types_.iextrinsicsignature.md)
+  ↳ [IExtrinsicSignature](_types_.iextrinsicsignature.md)
 
-  * [IExtrinsicEra](_types_.iextrinsicera.md)
+  ↳ [IExtrinsicEra](_types_.iextrinsicera.md)
 
-  * [IExtrinsicImpl](_types_.iextrinsicimpl.md)
+  ↳ [IExtrinsicImpl](_types_.iextrinsicimpl.md)
 
 ## Implemented by
 
@@ -417,7 +415,7 @@ The Codec Base is however required for operating as an encoding/decoding layer
 
 • **encodedLength**: *number*
 
-*Defined in [types.ts:76](https://github.com/polkadot-js/api/blob/a0b8619/packages/types/src/types.ts#L76)*
+*Defined in [types.ts:76](https://github.com/polkadot-js/api/blob/32c4aa3/packages/types/src/types.ts#L76)*
 
 **`description`** The length of the value when encoded as a Uint8Array
 
@@ -427,7 +425,7 @@ ___
 
 • **hash**: *[IHash](_types_.ihash.md)*
 
-*Defined in [types.ts:81](https://github.com/polkadot-js/api/blob/a0b8619/packages/types/src/types.ts#L81)*
+*Defined in [types.ts:81](https://github.com/polkadot-js/api/blob/32c4aa3/packages/types/src/types.ts#L81)*
 
 **`description`** Returns a hash of the value
 
@@ -437,7 +435,7 @@ ___
 
 • **isEmpty**: *boolean*
 
-*Defined in [types.ts:86](https://github.com/polkadot-js/api/blob/a0b8619/packages/types/src/types.ts#L86)*
+*Defined in [types.ts:86](https://github.com/polkadot-js/api/blob/32c4aa3/packages/types/src/types.ts#L86)*
 
 **`description`** Checks if the value is an empty value
 
@@ -447,7 +445,7 @@ ___
 
 ▸ **eq**(`other?`: any): *boolean*
 
-*Defined in [types.ts:91](https://github.com/polkadot-js/api/blob/a0b8619/packages/types/src/types.ts#L91)*
+*Defined in [types.ts:91](https://github.com/polkadot-js/api/blob/32c4aa3/packages/types/src/types.ts#L91)*
 
 **`description`** Compares the value of the input to see if there is a match
 
@@ -465,7 +463,7 @@ ___
 
 ▸ **toHex**(`isLe?`: undefined | false | true): *string*
 
-*Defined in [types.ts:96](https://github.com/polkadot-js/api/blob/a0b8619/packages/types/src/types.ts#L96)*
+*Defined in [types.ts:96](https://github.com/polkadot-js/api/blob/32c4aa3/packages/types/src/types.ts#L96)*
 
 **`description`** Returns a hex string representation of the value. isLe returns a LE (number-only) representation
 
@@ -483,7 +481,7 @@ ___
 
 ▸ **toJSON**(): *[AnyJson](../modules/_types_.md#anyjson)*
 
-*Defined in [types.ts:101](https://github.com/polkadot-js/api/blob/a0b8619/packages/types/src/types.ts#L101)*
+*Defined in [types.ts:101](https://github.com/polkadot-js/api/blob/32c4aa3/packages/types/src/types.ts#L101)*
 
 **`description`** Converts the Object to JSON, typically used for RPC transfers
 
@@ -495,7 +493,7 @@ ___
 
 ▸ **toRawType**(): *string*
 
-*Defined in [types.ts:106](https://github.com/polkadot-js/api/blob/a0b8619/packages/types/src/types.ts#L106)*
+*Defined in [types.ts:106](https://github.com/polkadot-js/api/blob/32c4aa3/packages/types/src/types.ts#L106)*
 
 **`description`** Returns the base runtime type name for this instance
 
@@ -507,7 +505,7 @@ ___
 
 ▸ **toString**(): *string*
 
-*Defined in [types.ts:111](https://github.com/polkadot-js/api/blob/a0b8619/packages/types/src/types.ts#L111)*
+*Defined in [types.ts:111](https://github.com/polkadot-js/api/blob/32c4aa3/packages/types/src/types.ts#L111)*
 
 **`description`** Returns the string representation of the value
 
@@ -519,7 +517,7 @@ ___
 
 ▸ **toU8a**(`isBare?`: undefined | false | true): *Uint8Array*
 
-*Defined in [types.ts:117](https://github.com/polkadot-js/api/blob/a0b8619/packages/types/src/types.ts#L117)*
+*Defined in [types.ts:117](https://github.com/polkadot-js/api/blob/32c4aa3/packages/types/src/types.ts#L117)*
 
 **`description`** Encodes the value as a Uint8Array as per the SCALE specifications
 

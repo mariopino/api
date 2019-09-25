@@ -1,6 +1,4 @@
-**[Polkadot JS API](../README.md)**
-
-[Globals](../globals.md) › [&quot;types&quot;](../modules/_types_.md) › [QueryableStorageMultiPromise](_types_.queryablestoragemultipromise.md)
+[Polkadot JS API](../README.md) › [Globals](../globals.md) › ["types"](../modules/_types_.md) › [QueryableStorageMultiPromise](_types_.queryablestoragemultipromise.md)
 
 # Interface: QueryableStorageMultiPromise <**ApiType**>
 
@@ -16,7 +14,7 @@
 
 ▸ <**T**>(`calls`: [QueryableStorageMultiArg](../modules/_types_.md#queryablestoragemultiarg)‹ApiType›[], `callback`: Callback‹T›): *[UnsubscribePromise](../modules/_types_.md#unsubscribepromise)*
 
-*Defined in [types.ts:142](https://github.com/polkadot-js/api/blob/a0b8619/packages/api/src/types.ts#L142)*
+*Defined in [types.ts:142](https://github.com/polkadot-js/api/blob/32c4aa3/packages/api/src/types.ts#L142)*
 
 **Type parameters:**
 

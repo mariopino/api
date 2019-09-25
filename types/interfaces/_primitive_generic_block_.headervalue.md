@@ -1,6 +1,4 @@
-**[Polkadot JS API](../README.md)**
-
-[Globals](../globals.md) › [&quot;primitive/Generic/Block&quot;](../modules/_primitive_generic_block_.md) › [HeaderValue](_primitive_generic_block_.headervalue.md)
+[Polkadot JS API](../README.md) › [Globals](../globals.md) › ["primitive/Generic/Block"](../modules/_primitive_generic_block_.md) › [HeaderValue](_primitive_generic_block_.headervalue.md)
 
 # Interface: HeaderValue
 
@@ -24,7 +22,7 @@
 
 • **digest**? : *[Digest](_interfaces_runtime_types_.digest.md) | object*
 
-*Defined in [primitive/Generic/Block.ts:16](https://github.com/polkadot-js/api/blob/a0b8619/packages/types/src/primitive/Generic/Block.ts#L16)*
+*Defined in [primitive/Generic/Block.ts:16](https://github.com/polkadot-js/api/blob/32c4aa3/packages/types/src/primitive/Generic/Block.ts#L16)*
 
 ___
 
@@ -32,7 +30,7 @@ ___
 
 • **extrinsicsRoot**? : *[AnyU8a](../modules/_types_.md#anyu8a)*
 
-*Defined in [primitive/Generic/Block.ts:17](https://github.com/polkadot-js/api/blob/a0b8619/packages/types/src/primitive/Generic/Block.ts#L17)*
+*Defined in [primitive/Generic/Block.ts:17](https://github.com/polkadot-js/api/blob/32c4aa3/packages/types/src/primitive/Generic/Block.ts#L17)*
 
 ___
 
@@ -40,7 +38,7 @@ ___
 
 • **number**? : *[AnyNumber](../modules/_types_.md#anynumber)*
 
-*Defined in [primitive/Generic/Block.ts:18](https://github.com/polkadot-js/api/blob/a0b8619/packages/types/src/primitive/Generic/Block.ts#L18)*
+*Defined in [primitive/Generic/Block.ts:18](https://github.com/polkadot-js/api/blob/32c4aa3/packages/types/src/primitive/Generic/Block.ts#L18)*
 
 ___
 
@@ -48,7 +46,7 @@ ___
 
 • **parentHash**? : *[AnyU8a](../modules/_types_.md#anyu8a)*
 
-*Defined in [primitive/Generic/Block.ts:19](https://github.com/polkadot-js/api/blob/a0b8619/packages/types/src/primitive/Generic/Block.ts#L19)*
+*Defined in [primitive/Generic/Block.ts:19](https://github.com/polkadot-js/api/blob/32c4aa3/packages/types/src/primitive/Generic/Block.ts#L19)*
 
 ___
 
@@ -56,4 +54,4 @@ ___
 
 • **stateRoot**? : *[AnyU8a](../modules/_types_.md#anyu8a)*
 
-*Defined in [primitive/Generic/Block.ts:20](https://github.com/polkadot-js/api/blob/a0b8619/packages/types/src/primitive/Generic/Block.ts#L20)*
+*Defined in [primitive/Generic/Block.ts:20](https://github.com/polkadot-js/api/blob/32c4aa3/packages/types/src/primitive/Generic/Block.ts#L20)*

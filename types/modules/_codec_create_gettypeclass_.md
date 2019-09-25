@@ -1,6 +1,4 @@
-**[Polkadot JS API](../README.md)**
-
-[Globals](../globals.md) › [&quot;codec/create/getTypeClass&quot;](_codec_create_gettypeclass_.md)
+[Polkadot JS API](../README.md) › [Globals](../globals.md) › ["codec/create/getTypeClass"](_codec_create_gettypeclass_.md)
 
 # External module: "codec/create/getTypeClass"
 
@@ -16,7 +14,7 @@
 
 ▸ **getTypeClass**<**T**>(`value`: [TypeDef](../interfaces/_codec_create_types_.typedef.md)): *[Constructor](../interfaces/_types_.constructor.md)‹T›*
 
-*Defined in [codec/create/getTypeClass.ts:115](https://github.com/polkadot-js/api/blob/a0b8619/packages/types/src/codec/create/getTypeClass.ts#L115)*
+*Defined in [codec/create/getTypeClass.ts:115](https://github.com/polkadot-js/api/blob/32c4aa3/packages/types/src/codec/create/getTypeClass.ts#L115)*
 
 **Type parameters:**
 

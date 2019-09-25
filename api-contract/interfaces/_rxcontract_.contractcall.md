@@ -1,6 +1,4 @@
-**[Polkadot JS API](../README.md)**
-
-[Globals](../globals.md) › [&quot;RxContract&quot;](../modules/_rxcontract_.md) › [ContractCall](_rxcontract_.contractcall.md)
+[Polkadot JS API](../README.md) › [Globals](../globals.md) › ["RxContract"](../modules/_rxcontract_.md) › [ContractCall](_rxcontract_.contractcall.md)
 
 # Interface: ContractCall
 
@@ -20,7 +18,7 @@
 
 ▸ **signAndSend**(`account`: IKeyringPair | string | AccountId | Address): *[ContractCallResultSubscription](../modules/_rxcontract_.md#contractcallresultsubscription)*
 
-*Defined in [RxContract.ts:19](https://github.com/polkadot-js/api/blob/a0b8619/packages/api-contract/src/RxContract.ts#L19)*
+*Defined in [RxContract.ts:19](https://github.com/polkadot-js/api/blob/32c4aa3/packages/api-contract/src/RxContract.ts#L19)*
 
 **Parameters:**
 

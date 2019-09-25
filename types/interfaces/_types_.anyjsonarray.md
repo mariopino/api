@@ -1,6 +1,4 @@
-**[Polkadot JS API](../README.md)**
-
-[Globals](../globals.md) › [&quot;types&quot;](../modules/_types_.md) › [AnyJsonArray](_types_.anyjsonarray.md)
+[Polkadot JS API](../README.md) › [Globals](../globals.md) › ["types"](../modules/_types_.md) › [AnyJsonArray](_types_.anyjsonarray.md)
 
 # Interface: AnyJsonArray
 
@@ -8,7 +6,7 @@
 
 * Array‹[AnyJson](../modules/_types_.md#anyjson)›
 
-  * **AnyJsonArray**
+  ↳ **AnyJsonArray**
 
 ## Indexable
 

@@ -1,6 +1,4 @@
-**[Polkadot JS API](../README.md)**
-
-[Globals](../globals.md) › [&quot;codec/Enum&quot;](_codec_enum_.md)
+[Polkadot JS API](../README.md) › [Globals](../globals.md) › ["codec/Enum"](_codec_enum_.md)
 
 # External module: "codec/Enum"
 

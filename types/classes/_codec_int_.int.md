@@ -1,6 +1,4 @@
-**[Polkadot JS API](../README.md)**
-
-[Globals](../globals.md) › [&quot;codec/Int&quot;](../modules/_codec_int_.md) › [Int](_codec_int_.int.md)
+[Polkadot JS API](../README.md) › [Globals](../globals.md) › ["codec/Int"](../modules/_codec_int_.md) › [Int](_codec_int_.int.md)
 
 # Class: Int
 
@@ -17,19 +15,19 @@ is available here.
 
 * AbstractInt
 
-  * **Int**
+  ↳ **Int**
 
-  * [I8](_primitive_i8_.i8.md)
+  ↳ [I8](_primitive_i8_.i8.md)
 
-  * [I16](_primitive_i16_.i16.md)
+  ↳ [I16](_primitive_i16_.i16.md)
 
-  * [I32](_primitive_i32_.i32.md)
+  ↳ [I32](_primitive_i32_.i32.md)
 
-  * [I64](_primitive_i64_.i64.md)
+  ↳ [I64](_primitive_i64_.i64.md)
 
-  * [I128](_primitive_i128_.i128.md)
+  ↳ [I128](_primitive_i128_.i128.md)
 
-  * [I256](_primitive_i256_.i256.md)
+  ↳ [I256](_primitive_i256_.i256.md)
 
 ## Implements
 
@@ -55,7 +53,7 @@ is available here.
 
 *Overrides void*
 
-*Defined in [codec/Int.ts:21](https://github.com/polkadot-js/api/blob/a0b8619/packages/types/src/codec/Int.ts#L21)*
+*Defined in [codec/Int.ts:21](https://github.com/polkadot-js/api/blob/32c4aa3/packages/types/src/codec/Int.ts#L21)*
 
 **Parameters:**
 
@@ -75,7 +73,7 @@ Name | Type | Default |
 
 *Overrides void*
 
-*Defined in [codec/Int.ts:36](https://github.com/polkadot-js/api/blob/a0b8619/packages/types/src/codec/Int.ts#L36)*
+*Defined in [codec/Int.ts:36](https://github.com/polkadot-js/api/blob/32c4aa3/packages/types/src/codec/Int.ts#L36)*
 
 **`description`** Returns a hex string representation of the value
 
@@ -97,7 +95,7 @@ ___
 
 *Overrides void*
 
-*Defined in [codec/Int.ts:47](https://github.com/polkadot-js/api/blob/a0b8619/packages/types/src/codec/Int.ts#L47)*
+*Defined in [codec/Int.ts:47](https://github.com/polkadot-js/api/blob/32c4aa3/packages/types/src/codec/Int.ts#L47)*
 
 **`description`** Returns the base runtime type name for this instance
 
@@ -113,7 +111,7 @@ ___
 
 *Overrides void*
 
-*Defined in [codec/Int.ts:56](https://github.com/polkadot-js/api/blob/a0b8619/packages/types/src/codec/Int.ts#L56)*
+*Defined in [codec/Int.ts:56](https://github.com/polkadot-js/api/blob/32c4aa3/packages/types/src/codec/Int.ts#L56)*
 
 **`description`** Encodes the value as a Uint8Array as per the SCALE specifications
 

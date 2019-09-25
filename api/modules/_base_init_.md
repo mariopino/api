@@ -1,6 +1,4 @@
-**[Polkadot JS API](../README.md)**
-
-[Globals](../globals.md) › [&quot;base/Init&quot;](_base_init_.md)
+[Polkadot JS API](../README.md) › [Globals](../globals.md) › ["base/Init"](_base_init_.md)
 
 # External module: "base/Init"
 

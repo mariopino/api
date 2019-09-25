@@ -1,6 +1,4 @@
-**[Polkadot JS API](../README.md)**
-
-[Globals](../globals.md) › [&quot;codec/create/sanitize&quot;](_codec_create_sanitize_.md)
+[Polkadot JS API](../README.md) › [Globals](../globals.md) › ["codec/create/sanitize"](_codec_create_sanitize_.md)
 
 # External module: "codec/create/sanitize"
 
@@ -16,7 +14,7 @@
 
 ▸ **santize**(`value`: string): *string*
 
-*Defined in [codec/create/sanitize.ts:202](https://github.com/polkadot-js/api/blob/a0b8619/packages/types/src/codec/create/sanitize.ts#L202)*
+*Defined in [codec/create/sanitize.ts:202](https://github.com/polkadot-js/api/blob/32c4aa3/packages/types/src/codec/create/sanitize.ts#L202)*
 
 **Parameters:**
 

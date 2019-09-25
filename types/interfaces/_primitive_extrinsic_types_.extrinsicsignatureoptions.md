@@ -1,6 +1,4 @@
-**[Polkadot JS API](../README.md)**
-
-[Globals](../globals.md) › [&quot;primitive/Extrinsic/types&quot;](../modules/_primitive_extrinsic_types_.md) › [ExtrinsicSignatureOptions](_primitive_extrinsic_types_.extrinsicsignatureoptions.md)
+[Polkadot JS API](../README.md) › [Globals](../globals.md) › ["primitive/Extrinsic/types"](../modules/_primitive_extrinsic_types_.md) › [ExtrinsicSignatureOptions](_primitive_extrinsic_types_.extrinsicsignatureoptions.md)
 
 # Interface: ExtrinsicSignatureOptions
 
@@ -20,4 +18,4 @@
 
 • **isSigned**? : *undefined | false | true*
 
-*Defined in [primitive/Extrinsic/types.ts:17](https://github.com/polkadot-js/api/blob/a0b8619/packages/types/src/primitive/Extrinsic/types.ts#L17)*
+*Defined in [primitive/Extrinsic/types.ts:17](https://github.com/polkadot-js/api/blob/32c4aa3/packages/types/src/primitive/Extrinsic/types.ts#L17)*

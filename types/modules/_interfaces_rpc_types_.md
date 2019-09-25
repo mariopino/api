@@ -1,6 +1,4 @@
-**[Polkadot JS API](../README.md)**
-
-[Globals](../globals.md) › [&quot;interfaces/rpc/types&quot;](_interfaces_rpc_types_.md)
+[Polkadot JS API](../README.md) › [Globals](../globals.md) › ["interfaces/rpc/types"](_interfaces_rpc_types_.md)
 
 # External module: "interfaces/rpc/types"
 

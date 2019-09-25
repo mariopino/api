@@ -1,6 +1,4 @@
-**[Polkadot JS API](../README.md)**
-
-[Globals](../globals.md) › [&quot;Metadata/util/toCallsOnly&quot;](_metadata_util_tocallsonly_.md)
+[Polkadot JS API](../README.md) › [Globals](../globals.md) › ["Metadata/util/toCallsOnly"](_metadata_util_tocallsonly_.md)
 
 # External module: "Metadata/util/toCallsOnly"
 
@@ -16,7 +14,7 @@
 
 ▸ **toCallsOnly**(`__namedParameters`: object): *any*
 
-*Defined in [Metadata/util/toCallsOnly.ts:10](https://github.com/polkadot-js/api/blob/a0b8619/packages/types/src/Metadata/util/toCallsOnly.ts#L10)*
+*Defined in [Metadata/util/toCallsOnly.ts:10](https://github.com/polkadot-js/api/blob/32c4aa3/packages/types/src/Metadata/util/toCallsOnly.ts#L10)*
 
 **`description`** Convert from MetadataV7 to a stripped representation of MetadataV7
 

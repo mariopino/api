@@ -1,6 +1,4 @@
-**[Polkadot JS API](../README.md)**
-
-[Globals](../globals.md) › [&quot;ws/Provider&quot;](_ws_provider_.md)
+[Polkadot JS API](../README.md) › [Globals](../globals.md) › ["ws/Provider"](_ws_provider_.md)
 
 # External module: "ws/Provider"
 

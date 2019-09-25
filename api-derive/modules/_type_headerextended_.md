@@ -1,6 +1,4 @@
-**[Polkadot JS API](../README.md)**
-
-[Globals](../globals.md) › [&quot;type/HeaderExtended&quot;](_type_headerextended_.md)
+[Polkadot JS API](../README.md) › [Globals](../globals.md) › ["type/HeaderExtended"](_type_headerextended_.md)
 
 # External module: "type/HeaderExtended"
 

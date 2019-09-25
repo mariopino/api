@@ -1,6 +1,4 @@
-**[Polkadot JS API](../README.md)**
-
-[Globals](../globals.md) › [&quot;scripts/generateTypes/interfaceRegistry&quot;](_scripts_generatetypes_interfaceregistry_.md)
+[Polkadot JS API](../README.md) › [Globals](../globals.md) › ["scripts/generateTypes/interfaceRegistry"](_scripts_generatetypes_interfaceregistry_.md)
 
 # External module: "scripts/generateTypes/interfaceRegistry"
 
@@ -16,6 +14,6 @@
 
 ▸ **generateInterfaceRegistry**(): *void*
 
-*Defined in [scripts/generateTypes/interfaceRegistry.ts:19](https://github.com/polkadot-js/api/blob/a0b8619/packages/types/src/scripts/generateTypes/interfaceRegistry.ts#L19)*
+*Defined in [scripts/generateTypes/interfaceRegistry.ts:19](https://github.com/polkadot-js/api/blob/32c4aa3/packages/types/src/scripts/generateTypes/interfaceRegistry.ts#L19)*
 
 **Returns:** *void*

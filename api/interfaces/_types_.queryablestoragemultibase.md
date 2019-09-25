@@ -1,6 +1,4 @@
-**[Polkadot JS API](../README.md)**
-
-[Globals](../globals.md) › [&quot;types&quot;](../modules/_types_.md) › [QueryableStorageMultiBase](_types_.queryablestoragemultibase.md)
+[Polkadot JS API](../README.md) › [Globals](../globals.md) › ["types"](../modules/_types_.md) › [QueryableStorageMultiBase](_types_.queryablestoragemultibase.md)
 
 # Interface: QueryableStorageMultiBase <**ApiType**>
 
@@ -16,7 +14,7 @@
 
 ▸ <**T**>(`calls`: [QueryableStorageMultiArg](../modules/_types_.md#queryablestoragemultiarg)‹ApiType›[]): *Observable‹T›*
 
-*Defined in [types.ts:138](https://github.com/polkadot-js/api/blob/a0b8619/packages/api/src/types.ts#L138)*
+*Defined in [types.ts:138](https://github.com/polkadot-js/api/blob/32c4aa3/packages/api/src/types.ts#L138)*
 
 **Type parameters:**
 

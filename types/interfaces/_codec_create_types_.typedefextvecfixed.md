@@ -1,6 +1,4 @@
-**[Polkadot JS API](../README.md)**
-
-[Globals](../globals.md) › [&quot;codec/create/types&quot;](../modules/_codec_create_types_.md) › [TypeDefExtVecFixed](_codec_create_types_.typedefextvecfixed.md)
+[Polkadot JS API](../README.md) › [Globals](../globals.md) › ["codec/create/types"](../modules/_codec_create_types_.md) › [TypeDefExtVecFixed](_codec_create_types_.typedefextvecfixed.md)
 
 # Interface: TypeDefExtVecFixed
 
@@ -21,7 +19,7 @@
 
 • **length**: *number*
 
-*Defined in [codec/create/types.ts:31](https://github.com/polkadot-js/api/blob/a0b8619/packages/types/src/codec/create/types.ts#L31)*
+*Defined in [codec/create/types.ts:31](https://github.com/polkadot-js/api/blob/32c4aa3/packages/types/src/codec/create/types.ts#L31)*
 
 ___
 
@@ -29,4 +27,4 @@ ___
 
 • **type**: *string*
 
-*Defined in [codec/create/types.ts:32](https://github.com/polkadot-js/api/blob/a0b8619/packages/types/src/codec/create/types.ts#L32)*
+*Defined in [codec/create/types.ts:32](https://github.com/polkadot-js/api/blob/32c4aa3/packages/types/src/codec/create/types.ts#L32)*

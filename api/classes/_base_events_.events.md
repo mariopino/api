@@ -1,6 +1,4 @@
-**[Polkadot JS API](../README.md)**
-
-[Globals](../globals.md) › [&quot;base/Events&quot;](../modules/_base_events_.md) › [Events](_base_events_.events.md)
+[Polkadot JS API](../README.md) › [Globals](../globals.md) › ["base/Events"](../modules/_base_events_.md) › [Events](_base_events_.events.md)
 
 # Class: Events
 
@@ -8,7 +6,7 @@
 
 * **Events**
 
-  * [Decorate](_base_decorate_.decorate.md)
+  ↳ [Decorate](_base_decorate_.decorate.md)
 
 ## Index
 
@@ -24,7 +22,7 @@
 
 ▸ **off**(`type`: [ApiInterfaceEvents](../modules/_types_.md#apiinterfaceevents), `handler`: function): *this*
 
-*Defined in [base/Events.ts:66](https://github.com/polkadot-js/api/blob/a0b8619/packages/api/src/base/Events.ts#L66)*
+*Defined in [base/Events.ts:66](https://github.com/polkadot-js/api/blob/32c4aa3/packages/api/src/base/Events.ts#L66)*
 
 **`description`** Remove the given eventemitter handler
 
@@ -69,7 +67,7 @@ ___
 
 ▸ **on**(`type`: [ApiInterfaceEvents](../modules/_types_.md#apiinterfaceevents), `handler`: function): *this*
 
-*Defined in [base/Events.ts:39](https://github.com/polkadot-js/api/blob/a0b8619/packages/api/src/base/Events.ts#L39)*
+*Defined in [base/Events.ts:39](https://github.com/polkadot-js/api/blob/32c4aa3/packages/api/src/base/Events.ts#L39)*
 
 **`description`** Attach an eventemitter handler to listen to a specific event
 
@@ -112,7 +110,7 @@ ___
 
 ▸ **once**(`type`: [ApiInterfaceEvents](../modules/_types_.md#apiinterfaceevents), `handler`: function): *this*
 
-*Defined in [base/Events.ts:91](https://github.com/polkadot-js/api/blob/a0b8619/packages/api/src/base/Events.ts#L91)*
+*Defined in [base/Events.ts:91](https://github.com/polkadot-js/api/blob/32c4aa3/packages/api/src/base/Events.ts#L91)*
 
 **`description`** Attach an one-time eventemitter handler to listen to a specific event
 

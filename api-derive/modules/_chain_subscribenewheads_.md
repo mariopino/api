@@ -1,6 +1,4 @@
-**[Polkadot JS API](../README.md)**
-
-[Globals](../globals.md) › [&quot;chain/subscribeNewHeads&quot;](_chain_subscribenewheads_.md)
+[Polkadot JS API](../README.md) › [Globals](../globals.md) › ["chain/subscribeNewHeads"](_chain_subscribenewheads_.md)
 
 # External module: "chain/subscribeNewHeads"
 
@@ -20,7 +18,7 @@
 
 Ƭ **HeaderAndValidators**: *[Header, AccountId[]]*
 
-*Defined in [chain/subscribeNewHeads.ts:14](https://github.com/polkadot-js/api/blob/a0b8619/packages/api-derive/src/chain/subscribeNewHeads.ts#L14)*
+*Defined in [chain/subscribeNewHeads.ts:14](https://github.com/polkadot-js/api/blob/32c4aa3/packages/api-derive/src/chain/subscribeNewHeads.ts#L14)*
 
 ## Functions
 
@@ -28,7 +26,7 @@
 
 ▸ **subscribeNewHeads**(`api`: ApiInterfaceRx): *function*
 
-*Defined in [chain/subscribeNewHeads.ts:29](https://github.com/polkadot-js/api/blob/a0b8619/packages/api-derive/src/chain/subscribeNewHeads.ts#L29)*
+*Defined in [chain/subscribeNewHeads.ts:29](https://github.com/polkadot-js/api/blob/32c4aa3/packages/api-derive/src/chain/subscribeNewHeads.ts#L29)*
 
 **`name`** subscribeNewHeads
 

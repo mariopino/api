@@ -1,6 +1,4 @@
-**[Polkadot JS API](../README.md)**
-
-[Globals](../globals.md) › [&quot;interfaces/session/types&quot;](_interfaces_session_types_.md)
+[Polkadot JS API](../README.md) › [Globals](../globals.md) › ["interfaces/session/types"](_interfaces_session_types_.md)
 
 # External module: "interfaces/session/types"
 

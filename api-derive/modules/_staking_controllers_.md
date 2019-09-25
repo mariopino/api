@@ -1,6 +1,4 @@
-**[Polkadot JS API](../README.md)**
-
-[Globals](../globals.md) › [&quot;staking/controllers&quot;](_staking_controllers_.md)
+[Polkadot JS API](../README.md) › [Globals](../globals.md) › ["staking/controllers"](_staking_controllers_.md)
 
 # External module: "staking/controllers"
 
@@ -16,7 +14,7 @@
 
 ▸ **controllers**(`api`: ApiInterfaceRx): *function*
 
-*Defined in [staking/controllers.ts:18](https://github.com/polkadot-js/api/blob/a0b8619/packages/api-derive/src/staking/controllers.ts#L18)*
+*Defined in [staking/controllers.ts:18](https://github.com/polkadot-js/api/blob/32c4aa3/packages/api-derive/src/staking/controllers.ts#L18)*
 
 **`description`** From the list of stash accounts, retrieve the list of controllers
 

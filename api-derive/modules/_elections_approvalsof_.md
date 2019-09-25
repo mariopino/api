@@ -1,6 +1,4 @@
-**[Polkadot JS API](../README.md)**
-
-[Globals](../globals.md) › [&quot;elections/approvalsOf&quot;](_elections_approvalsof_.md)
+[Polkadot JS API](../README.md) › [Globals](../globals.md) › ["elections/approvalsOf"](_elections_approvalsof_.md)
 
 # External module: "elections/approvalsOf"
 
@@ -16,7 +14,7 @@
 
 ▸ **approvalsOf**(`api`: ApiInterfaceRx): *function*
 
-*Defined in [elections/approvalsOf.ts:26](https://github.com/polkadot-js/api/blob/a0b8619/packages/api-derive/src/elections/approvalsOf.ts#L26)*
+*Defined in [elections/approvalsOf.ts:26](https://github.com/polkadot-js/api/blob/32c4aa3/packages/api-derive/src/elections/approvalsOf.ts#L26)*
 
 **`name`** approvalsOf
 

@@ -1,6 +1,4 @@
-**[Polkadot JS API](../README.md)**
-
-[Globals](../globals.md) › [&quot;types&quot;](../modules/_types_.md) › [JsonRpcObject](_types_.jsonrpcobject.md)
+[Polkadot JS API](../README.md) › [Globals](../globals.md) › ["types"](../modules/_types_.md) › [JsonRpcObject](_types_.jsonrpcobject.md)
 
 # Interface: JsonRpcObject
 
@@ -8,7 +6,7 @@
 
 * **JsonRpcObject**
 
-  * [JsonRpcRequest](_types_.jsonrpcrequest.md)
+  ↳ [JsonRpcRequest](_types_.jsonrpcrequest.md)
 
 ## Index
 
@@ -23,7 +21,7 @@
 
 • **id**: *number*
 
-*Defined in [types.ts:6](https://github.com/polkadot-js/api/blob/a0b8619/packages/rpc-provider/src/types.ts#L6)*
+*Defined in [types.ts:6](https://github.com/polkadot-js/api/blob/32c4aa3/packages/rpc-provider/src/types.ts#L6)*
 
 ___
 
@@ -31,4 +29,4 @@ ___
 
 • **jsonrpc**: *"2.0"*
 
-*Defined in [types.ts:7](https://github.com/polkadot-js/api/blob/a0b8619/packages/rpc-provider/src/types.ts#L7)*
+*Defined in [types.ts:7](https://github.com/polkadot-js/api/blob/32c4aa3/packages/rpc-provider/src/types.ts#L7)*

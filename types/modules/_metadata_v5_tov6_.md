@@ -1,6 +1,4 @@
-**[Polkadot JS API](../README.md)**
-
-[Globals](../globals.md) › [&quot;Metadata/v5/toV6&quot;](_metadata_v5_tov6_.md)
+[Polkadot JS API](../README.md) › [Globals](../globals.md) › ["Metadata/v5/toV6"](_metadata_v5_tov6_.md)
 
 # External module: "Metadata/v5/toV6"
 
@@ -16,7 +14,7 @@
 
 ▸ **toV6**(`__namedParameters`: object): *[MetadataV6](../classes/_metadata_v6_metadata_.metadatav6.md)*
 
-*Defined in [Metadata/v5/toV6.ts:13](https://github.com/polkadot-js/api/blob/a0b8619/packages/types/src/Metadata/v5/toV6.ts#L13)*
+*Defined in [Metadata/v5/toV6.ts:13](https://github.com/polkadot-js/api/blob/32c4aa3/packages/types/src/Metadata/v5/toV6.ts#L13)*
 
 Convert from MetadataV5 to MetadataV6
 See https://github.com/polkadot-js/api/issues/1043 for details

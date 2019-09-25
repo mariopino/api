@@ -1,6 +1,4 @@
-**[Polkadot JS API](../README.md)**
-
-[Globals](../globals.md) › [&quot;scripts/generateTypes/query&quot;](_scripts_generatetypes_query_.md)
+[Polkadot JS API](../README.md) › [Globals](../globals.md) › ["scripts/generateTypes/query"](_scripts_generatetypes_query_.md)
 
 # External module: "scripts/generateTypes/query"
 
@@ -16,6 +14,6 @@
 
 ▸ **generateQuery**(): *void*
 
-*Defined in [scripts/generateTypes/query.ts:142](https://github.com/polkadot-js/api/blob/a0b8619/packages/types/src/scripts/generateTypes/query.ts#L142)*
+*Defined in [scripts/generateTypes/query.ts:142](https://github.com/polkadot-js/api/blob/32c4aa3/packages/types/src/scripts/generateTypes/query.ts#L142)*
 
 **Returns:** *void*

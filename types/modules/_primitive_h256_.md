@@ -1,6 +1,4 @@
-**[Polkadot JS API](../README.md)**
-
-[Globals](../globals.md) › [&quot;primitive/H256&quot;](_primitive_h256_.md)
+[Polkadot JS API](../README.md) › [Globals](../globals.md) › ["primitive/H256"](_primitive_h256_.md)
 
 # External module: "primitive/H256"
 

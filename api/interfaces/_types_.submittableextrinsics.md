@@ -1,6 +1,4 @@
-**[Polkadot JS API](../README.md)**
-
-[Globals](../globals.md) › [&quot;types&quot;](../modules/_types_.md) › [SubmittableExtrinsics](_types_.submittableextrinsics.md)
+[Polkadot JS API](../README.md) › [Globals](../globals.md) › ["types"](../modules/_types_.md) › [SubmittableExtrinsics](_types_.submittableextrinsics.md)
 
 # Interface: SubmittableExtrinsics <**ApiType**>
 
@@ -16,7 +14,7 @@
 
 ▸ (`extrinsic`: Uint8Array | string): *[SubmittableExtrinsic](_submittable_types_.submittableextrinsic.md)‹ApiType›*
 
-*Defined in [types.ts:168](https://github.com/polkadot-js/api/blob/a0b8619/packages/api/src/types.ts#L168)*
+*Defined in [types.ts:168](https://github.com/polkadot-js/api/blob/32c4aa3/packages/api/src/types.ts#L168)*
 
 **Parameters:**
 

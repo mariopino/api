@@ -1,6 +1,4 @@
-**[Polkadot JS API](../README.md)**
-
-[Globals](../globals.md) › [&quot;codec/create/getTypeDef&quot;](_codec_create_gettypedef_.md)
+[Polkadot JS API](../README.md) › [Globals](../globals.md) › ["codec/create/getTypeDef"](_codec_create_gettypedef_.md)
 
 # External module: "codec/create/getTypeDef"
 
@@ -16,7 +14,7 @@
 
 ▸ **getTypeDef**(`_type`: string, `name?`: undefined | string): *[TypeDef](../interfaces/_codec_create_types_.typedef.md)*
 
-*Defined in [codec/create/getTypeDef.ts:122](https://github.com/polkadot-js/api/blob/a0b8619/packages/types/src/codec/create/getTypeDef.ts#L122)*
+*Defined in [codec/create/getTypeDef.ts:122](https://github.com/polkadot-js/api/blob/32c4aa3/packages/types/src/codec/create/getTypeDef.ts#L122)*
 
 **Parameters:**
 

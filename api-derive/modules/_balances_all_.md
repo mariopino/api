@@ -1,6 +1,4 @@
-**[Polkadot JS API](../README.md)**
-
-[Globals](../globals.md) › [&quot;balances/all&quot;](_balances_all_.md)
+[Polkadot JS API](../README.md) › [Globals](../globals.md) › ["balances/all"](_balances_all_.md)
 
 # External module: "balances/all"
 
@@ -16,7 +14,7 @@
 
 ▸ **all**(`api`: ApiInterfaceRx): *function*
 
-*Defined in [balances/all.ts:75](https://github.com/polkadot-js/api/blob/a0b8619/packages/api-derive/src/balances/all.ts#L75)*
+*Defined in [balances/all.ts:75](https://github.com/polkadot-js/api/blob/32c4aa3/packages/api-derive/src/balances/all.ts#L75)*
 
 **`name`** all
 

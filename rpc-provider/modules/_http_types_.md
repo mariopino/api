@@ -1,6 +1,4 @@
-**[Polkadot JS API](../README.md)**
-
-[Globals](../globals.md) › [&quot;http/types&quot;](_http_types_.md)
+[Polkadot JS API](../README.md) › [Globals](../globals.md) › ["http/types"](_http_types_.md)
 
 # External module: "http/types"
 

@@ -1,6 +1,4 @@
-**[Polkadot JS API](../README.md)**
-
-[Globals](../globals.md) › [&quot;mock/types&quot;](../modules/_mock_types_.md) › [Global](_mock_types_.global.md)
+[Polkadot JS API](../README.md) › [Globals](../globals.md) › ["mock/types"](../modules/_mock_types_.md) › [Global](_mock_types_.global.md)
 
 # Interface: Global
 
@@ -8,7 +6,7 @@
 
 * Global
 
-  * **Global**
+  ↳ **Global**
 
 ## Index
 
@@ -477,7 +475,7 @@ ___
 
 • **WebSocket**: *Constructor‹WebSocket›*
 
-*Defined in [mock/types.ts:9](https://github.com/polkadot-js/api/blob/a0b8619/packages/rpc-provider/src/mock/types.ts#L9)*
+*Defined in [mock/types.ts:9](https://github.com/polkadot-js/api/blob/32c4aa3/packages/rpc-provider/src/mock/types.ts#L9)*
 
 ___
 
@@ -625,7 +623,7 @@ ___
 
 • **fetch**: *any*
 
-*Defined in [mock/types.ts:10](https://github.com/polkadot-js/api/blob/a0b8619/packages/rpc-provider/src/mock/types.ts#L10)*
+*Defined in [mock/types.ts:10](https://github.com/polkadot-js/api/blob/32c4aa3/packages/rpc-provider/src/mock/types.ts#L10)*
 
 ___
 

@@ -1,6 +1,4 @@
-**[Polkadot JS API](../README.md)**
-
-[Globals](../globals.md) › [&quot;interfaces/babe/types&quot;](_interfaces_babe_types_.md)
+[Polkadot JS API](../README.md) › [Globals](../globals.md) › ["interfaces/babe/types"](_interfaces_babe_types_.md)
 
 # External module: "interfaces/babe/types"
 

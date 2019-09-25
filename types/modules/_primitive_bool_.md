@@ -1,6 +1,4 @@
-**[Polkadot JS API](../README.md)**
-
-[Globals](../globals.md) › [&quot;primitive/Bool&quot;](_primitive_bool_.md)
+[Polkadot JS API](../README.md) › [Globals](../globals.md) › ["primitive/Bool"](_primitive_bool_.md)
 
 # External module: "primitive/Bool"
 

@@ -1,6 +1,4 @@
-**[Polkadot JS API](../README.md)**
-
-[Globals](../globals.md) › [&quot;interfaces/elections/types&quot;](_interfaces_elections_types_.md)
+[Polkadot JS API](../README.md) › [Globals](../globals.md) › ["interfaces/elections/types"](_interfaces_elections_types_.md)
 
 # External module: "interfaces/elections/types"
 

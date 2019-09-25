@@ -1,6 +1,4 @@
-**[Polkadot JS API](../README.md)**
-
-[Globals](../globals.md) › [&quot;codec/Tuple&quot;](_codec_tuple_.md)
+[Polkadot JS API](../README.md) › [Globals](../globals.md) › ["codec/Tuple"](_codec_tuple_.md)
 
 # External module: "codec/Tuple"
 

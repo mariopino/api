@@ -1,6 +1,4 @@
-**[Polkadot JS API](../README.md)**
-
-[Globals](../globals.md) › [&quot;interfaces/parachains/types&quot;](_interfaces_parachains_types_.md)
+[Polkadot JS API](../README.md) › [Globals](../globals.md) › ["interfaces/parachains/types"](_interfaces_parachains_types_.md)
 
 # External module: "interfaces/parachains/types"
 

@@ -1,6 +1,4 @@
-**[Polkadot JS API](../README.md)**
-
-[Globals](../globals.md) › [&quot;Metadata/util/flattenUniq&quot;](_metadata_util_flattenuniq_.md)
+[Polkadot JS API](../README.md) › [Globals](../globals.md) › ["Metadata/util/flattenUniq"](_metadata_util_flattenuniq_.md)
 
 # External module: "Metadata/util/flattenUniq"
 
@@ -16,7 +14,7 @@
 
 ▸ **flattenUniq**(`list`: any[]): *any[]*
 
-*Defined in [Metadata/util/flattenUniq.ts:6](https://github.com/polkadot-js/api/blob/a0b8619/packages/types/src/Metadata/util/flattenUniq.ts#L6)*
+*Defined in [Metadata/util/flattenUniq.ts:6](https://github.com/polkadot-js/api/blob/32c4aa3/packages/types/src/Metadata/util/flattenUniq.ts#L6)*
 
 **Parameters:**
 

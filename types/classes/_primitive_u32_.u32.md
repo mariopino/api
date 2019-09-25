@@ -1,6 +1,4 @@
-**[Polkadot JS API](../README.md)**
-
-[Globals](../globals.md) › [&quot;primitive/U32&quot;](../modules/_primitive_u32_.md) › [U32](_primitive_u32_.u32.md)
+[Polkadot JS API](../README.md) › [Globals](../globals.md) › ["primitive/U32"](../modules/_primitive_u32_.md) › [U32](_primitive_u32_.u32.md)
 
 # Class: U32
 
@@ -11,67 +9,67 @@ A 32-bit unsigned integer
 
 ## Hierarchy
 
-  * [UInt](_codec_uint_.uint.md)
+  ↳ [UInt](_codec_uint_.uint.md)
 
-  * **U32**
+  ↳ **U32**
 
-  * [AssetId](../interfaces/_interfaces_runtime_types_.assetid.md)
+  ↳ [AssetId](../interfaces/_interfaces_runtime_types_.assetid.md)
 
-  * [BlockNumber](../interfaces/_interfaces_runtime_types_.blocknumber.md)
+  ↳ [BlockNumber](../interfaces/_interfaces_runtime_types_.blocknumber.md)
 
-  * [Index](../interfaces/_interfaces_runtime_types_.index.md)
+  ↳ [Index](../interfaces/_interfaces_runtime_types_.index.md)
 
-  * [KeyTypeId](../interfaces/_interfaces_runtime_types_.keytypeid.md)
+  ↳ [KeyTypeId](../interfaces/_interfaces_runtime_types_.keytypeid.md)
 
-  * [Perbill](../interfaces/_interfaces_runtime_types_.perbill.md)
+  ↳ [Perbill](../interfaces/_interfaces_runtime_types_.perbill.md)
 
-  * [Permill](../interfaces/_interfaces_runtime_types_.permill.md)
+  ↳ [Permill](../interfaces/_interfaces_runtime_types_.permill.md)
 
-  * [Weight](../interfaces/_interfaces_runtime_types_.weight.md)
+  ↳ [Weight](../interfaces/_interfaces_runtime_types_.weight.md)
 
-  * [BabeBlockWeight](../interfaces/_interfaces_babe_types_.babeblockweight.md)
+  ↳ [BabeBlockWeight](../interfaces/_interfaces_babe_types_.babeblockweight.md)
 
-  * [MemberCount](../interfaces/_interfaces_collective_types_.membercount.md)
+  ↳ [MemberCount](../interfaces/_interfaces_collective_types_.membercount.md)
 
-  * [ProposalIndex](../interfaces/_interfaces_collective_types_.proposalindex.md)
+  ↳ [ProposalIndex](../interfaces/_interfaces_collective_types_.proposalindex.md)
 
-  * [ApprovalFlag](../interfaces/_interfaces_elections_types_.approvalflag.md)
+  ↳ [ApprovalFlag](../interfaces/_interfaces_elections_types_.approvalflag.md)
 
-  * [SetIndex](../interfaces/_interfaces_elections_types_.setindex.md)
+  ↳ [SetIndex](../interfaces/_interfaces_elections_types_.setindex.md)
 
-  * [VoteIndex](../interfaces/_interfaces_elections_types_.voteindex.md)
+  ↳ [VoteIndex](../interfaces/_interfaces_elections_types_.voteindex.md)
 
-  * [PropIndex](../interfaces/_interfaces_democracy_types_.propindex.md)
+  ↳ [PropIndex](../interfaces/_interfaces_democracy_types_.propindex.md)
 
-  * [ReferendumIndex](../interfaces/_interfaces_democracy_types_.referendumindex.md)
+  ↳ [ReferendumIndex](../interfaces/_interfaces_democracy_types_.referendumindex.md)
 
-  * [AssetOf](../interfaces/_interfaces_deprecated_types_.assetof.md)
+  ↳ [AssetOf](../interfaces/_interfaces_deprecated_types_.assetof.md)
 
-  * [EraIndex](../interfaces/_interfaces_staking_types_.eraindex.md)
+  ↳ [EraIndex](../interfaces/_interfaces_staking_types_.eraindex.md)
 
-  * [Points](../interfaces/_interfaces_staking_types_.points.md)
+  ↳ [Points](../interfaces/_interfaces_staking_types_.points.md)
 
-  * [SessionIndex](../interfaces/_interfaces_session_types_.sessionindex.md)
+  ↳ [SessionIndex](../interfaces/_interfaces_session_types_.sessionindex.md)
 
-  * [AuthIndex](../interfaces/_interfaces_imonline_types_.authindex.md)
+  ↳ [AuthIndex](../interfaces/_interfaces_imonline_types_.authindex.md)
 
-  * [EventIndex](../interfaces/_interfaces_system_types_.eventindex.md)
+  ↳ [EventIndex](../interfaces/_interfaces_system_types_.eventindex.md)
 
-  * [AuctionIndex](../interfaces/_interfaces_parachains_types_.auctionindex.md)
+  ↳ [AuctionIndex](../interfaces/_interfaces_parachains_types_.auctionindex.md)
 
-  * [ParaId](../interfaces/_interfaces_parachains_types_.paraid.md)
+  ↳ [ParaId](../interfaces/_interfaces_parachains_types_.paraid.md)
 
-  * [SubId](../interfaces/_interfaces_parachains_types_.subid.md)
+  ↳ [SubId](../interfaces/_interfaces_parachains_types_.subid.md)
 
-  * [ValidatorIndex](../interfaces/_interfaces_parachains_types_.validatorindex.md)
+  ↳ [ValidatorIndex](../interfaces/_interfaces_parachains_types_.validatorindex.md)
 
-  * [AccountIndex](_primitive_generic_accountindex_.accountindex.md)
+  ↳ [AccountIndex](_primitive_generic_accountindex_.accountindex.md)
 
-  * [ConsensusEngineId](_primitive_generic_consensusengineid_.consensusengineid.md)
+  ↳ [ConsensusEngineId](_primitive_generic_consensusengineid_.consensusengineid.md)
 
-  * [USize](_primitive_usize_.usize.md)
+  ↳ [USize](_primitive_usize_.usize.md)
 
-  * [MagicNumber](_metadata_magicnumber_.magicnumber.md)
+  ↳ [MagicNumber](_metadata_magicnumber_.magicnumber.md)
 
 ## Implements
 
@@ -97,7 +95,7 @@ A 32-bit unsigned integer
 
 *Overrides [UInt](_codec_uint_.uint.md).[constructor](_codec_uint_.uint.md#constructor)*
 
-*Defined in [primitive/U32.ts:14](https://github.com/polkadot-js/api/blob/a0b8619/packages/types/src/primitive/U32.ts#L14)*
+*Defined in [primitive/U32.ts:14](https://github.com/polkadot-js/api/blob/32c4aa3/packages/types/src/primitive/U32.ts#L14)*
 
 **Parameters:**
 
@@ -117,7 +115,7 @@ Name | Type |
 
 *Overrides void*
 
-*Defined in [codec/UInt.ts:37](https://github.com/polkadot-js/api/blob/a0b8619/packages/types/src/codec/UInt.ts#L37)*
+*Defined in [codec/UInt.ts:37](https://github.com/polkadot-js/api/blob/32c4aa3/packages/types/src/codec/UInt.ts#L37)*
 
 **`description`** Returns a hex string representation of the value
 
@@ -141,7 +139,7 @@ ___
 
 *Overrides void*
 
-*Defined in [codec/UInt.ts:49](https://github.com/polkadot-js/api/blob/a0b8619/packages/types/src/codec/UInt.ts#L49)*
+*Defined in [codec/UInt.ts:49](https://github.com/polkadot-js/api/blob/32c4aa3/packages/types/src/codec/UInt.ts#L49)*
 
 **`description`** Returns the base runtime type name for this instance
 
@@ -159,7 +157,7 @@ ___
 
 *Overrides void*
 
-*Defined in [codec/UInt.ts:63](https://github.com/polkadot-js/api/blob/a0b8619/packages/types/src/codec/UInt.ts#L63)*
+*Defined in [codec/UInt.ts:63](https://github.com/polkadot-js/api/blob/32c4aa3/packages/types/src/codec/UInt.ts#L63)*
 
 **`description`** Encodes the value as a Uint8Array as per the SCALE specifications
 

@@ -1,6 +1,4 @@
-**[Polkadot JS API](../README.md)**
-
-[Globals](../globals.md) › [&quot;promise/Combinator&quot;](../modules/_promise_combinator_.md) › [CombinatorFunction](_promise_combinator_.combinatorfunction.md)
+[Polkadot JS API](../README.md) › [Globals](../globals.md) › ["promise/Combinator"](../modules/_promise_combinator_.md) › [CombinatorFunction](_promise_combinator_.combinatorfunction.md)
 
 # Interface: CombinatorFunction
 
@@ -12,7 +10,7 @@
 
 ▸ (`cb`: Callback‹any›): *[UnsubscribePromise](../modules/_types_.md#unsubscribepromise)*
 
-*Defined in [promise/Combinator.ts:11](https://github.com/polkadot-js/api/blob/a0b8619/packages/api/src/promise/Combinator.ts#L11)*
+*Defined in [promise/Combinator.ts:11](https://github.com/polkadot-js/api/blob/32c4aa3/packages/api/src/promise/Combinator.ts#L11)*
 
 **Parameters:**
 

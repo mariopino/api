@@ -1,6 +1,4 @@
-**[Polkadot JS API](../README.md)**
-
-[Globals](../globals.md) › [&quot;interfaces/contracts/types&quot;](_interfaces_contracts_types_.md)
+[Polkadot JS API](../README.md) › [Globals](../globals.md) › ["interfaces/contracts/types"](_interfaces_contracts_types_.md)
 
 # External module: "interfaces/contracts/types"
 

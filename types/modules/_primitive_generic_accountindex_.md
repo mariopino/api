@@ -1,6 +1,4 @@
-**[Polkadot JS API](../README.md)**
-
-[Globals](../globals.md) › [&quot;primitive/Generic/AccountIndex&quot;](_primitive_generic_accountindex_.md)
+[Polkadot JS API](../README.md) › [Globals](../globals.md) › ["primitive/Generic/AccountIndex"](_primitive_generic_accountindex_.md)
 
 # External module: "primitive/Generic/AccountIndex"
 
@@ -20,4 +18,4 @@
 
 • **ENUMSET_SIZE**: *BN* =  new BN(64)
 
-*Defined in [primitive/Generic/AccountIndex.ts:14](https://github.com/polkadot-js/api/blob/a0b8619/packages/types/src/primitive/Generic/AccountIndex.ts#L14)*
+*Defined in [primitive/Generic/AccountIndex.ts:14](https://github.com/polkadot-js/api/blob/32c4aa3/packages/types/src/primitive/Generic/AccountIndex.ts#L14)*

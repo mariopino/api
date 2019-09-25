@@ -1,6 +1,4 @@
-**[Polkadot JS API](../README.md)**
-
-[Globals](../globals.md) › [&quot;storage/types&quot;](_storage_types_.md)
+[Polkadot JS API](../README.md) › [Globals](../globals.md) › ["storage/types"](_storage_types_.md)
 
 # External module: "storage/types"
 

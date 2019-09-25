@@ -1,6 +1,4 @@
-**[Polkadot JS API](../README.md)**
-
-[Globals](../globals.md) › [&quot;create/param&quot;](_create_param_.md)
+[Polkadot JS API](../README.md) › [Globals](../globals.md) › ["create/param"](_create_param_.md)
 
 # External module: "create/param"
 
@@ -16,7 +14,7 @@
 
 ▸ **createParam**(`name`: string, `type`: InterfaceTypes, `__namedParameters`: object): *[RpcParam](../interfaces/_types_.rpcparam.md)*
 
-*Defined in [create/param.ts:12](https://github.com/polkadot-js/api/blob/a0b8619/packages/type-jsonrpc/src/create/param.ts#L12)*
+*Defined in [create/param.ts:12](https://github.com/polkadot-js/api/blob/32c4aa3/packages/type-jsonrpc/src/create/param.ts#L12)*
 
 **Parameters:**
 

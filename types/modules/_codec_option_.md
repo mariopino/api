@@ -1,6 +1,4 @@
-**[Polkadot JS API](../README.md)**
-
-[Globals](../globals.md) › [&quot;codec/Option&quot;](_codec_option_.md)
+[Polkadot JS API](../README.md) › [Globals](../globals.md) › ["codec/Option"](_codec_option_.md)
 
 # External module: "codec/Option"
 

@@ -1,6 +1,4 @@
-**[Polkadot JS API](../README.md)**
-
-[Globals](../globals.md) › [&quot;primitive/Generic/Block&quot;](_primitive_generic_block_.md)
+[Polkadot JS API](../README.md) › [Globals](../globals.md) › ["primitive/Generic/Block"](_primitive_generic_block_.md)
 
 # External module: "primitive/Generic/Block"
 

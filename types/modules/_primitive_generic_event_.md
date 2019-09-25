@@ -1,6 +1,4 @@
-**[Polkadot JS API](../README.md)**
-
-[Globals](../globals.md) › [&quot;primitive/Generic/Event&quot;](_primitive_generic_event_.md)
+[Polkadot JS API](../README.md) › [Globals](../globals.md) › ["primitive/Generic/Event"](_primitive_generic_event_.md)
 
 # External module: "primitive/Generic/Event"
 

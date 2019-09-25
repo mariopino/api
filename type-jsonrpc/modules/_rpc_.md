@@ -1,6 +1,5 @@
-**[Polkadot JS API](../README.md)**
-
-[Globals](../globals.md) › [&quot;rpc&quot;](_rpc_.md)
+[Polkadot JS API](../README.md) › [Globals](../globals.md) › ["rpc"](_rpc_.md)
 
 # External module: "rpc"
+
 

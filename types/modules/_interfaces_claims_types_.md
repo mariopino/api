@@ -1,6 +1,4 @@
-**[Polkadot JS API](../README.md)**
-
-[Globals](../globals.md) › [&quot;interfaces/claims/types&quot;](_interfaces_claims_types_.md)
+[Polkadot JS API](../README.md) › [Globals](../globals.md) › ["interfaces/claims/types"](_interfaces_claims_types_.md)
 
 # External module: "interfaces/claims/types"
 

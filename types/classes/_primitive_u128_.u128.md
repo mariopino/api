@@ -1,6 +1,4 @@
-**[Polkadot JS API](../README.md)**
-
-[Globals](../globals.md) › [&quot;primitive/U128&quot;](../modules/_primitive_u128_.md) › [U128](_primitive_u128_.u128.md)
+[Polkadot JS API](../README.md) › [Globals](../globals.md) › ["primitive/U128"](../modules/_primitive_u128_.md) › [U128](_primitive_u128_.u128.md)
 
 # Class: U128
 
@@ -11,11 +9,11 @@ A 128-bit unsigned integer
 
 ## Hierarchy
 
-  * [UInt](_codec_uint_.uint.md)
+  ↳ [UInt](_codec_uint_.uint.md)
 
-  * **U128**
+  ↳ **U128**
 
-  * [Balance](../interfaces/_interfaces_runtime_types_.balance.md)
+  ↳ [Balance](../interfaces/_interfaces_runtime_types_.balance.md)
 
 ## Implements
 
@@ -41,7 +39,7 @@ A 128-bit unsigned integer
 
 *Overrides [UInt](_codec_uint_.uint.md).[constructor](_codec_uint_.uint.md#constructor)*
 
-*Defined in [primitive/U128.ts:14](https://github.com/polkadot-js/api/blob/a0b8619/packages/types/src/primitive/U128.ts#L14)*
+*Defined in [primitive/U128.ts:14](https://github.com/polkadot-js/api/blob/32c4aa3/packages/types/src/primitive/U128.ts#L14)*
 
 **Parameters:**
 
@@ -61,7 +59,7 @@ Name | Type |
 
 *Overrides void*
 
-*Defined in [codec/UInt.ts:37](https://github.com/polkadot-js/api/blob/a0b8619/packages/types/src/codec/UInt.ts#L37)*
+*Defined in [codec/UInt.ts:37](https://github.com/polkadot-js/api/blob/32c4aa3/packages/types/src/codec/UInt.ts#L37)*
 
 **`description`** Returns a hex string representation of the value
 
@@ -85,7 +83,7 @@ ___
 
 *Overrides void*
 
-*Defined in [codec/UInt.ts:49](https://github.com/polkadot-js/api/blob/a0b8619/packages/types/src/codec/UInt.ts#L49)*
+*Defined in [codec/UInt.ts:49](https://github.com/polkadot-js/api/blob/32c4aa3/packages/types/src/codec/UInt.ts#L49)*
 
 **`description`** Returns the base runtime type name for this instance
 
@@ -103,7 +101,7 @@ ___
 
 *Overrides void*
 
-*Defined in [codec/UInt.ts:63](https://github.com/polkadot-js/api/blob/a0b8619/packages/types/src/codec/UInt.ts#L63)*
+*Defined in [codec/UInt.ts:63](https://github.com/polkadot-js/api/blob/32c4aa3/packages/types/src/codec/UInt.ts#L63)*
 
 **`description`** Encodes the value as a Uint8Array as per the SCALE specifications
 

@@ -1,6 +1,4 @@
-**[Polkadot JS API](../README.md)**
-
-[Globals](../globals.md) › [&quot;injector&quot;](_injector_.md)
+[Polkadot JS API](../README.md) › [Globals](../globals.md) › ["injector"](_injector_.md)
 
 # External module: "injector"
 
@@ -16,7 +14,7 @@
 
 ▸ **injectTypes**(): *void*
 
-*Defined in [injector.ts:12](https://github.com/polkadot-js/api/blob/a0b8619/packages/types/src/injector.ts#L12)*
+*Defined in [injector.ts:12](https://github.com/polkadot-js/api/blob/32c4aa3/packages/types/src/injector.ts#L12)*
 
 **`description`** A utility method that injects all the srml definitions into the type registry
 

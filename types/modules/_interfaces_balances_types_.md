@@ -1,6 +1,4 @@
-**[Polkadot JS API](../README.md)**
-
-[Globals](../globals.md) › [&quot;interfaces/balances/types&quot;](_interfaces_balances_types_.md)
+[Polkadot JS API](../README.md) › [Globals](../globals.md) › ["interfaces/balances/types"](_interfaces_balances_types_.md)
 
 # External module: "interfaces/balances/types"
 

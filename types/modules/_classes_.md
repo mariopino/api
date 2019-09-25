@@ -1,6 +1,4 @@
-**[Polkadot JS API](../README.md)**
-
-[Globals](../globals.md) › [&quot;classes&quot;](_classes_.md)
+[Polkadot JS API](../README.md) › [Globals](../globals.md) › ["classes"](_classes_.md)
 
 # External module: "classes"
 
@@ -16,4 +14,4 @@
 
 Ƭ **CodecTypes**: *keyof "/home/travis/build/polkadot-js/api/packages/types/src/index.types"*
 
-*Defined in [classes.ts:7](https://github.com/polkadot-js/api/blob/a0b8619/packages/types/src/classes.ts#L7)*
+*Defined in [classes.ts:7](https://github.com/polkadot-js/api/blob/32c4aa3/packages/types/src/classes.ts#L7)*

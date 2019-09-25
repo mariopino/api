@@ -1,6 +1,4 @@
-**[Polkadot JS API](../README.md)**
-
-[Globals](../globals.md) › [&quot;codec/utils/compareArray&quot;](_codec_utils_comparearray_.md)
+[Polkadot JS API](../README.md) › [Globals](../globals.md) › ["codec/utils/compareArray"](_codec_utils_comparearray_.md)
 
 # External module: "codec/utils/compareArray"
 
@@ -16,7 +14,7 @@
 
 ▸ **compareArray**(`a`: any[], `b?`: any): *boolean*
 
-*Defined in [codec/utils/compareArray.ts:9](https://github.com/polkadot-js/api/blob/a0b8619/packages/types/src/codec/utils/compareArray.ts#L9)*
+*Defined in [codec/utils/compareArray.ts:9](https://github.com/polkadot-js/api/blob/32c4aa3/packages/types/src/codec/utils/compareArray.ts#L9)*
 
 **Parameters:**
 

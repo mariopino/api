@@ -1,6 +1,4 @@
-**[Polkadot JS API](../README.md)**
-
-[Globals](../globals.md) › [&quot;interfaces/staking/types&quot;](_interfaces_staking_types_.md)
+[Polkadot JS API](../README.md) › [Globals](../globals.md) › ["interfaces/staking/types"](_interfaces_staking_types_.md)
 
 # External module: "interfaces/staking/types"
 

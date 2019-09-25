@@ -1,6 +1,5 @@
-**[Polkadot JS API](../README.md)**
-
-[Globals](../globals.md) › [&quot;index.types&quot;](_index_types_.md)
+[Polkadot JS API](../README.md) › [Globals](../globals.md) › ["index.types"](_index_types_.md)
 
 # External module: "index.types"
+
 

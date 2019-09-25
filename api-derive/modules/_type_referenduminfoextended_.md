@@ -1,6 +1,4 @@
-**[Polkadot JS API](../README.md)**
-
-[Globals](../globals.md) › [&quot;type/ReferendumInfoExtended&quot;](_type_referenduminfoextended_.md)
+[Polkadot JS API](../README.md) › [Globals](../globals.md) › ["type/ReferendumInfoExtended"](_type_referenduminfoextended_.md)
 
 # External module: "type/ReferendumInfoExtended"
 
