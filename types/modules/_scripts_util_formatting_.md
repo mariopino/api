@@ -29,7 +29,7 @@
 "* = "
 "
 
-*Defined in [scripts/util/formatting.ts:11](https://github.com/polkadot-js/api/blob/32c4aa3/packages/types/src/scripts/util/formatting.ts#L11)*
+*Defined in [scripts/util/formatting.ts:11](https://github.com/polkadot-js/api/blob/ad4a6e6/packages/types/src/scripts/util/formatting.ts#L11)*
 
 ___
 
@@ -43,7 +43,7 @@ ___
 
 "
 
-*Defined in [scripts/util/formatting.ts:10](https://github.com/polkadot-js/api/blob/32c4aa3/packages/types/src/scripts/util/formatting.ts#L10)*
+*Defined in [scripts/util/formatting.ts:10](https://github.com/polkadot-js/api/blob/ad4a6e6/packages/types/src/scripts/util/formatting.ts#L10)*
 
 ## Functions
 
@@ -51,7 +51,7 @@ ___
 
 ▸ **createImportCode**(`header`: string, `checks`: object[]): *string*
 
-*Defined in [scripts/util/formatting.ts:14](https://github.com/polkadot-js/api/blob/32c4aa3/packages/types/src/scripts/util/formatting.ts#L14)*
+*Defined in [scripts/util/formatting.ts:14](https://github.com/polkadot-js/api/blob/ad4a6e6/packages/types/src/scripts/util/formatting.ts#L14)*
 
 **Parameters:**
 
@@ -68,7 +68,7 @@ ___
 
 ▸ **exportInterface**(`name`: string, `base`: string, `body`: string): *string*
 
-*Defined in [scripts/util/formatting.ts:25](https://github.com/polkadot-js/api/blob/32c4aa3/packages/types/src/scripts/util/formatting.ts#L25)*
+*Defined in [scripts/util/formatting.ts:25](https://github.com/polkadot-js/api/blob/ad4a6e6/packages/types/src/scripts/util/formatting.ts#L25)*
 
 **Parameters:**
 
@@ -86,7 +86,7 @@ ___
 
 ▸ **exportType**(`name`: string, `base`: string): *string*
 
-*Defined in [scripts/util/formatting.ts:32](https://github.com/polkadot-js/api/blob/32c4aa3/packages/types/src/scripts/util/formatting.ts#L32)*
+*Defined in [scripts/util/formatting.ts:32](https://github.com/polkadot-js/api/blob/ad4a6e6/packages/types/src/scripts/util/formatting.ts#L32)*
 
 **Parameters:**
 
@@ -103,7 +103,7 @@ ___
 
 ▸ **formatCompact**(`inner`: string): *string*
 
-*Defined in [scripts/util/formatting.ts:39](https://github.com/polkadot-js/api/blob/32c4aa3/packages/types/src/scripts/util/formatting.ts#L39)*
+*Defined in [scripts/util/formatting.ts:39](https://github.com/polkadot-js/api/blob/ad4a6e6/packages/types/src/scripts/util/formatting.ts#L39)*
 
 Given the inner `T`, return a `Compact<T>` string
 
@@ -121,7 +121,7 @@ ___
 
 ▸ **formatOption**(`inner`: string): *string*
 
-*Defined in [scripts/util/formatting.ts:46](https://github.com/polkadot-js/api/blob/32c4aa3/packages/types/src/scripts/util/formatting.ts#L46)*
+*Defined in [scripts/util/formatting.ts:46](https://github.com/polkadot-js/api/blob/ad4a6e6/packages/types/src/scripts/util/formatting.ts#L46)*
 
 Given the inner `T`, return a `Option<T>` string
 
@@ -139,7 +139,7 @@ ___
 
 ▸ **formatTuple**(`inners`: string[]): *string*
 
-*Defined in [scripts/util/formatting.ts:53](https://github.com/polkadot-js/api/blob/32c4aa3/packages/types/src/scripts/util/formatting.ts#L53)*
+*Defined in [scripts/util/formatting.ts:53](https://github.com/polkadot-js/api/blob/ad4a6e6/packages/types/src/scripts/util/formatting.ts#L53)*
 
 Given the inners `T[]`, return a `ITuple<...T>` string
 
@@ -157,7 +157,7 @@ ___
 
 ▸ **formatType**(`type`: string, `imports`: [TypeImports](../interfaces/_scripts_util_imports_.typeimports.md)): *string*
 
-*Defined in [scripts/util/formatting.ts:67](https://github.com/polkadot-js/api/blob/32c4aa3/packages/types/src/scripts/util/formatting.ts#L67)*
+*Defined in [scripts/util/formatting.ts:67](https://github.com/polkadot-js/api/blob/ad4a6e6/packages/types/src/scripts/util/formatting.ts#L67)*
 
 Correctly format a given type
 
@@ -176,7 +176,7 @@ ___
 
 ▸ **formatVec**(`inner`: string): *string*
 
-*Defined in [scripts/util/formatting.ts:60](https://github.com/polkadot-js/api/blob/32c4aa3/packages/types/src/scripts/util/formatting.ts#L60)*
+*Defined in [scripts/util/formatting.ts:60](https://github.com/polkadot-js/api/blob/ad4a6e6/packages/types/src/scripts/util/formatting.ts#L60)*
 
 Given the inner `T`, return a `Vec<T>` string
 
@@ -194,7 +194,7 @@ ___
 
 ▸ **indent**(`n`: number, `char`: string): *function*
 
-*Defined in [scripts/util/formatting.ts:107](https://github.com/polkadot-js/api/blob/32c4aa3/packages/types/src/scripts/util/formatting.ts#L107)*
+*Defined in [scripts/util/formatting.ts:107](https://github.com/polkadot-js/api/blob/ad4a6e6/packages/types/src/scripts/util/formatting.ts#L107)*
 
 Indent a string with `n` spaces before.
 
