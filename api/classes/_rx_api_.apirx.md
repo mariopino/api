@@ -151,7 +151,7 @@ api.query.system
 
 *Overrides void*
 
-*Defined in [rx/Api.ts:141](https://github.com/polkadot-js/api/blob/9693766/packages/api/src/rx/Api.ts#L141)*
+*Defined in [rx/Api.ts:141](https://github.com/polkadot-js/api/blob/b231b7b/packages/api/src/rx/Api.ts#L141)*
 
 **`description`** Create an instance of the ApiRx class
 
@@ -188,7 +188,7 @@ Name | Type | Description |
 
 *Inherited from void*
 
-*Defined in [base/index.ts:70](https://github.com/polkadot-js/api/blob/9693766/packages/api/src/base/index.ts#L70)*
+*Defined in [base/index.ts:70](https://github.com/polkadot-js/api/blob/b231b7b/packages/api/src/base/index.ts#L70)*
 
 **`description`** Contains the parameter types (constants) of all modules.
 
@@ -211,7 +211,7 @@ ___
 
 *Inherited from void*
 
-*Defined in [base/index.ts:86](https://github.com/polkadot-js/api/blob/9693766/packages/api/src/base/index.ts#L86)*
+*Defined in [base/index.ts:86](https://github.com/polkadot-js/api/blob/b231b7b/packages/api/src/base/index.ts#L86)*
 
 **`description`** Derived results that are injected into the API, allowing for combinations of various query results.
 
@@ -234,7 +234,7 @@ ___
 
 *Inherited from void*
 
-*Defined in [base/index.ts:93](https://github.com/polkadot-js/api/blob/9693766/packages/api/src/base/index.ts#L93)*
+*Defined in [base/index.ts:93](https://github.com/polkadot-js/api/blob/b231b7b/packages/api/src/base/index.ts#L93)*
 
 **`description`** Returns the version of extrinsics in-use on this chain
 
@@ -248,7 +248,7 @@ ___
 
 *Inherited from void*
 
-*Defined in [base/index.ts:100](https://github.com/polkadot-js/api/blob/9693766/packages/api/src/base/index.ts#L100)*
+*Defined in [base/index.ts:100](https://github.com/polkadot-js/api/blob/b231b7b/packages/api/src/base/index.ts#L100)*
 
 **`description`** Contains the genesis Hash of the attached chain. Apart from being useful to determine the actual chain, it can also be used to sign immortal transactions.
 
@@ -262,7 +262,7 @@ ___
 
 *Inherited from void*
 
-*Defined in [base/index.ts:107](https://github.com/polkadot-js/api/blob/9693766/packages/api/src/base/index.ts#L107)*
+*Defined in [base/index.ts:107](https://github.com/polkadot-js/api/blob/b231b7b/packages/api/src/base/index.ts#L107)*
 
 **`description`** `true` when subscriptions are supported
 
@@ -274,7 +274,7 @@ ___
 
 • **get isConnected**(): *Observable‹boolean›*
 
-*Defined in [rx/Api.ts:179](https://github.com/polkadot-js/api/blob/9693766/packages/api/src/rx/Api.ts#L179)*
+*Defined in [rx/Api.ts:179](https://github.com/polkadot-js/api/blob/b231b7b/packages/api/src/rx/Api.ts#L179)*
 
 **`description`** Observable that carries the connected state for the provider. Results in a boolean flag that is true/false based on the connectivity.
 
@@ -286,7 +286,7 @@ ___
 
 • **get isReady**(): *Observable‹[ApiRx](_rx_api_.apirx.md)›*
 
-*Defined in [rx/Api.ts:186](https://github.com/polkadot-js/api/blob/9693766/packages/api/src/rx/Api.ts#L186)*
+*Defined in [rx/Api.ts:186](https://github.com/polkadot-js/api/blob/b231b7b/packages/api/src/rx/Api.ts#L186)*
 
 **`description`** Observable that returns the first time we are connected and loaded
 
@@ -300,7 +300,7 @@ ___
 
 *Inherited from void*
 
-*Defined in [base/index.ts:114](https://github.com/polkadot-js/api/blob/9693766/packages/api/src/base/index.ts#L114)*
+*Defined in [base/index.ts:114](https://github.com/polkadot-js/api/blob/b231b7b/packages/api/src/base/index.ts#L114)*
 
 **`description`** The library information name & version (from package.json)
 
@@ -314,7 +314,7 @@ ___
 
 *Inherited from void*
 
-*Defined in [base/index.ts:132](https://github.com/polkadot-js/api/blob/9693766/packages/api/src/base/index.ts#L132)*
+*Defined in [base/index.ts:132](https://github.com/polkadot-js/api/blob/b231b7b/packages/api/src/base/index.ts#L132)*
 
 **`description`** Contains all the chain state modules and their subsequent methods in the API. These are attached dynamically from the runtime metadata.
 
@@ -339,7 +339,7 @@ ___
 
 *Inherited from void*
 
-*Defined in [base/index.ts:158](https://github.com/polkadot-js/api/blob/9693766/packages/api/src/base/index.ts#L158)*
+*Defined in [base/index.ts:158](https://github.com/polkadot-js/api/blob/b231b7b/packages/api/src/base/index.ts#L158)*
 
 **`description`** Allows for the querying of multiple storage entries and the combination thereof into a single result. This is a very optimal way to make multiple queries since it only makes a single connection to the node and retrieves the data over one subscription.
 
@@ -372,7 +372,7 @@ ___
 
 *Inherited from void*
 
-*Defined in [base/index.ts:176](https://github.com/polkadot-js/api/blob/9693766/packages/api/src/base/index.ts#L176)*
+*Defined in [base/index.ts:176](https://github.com/polkadot-js/api/blob/b231b7b/packages/api/src/base/index.ts#L176)*
 
 **`description`** Contains all the raw rpc sections and their subsequent methods in the API as defined by the jsonrpc interface definitions. Unlike the dynamic `api.query` and `api.tx` sections, these methods are fixed (although extensible with node upgrades) and not determined by the runtime.
 
@@ -397,7 +397,7 @@ ___
 
 *Inherited from void*
 
-*Defined in [base/index.ts:183](https://github.com/polkadot-js/api/blob/9693766/packages/api/src/base/index.ts#L183)*
+*Defined in [base/index.ts:183](https://github.com/polkadot-js/api/blob/b231b7b/packages/api/src/base/index.ts#L183)*
 
 **`description`** Yields the current attached runtime metadata. Generally this is only used to construct extrinsics & storage, but is useful for current runtime inspection.
 
@@ -411,7 +411,7 @@ ___
 
 *Inherited from void*
 
-*Defined in [base/index.ts:190](https://github.com/polkadot-js/api/blob/9693766/packages/api/src/base/index.ts#L190)*
+*Defined in [base/index.ts:190](https://github.com/polkadot-js/api/blob/b231b7b/packages/api/src/base/index.ts#L190)*
 
 **`description`** Contains the version information for the current runtime.
 
@@ -425,7 +425,7 @@ ___
 
 *Inherited from void*
 
-*Defined in [base/index.ts:215](https://github.com/polkadot-js/api/blob/9693766/packages/api/src/base/index.ts#L215)*
+*Defined in [base/index.ts:215](https://github.com/polkadot-js/api/blob/b231b7b/packages/api/src/base/index.ts#L215)*
 
 **`description`** Contains all the extrinsic modules and their subsequent methods in the API. It allows for the construction of transactions and the submission thereof. These are attached dynamically from the runtime metadata.
 
@@ -450,7 +450,7 @@ ___
 
 *Inherited from void*
 
-*Defined in [base/index.ts:197](https://github.com/polkadot-js/api/blob/9693766/packages/api/src/base/index.ts#L197)*
+*Defined in [base/index.ts:197](https://github.com/polkadot-js/api/blob/b231b7b/packages/api/src/base/index.ts#L197)*
 
 **`description`** The type of this API instance, either 'rxjs' or 'promise'
 
@@ -462,7 +462,7 @@ ___
 
 ▸ **clone**(): *[ApiRx](_rx_api_.apirx.md)*
 
-*Defined in [rx/Api.ts:193](https://github.com/polkadot-js/api/blob/9693766/packages/api/src/rx/Api.ts#L193)*
+*Defined in [rx/Api.ts:193](https://github.com/polkadot-js/api/blob/b231b7b/packages/api/src/rx/Api.ts#L193)*
 
 **`description`** Returns a clone of this ApiRx instance (new underlying provider connection)
 
@@ -476,7 +476,7 @@ ___
 
 *Inherited from void*
 
-*Defined in [base/index.ts:222](https://github.com/polkadot-js/api/blob/9693766/packages/api/src/base/index.ts#L222)*
+*Defined in [base/index.ts:222](https://github.com/polkadot-js/api/blob/b231b7b/packages/api/src/base/index.ts#L222)*
 
 **`description`** Disconnect from the underlying provider, halting all comms
 
@@ -490,7 +490,7 @@ ___
 
 *Inherited from void*
 
-*Defined in [base/index.ts:229](https://github.com/polkadot-js/api/blob/9693766/packages/api/src/base/index.ts#L229)*
+*Defined in [base/index.ts:229](https://github.com/polkadot-js/api/blob/b231b7b/packages/api/src/base/index.ts#L229)*
 
 **`description`** Finds the definition for a specific [[Call]] based on the index supplied
 
@@ -510,7 +510,7 @@ ___
 
 *Inherited from [Events](_base_events_.events.md).[off](_base_events_.events.md#off)*
 
-*Defined in [base/Events.ts:66](https://github.com/polkadot-js/api/blob/9693766/packages/api/src/base/Events.ts#L66)*
+*Defined in [base/Events.ts:66](https://github.com/polkadot-js/api/blob/b231b7b/packages/api/src/base/Events.ts#L66)*
 
 **`description`** Remove the given eventemitter handler
 
@@ -557,7 +557,7 @@ ___
 
 *Inherited from [Events](_base_events_.events.md).[on](_base_events_.events.md#on)*
 
-*Defined in [base/Events.ts:39](https://github.com/polkadot-js/api/blob/9693766/packages/api/src/base/Events.ts#L39)*
+*Defined in [base/Events.ts:39](https://github.com/polkadot-js/api/blob/b231b7b/packages/api/src/base/Events.ts#L39)*
 
 **`description`** Attach an eventemitter handler to listen to a specific event
 
@@ -602,7 +602,7 @@ ___
 
 *Inherited from [Events](_base_events_.events.md).[once](_base_events_.events.md#once)*
 
-*Defined in [base/Events.ts:91](https://github.com/polkadot-js/api/blob/9693766/packages/api/src/base/Events.ts#L91)*
+*Defined in [base/Events.ts:91](https://github.com/polkadot-js/api/blob/b231b7b/packages/api/src/base/Events.ts#L91)*
 
 **`description`** Attach an one-time eventemitter handler to listen to a specific event
 
@@ -649,7 +649,7 @@ ___
 
 *Overrides [Init](_base_init_.init.md).[registerTypes](_base_init_.init.md#abstract-registertypes)*
 
-*Defined in [base/index.ts:236](https://github.com/polkadot-js/api/blob/9693766/packages/api/src/base/index.ts#L236)*
+*Defined in [base/index.ts:236](https://github.com/polkadot-js/api/blob/b231b7b/packages/api/src/base/index.ts#L236)*
 
 **`description`** Register additional user-defined of chain-specific types in the type registry
 
@@ -669,7 +669,7 @@ ___
 
 *Inherited from void*
 
-*Defined in [base/index.ts:243](https://github.com/polkadot-js/api/blob/9693766/packages/api/src/base/index.ts#L243)*
+*Defined in [base/index.ts:243](https://github.com/polkadot-js/api/blob/b231b7b/packages/api/src/base/index.ts#L243)*
 
 **`description`** Set an external signer which will be used to sign extrinsic when account passed in is not KeyringPair
 
@@ -689,7 +689,7 @@ ___
 
 *Inherited from void*
 
-*Defined in [base/index.ts:250](https://github.com/polkadot-js/api/blob/9693766/packages/api/src/base/index.ts#L250)*
+*Defined in [base/index.ts:250](https://github.com/polkadot-js/api/blob/b231b7b/packages/api/src/base/index.ts#L250)*
 
 **`description`** Signs a raw signer payload, string or Uint8Array
 
@@ -708,7 +708,7 @@ ___
 
 ▸ **create**(`options?`: [ApiOptions](../interfaces/_types_.apioptions.md)): *Observable‹[ApiRx](_rx_api_.apirx.md)›*
 
-*Defined in [rx/Api.ts:139](https://github.com/polkadot-js/api/blob/9693766/packages/api/src/rx/Api.ts#L139)*
+*Defined in [rx/Api.ts:139](https://github.com/polkadot-js/api/blob/b231b7b/packages/api/src/rx/Api.ts#L139)*
 
 **`description`** Creates an ApiRx instance using the supplied provider. Returns an Observable containing the actual Api instance.
 

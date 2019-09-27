@@ -39,7 +39,7 @@ These primitive types are available:
 | [AccountIndex](interfaces/_interfaces_runtime_types_.accountindex.md) | A wrapper around an AccountIndex, which is a shortened, variable-length encoding for an Account |
 | [AccountInfo](interfaces/_interfaces_deprecated_types_.accountinfo.md) | An Account information structure for contracts |
 | [Address](interfaces/_interfaces_runtime_types_.address.md) | A wrapper around an AccountId and/or AccountIndex that is encoded with a prefix |
-| [Bool](classes/_primitive_bool_.bool.md) | Representation for a boolean value in the system |
+| [bool](interfaces/_interfaceregistry_.interfaceregistry.md#bool) | Representation for a boolean value in the system |
 | [Bytes](classes/_primitive_bytes_.bytes.md) | A Bytes wrapper for `Vec<u8>` |
 | [Call](interfaces/_interfaces_runtime_types_.call.md) | Extrinsic function descriptor, as defined in [the extrinsic format for a node](https://github.com/paritytech/wiki/blob/master/Extrinsic.md#the-extrinsic-format-for-node) |
 | [Data](classes/_primitive_data_.data.md) | A raw data structure. It is an encoding of a U8a without any length encoding |
@@ -52,12 +52,12 @@ These primitive types are available:
 | [H256](classes/_primitive_h256_.h256.md) | Hash containing 256 bits (32 bytes), typically used in blocks, extrinsics and as a sane default |
 | [H512](classes/_primitive_h512_.h512.md) | Hash containing 512 bits (64 bytes), typically used for signatures |
 | [Hash](interfaces/_interfaces_runtime_types_.hash.md) | The default hash that is used accross the system. It is just a thin wrapper around [H256](classes/_primitive_h256_.h256.md)
-| [I8](classes/_primitive_i8_.i8.md) | An 8-bit signed integer |
-| [I16](classes/_primitive_i16_.i16.md) | A 16-bit signed integer |
-| [I32](classes/_primitive_i32_.i32.md) | A 32-bit signed integer |
-| [I64](classes/_primitive_i64_.i64.md) | A 64-bit signed integer |
-| [I128](classes/_primitive_i128_.i128.md) | A 128-bit signed integer |
-| [I256](classes/_primitive_i256_.i256.md) | A 256-bit signed integer |
+| [i8](interfaces/_interfaceregistry_.interfaceregistry.md#i8) | An 8-bit signed integer |
+| [i16](interfaces/_interfaceregistry_.interfaceregistry.md#i16) | A 16-bit signed integer |
+| [i32](interfaces/_interfaceregistry_.interfaceregistry.md#i32) | A 32-bit signed integer |
+| [i64](interfaces/_interfaceregistry_.interfaceregistry.md#i64) | A 64-bit signed integer |
+| [i128](interfaces/_interfaceregistry_.interfaceregistry.md#i128) | A 128-bit signed integer |
+| [i256](interfaces/_interfaceregistry_.interfaceregistry.md#i256) | A 256-bit signed integer |
 | [Moment](interfaces/_interfaces_runtime_types_.moment.md) | A wrapper around seconds/timestamps. Internally the representation only has second precicion (aligning with Rust) |
 | [Null](classes/_primitive_null_.null.md) | Implements a type that does not contain anything (apart from `null`) |
 | [Origin](interfaces/_interfaces_runtime_types_.origin.md) | Where Origin occurs, it should be ignored as an internal-only value |
@@ -67,13 +67,13 @@ These primitive types are available:
 | [StorageKey](classes/_primitive_storagekey_.storagekey.md) |  A representation of a storage key (typically hashed) in the system |
 | [Text](classes/_primitive_text_.text.md) | This is a string wrapper, along with the length. |
 | [Type](interfaces/_interfaces_runtime_types_.block.md#type) | This is a extended version of String, specifically to handle types |
-| [U8](classes/_primitive_u8_.u8.md) | An 8-bit unsigned integer |
-| [U16](classes/_primitive_u16_.u16.md) | A 16-bit unsigned integer |
-| [U32](classes/_primitive_u32_.u32.md) | A 32-bit unsigned integer |
-| [U64](classes/_primitive_u64_.u64.md) | A 64-bit unsigned integer |
-| [U128](classes/_primitive_u128_.u128.md) | A 128-bit unsigned integer |
-| [U256](classes/_primitive_u256_.u256.md) | A 256-bit unsigned integer |
-| [USize](classes/_primitive_usize_.usize.md) | A System default unsigned number, typically used in RPC to report non-consensus data |
+| [u8](interfaces/_interfaceregistry_.interfaceregistry.md#u8) | An 8-bit unsigned integer |
+| [u16](interfaces/_interfaceregistry_.interfaceregistry.md#u16) | A 16-bit unsigned integer |
+| [u32](interfaces/_interfaceregistry_.interfaceregistry.md#u32) | A 32-bit unsigned integer |
+| [u64](interfaces/_interfaceregistry_.interfaceregistry.md#u64) | A 64-bit unsigned integer |
+| [u128](interfaces/_interfaceregistry_.interfaceregistry.md#u128) | A 128-bit unsigned integer |
+| [u256](interfaces/_interfaceregistry_.interfaceregistry.md#u256) | A 256-bit unsigned integer |
+| [[uSize]] | A System default unsigned number, typically used in RPC to report non-consensus data |
 | [Weight](interfaces/_interfaces_runtime_types_.weight.md) | Numeric range of a transaction weight. |
 | [WeightMultiplier](interfaces/_interfaces_runtime_types_.weightmultiplier.md) | Representation of a weight multiplier. This represents how a fee value can be computed from a weighted transaction. |
 
@@ -83,6 +83,7 @@ These custom types implement specific types that are found as part of the Substr
 
 | **Types** | |
 | --- | --- |
+| [[AccountNonce]] | The Nonce or number of transactions sent by a specific account |
 | [Amount](interfaces/_interfaces_deprecated_types_.amount.md) | The Substrate Amount representation as a [Balance](interfaces/_interfaces_runtime_types_.balance.md) |
 | [ApprovalFlag](interfaces/_interfaces_elections_types_.approvalflag.md) | Approval flag, implemented as a [U32](classes/_primitive_u32_.u32.md) |
 | [AssetOf](interfaces/_interfaces_deprecated_types_.assetof.md) | The Substrate AssetOf representation as a [Balance](interfaces/_interfaces_runtime_types_.balance.md) |
@@ -112,12 +113,8 @@ These custom types implement specific types that are found as part of the Substr
 | [LockIdentifier](interfaces/_interfaces_runtime_types_.lockidentifier.md) | The Substrate LockIdentifier for staking |
 | [LockPeriods](interfaces/_interfaces_deprecated_types_.lockperiods.md) | A number of lock periods |
 | [MemberCount](interfaces/_interfaces_collective_types_.membercount.md) | A number of council members |
-| [[MisbehaviorKind]] | An [[EnumType]] containing a Bft misbehaviour |
-| [[MisbehaviorReport]] | A Misbehaviour report of [[MisbehavioirKind]] against a specific [AuthorityId](interfaces/_interfaces_consensus_types_.authorityid.md) |
 | [NewAccountOutcome](interfaces/_interfaces_deprecated_types_.newaccountoutcome.md) | Enum to track the outcome for creation of an [AccountId](interfaces/_interfaces_runtime_types_.accountid.md) |
 | [NextAuthority](interfaces/_interfaces_grandpa_types_.nextauthority.md) | The next authority available as [SessionKey](interfaces/_interfaces_deprecated_types_.sessionkey.md) |
-| [[Nonce]] | The Nonce or number of transactions sent by a specific account |
-| [[NonceCompact]] | The Compact<Nonce> or number of transactions sent by a specific account |
 | [OpaqueKey](interfaces/_interfaces_deprecated_types_.opaquekey.md) | A key represented as a [Bytes](classes/_primitive_bytes_.bytes.md) |
 | [Perbill](interfaces/_interfaces_runtime_types_.perbill.md) | Parts per billion (see also [Permill](interfaces/_interfaces_runtime_types_.permill.md)) |
 | [Permill](interfaces/_interfaces_runtime_types_.permill.md) | Parts per million (See also [Perbill](interfaces/_interfaces_runtime_types_.perbill.md)) |
