@@ -32,7 +32,7 @@
 
 Ƭ **DerivedBalancesMap**: *Record‹string, [DerivedBalances](../interfaces/_types_.derivedbalances.md)›*
 
-*Defined in [types.ts:20](https://github.com/polkadot-js/api/blob/b231b7b/packages/api-derive/src/types.ts#L20)*
+*Defined in [types.ts:20](https://github.com/polkadot-js/api/blob/25f78a7/packages/api-derive/src/types.ts#L20)*
 
 ___
 
@@ -40,7 +40,7 @@ ___
 
 Ƭ **DerivedRecentlyOffline**: *Record‹string, [RecentlyOffline](../interfaces/_types_.recentlyoffline.md)[]›*
 
-*Defined in [types.ts:59](https://github.com/polkadot-js/api/blob/b231b7b/packages/api-derive/src/types.ts#L59)*
+*Defined in [types.ts:59](https://github.com/polkadot-js/api/blob/25f78a7/packages/api-derive/src/types.ts#L59)*
 
 ___
 
@@ -48,7 +48,7 @@ ___
 
 Ƭ **DerivedStakingAccount**: *[AccountId, [DerivedStakingOnlineStatus](../interfaces/_types_.derivedstakingonlinestatus.md)]*
 
-*Defined in [types.ts:80](https://github.com/polkadot-js/api/blob/b231b7b/packages/api-derive/src/types.ts#L80)*
+*Defined in [types.ts:80](https://github.com/polkadot-js/api/blob/25f78a7/packages/api-derive/src/types.ts#L80)*
 
 ___
 
@@ -56,7 +56,7 @@ ___
 
 Ƭ **DerivedStakingAccounts**: *[DerivedStakingAccount](_types_.md#derivedstakingaccount)[]*
 
-*Defined in [types.ts:82](https://github.com/polkadot-js/api/blob/b231b7b/packages/api-derive/src/types.ts#L82)*
+*Defined in [types.ts:82](https://github.com/polkadot-js/api/blob/25f78a7/packages/api-derive/src/types.ts#L82)*
 
 ___
 
@@ -64,7 +64,7 @@ ___
 
 Ƭ **DerivedUnlocking**: *object[]*
 
-*Defined in [types.ts:114](https://github.com/polkadot-js/api/blob/b231b7b/packages/api-derive/src/types.ts#L114)*
+*Defined in [types.ts:114](https://github.com/polkadot-js/api/blob/25f78a7/packages/api-derive/src/types.ts#L114)*
 
 ___
 
@@ -72,4 +72,4 @@ ___
 
 Ƭ **DerivedVoterPositions**: *Record‹string, [VoterPosition](../interfaces/_types_.voterposition.md)›*
 
-*Defined in [types.ts:122](https://github.com/polkadot-js/api/blob/b231b7b/packages/api-derive/src/types.ts#L122)*
+*Defined in [types.ts:122](https://github.com/polkadot-js/api/blob/25f78a7/packages/api-derive/src/types.ts#L122)*
