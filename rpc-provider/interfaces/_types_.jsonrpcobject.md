@@ -21,7 +21,7 @@
 
 • **id**: *number*
 
-*Defined in [types.ts:6](https://github.com/polkadot-js/api/blob/25f78a7/packages/rpc-provider/src/types.ts#L6)*
+*Defined in [types.ts:6](https://github.com/polkadot-js/api/blob/9807ff7/packages/rpc-provider/src/types.ts#L6)*
 
 ___
 
@@ -29,4 +29,4 @@ ___
 
 • **jsonrpc**: *"2.0"*
 
-*Defined in [types.ts:7](https://github.com/polkadot-js/api/blob/25f78a7/packages/rpc-provider/src/types.ts#L7)*
+*Defined in [types.ts:7](https://github.com/polkadot-js/api/blob/9807ff7/packages/rpc-provider/src/types.ts#L7)*
