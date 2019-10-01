@@ -4,17 +4,31 @@
 
 ## Index
 
+### Type aliases
+
+* [DeriveAllSections](_util_decorate_.md#deriveallsections)
+
 ### Functions
 
 * [decorateSections](_util_decorate_.md#decoratesections)
+
+## Type aliases
+
+###  DeriveAllSections
+
+Ƭ **DeriveAllSections**: *object*
+
+*Defined in [util/decorate.ts:13](https://github.com/polkadot-js/api/blob/fadb1ff/packages/api/src/util/decorate.ts#L13)*
+
+#### Type declaration:
 
 ## Functions
 
 ###  decorateSections
 
-▸ **decorateSections**<**ApiType**, **AllSections**>(`allSections`: AllSections, `decorateMethod`: function): *object*
+▸ **decorateSections**<**ApiType**, **AllSections**>(`allSections`: AllSections, `decorateMethod`: [DecorateMethod](_types_.md#decoratemethod)‹ApiType›): *[DeriveAllSections](_util_decorate_.md#deriveallsections)‹ApiType, AllSections›*
 
-*Defined in [util/decorate.ts:38](https://github.com/polkadot-js/api/blob/af682bc/packages/api/src/util/decorate.ts#L38)*
+*Defined in [util/decorate.ts:46](https://github.com/polkadot-js/api/blob/fadb1ff/packages/api/src/util/decorate.ts#L46)*
 
 This is a section decorator which keeps all type information.
 
@@ -22,24 +36,13 @@ This is a section decorator which keeps all type information.
 
 ▪ **ApiType**
 
-▪ **AllSections**: *object*
-
-**Parameters:**
-
-▪ **allSections**: *AllSections*
-
-▪ **decorateMethod**: *function*
-
-▸ <**Method**>(`method`: Method): *[MethodResult](_types_.md#methodresult)‹ApiType, Method›*
-
-**Type parameters:**
-
-▪ **Method**: *AnyFunction*
+▪ **AllSections**: *AnyDerive*
 
 **Parameters:**
 
 Name | Type |
 ------ | ------ |
-`method` | Method |
+`allSections` | AllSections |
+`decorateMethod` | [DecorateMethod](_types_.md#decoratemethod)‹ApiType› |
 
-**Returns:** *object*
+**Returns:** *[DeriveAllSections](_util_decorate_.md#deriveallsections)‹ApiType, AllSections›*

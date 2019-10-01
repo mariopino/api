@@ -14,7 +14,7 @@
 
 ▸ **createSubmittable**<**ApiType**>(`type`: [ApiTypes](_types_.md#apitypes), `api`: [ApiInterfaceRx](../interfaces/_types_.apiinterfacerx.md), `decorateMethod`: function): *Creator‹ApiType›*
 
-*Defined in [submittable/createSubmittable.ts:16](https://github.com/polkadot-js/api/blob/af682bc/packages/api/src/submittable/createSubmittable.ts#L16)*
+*Defined in [submittable/createSubmittable.ts:16](https://github.com/polkadot-js/api/blob/fadb1ff/packages/api/src/submittable/createSubmittable.ts#L16)*
 
 **Type parameters:**
 
@@ -28,20 +28,17 @@
 
 ▪ **decorateMethod**: *function*
 
-▸ (`method`: function, `options?`: [DecorateMethodOptions](../interfaces/_types_.decoratemethodoptions.md)): *any*
+▸ <**Method**>(`method`: Method, `options?`: [DecorateMethodOptions](../interfaces/_types_.decoratemethodoptions.md)): *any*
 
-**Parameters:**
+**Type parameters:**
 
-▪ **method**: *function*
-
-▸ (...`args`: any[]): *Observable‹any›*
+▪ **Method**: *function*
 
 **Parameters:**
 
 Name | Type |
 ------ | ------ |
-`...args` | any[] |
-
-▪`Optional`  **options**: *[DecorateMethodOptions](../interfaces/_types_.decoratemethodoptions.md)*
+`method` | Method |
+`options?` | [DecorateMethodOptions](../interfaces/_types_.decoratemethodoptions.md) |
 
 **Returns:** *Creator‹ApiType›*
