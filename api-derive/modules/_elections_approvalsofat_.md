@@ -14,7 +14,7 @@
 
 ▸ **approvalsOfAt**(`api`: ApiInterfaceRx): *function*
 
-*Defined in [elections/approvalsOfAt.ts:26](https://github.com/polkadot-js/api/blob/d0f9114/packages/api-derive/src/elections/approvalsOfAt.ts#L26)*
+*Defined in [elections/approvalsOfAt.ts:28](https://github.com/polkadot-js/api/blob/a54286c/packages/api-derive/src/elections/approvalsOfAt.ts#L28)*
 
 **`name`** approvalsOfAt
 

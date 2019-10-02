@@ -18,7 +18,7 @@
 
 ▸ **signAndSend**(`account`: IKeyringPair | string | AccountId | Address): *[ContractCallResultSubscription](../modules/_rxcontract_.md#contractcallresultsubscription)*
 
-*Defined in [RxContract.ts:19](https://github.com/polkadot-js/api/blob/d0f9114/packages/api-contract/src/RxContract.ts#L19)*
+*Defined in [RxContract.ts:19](https://github.com/polkadot-js/api/blob/a54286c/packages/api-contract/src/RxContract.ts#L19)*
 
 **Parameters:**
 
