@@ -16,7 +16,7 @@
 
 ▸ (...`params`: CodecArg[]): *[SubmittableExtrinsic](_submittable_types_.submittableextrinsic.md)‹ApiType›*
 
-*Defined in [types.ts:160](https://github.com/polkadot-js/api/blob/cf07d4f/packages/api/src/types.ts#L160)*
+*Defined in [types.ts:160](https://github.com/polkadot-js/api/blob/fb7e067/packages/api/src/types.ts#L160)*
 
 **Parameters:**
 
@@ -28,7 +28,7 @@ Name | Type |
 
 ▸ (...`args`: any[]): *Call*
 
-*Defined in [/home/travis/build/polkadot-js/api/packages/types/src/types.ts:20](https://github.com/polkadot-js/api/blob/cf07d4f/packages/types/src/types.ts#L20)*
+*Defined in [/home/travis/build/polkadot-js/api/packages/types/src/types.ts:20](https://github.com/polkadot-js/api/blob/fb7e067/packages/types/src/types.ts#L20)*
 
 **Parameters:**
 
@@ -56,7 +56,7 @@ Name | Type |
 
 *Inherited from void*
 
-*Defined in [/home/travis/build/polkadot-js/api/packages/types/src/types.ts:22](https://github.com/polkadot-js/api/blob/cf07d4f/packages/types/src/types.ts#L22)*
+*Defined in [/home/travis/build/polkadot-js/api/packages/types/src/types.ts:22](https://github.com/polkadot-js/api/blob/fb7e067/packages/types/src/types.ts#L22)*
 
 ___
 
@@ -66,7 +66,7 @@ ___
 
 *Inherited from void*
 
-*Defined in [/home/travis/build/polkadot-js/api/packages/types/src/types.ts:23](https://github.com/polkadot-js/api/blob/cf07d4f/packages/types/src/types.ts#L23)*
+*Defined in [/home/travis/build/polkadot-js/api/packages/types/src/types.ts:23](https://github.com/polkadot-js/api/blob/fb7e067/packages/types/src/types.ts#L23)*
 
 ___
 
@@ -76,7 +76,7 @@ ___
 
 *Inherited from void*
 
-*Defined in [/home/travis/build/polkadot-js/api/packages/types/src/types.ts:24](https://github.com/polkadot-js/api/blob/cf07d4f/packages/types/src/types.ts#L24)*
+*Defined in [/home/travis/build/polkadot-js/api/packages/types/src/types.ts:24](https://github.com/polkadot-js/api/blob/fb7e067/packages/types/src/types.ts#L24)*
 
 ___
 
@@ -86,7 +86,7 @@ ___
 
 *Inherited from void*
 
-*Defined in [/home/travis/build/polkadot-js/api/packages/types/src/types.ts:25](https://github.com/polkadot-js/api/blob/cf07d4f/packages/types/src/types.ts#L25)*
+*Defined in [/home/travis/build/polkadot-js/api/packages/types/src/types.ts:25](https://github.com/polkadot-js/api/blob/fb7e067/packages/types/src/types.ts#L25)*
 
 ___
 
@@ -96,7 +96,7 @@ ___
 
 *Inherited from void*
 
-*Defined in [/home/travis/build/polkadot-js/api/packages/types/src/types.ts:26](https://github.com/polkadot-js/api/blob/cf07d4f/packages/types/src/types.ts#L26)*
+*Defined in [/home/travis/build/polkadot-js/api/packages/types/src/types.ts:26](https://github.com/polkadot-js/api/blob/fb7e067/packages/types/src/types.ts#L26)*
 
 #### Type declaration:
 
