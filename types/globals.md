@@ -56,6 +56,7 @@
 * ["codec/Int"](modules/_codec_int_.md)
 * ["codec/Linkage"](modules/_codec_linkage_.md)
 * ["codec/Option"](modules/_codec_option_.md)
+* ["codec/Result"](modules/_codec_result_.md)
 * ["codec/Set"](modules/_codec_set_.md)
 * ["codec/Struct"](modules/_codec_struct_.md)
 * ["codec/StructAny"](modules/_codec_structany_.md)
