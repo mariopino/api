@@ -10,20 +10,31 @@
 
 ### Properties
 
+* [displayName](_codec_create_types_.typedef.md#optional-displayname)
 * [ext](_codec_create_types_.typedef.md#optional-ext)
 * [index](_codec_create_types_.typedef.md#optional-index)
 * [info](_codec_create_types_.typedef.md#info)
 * [name](_codec_create_types_.typedef.md#optional-name)
+* [namespace](_codec_create_types_.typedef.md#optional-namespace)
+* [params](_codec_create_types_.typedef.md#optional-params)
 * [sub](_codec_create_types_.typedef.md#optional-sub)
 * [type](_codec_create_types_.typedef.md#type)
 
 ## Properties
 
+### `Optional` displayName
+
+• **displayName**? : *undefined | string*
+
+*Defined in [codec/create/types.ts:43](https://github.com/polkadot-js/api/blob/05ec496/packages/types/src/codec/create/types.ts#L43)*
+
+___
+
 ### `Optional` ext
 
-• **ext**? : *[TypeDefExtVecFixed](_codec_create_types_.typedefextvecfixed.md)*
+• **ext**? : *[TypeDefExtVecFixed](_codec_create_types_.typedefextvecfixed.md) | [TypeDefExtEnumDiscriminant](_codec_create_types_.typedefextenumdiscriminant.md)*
 
-*Defined in [codec/create/types.ts:39](https://github.com/polkadot-js/api/blob/c0f9b45/packages/types/src/codec/create/types.ts#L39)*
+*Defined in [codec/create/types.ts:44](https://github.com/polkadot-js/api/blob/05ec496/packages/types/src/codec/create/types.ts#L44)*
 
 ___
 
@@ -31,7 +42,7 @@ ___
 
 • **index**? : *undefined | number*
 
-*Defined in [codec/create/types.ts:38](https://github.com/polkadot-js/api/blob/c0f9b45/packages/types/src/codec/create/types.ts#L38)*
+*Defined in [codec/create/types.ts:42](https://github.com/polkadot-js/api/blob/05ec496/packages/types/src/codec/create/types.ts#L42)*
 
 ___
 
@@ -39,7 +50,7 @@ ___
 
 • **info**: *[TypeDefInfo](../enums/_codec_create_types_.typedefinfo.md)*
 
-*Defined in [codec/create/types.ts:37](https://github.com/polkadot-js/api/blob/c0f9b45/packages/types/src/codec/create/types.ts#L37)*
+*Defined in [codec/create/types.ts:41](https://github.com/polkadot-js/api/blob/05ec496/packages/types/src/codec/create/types.ts#L41)*
 
 ___
 
@@ -47,7 +58,23 @@ ___
 
 • **name**? : *undefined | string*
 
-*Defined in [codec/create/types.ts:40](https://github.com/polkadot-js/api/blob/c0f9b45/packages/types/src/codec/create/types.ts#L40)*
+*Defined in [codec/create/types.ts:45](https://github.com/polkadot-js/api/blob/05ec496/packages/types/src/codec/create/types.ts#L45)*
+
+___
+
+### `Optional` namespace
+
+• **namespace**? : *undefined | string*
+
+*Defined in [codec/create/types.ts:46](https://github.com/polkadot-js/api/blob/05ec496/packages/types/src/codec/create/types.ts#L46)*
+
+___
+
+### `Optional` params
+
+• **params**? : *[TypeDef](_codec_create_types_.typedef.md)[]*
+
+*Defined in [codec/create/types.ts:47](https://github.com/polkadot-js/api/blob/05ec496/packages/types/src/codec/create/types.ts#L47)*
 
 ___
 
@@ -55,7 +82,7 @@ ___
 
 • **sub**? : *[TypeDef](_codec_create_types_.typedef.md) | [TypeDef](_codec_create_types_.typedef.md)[]*
 
-*Defined in [codec/create/types.ts:42](https://github.com/polkadot-js/api/blob/c0f9b45/packages/types/src/codec/create/types.ts#L42)*
+*Defined in [codec/create/types.ts:49](https://github.com/polkadot-js/api/blob/05ec496/packages/types/src/codec/create/types.ts#L49)*
 
 ___
 
@@ -63,4 +90,4 @@ ___
 
 • **type**: *string*
 
-*Defined in [codec/create/types.ts:41](https://github.com/polkadot-js/api/blob/c0f9b45/packages/types/src/codec/create/types.ts#L41)*
+*Defined in [codec/create/types.ts:48](https://github.com/polkadot-js/api/blob/05ec496/packages/types/src/codec/create/types.ts#L48)*

@@ -19,7 +19,7 @@ These are the base types of the codec. They are typically not used directly, but
 | [Enum](classes/_codec_enum_.enum.md) | A codec wrapper for an enum. Enums are encoded as a single byte, where the byte is a zero-indexed value |
 | [Int](classes/_codec_int_.int.md) | A generic signed integer codec |
 | [Option](classes/_codec_option_.option.md) | An Option is an optional field. The first byte indicates that there is is value to follow |
-| [Set](enums/_codec_create_types_.typedefinfo.md#set) | An Set is an array of string values, represented an an encoded type by a bitwise representation of the values |
+| [Set](classes/_codec_set_.codecset.md#static-set) | An Set is an array of string values, represented an an encoded type by a bitwise representation of the values |
 | [Struct](classes/_codec_struct_.struct.md) | A Struct defines an Object with key-value pairs - where the values are Codec values. |
 | [StructAny](classes/_codec_structany_.structany.md) | Wraps the a JSON structure retrieve via RPC. It extends the standard JS Map |
 | [Tuple](classes/_codec_tuple_.tuple.md) | A Tuple defines an anonymous fixed-length array, where each element has its own type |
@@ -66,7 +66,7 @@ These primitive types are available:
 | [StorageData](classes/_primitive_storagedata_.storagedata.md) | Data retrieved via Storage queries and data for key-value pairs |
 | [StorageKey](classes/_primitive_storagekey_.storagekey.md) |  A representation of a storage key (typically hashed) in the system |
 | [Text](classes/_primitive_text_.text.md) | This is a string wrapper, along with the length. |
-| [Type](interfaces/_interfaces_runtime_types_.block.md#type) | This is a extended version of String, specifically to handle types |
+| [Type](classes/_codec_struct_.struct.md#type) | This is a extended version of String, specifically to handle types |
 | [u8](interfaces/_interfaceregistry_.interfaceregistry.md#u8) | An 8-bit unsigned integer |
 | [u16](interfaces/_interfaceregistry_.interfaceregistry.md#u16) | A 16-bit unsigned integer |
 | [u32](interfaces/_interfaceregistry_.interfaceregistry.md#u32) | A 32-bit unsigned integer |

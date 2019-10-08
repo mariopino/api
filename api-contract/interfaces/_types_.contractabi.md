@@ -10,30 +10,21 @@
 
 ### Properties
 
-* [deploy](_types_.contractabi.md#deploy)
-* [messages](_types_.contractabi.md#messages)
-* [name](_types_.contractabi.md#name)
+* [contract](_types_.contractabi.md#contract)
+* [storage](_types_.contractabi.md#storage)
 
 ## Properties
 
-###  deploy
+###  contract
 
-• **deploy**: *[ContractABIMethodBase](_types_.contractabimethodbase.md)*
+• **contract**: *[ContractABIContract](_types_.contractabicontract.md)*
 
-*Defined in [types.ts:51](https://github.com/polkadot-js/api/blob/c0f9b45/packages/api-contract/src/types.ts#L51)*
-
-___
-
-###  messages
-
-• **messages**: *[ContractABIMethod](_types_.contractabimethod.md)[]*
-
-*Defined in [types.ts:52](https://github.com/polkadot-js/api/blob/c0f9b45/packages/api-contract/src/types.ts#L52)*
+*Defined in [types.ts:87](https://github.com/polkadot-js/api/blob/05ec496/packages/api-contract/src/types.ts#L87)*
 
 ___
 
-###  name
+###  storage
 
-• **name**: *string*
+• **storage**: *[ContractABIStorage](../modules/_types_.md#contractabistorage)*
 
-*Defined in [types.ts:53](https://github.com/polkadot-js/api/blob/c0f9b45/packages/api-contract/src/types.ts#L53)*
+*Defined in [types.ts:86](https://github.com/polkadot-js/api/blob/05ec496/packages/api-contract/src/types.ts#L86)*

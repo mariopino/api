@@ -31,7 +31,7 @@
 
 • **abi**: *[InterfaceAbi](_types_.interfaceabi.md)*
 
-*Defined in [types.ts:80](https://github.com/polkadot-js/api/blob/c0f9b45/packages/api-contract/src/types.ts#L80)*
+*Defined in [types.ts:173](https://github.com/polkadot-js/api/blob/05ec496/packages/api-contract/src/types.ts#L173)*
 
 ___
 
@@ -39,7 +39,7 @@ ___
 
 • **api**: *[ApiObject](../modules/_types_.md#apiobject)‹ApiType›*
 
-*Defined in [types.ts:81](https://github.com/polkadot-js/api/blob/c0f9b45/packages/api-contract/src/types.ts#L81)*
+*Defined in [types.ts:174](https://github.com/polkadot-js/api/blob/05ec496/packages/api-contract/src/types.ts#L174)*
 
 ___
 
@@ -47,4 +47,4 @@ ___
 
 • **apiContracts**: *SubmittableModuleExtrinsics‹ApiType›*
 
-*Defined in [types.ts:82](https://github.com/polkadot-js/api/blob/c0f9b45/packages/api-contract/src/types.ts#L82)*
+*Defined in [types.ts:175](https://github.com/polkadot-js/api/blob/05ec496/packages/api-contract/src/types.ts#L175)*
