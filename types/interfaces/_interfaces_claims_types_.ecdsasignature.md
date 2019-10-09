@@ -75,7 +75,7 @@ Uint8Array, Codec
 
 *Inherited from void*
 
-Defined in /home/travis/build/polkadot-js/api/node_modules/typescript/lib/lib.es5.d.ts:1967
+Defined in /home/runner/work/api/api/node_modules/typescript/lib/lib.es5.d.ts:1967
 
 The size in bytes of each element in the array.
 
@@ -85,7 +85,7 @@ ___
 
 • **Uint8Array**: *Uint8ArrayConstructor*
 
-Defined in /home/travis/build/polkadot-js/api/node_modules/typescript/lib/lib.es5.d.ts:2232
+Defined in /home/runner/work/api/api/node_modules/typescript/lib/lib.es5.d.ts:2232
 
 ___
 
@@ -95,7 +95,7 @@ ___
 
 *Inherited from void*
 
-Defined in /home/travis/build/polkadot-js/api/node_modules/typescript/lib/lib.es2015.symbol.wellknown.d.ts:276
+Defined in /home/runner/work/api/api/node_modules/typescript/lib/lib.es2015.symbol.wellknown.d.ts:276
 
 ___
 
@@ -105,7 +105,7 @@ ___
 
 *Inherited from void*
 
-Defined in /home/travis/build/polkadot-js/api/node_modules/typescript/lib/lib.es5.d.ts:1972
+Defined in /home/runner/work/api/api/node_modules/typescript/lib/lib.es5.d.ts:1972
 
 The ArrayBuffer instance referenced by the array.
 
@@ -117,7 +117,7 @@ ___
 
 *Inherited from void*
 
-Defined in /home/travis/build/polkadot-js/api/node_modules/typescript/lib/lib.es5.d.ts:1977
+Defined in /home/runner/work/api/api/node_modules/typescript/lib/lib.es5.d.ts:1977
 
 The length in bytes of the array.
 
@@ -129,7 +129,7 @@ ___
 
 *Inherited from void*
 
-Defined in /home/travis/build/polkadot-js/api/node_modules/typescript/lib/lib.es5.d.ts:1982
+Defined in /home/runner/work/api/api/node_modules/typescript/lib/lib.es5.d.ts:1982
 
 The offset in bytes of the array.
 
@@ -141,7 +141,7 @@ ___
 
 *Inherited from [Codec](_types_.codec.md).[encodedLength](_types_.codec.md#encodedlength)*
 
-*Defined in [types.ts:76](https://github.com/polkadot-js/api/blob/05ec496/packages/types/src/types.ts#L76)*
+*Defined in [types.ts:76](https://github.com/polkadot-js/api/blob/e27b35cd9f/packages/types/src/types.ts#L76)*
 
 **`description`** The length of the value when encoded as a Uint8Array
 
@@ -153,7 +153,7 @@ ___
 
 *Inherited from [Codec](_types_.codec.md).[hash](_types_.codec.md#hash)*
 
-*Defined in [types.ts:81](https://github.com/polkadot-js/api/blob/05ec496/packages/types/src/types.ts#L81)*
+*Defined in [types.ts:81](https://github.com/polkadot-js/api/blob/e27b35cd9f/packages/types/src/types.ts#L81)*
 
 **`description`** Returns a hash of the value
 
@@ -165,7 +165,7 @@ ___
 
 *Inherited from [Codec](_types_.codec.md).[isEmpty](_types_.codec.md#isempty)*
 
-*Defined in [types.ts:86](https://github.com/polkadot-js/api/blob/05ec496/packages/types/src/types.ts#L86)*
+*Defined in [types.ts:86](https://github.com/polkadot-js/api/blob/e27b35cd9f/packages/types/src/types.ts#L86)*
 
 **`description`** Checks if the value is an empty value
 
@@ -177,7 +177,7 @@ ___
 
 *Inherited from void*
 
-Defined in /home/travis/build/polkadot-js/api/node_modules/typescript/lib/lib.es5.d.ts:2081
+Defined in /home/runner/work/api/api/node_modules/typescript/lib/lib.es5.d.ts:2081
 
 The length of the array.
 
@@ -189,7 +189,7 @@ The length of the array.
 
 *Inherited from void*
 
-Defined in /home/travis/build/polkadot-js/api/node_modules/typescript/lib/lib.es2015.iterable.d.ts:275
+Defined in /home/runner/work/api/api/node_modules/typescript/lib/lib.es2015.iterable.d.ts:275
 
 **Returns:** *IterableIterator‹number›*
 
@@ -201,7 +201,7 @@ ___
 
 *Inherited from void*
 
-Defined in /home/travis/build/polkadot-js/api/node_modules/typescript/lib/lib.es5.d.ts:1993
+Defined in /home/runner/work/api/api/node_modules/typescript/lib/lib.es5.d.ts:1993
 
 Returns the this object after copying a section of the array identified by start and end
 to the same array starting at position target
@@ -224,7 +224,7 @@ ___
 
 *Inherited from void*
 
-Defined in /home/travis/build/polkadot-js/api/node_modules/typescript/lib/lib.es2015.iterable.d.ts:279
+Defined in /home/runner/work/api/api/node_modules/typescript/lib/lib.es2015.iterable.d.ts:279
 
 Returns an array of key, value pairs for every entry in the array
 
@@ -238,7 +238,7 @@ ___
 
 *Inherited from [Codec](_types_.codec.md).[eq](_types_.codec.md#eq)*
 
-*Defined in [types.ts:91](https://github.com/polkadot-js/api/blob/05ec496/packages/types/src/types.ts#L91)*
+*Defined in [types.ts:91](https://github.com/polkadot-js/api/blob/e27b35cd9f/packages/types/src/types.ts#L91)*
 
 **`description`** Compares the value of the input to see if there is a match
 
@@ -258,7 +258,7 @@ ___
 
 *Inherited from void*
 
-Defined in /home/travis/build/polkadot-js/api/node_modules/typescript/lib/lib.es5.d.ts:2003
+Defined in /home/runner/work/api/api/node_modules/typescript/lib/lib.es5.d.ts:2003
 
 Determines whether all the members of an array satisfy the specified test.
 
@@ -295,7 +295,7 @@ ___
 
 *Inherited from void*
 
-Defined in /home/travis/build/polkadot-js/api/node_modules/typescript/lib/lib.es5.d.ts:2013
+Defined in /home/runner/work/api/api/node_modules/typescript/lib/lib.es5.d.ts:2013
 
 Returns the this object after filling the section identified by start and end with value
 
@@ -317,7 +317,7 @@ ___
 
 *Inherited from void*
 
-Defined in /home/travis/build/polkadot-js/api/node_modules/typescript/lib/lib.es5.d.ts:2022
+Defined in /home/runner/work/api/api/node_modules/typescript/lib/lib.es5.d.ts:2022
 
 Returns the elements of an array that meet the condition specified in a callback function.
 
@@ -353,7 +353,7 @@ ___
 
 *Inherited from void*
 
-Defined in /home/travis/build/polkadot-js/api/node_modules/typescript/lib/lib.es5.d.ts:2033
+Defined in /home/runner/work/api/api/node_modules/typescript/lib/lib.es5.d.ts:2033
 
 Returns the value of the first element in the array where predicate is true, and undefined
 otherwise.
@@ -391,7 +391,7 @@ ___
 
 *Inherited from void*
 
-Defined in /home/travis/build/polkadot-js/api/node_modules/typescript/lib/lib.es5.d.ts:2044
+Defined in /home/runner/work/api/api/node_modules/typescript/lib/lib.es5.d.ts:2044
 
 Returns the index of the first element in the array where predicate is true, and -1
 otherwise.
@@ -429,7 +429,7 @@ ___
 
 *Inherited from void*
 
-Defined in /home/travis/build/polkadot-js/api/node_modules/typescript/lib/lib.es5.d.ts:2053
+Defined in /home/runner/work/api/api/node_modules/typescript/lib/lib.es5.d.ts:2053
 
 Performs the specified action for each element in an array.
 
@@ -465,7 +465,7 @@ ___
 
 *Inherited from void*
 
-Defined in /home/travis/build/polkadot-js/api/node_modules/typescript/lib/lib.es2016.array.include.d.ts:54
+Defined in /home/runner/work/api/api/node_modules/typescript/lib/lib.es2016.array.include.d.ts:54
 
 Determines whether an array includes a certain element, returning true or false as appropriate.
 
@@ -486,7 +486,7 @@ ___
 
 *Inherited from void*
 
-Defined in /home/travis/build/polkadot-js/api/node_modules/typescript/lib/lib.es5.d.ts:2061
+Defined in /home/runner/work/api/api/node_modules/typescript/lib/lib.es5.d.ts:2061
 
 Returns the index of the first occurrence of a value in an array.
 
@@ -507,7 +507,7 @@ ___
 
 *Inherited from void*
 
-Defined in /home/travis/build/polkadot-js/api/node_modules/typescript/lib/lib.es5.d.ts:2068
+Defined in /home/runner/work/api/api/node_modules/typescript/lib/lib.es5.d.ts:2068
 
 Adds all the elements of an array separated by the specified separator string.
 
@@ -527,7 +527,7 @@ ___
 
 *Inherited from void*
 
-Defined in /home/travis/build/polkadot-js/api/node_modules/typescript/lib/lib.es2015.iterable.d.ts:283
+Defined in /home/runner/work/api/api/node_modules/typescript/lib/lib.es2015.iterable.d.ts:283
 
 Returns an list of keys in the array
 
@@ -541,7 +541,7 @@ ___
 
 *Inherited from void*
 
-Defined in /home/travis/build/polkadot-js/api/node_modules/typescript/lib/lib.es5.d.ts:2076
+Defined in /home/runner/work/api/api/node_modules/typescript/lib/lib.es5.d.ts:2076
 
 Returns the index of the last occurrence of a value in an array.
 
@@ -562,7 +562,7 @@ ___
 
 *Inherited from void*
 
-Defined in /home/travis/build/polkadot-js/api/node_modules/typescript/lib/lib.es5.d.ts:2091
+Defined in /home/runner/work/api/api/node_modules/typescript/lib/lib.es5.d.ts:2091
 
 Calls a defined callback function on each element of an array, and returns an array that
 contains the results.
@@ -599,7 +599,7 @@ ___
 
 *Inherited from void*
 
-Defined in /home/travis/build/polkadot-js/api/node_modules/typescript/lib/lib.es5.d.ts:2103
+Defined in /home/runner/work/api/api/node_modules/typescript/lib/lib.es5.d.ts:2103
 
 Calls the specified callback function for all the elements in an array. The return value of
 the callback function is the accumulated result, and is provided as an argument in the next
@@ -629,7 +629,7 @@ Name | Type |
 
 *Inherited from void*
 
-Defined in /home/travis/build/polkadot-js/api/node_modules/typescript/lib/lib.es5.d.ts:2104
+Defined in /home/runner/work/api/api/node_modules/typescript/lib/lib.es5.d.ts:2104
 
 **Parameters:**
 
@@ -654,7 +654,7 @@ Name | Type |
 
 *Inherited from void*
 
-Defined in /home/travis/build/polkadot-js/api/node_modules/typescript/lib/lib.es5.d.ts:2116
+Defined in /home/runner/work/api/api/node_modules/typescript/lib/lib.es5.d.ts:2116
 
 Calls the specified callback function for all the elements in an array. The return value of
 the callback function is the accumulated result, and is provided as an argument in the next
@@ -698,7 +698,7 @@ ___
 
 *Inherited from void*
 
-Defined in /home/travis/build/polkadot-js/api/node_modules/typescript/lib/lib.es5.d.ts:2128
+Defined in /home/runner/work/api/api/node_modules/typescript/lib/lib.es5.d.ts:2128
 
 Calls the specified callback function for all the elements in an array, in descending order.
 The return value of the callback function is the accumulated result, and is provided as an
@@ -728,7 +728,7 @@ Name | Type |
 
 *Inherited from void*
 
-Defined in /home/travis/build/polkadot-js/api/node_modules/typescript/lib/lib.es5.d.ts:2129
+Defined in /home/runner/work/api/api/node_modules/typescript/lib/lib.es5.d.ts:2129
 
 **Parameters:**
 
@@ -753,7 +753,7 @@ Name | Type |
 
 *Inherited from void*
 
-Defined in /home/travis/build/polkadot-js/api/node_modules/typescript/lib/lib.es5.d.ts:2141
+Defined in /home/runner/work/api/api/node_modules/typescript/lib/lib.es5.d.ts:2141
 
 Calls the specified callback function for all the elements in an array, in descending order.
 The return value of the callback function is the accumulated result, and is provided as an
@@ -797,7 +797,7 @@ ___
 
 *Inherited from void*
 
-Defined in /home/travis/build/polkadot-js/api/node_modules/typescript/lib/lib.es5.d.ts:2146
+Defined in /home/runner/work/api/api/node_modules/typescript/lib/lib.es5.d.ts:2146
 
 Reverses the elements in an Array.
 
@@ -811,7 +811,7 @@ ___
 
 *Inherited from void*
 
-Defined in /home/travis/build/polkadot-js/api/node_modules/typescript/lib/lib.es5.d.ts:2153
+Defined in /home/runner/work/api/api/node_modules/typescript/lib/lib.es5.d.ts:2153
 
 Sets a value or an array of values.
 
@@ -832,7 +832,7 @@ ___
 
 *Inherited from void*
 
-Defined in /home/travis/build/polkadot-js/api/node_modules/typescript/lib/lib.es5.d.ts:2160
+Defined in /home/runner/work/api/api/node_modules/typescript/lib/lib.es5.d.ts:2160
 
 Returns a section of an array.
 
@@ -853,7 +853,7 @@ ___
 
 *Inherited from void*
 
-Defined in /home/travis/build/polkadot-js/api/node_modules/typescript/lib/lib.es5.d.ts:2170
+Defined in /home/runner/work/api/api/node_modules/typescript/lib/lib.es5.d.ts:2170
 
 Determines whether the specified callback function returns true for any element of an array.
 
@@ -890,7 +890,7 @@ ___
 
 *Inherited from void*
 
-Defined in /home/travis/build/polkadot-js/api/node_modules/typescript/lib/lib.es5.d.ts:2177
+Defined in /home/runner/work/api/api/node_modules/typescript/lib/lib.es5.d.ts:2177
 
 Sorts an array.
 
@@ -910,7 +910,7 @@ ___
 
 *Inherited from void*
 
-Defined in /home/travis/build/polkadot-js/api/node_modules/typescript/lib/lib.es5.d.ts:2185
+Defined in /home/runner/work/api/api/node_modules/typescript/lib/lib.es5.d.ts:2185
 
 Gets a new Uint8Array view of the ArrayBuffer store for this array, referencing the elements
 at begin, inclusive, up to end, exclusive.
@@ -932,7 +932,7 @@ ___
 
 *Inherited from [Codec](_types_.codec.md).[toHex](_types_.codec.md#tohex)*
 
-*Defined in [types.ts:96](https://github.com/polkadot-js/api/blob/05ec496/packages/types/src/types.ts#L96)*
+*Defined in [types.ts:96](https://github.com/polkadot-js/api/blob/e27b35cd9f/packages/types/src/types.ts#L96)*
 
 **`description`** Returns a hex string representation of the value. isLe returns a LE (number-only) representation
 
@@ -952,7 +952,7 @@ ___
 
 *Inherited from [Codec](_types_.codec.md).[toJSON](_types_.codec.md#tojson)*
 
-*Defined in [types.ts:101](https://github.com/polkadot-js/api/blob/05ec496/packages/types/src/types.ts#L101)*
+*Defined in [types.ts:101](https://github.com/polkadot-js/api/blob/e27b35cd9f/packages/types/src/types.ts#L101)*
 
 **`description`** Converts the Object to JSON, typically used for RPC transfers
 
@@ -966,7 +966,7 @@ ___
 
 *Inherited from void*
 
-Defined in /home/travis/build/polkadot-js/api/node_modules/typescript/lib/lib.es5.d.ts:2190
+Defined in /home/runner/work/api/api/node_modules/typescript/lib/lib.es5.d.ts:2190
 
 Converts a number to a string by using the current locale.
 
@@ -980,7 +980,7 @@ ___
 
 *Inherited from [Codec](_types_.codec.md).[toRawType](_types_.codec.md#torawtype)*
 
-*Defined in [types.ts:106](https://github.com/polkadot-js/api/blob/05ec496/packages/types/src/types.ts#L106)*
+*Defined in [types.ts:106](https://github.com/polkadot-js/api/blob/e27b35cd9f/packages/types/src/types.ts#L106)*
 
 **`description`** Returns the base runtime type name for this instance
 
@@ -996,7 +996,7 @@ ___
 
 *Overrides [Codec](_types_.codec.md).[toString](_types_.codec.md#tostring)*
 
-Defined in /home/travis/build/polkadot-js/api/node_modules/typescript/lib/lib.es5.d.ts:2195
+Defined in /home/runner/work/api/api/node_modules/typescript/lib/lib.es5.d.ts:2195
 
 Returns a string representation of an array.
 
@@ -1010,7 +1010,7 @@ ___
 
 *Inherited from [Codec](_types_.codec.md).[toU8a](_types_.codec.md#tou8a)*
 
-*Defined in [types.ts:117](https://github.com/polkadot-js/api/blob/05ec496/packages/types/src/types.ts#L117)*
+*Defined in [types.ts:117](https://github.com/polkadot-js/api/blob/e27b35cd9f/packages/types/src/types.ts#L117)*
 
 **`description`** Encodes the value as a Uint8Array as per the SCALE specifications
 
@@ -1030,7 +1030,7 @@ ___
 
 *Inherited from void*
 
-Defined in /home/travis/build/polkadot-js/api/node_modules/typescript/lib/lib.es2015.iterable.d.ts:287
+Defined in /home/runner/work/api/api/node_modules/typescript/lib/lib.es2015.iterable.d.ts:287
 
 Returns an list of values in the array
 

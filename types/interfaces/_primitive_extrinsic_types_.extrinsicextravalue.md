@@ -20,7 +20,7 @@
 
 • **era**? : *[Uint8Array](../classes/_codec_u8a_.u8a.md#static-uint8array)*
 
-*Defined in [primitive/Extrinsic/types.ts:21](https://github.com/polkadot-js/api/blob/05ec496/packages/types/src/primitive/Extrinsic/types.ts#L21)*
+*Defined in [primitive/Extrinsic/types.ts:21](https://github.com/polkadot-js/api/blob/e27b35cd9f/packages/types/src/primitive/Extrinsic/types.ts#L21)*
 
 ___
 
@@ -28,7 +28,7 @@ ___
 
 • **nonce**? : *[AnyNumber](../modules/_types_.md#anynumber)*
 
-*Defined in [primitive/Extrinsic/types.ts:22](https://github.com/polkadot-js/api/blob/05ec496/packages/types/src/primitive/Extrinsic/types.ts#L22)*
+*Defined in [primitive/Extrinsic/types.ts:22](https://github.com/polkadot-js/api/blob/e27b35cd9f/packages/types/src/primitive/Extrinsic/types.ts#L22)*
 
 ___
 
@@ -36,4 +36,4 @@ ___
 
 • **tip**? : *[AnyNumber](../modules/_types_.md#anynumber)*
 
-*Defined in [primitive/Extrinsic/types.ts:23](https://github.com/polkadot-js/api/blob/05ec496/packages/types/src/primitive/Extrinsic/types.ts#L23)*
+*Defined in [primitive/Extrinsic/types.ts:23](https://github.com/polkadot-js/api/blob/e27b35cd9f/packages/types/src/primitive/Extrinsic/types.ts#L23)*
