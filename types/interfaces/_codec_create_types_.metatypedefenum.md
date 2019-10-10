@@ -18,4 +18,4 @@
 
 • **enum.variants**: *[MetaTypeDefEnumVariant](../modules/_codec_create_types_.md#metatypedefenumvariant)[]*
 
-*Defined in [codec/create/types.ts:114](https://github.com/polkadot-js/api/blob/8a6d23d461/packages/types/src/codec/create/types.ts#L114)*
+*Defined in [codec/create/types.ts:114](https://github.com/polkadot-js/api/blob/bf8bed36ef/packages/types/src/codec/create/types.ts#L114)*
