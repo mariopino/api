@@ -61,7 +61,7 @@ GenericCall
 * [toU8a](_interfaces_runtime_types_.call.md#tou8a)
 * [filterOrigin](_interfaces_runtime_types_.call.md#static-filterorigin)
 * [findFunction](_interfaces_runtime_types_.call.md#static-findfunction)
-* [injectMethods](_interfaces_runtime_types_.call.md#static-injectmethods)
+* [injectMetadata](_interfaces_runtime_types_.call.md#static-injectmetadata)
 * [typesToMap](_interfaces_runtime_types_.call.md#static-typestomap)
 * [with](_interfaces_runtime_types_.call.md#static-with)
 
@@ -75,7 +75,7 @@ GenericCall
 
 *Overrides [Struct](../classes/_codec_struct_.struct.md).[constructor](../classes/_codec_struct_.struct.md#constructor)*
 
-*Defined in [primitive/Generic/Call.ts:49](https://github.com/polkadot-js/api/blob/e27b35cd9f/packages/types/src/primitive/Generic/Call.ts#L49)*
+*Defined in [primitive/Generic/Call.ts:51](https://github.com/polkadot-js/api/blob/b8d4bc5c6a/packages/types/src/primitive/Generic/Call.ts#L51)*
 
 **Parameters:**
 
@@ -94,7 +94,7 @@ Name | Type |
 
 *Inherited from [Struct](../classes/_codec_struct_.struct.md).[Type](../classes/_codec_struct_.struct.md#type)*
 
-*Defined in [codec/Struct.ts:155](https://github.com/polkadot-js/api/blob/e27b35cd9f/packages/types/src/codec/Struct.ts#L155)*
+*Defined in [codec/Struct.ts:155](https://github.com/polkadot-js/api/blob/b8d4bc5c6a/packages/types/src/codec/Struct.ts#L155)*
 
 **`description`** Returns the Type description to sthe structure
 
@@ -108,7 +108,7 @@ ___
 
 *Inherited from [Call](../classes/_primitive_generic_call_.call.md).[args](../classes/_primitive_generic_call_.call.md#args)*
 
-*Defined in [primitive/Generic/Call.ts:170](https://github.com/polkadot-js/api/blob/e27b35cd9f/packages/types/src/primitive/Generic/Call.ts#L170)*
+*Defined in [primitive/Generic/Call.ts:172](https://github.com/polkadot-js/api/blob/b8d4bc5c6a/packages/types/src/primitive/Generic/Call.ts#L172)*
 
 **`description`** The arguments for the function call
 
@@ -122,9 +122,9 @@ ___
 
 *Inherited from [Call](../classes/_primitive_generic_call_.call.md).[argsDef](../classes/_primitive_generic_call_.call.md#argsdef)*
 
-*Defined in [primitive/Generic/Call.ts:178](https://github.com/polkadot-js/api/blob/e27b35cd9f/packages/types/src/primitive/Generic/Call.ts#L178)*
+*Defined in [primitive/Generic/Call.ts:180](https://github.com/polkadot-js/api/blob/b8d4bc5c6a/packages/types/src/primitive/Generic/Call.ts#L180)*
 
-**`description`** Thge argument defintions
+**`description`** The argument definitions
 
 **Returns:** *[ArgsDef](../modules/_types_.md#argsdef)*
 
@@ -136,7 +136,7 @@ ___
 
 *Inherited from [Call](../classes/_primitive_generic_call_.call.md).[callIndex](../classes/_primitive_generic_call_.call.md#callindex)*
 
-*Defined in [primitive/Generic/Call.ts:185](https://github.com/polkadot-js/api/blob/e27b35cd9f/packages/types/src/primitive/Generic/Call.ts#L185)*
+*Defined in [primitive/Generic/Call.ts:187](https://github.com/polkadot-js/api/blob/b8d4bc5c6a/packages/types/src/primitive/Generic/Call.ts#L187)*
 
 **`description`** The encoded `[sectionIndex, methodIndex]` identifier
 
@@ -150,7 +150,7 @@ ___
 
 *Inherited from [Call](../classes/_primitive_generic_call_.call.md).[data](../classes/_primitive_generic_call_.call.md#data)*
 
-*Defined in [primitive/Generic/Call.ts:192](https://github.com/polkadot-js/api/blob/e27b35cd9f/packages/types/src/primitive/Generic/Call.ts#L192)*
+*Defined in [primitive/Generic/Call.ts:194](https://github.com/polkadot-js/api/blob/b8d4bc5c6a/packages/types/src/primitive/Generic/Call.ts#L194)*
 
 **`description`** The encoded data
 
@@ -164,7 +164,7 @@ ___
 
 *Inherited from [Struct](../classes/_codec_struct_.struct.md).[encodedLength](../classes/_codec_struct_.struct.md#encodedlength)*
 
-*Defined in [codec/Struct.ts:168](https://github.com/polkadot-js/api/blob/e27b35cd9f/packages/types/src/codec/Struct.ts#L168)*
+*Defined in [codec/Struct.ts:168](https://github.com/polkadot-js/api/blob/b8d4bc5c6a/packages/types/src/codec/Struct.ts#L168)*
 
 **`description`** The length of the value when encoded as a Uint8Array
 
@@ -178,7 +178,7 @@ ___
 
 *Inherited from [Call](../classes/_primitive_generic_call_.call.md).[hasOrigin](../classes/_primitive_generic_call_.call.md#hasorigin)*
 
-*Defined in [primitive/Generic/Call.ts:199](https://github.com/polkadot-js/api/blob/e27b35cd9f/packages/types/src/primitive/Generic/Call.ts#L199)*
+*Defined in [primitive/Generic/Call.ts:201](https://github.com/polkadot-js/api/blob/b8d4bc5c6a/packages/types/src/primitive/Generic/Call.ts#L201)*
 
 **`description`** `true` if the `Origin` type is on the method (extrinsic method)
 
@@ -192,7 +192,7 @@ ___
 
 *Inherited from [Struct](../classes/_codec_struct_.struct.md).[hash](../classes/_codec_struct_.struct.md#hash)*
 
-*Defined in [codec/Struct.ts:179](https://github.com/polkadot-js/api/blob/e27b35cd9f/packages/types/src/codec/Struct.ts#L179)*
+*Defined in [codec/Struct.ts:179](https://github.com/polkadot-js/api/blob/b8d4bc5c6a/packages/types/src/codec/Struct.ts#L179)*
 
 **`description`** returns a hash of the contents
 
@@ -206,7 +206,7 @@ ___
 
 *Inherited from [Struct](../classes/_codec_struct_.struct.md).[isEmpty](../classes/_codec_struct_.struct.md#isempty)*
 
-*Defined in [codec/Struct.ts:140](https://github.com/polkadot-js/api/blob/e27b35cd9f/packages/types/src/codec/Struct.ts#L140)*
+*Defined in [codec/Struct.ts:140](https://github.com/polkadot-js/api/blob/b8d4bc5c6a/packages/types/src/codec/Struct.ts#L140)*
 
 **`description`** Checks if the value is an empty value
 
@@ -220,7 +220,7 @@ ___
 
 *Inherited from [Call](../classes/_primitive_generic_call_.call.md).[meta](../classes/_primitive_generic_call_.call.md#meta)*
 
-*Defined in [primitive/Generic/Call.ts:208](https://github.com/polkadot-js/api/blob/e27b35cd9f/packages/types/src/primitive/Generic/Call.ts#L208)*
+*Defined in [primitive/Generic/Call.ts:210](https://github.com/polkadot-js/api/blob/b8d4bc5c6a/packages/types/src/primitive/Generic/Call.ts#L210)*
 
 **`description`** The [[FunctionMetadata]]
 
@@ -234,7 +234,7 @@ ___
 
 *Inherited from [Call](../classes/_primitive_generic_call_.call.md).[methodName](../classes/_primitive_generic_call_.call.md#methodname)*
 
-*Defined in [primitive/Generic/Call.ts:215](https://github.com/polkadot-js/api/blob/e27b35cd9f/packages/types/src/primitive/Generic/Call.ts#L215)*
+*Defined in [primitive/Generic/Call.ts:217](https://github.com/polkadot-js/api/blob/b8d4bc5c6a/packages/types/src/primitive/Generic/Call.ts#L217)*
 
 **`description`** Returns the name of the method
 
@@ -248,7 +248,7 @@ ___
 
 *Inherited from [Call](../classes/_primitive_generic_call_.call.md).[sectionName](../classes/_primitive_generic_call_.call.md#sectionname)*
 
-*Defined in [primitive/Generic/Call.ts:222](https://github.com/polkadot-js/api/blob/e27b35cd9f/packages/types/src/primitive/Generic/Call.ts#L222)*
+*Defined in [primitive/Generic/Call.ts:224](https://github.com/polkadot-js/api/blob/b8d4bc5c6a/packages/types/src/primitive/Generic/Call.ts#L224)*
 
 **`description`** Returns the module containing the method
 
@@ -262,7 +262,7 @@ ___
 
 *Inherited from [Struct](../classes/_codec_struct_.struct.md).[eq](../classes/_codec_struct_.struct.md#eq)*
 
-*Defined in [codec/Struct.ts:186](https://github.com/polkadot-js/api/blob/e27b35cd9f/packages/types/src/codec/Struct.ts#L186)*
+*Defined in [codec/Struct.ts:186](https://github.com/polkadot-js/api/blob/b8d4bc5c6a/packages/types/src/codec/Struct.ts#L186)*
 
 **`description`** Compares the value of the input to see if there is a match
 
@@ -284,7 +284,7 @@ ___
 
 *Overrides void*
 
-*Defined in [codec/Struct.ts:194](https://github.com/polkadot-js/api/blob/e27b35cd9f/packages/types/src/codec/Struct.ts#L194)*
+*Defined in [codec/Struct.ts:194](https://github.com/polkadot-js/api/blob/b8d4bc5c6a/packages/types/src/codec/Struct.ts#L194)*
 
 **`description`** Returns a specific names entry in the structure
 
@@ -304,7 +304,7 @@ ___
 
 *Inherited from [Struct](../classes/_codec_struct_.struct.md).[getAtIndex](../classes/_codec_struct_.struct.md#getatindex)*
 
-*Defined in [codec/Struct.ts:201](https://github.com/polkadot-js/api/blob/e27b35cd9f/packages/types/src/codec/Struct.ts#L201)*
+*Defined in [codec/Struct.ts:201](https://github.com/polkadot-js/api/blob/b8d4bc5c6a/packages/types/src/codec/Struct.ts#L201)*
 
 **`description`** Returns the values of a member at a specific index (Rather use get(name) for performance)
 
@@ -324,7 +324,7 @@ ___
 
 *Inherited from [Struct](../classes/_codec_struct_.struct.md).[toArray](../classes/_codec_struct_.struct.md#toarray)*
 
-*Defined in [codec/Struct.ts:208](https://github.com/polkadot-js/api/blob/e27b35cd9f/packages/types/src/codec/Struct.ts#L208)*
+*Defined in [codec/Struct.ts:208](https://github.com/polkadot-js/api/blob/b8d4bc5c6a/packages/types/src/codec/Struct.ts#L208)*
 
 **`description`** Converts the Object to an standard JavaScript Array
 
@@ -338,7 +338,7 @@ ___
 
 *Inherited from [Struct](../classes/_codec_struct_.struct.md).[toHex](../classes/_codec_struct_.struct.md#tohex)*
 
-*Defined in [codec/Struct.ts:215](https://github.com/polkadot-js/api/blob/e27b35cd9f/packages/types/src/codec/Struct.ts#L215)*
+*Defined in [codec/Struct.ts:215](https://github.com/polkadot-js/api/blob/b8d4bc5c6a/packages/types/src/codec/Struct.ts#L215)*
 
 **`description`** Returns a hex string representation of the value
 
@@ -352,7 +352,7 @@ ___
 
 *Inherited from [Struct](../classes/_codec_struct_.struct.md).[toJSON](../classes/_codec_struct_.struct.md#tojson)*
 
-*Defined in [codec/Struct.ts:222](https://github.com/polkadot-js/api/blob/e27b35cd9f/packages/types/src/codec/Struct.ts#L222)*
+*Defined in [codec/Struct.ts:222](https://github.com/polkadot-js/api/blob/b8d4bc5c6a/packages/types/src/codec/Struct.ts#L222)*
 
 **`description`** Converts the Object to JSON, typically used for RPC transfers
 
@@ -368,7 +368,7 @@ ___
 
 *Overrides [Struct](../classes/_codec_struct_.struct.md).[toRawType](../classes/_codec_struct_.struct.md#torawtype)*
 
-*Defined in [primitive/Generic/Call.ts:229](https://github.com/polkadot-js/api/blob/e27b35cd9f/packages/types/src/primitive/Generic/Call.ts#L229)*
+*Defined in [primitive/Generic/Call.ts:231](https://github.com/polkadot-js/api/blob/b8d4bc5c6a/packages/types/src/primitive/Generic/Call.ts#L231)*
 
 **`description`** Returns the base runtime type name for this instance
 
@@ -382,7 +382,7 @@ ___
 
 *Inherited from [Struct](../classes/_codec_struct_.struct.md).[toString](../classes/_codec_struct_.struct.md#tostring)*
 
-*Defined in [codec/Struct.ts:255](https://github.com/polkadot-js/api/blob/e27b35cd9f/packages/types/src/codec/Struct.ts#L255)*
+*Defined in [codec/Struct.ts:255](https://github.com/polkadot-js/api/blob/b8d4bc5c6a/packages/types/src/codec/Struct.ts#L255)*
 
 **`description`** Returns the string representation of the value
 
@@ -396,7 +396,7 @@ ___
 
 *Inherited from [Struct](../classes/_codec_struct_.struct.md).[toU8a](../classes/_codec_struct_.struct.md#tou8a)*
 
-*Defined in [codec/Struct.ts:263](https://github.com/polkadot-js/api/blob/e27b35cd9f/packages/types/src/codec/Struct.ts#L263)*
+*Defined in [codec/Struct.ts:263](https://github.com/polkadot-js/api/blob/b8d4bc5c6a/packages/types/src/codec/Struct.ts#L263)*
 
 **`description`** Encodes the value as a Uint8Array as per the SCALE specifications
 
@@ -416,7 +416,7 @@ ___
 
 *Inherited from [Call](../classes/_primitive_generic_call_.call.md).[filterOrigin](../classes/_primitive_generic_call_.call.md#static-filterorigin)*
 
-*Defined in [primitive/Generic/Call.ts:118](https://github.com/polkadot-js/api/blob/e27b35cd9f/packages/types/src/primitive/Generic/Call.ts#L118)*
+*Defined in [primitive/Generic/Call.ts:120](https://github.com/polkadot-js/api/blob/b8d4bc5c6a/packages/types/src/primitive/Generic/Call.ts#L120)*
 
 **Parameters:**
 
@@ -434,7 +434,7 @@ ___
 
 *Inherited from [Call](../classes/_primitive_generic_call_.call.md).[findFunction](../classes/_primitive_generic_call_.call.md#static-findfunction)*
 
-*Defined in [primitive/Generic/Call.ts:134](https://github.com/polkadot-js/api/blob/e27b35cd9f/packages/types/src/primitive/Generic/Call.ts#L134)*
+*Defined in [primitive/Generic/Call.ts:136](https://github.com/polkadot-js/api/blob/b8d4bc5c6a/packages/types/src/primitive/Generic/Call.ts#L136)*
 
 **Parameters:**
 
@@ -446,19 +446,19 @@ Name | Type |
 
 ___
 
-### `Static` injectMethods
+### `Static` injectMetadata
 
-▸ **injectMethods**(`moduleMethods`: [ModulesWithCalls](../modules/_types_.md#moduleswithcalls)): *void*
+▸ **injectMetadata**(`metadata`: [Metadata](../classes/_metadata_metadata_.metadata.md)): *void*
 
-*Inherited from [Call](../classes/_primitive_generic_call_.call.md).[injectMethods](../classes/_primitive_generic_call_.call.md#static-injectmethods)*
+*Inherited from [Call](../classes/_primitive_generic_call_.call.md).[injectMetadata](../classes/_primitive_generic_call_.call.md#static-injectmetadata)*
 
-*Defined in [primitive/Generic/Call.ts:159](https://github.com/polkadot-js/api/blob/e27b35cd9f/packages/types/src/primitive/Generic/Call.ts#L159)*
+*Defined in [primitive/Generic/Call.ts:159](https://github.com/polkadot-js/api/blob/b8d4bc5c6a/packages/types/src/primitive/Generic/Call.ts#L159)*
 
 **Parameters:**
 
 Name | Type |
 ------ | ------ |
-`moduleMethods` | [ModulesWithCalls](../modules/_types_.md#moduleswithcalls) |
+`metadata` | [Metadata](../classes/_metadata_metadata_.metadata.md) |
 
 **Returns:** *void*
 
@@ -470,7 +470,7 @@ ___
 
 *Inherited from [Struct](../classes/_codec_struct_.struct.md).[typesToMap](../classes/_codec_struct_.struct.md#static-typestomap)*
 
-*Defined in [codec/Struct.ts:235](https://github.com/polkadot-js/api/blob/e27b35cd9f/packages/types/src/codec/Struct.ts#L235)*
+*Defined in [codec/Struct.ts:235](https://github.com/polkadot-js/api/blob/b8d4bc5c6a/packages/types/src/codec/Struct.ts#L235)*
 
 **Parameters:**
 
@@ -488,7 +488,7 @@ ___
 
 *Inherited from [Struct](../classes/_codec_struct_.struct.md).[with](../classes/_codec_struct_.struct.md#static-with)*
 
-*Defined in [codec/Struct.ts:117](https://github.com/polkadot-js/api/blob/e27b35cd9f/packages/types/src/codec/Struct.ts#L117)*
+*Defined in [codec/Struct.ts:117](https://github.com/polkadot-js/api/blob/b8d4bc5c6a/packages/types/src/codec/Struct.ts#L117)*
 
 **Type parameters:**
 

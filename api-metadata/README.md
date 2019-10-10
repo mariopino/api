@@ -2,6 +2,6 @@
 
 # Polkadot JS API
 
-# @polkadot/api-metadata/consts
+# @polkadot/api-metadata/extrinsics
 
-A base interface to the parameter types
+Base extrinsic definitions & codecs

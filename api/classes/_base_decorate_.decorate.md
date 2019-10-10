@@ -32,7 +32,7 @@
 
 \+ **new Decorate**(`options`: [ApiOptions](../interfaces/_types_.apioptions.md), `type`: [ApiTypes](../modules/_types_.md#apitypes), `decorateMethod`: [DecorateMethod](../modules/_types_.md#decoratemethod)‹ApiType›): *[Decorate](_base_decorate_.decorate.md)*
 
-*Defined in [base/Decorate.ts:98](https://github.com/polkadot-js/api/blob/e27b35cd9f/packages/api/src/base/Decorate.ts#L98)*
+*Defined in [base/Decorate.ts:98](https://github.com/polkadot-js/api/blob/b8d4bc5c6a/packages/api/src/base/Decorate.ts#L98)*
 
 **`description`** Create an instance of the class
 
@@ -67,7 +67,7 @@ Name | Type | Description |
 
 *Inherited from [Events](_base_events_.events.md).[off](_base_events_.events.md#off)*
 
-*Defined in [base/Events.ts:66](https://github.com/polkadot-js/api/blob/e27b35cd9f/packages/api/src/base/Events.ts#L66)*
+*Defined in [base/Events.ts:66](https://github.com/polkadot-js/api/blob/b8d4bc5c6a/packages/api/src/base/Events.ts#L66)*
 
 **`description`** Remove the given eventemitter handler
 
@@ -114,7 +114,7 @@ ___
 
 *Inherited from [Events](_base_events_.events.md).[on](_base_events_.events.md#on)*
 
-*Defined in [base/Events.ts:39](https://github.com/polkadot-js/api/blob/e27b35cd9f/packages/api/src/base/Events.ts#L39)*
+*Defined in [base/Events.ts:39](https://github.com/polkadot-js/api/blob/b8d4bc5c6a/packages/api/src/base/Events.ts#L39)*
 
 **`description`** Attach an eventemitter handler to listen to a specific event
 
@@ -159,7 +159,7 @@ ___
 
 *Inherited from [Events](_base_events_.events.md).[once](_base_events_.events.md#once)*
 
-*Defined in [base/Events.ts:91](https://github.com/polkadot-js/api/blob/e27b35cd9f/packages/api/src/base/Events.ts#L91)*
+*Defined in [base/Events.ts:91](https://github.com/polkadot-js/api/blob/b8d4bc5c6a/packages/api/src/base/Events.ts#L91)*
 
 **`description`** Attach an one-time eventemitter handler to listen to a specific event
 

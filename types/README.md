@@ -35,10 +35,10 @@ These primitive types are available:
 
 | **Types** | |
 | --- | --- |
-| [AccountId](interfaces/_interfaces_runtime_types_.accountid.md) | A wrapper around an AccountId/PublicKey representation |
-| [AccountIndex](interfaces/_interfaces_runtime_types_.accountindex.md) | A wrapper around an AccountIndex, which is a shortened, variable-length encoding for an Account |
+| [AccountId](classes/_primitive_generic_accountid_.accountid.md) | A wrapper around an AccountId/PublicKey representation |
+| [AccountIndex](classes/_primitive_generic_accountindex_.accountindex.md) | A wrapper around an AccountIndex, which is a shortened, variable-length encoding for an Account |
 | [AccountInfo](interfaces/_interfaces_deprecated_types_.accountinfo.md) | An Account information structure for contracts |
-| [Address](interfaces/_interfaces_runtime_types_.address.md) | A wrapper around an AccountId and/or AccountIndex that is encoded with a prefix |
+| [Address](classes/_primitive_generic_address_.address.md) | A wrapper around an AccountId and/or AccountIndex that is encoded with a prefix |
 | [bool](interfaces/_interfaceregistry_.interfaceregistry.md#bool) | Representation for a boolean value in the system |
 | [Bytes](classes/_primitive_bytes_.bytes.md) | A Bytes wrapper for `Vec<u8>` |
 | [Call](interfaces/_interfaces_runtime_types_.call.md) | Extrinsic function descriptor, as defined in [the extrinsic format for a node](https://github.com/paritytech/wiki/blob/master/Extrinsic.md#the-extrinsic-format-for-node) |
@@ -113,7 +113,7 @@ These custom types implement specific types that are found as part of the Substr
 | [LockIdentifier](interfaces/_interfaces_runtime_types_.lockidentifier.md) | The Substrate LockIdentifier for staking |
 | [LockPeriods](interfaces/_interfaces_deprecated_types_.lockperiods.md) | A number of lock periods |
 | [MemberCount](interfaces/_interfaces_collective_types_.membercount.md) | A number of council members |
-| [NewAccountOutcome](interfaces/_interfaces_deprecated_types_.newaccountoutcome.md) | Enum to track the outcome for creation of an [AccountId](interfaces/_interfaces_runtime_types_.accountid.md) |
+| [NewAccountOutcome](interfaces/_interfaces_deprecated_types_.newaccountoutcome.md) | Enum to track the outcome for creation of an [AccountId](classes/_primitive_generic_accountid_.accountid.md) |
 | [NextAuthority](interfaces/_interfaces_grandpa_types_.nextauthority.md) | The next authority available as [SessionKey](interfaces/_interfaces_deprecated_types_.sessionkey.md) |
 | [OpaqueKey](interfaces/_interfaces_deprecated_types_.opaquekey.md) | A key represented as a [Bytes](classes/_primitive_bytes_.bytes.md) |
 | [Perbill](interfaces/_interfaces_runtime_types_.perbill.md) | Parts per billion (see also [Permill](interfaces/_interfaces_runtime_types_.permill.md)) |

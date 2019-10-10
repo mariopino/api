@@ -13,6 +13,10 @@ A 32-bit unsigned integer
 
   ↳ **U32**
 
+  ↳ [USize](_primitive_usize_.usize.md)
+
+  ↳ [AccountIndex](_primitive_generic_accountindex_.accountindex.md)
+
   ↳ [AssetId](../interfaces/_interfaces_runtime_types_.assetid.md)
 
   ↳ [BlockNumber](../interfaces/_interfaces_runtime_types_.blocknumber.md)
@@ -63,11 +67,7 @@ A 32-bit unsigned integer
 
   ↳ [ValidatorIndex](../interfaces/_interfaces_parachains_types_.validatorindex.md)
 
-  ↳ [AccountIndex](_primitive_generic_accountindex_.accountindex.md)
-
   ↳ [ConsensusEngineId](_primitive_generic_consensusengineid_.consensusengineid.md)
-
-  ↳ [USize](_primitive_usize_.usize.md)
 
   ↳ [MagicNumber](_metadata_magicnumber_.magicnumber.md)
 
@@ -95,7 +95,7 @@ A 32-bit unsigned integer
 
 *Overrides [UInt](_codec_uint_.uint.md).[constructor](_codec_uint_.uint.md#constructor)*
 
-*Defined in [primitive/U32.ts:14](https://github.com/polkadot-js/api/blob/e27b35cd9f/packages/types/src/primitive/U32.ts#L14)*
+*Defined in [primitive/U32.ts:14](https://github.com/polkadot-js/api/blob/b8d4bc5c6a/packages/types/src/primitive/U32.ts#L14)*
 
 **Parameters:**
 
@@ -115,7 +115,7 @@ Name | Type |
 
 *Overrides void*
 
-*Defined in [codec/UInt.ts:37](https://github.com/polkadot-js/api/blob/e27b35cd9f/packages/types/src/codec/UInt.ts#L37)*
+*Defined in [codec/UInt.ts:37](https://github.com/polkadot-js/api/blob/b8d4bc5c6a/packages/types/src/codec/UInt.ts#L37)*
 
 **`description`** Returns a hex string representation of the value
 
@@ -139,7 +139,7 @@ ___
 
 *Overrides void*
 
-*Defined in [codec/UInt.ts:49](https://github.com/polkadot-js/api/blob/e27b35cd9f/packages/types/src/codec/UInt.ts#L49)*
+*Defined in [codec/UInt.ts:49](https://github.com/polkadot-js/api/blob/b8d4bc5c6a/packages/types/src/codec/UInt.ts#L49)*
 
 **`description`** Returns the base runtime type name for this instance
 
@@ -157,7 +157,7 @@ ___
 
 *Overrides void*
 
-*Defined in [codec/UInt.ts:63](https://github.com/polkadot-js/api/blob/e27b35cd9f/packages/types/src/codec/UInt.ts#L63)*
+*Defined in [codec/UInt.ts:63](https://github.com/polkadot-js/api/blob/b8d4bc5c6a/packages/types/src/codec/UInt.ts#L63)*
 
 **`description`** Encodes the value as a Uint8Array as per the SCALE specifications
 

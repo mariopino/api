@@ -15,6 +15,8 @@ The Codec Base is however required for operating as an encoding/decoding layer
 
   ↳ [LockIdentifier](_interfaces_runtime_types_.lockidentifier.md)
 
+  ↳ [MetadataInterface](_metadata_types_.metadatainterface.md)
+
   ↳ [VrfData](_interfaces_babe_types_.vrfdata.md)
 
   ↳ [VrfProof](_interfaces_babe_types_.vrfproof.md)
@@ -31,8 +33,6 @@ The Codec Base is however required for operating as an encoding/decoding layer
 
   ↳ [SignerPayloadType](_primitive_extrinsic_signerpayload_.signerpayloadtype.md)
 
-  ↳ [MetadataInterface](_metadata_types_.metadatainterface.md)
-
   ↳ [CompactEncodable](_codec_compact_.compactencodable.md)
 
   ↳ [IMethod](_types_.imethod.md)
@@ -46,14 +46,14 @@ The Codec Base is however required for operating as an encoding/decoding layer
 ## Implemented by
 
 * [AbstractArray](../classes/_codec_abstractarray_.abstractarray.md)
-* [AccountId](_interfaces_runtime_types_.accountid.md)
 * [AccountId](../classes/_primitive_generic_accountid_.accountid.md)
+* [AccountId](_interfaces_runtime_types_.accountid.md)
 * [AccountIdOf](_interfaces_runtime_types_.accountidof.md)
-* [AccountIndex](_interfaces_runtime_types_.accountindex.md)
 * [AccountIndex](../classes/_primitive_generic_accountindex_.accountindex.md)
+* [AccountIndex](_interfaces_runtime_types_.accountindex.md)
 * [AccountInfo](_interfaces_deprecated_types_.accountinfo.md)
-* [Address](_interfaces_runtime_types_.address.md)
 * [Address](../classes/_primitive_generic_address_.address.md)
+* [Address](_interfaces_runtime_types_.address.md)
 * [AliveContractInfo](_interfaces_contracts_types_.alivecontractinfo.md)
 * [Amount](_interfaces_deprecated_types_.amount.md)
 * [ApprovalFlag](_interfaces_elections_types_.approvalflag.md)
@@ -345,10 +345,10 @@ The Codec Base is however required for operating as an encoding/decoding layer
 * [StorageEntryModifierV6](_interfaces_metadata_types_.storageentrymodifierv6.md)
 * [StorageEntryModifierV7](_interfaces_metadata_types_.storageentrymodifierv7.md)
 * [StorageEntryModifierV8](_interfaces_metadata_types_.storageentrymodifierv8.md)
+* [StorageFunctionMetadata](../classes/_metadata_v5_storage_.storagefunctionmetadata.md)
 * [StorageFunctionMetadata](../classes/_metadata_v2_storage_.storagefunctionmetadata.md)
 * [StorageFunctionMetadata](../classes/_metadata_v3_storage_.storagefunctionmetadata.md)
 * [StorageFunctionMetadata](../classes/_metadata_v4_storage_.storagefunctionmetadata.md)
-* [StorageFunctionMetadata](../classes/_metadata_v5_storage_.storagefunctionmetadata.md)
 * [StorageFunctionMetadataV0](_interfaces_metadata_types_.storagefunctionmetadatav0.md)
 * [StorageFunctionMetadataV1](_interfaces_metadata_types_.storagefunctionmetadatav1.md)
 * [StorageFunctionModifierV0](_interfaces_metadata_types_.storagefunctionmodifierv0.md)
@@ -357,10 +357,10 @@ The Codec Base is however required for operating as an encoding/decoding layer
 * [StorageFunctionModifierV3](_interfaces_metadata_types_.storagefunctionmodifierv3.md)
 * [StorageFunctionModifierV4](_interfaces_metadata_types_.storagefunctionmodifierv4.md)
 * [StorageFunctionModifierV5](_interfaces_metadata_types_.storagefunctionmodifierv5.md)
+* [StorageFunctionType](../classes/_metadata_v5_storage_.storagefunctiontype.md)
 * [StorageFunctionType](../classes/_metadata_v2_storage_.storagefunctiontype.md)
 * [StorageFunctionType](../classes/_metadata_v3_storage_.storagefunctiontype.md)
 * [StorageFunctionType](../classes/_metadata_v4_storage_.storagefunctiontype.md)
-* [StorageFunctionType](../classes/_metadata_v5_storage_.storagefunctiontype.md)
 * [StorageFunctionTypeV0](_interfaces_metadata_types_.storagefunctiontypev0.md)
 * [StorageFunctionTypeV1](_interfaces_metadata_types_.storagefunctiontypev1.md)
 * [StorageHasher](../classes/_primitive_storagehasher_.storagehasher.md)
@@ -435,7 +435,7 @@ The Codec Base is however required for operating as an encoding/decoding layer
 
 • **encodedLength**: *number*
 
-*Defined in [types.ts:76](https://github.com/polkadot-js/api/blob/e27b35cd9f/packages/types/src/types.ts#L76)*
+*Defined in [types.ts:76](https://github.com/polkadot-js/api/blob/b8d4bc5c6a/packages/types/src/types.ts#L76)*
 
 **`description`** The length of the value when encoded as a Uint8Array
 
@@ -445,7 +445,7 @@ ___
 
 • **hash**: *[IHash](_types_.ihash.md)*
 
-*Defined in [types.ts:81](https://github.com/polkadot-js/api/blob/e27b35cd9f/packages/types/src/types.ts#L81)*
+*Defined in [types.ts:81](https://github.com/polkadot-js/api/blob/b8d4bc5c6a/packages/types/src/types.ts#L81)*
 
 **`description`** Returns a hash of the value
 
@@ -455,7 +455,7 @@ ___
 
 • **isEmpty**: *boolean*
 
-*Defined in [types.ts:86](https://github.com/polkadot-js/api/blob/e27b35cd9f/packages/types/src/types.ts#L86)*
+*Defined in [types.ts:86](https://github.com/polkadot-js/api/blob/b8d4bc5c6a/packages/types/src/types.ts#L86)*
 
 **`description`** Checks if the value is an empty value
 
@@ -465,7 +465,7 @@ ___
 
 ▸ **eq**(`other?`: any): *boolean*
 
-*Defined in [types.ts:91](https://github.com/polkadot-js/api/blob/e27b35cd9f/packages/types/src/types.ts#L91)*
+*Defined in [types.ts:91](https://github.com/polkadot-js/api/blob/b8d4bc5c6a/packages/types/src/types.ts#L91)*
 
 **`description`** Compares the value of the input to see if there is a match
 
@@ -483,7 +483,7 @@ ___
 
 ▸ **toHex**(`isLe?`: undefined | false | true): *string*
 
-*Defined in [types.ts:96](https://github.com/polkadot-js/api/blob/e27b35cd9f/packages/types/src/types.ts#L96)*
+*Defined in [types.ts:96](https://github.com/polkadot-js/api/blob/b8d4bc5c6a/packages/types/src/types.ts#L96)*
 
 **`description`** Returns a hex string representation of the value. isLe returns a LE (number-only) representation
 
@@ -501,7 +501,7 @@ ___
 
 ▸ **toJSON**(): *[AnyJson](../modules/_types_.md#anyjson)*
 
-*Defined in [types.ts:101](https://github.com/polkadot-js/api/blob/e27b35cd9f/packages/types/src/types.ts#L101)*
+*Defined in [types.ts:101](https://github.com/polkadot-js/api/blob/b8d4bc5c6a/packages/types/src/types.ts#L101)*
 
 **`description`** Converts the Object to JSON, typically used for RPC transfers
 
@@ -513,7 +513,7 @@ ___
 
 ▸ **toRawType**(): *string*
 
-*Defined in [types.ts:106](https://github.com/polkadot-js/api/blob/e27b35cd9f/packages/types/src/types.ts#L106)*
+*Defined in [types.ts:106](https://github.com/polkadot-js/api/blob/b8d4bc5c6a/packages/types/src/types.ts#L106)*
 
 **`description`** Returns the base runtime type name for this instance
 
@@ -525,7 +525,7 @@ ___
 
 ▸ **toString**(): *string*
 
-*Defined in [types.ts:111](https://github.com/polkadot-js/api/blob/e27b35cd9f/packages/types/src/types.ts#L111)*
+*Defined in [types.ts:111](https://github.com/polkadot-js/api/blob/b8d4bc5c6a/packages/types/src/types.ts#L111)*
 
 **`description`** Returns the string representation of the value
 
@@ -537,7 +537,7 @@ ___
 
 ▸ **toU8a**(`isBare?`: undefined | false | true): *Uint8Array*
 
-*Defined in [types.ts:117](https://github.com/polkadot-js/api/blob/e27b35cd9f/packages/types/src/types.ts#L117)*
+*Defined in [types.ts:117](https://github.com/polkadot-js/api/blob/b8d4bc5c6a/packages/types/src/types.ts#L117)*
 
 **`description`** Encodes the value as a Uint8Array as per the SCALE specifications
 
