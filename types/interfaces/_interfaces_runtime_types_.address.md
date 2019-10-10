@@ -47,7 +47,7 @@ GenericAddress
 
 *Overrides [Base](../classes/_codec_base_.base.md).[constructor](../classes/_codec_base_.base.md#constructor)*
 
-*Defined in [primitive/Generic/Address.ts:26](https://github.com/polkadot-js/api/blob/3196e66efb/packages/types/src/primitive/Generic/Address.ts#L26)*
+*Defined in [primitive/Generic/Address.ts:26](https://github.com/polkadot-js/api/blob/e54cee1fad/packages/types/src/primitive/Generic/Address.ts#L26)*
 
 **Parameters:**
 
@@ -67,7 +67,7 @@ Name | Type | Default |
 
 *Overrides [Base](../classes/_codec_base_.base.md).[encodedLength](../classes/_codec_base_.base.md#encodedlength)*
 
-*Defined in [primitive/Generic/Address.ts:72](https://github.com/polkadot-js/api/blob/3196e66efb/packages/types/src/primitive/Generic/Address.ts#L72)*
+*Defined in [primitive/Generic/Address.ts:72](https://github.com/polkadot-js/api/blob/e54cee1fad/packages/types/src/primitive/Generic/Address.ts#L72)*
 
 **`description`** The length of the value when encoded as a Uint8Array
 
@@ -81,7 +81,7 @@ ___
 
 *Inherited from [Base](../classes/_codec_base_.base.md).[hash](../classes/_codec_base_.base.md#hash)*
 
-*Defined in [codec/Base.ts:32](https://github.com/polkadot-js/api/blob/3196e66efb/packages/types/src/codec/Base.ts#L32)*
+*Defined in [codec/Base.ts:32](https://github.com/polkadot-js/api/blob/e54cee1fad/packages/types/src/codec/Base.ts#L32)*
 
 **`description`** returns a hash of the contents
 
@@ -95,7 +95,7 @@ ___
 
 *Inherited from [Base](../classes/_codec_base_.base.md).[isEmpty](../classes/_codec_base_.base.md#isempty)*
 
-*Defined in [codec/Base.ts:39](https://github.com/polkadot-js/api/blob/3196e66efb/packages/types/src/codec/Base.ts#L39)*
+*Defined in [codec/Base.ts:39](https://github.com/polkadot-js/api/blob/e54cee1fad/packages/types/src/codec/Base.ts#L39)*
 
 **`description`** Checks if the value is an empty value
 
@@ -109,7 +109,7 @@ ___
 
 *Inherited from [Address](../classes/_primitive_generic_address_.address.md).[rawLength](../classes/_primitive_generic_address_.address.md#rawlength)*
 
-*Defined in [primitive/Generic/Address.ts:86](https://github.com/polkadot-js/api/blob/3196e66efb/packages/types/src/primitive/Generic/Address.ts#L86)*
+*Defined in [primitive/Generic/Address.ts:86](https://github.com/polkadot-js/api/blob/e54cee1fad/packages/types/src/primitive/Generic/Address.ts#L86)*
 
 **`description`** The length of the raw value, either AccountIndex or AccountId
 
@@ -123,7 +123,7 @@ ___
 
 *Inherited from [Base](../classes/_codec_base_.base.md).[eq](../classes/_codec_base_.base.md#eq)*
 
-*Defined in [codec/Base.ts:46](https://github.com/polkadot-js/api/blob/3196e66efb/packages/types/src/codec/Base.ts#L46)*
+*Defined in [codec/Base.ts:46](https://github.com/polkadot-js/api/blob/e54cee1fad/packages/types/src/codec/Base.ts#L46)*
 
 **`description`** Compares the value of the input to see if there is a match
 
@@ -145,7 +145,7 @@ ___
 
 *Overrides [Base](../classes/_codec_base_.base.md).[toHex](../classes/_codec_base_.base.md#tohex)*
 
-*Defined in [primitive/Generic/Address.ts:95](https://github.com/polkadot-js/api/blob/3196e66efb/packages/types/src/primitive/Generic/Address.ts#L95)*
+*Defined in [primitive/Generic/Address.ts:95](https://github.com/polkadot-js/api/blob/e54cee1fad/packages/types/src/primitive/Generic/Address.ts#L95)*
 
 **`description`** Returns a hex string representation of the value
 
@@ -159,7 +159,7 @@ ___
 
 *Inherited from [Base](../classes/_codec_base_.base.md).[toJSON](../classes/_codec_base_.base.md#tojson)*
 
-*Defined in [codec/Base.ts:60](https://github.com/polkadot-js/api/blob/3196e66efb/packages/types/src/codec/Base.ts#L60)*
+*Defined in [codec/Base.ts:60](https://github.com/polkadot-js/api/blob/e54cee1fad/packages/types/src/codec/Base.ts#L60)*
 
 **`description`** Converts the Object to JSON, typically used for RPC transfers
 
@@ -175,7 +175,7 @@ ___
 
 *Overrides [Base](../classes/_codec_base_.base.md).[toRawType](../classes/_codec_base_.base.md#torawtype)*
 
-*Defined in [primitive/Generic/Address.ts:102](https://github.com/polkadot-js/api/blob/3196e66efb/packages/types/src/primitive/Generic/Address.ts#L102)*
+*Defined in [primitive/Generic/Address.ts:102](https://github.com/polkadot-js/api/blob/e54cee1fad/packages/types/src/primitive/Generic/Address.ts#L102)*
 
 **`description`** Returns the base runtime type name for this instance
 
@@ -189,7 +189,7 @@ ___
 
 *Inherited from [Base](../classes/_codec_base_.base.md).[toString](../classes/_codec_base_.base.md#tostring)*
 
-*Defined in [codec/Base.ts:67](https://github.com/polkadot-js/api/blob/3196e66efb/packages/types/src/codec/Base.ts#L67)*
+*Defined in [codec/Base.ts:67](https://github.com/polkadot-js/api/blob/e54cee1fad/packages/types/src/codec/Base.ts#L67)*
 
 **`description`** Returns the string representation of the value
 
@@ -205,7 +205,7 @@ ___
 
 *Overrides [Base](../classes/_codec_base_.base.md).[toU8a](../classes/_codec_base_.base.md#tou8a)*
 
-*Defined in [primitive/Generic/Address.ts:110](https://github.com/polkadot-js/api/blob/3196e66efb/packages/types/src/primitive/Generic/Address.ts#L110)*
+*Defined in [primitive/Generic/Address.ts:110](https://github.com/polkadot-js/api/blob/e54cee1fad/packages/types/src/primitive/Generic/Address.ts#L110)*
 
 **`description`** Encodes the value as a Uint8Array as per the SCALE specifications
 
@@ -225,7 +225,7 @@ ___
 
 *Inherited from [Address](../classes/_primitive_generic_address_.address.md).[decodeAddress](../classes/_primitive_generic_address_.address.md#static-decodeaddress)*
 
-*Defined in [primitive/Generic/Address.ts:33](https://github.com/polkadot-js/api/blob/3196e66efb/packages/types/src/primitive/Generic/Address.ts#L33)*
+*Defined in [primitive/Generic/Address.ts:33](https://github.com/polkadot-js/api/blob/e54cee1fad/packages/types/src/primitive/Generic/Address.ts#L33)*
 
 **Parameters:**
 
