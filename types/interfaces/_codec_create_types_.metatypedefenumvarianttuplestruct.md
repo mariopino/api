@@ -19,7 +19,7 @@
 
 • **tuple_struct_variant.name**: *[StringIndex](../modules/_codec_create_types_.md#stringindex)*
 
-*Defined in [codec/create/types.ts:102](https://github.com/polkadot-js/api/blob/985749ade1/packages/types/src/codec/create/types.ts#L102)*
+*Defined in [codec/create/types.ts:102](https://github.com/polkadot-js/api/blob/3196e66efb/packages/types/src/codec/create/types.ts#L102)*
 
 ___
 
@@ -27,4 +27,4 @@ ___
 
 • **tuple_struct_variant.types**: *[TypeIndex](../modules/_codec_create_types_.md#typeindex)[]*
 
-*Defined in [codec/create/types.ts:103](https://github.com/polkadot-js/api/blob/985749ade1/packages/types/src/codec/create/types.ts#L103)*
+*Defined in [codec/create/types.ts:103](https://github.com/polkadot-js/api/blob/3196e66efb/packages/types/src/codec/create/types.ts#L103)*

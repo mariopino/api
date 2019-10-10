@@ -24,7 +24,7 @@
 
 • **account**: *object*
 
-*Defined in [jsonrpc.types.ts:13](https://github.com/polkadot-js/api/blob/985749ade1/packages/rpc-core/src/jsonrpc.types.ts#L13)*
+*Defined in [jsonrpc.types.ts:13](https://github.com/polkadot-js/api/blob/3196e66efb/packages/rpc-core/src/jsonrpc.types.ts#L13)*
 
 #### Type declaration:
 
@@ -34,7 +34,7 @@ ___
 
 • **author**: *object*
 
-*Defined in [jsonrpc.types.ts:16](https://github.com/polkadot-js/api/blob/985749ade1/packages/rpc-core/src/jsonrpc.types.ts#L16)*
+*Defined in [jsonrpc.types.ts:16](https://github.com/polkadot-js/api/blob/3196e66efb/packages/rpc-core/src/jsonrpc.types.ts#L16)*
 
 #### Type declaration:
 
@@ -44,7 +44,7 @@ ___
 
 • **chain**: *object*
 
-*Defined in [jsonrpc.types.ts:24](https://github.com/polkadot-js/api/blob/985749ade1/packages/rpc-core/src/jsonrpc.types.ts#L24)*
+*Defined in [jsonrpc.types.ts:24](https://github.com/polkadot-js/api/blob/3196e66efb/packages/rpc-core/src/jsonrpc.types.ts#L24)*
 
 #### Type declaration:
 
@@ -54,7 +54,7 @@ ___
 
 • **contracts**: *object*
 
-*Defined in [jsonrpc.types.ts:32](https://github.com/polkadot-js/api/blob/985749ade1/packages/rpc-core/src/jsonrpc.types.ts#L32)*
+*Defined in [jsonrpc.types.ts:32](https://github.com/polkadot-js/api/blob/3196e66efb/packages/rpc-core/src/jsonrpc.types.ts#L32)*
 
 #### Type declaration:
 
@@ -64,7 +64,7 @@ ___
 
 • **rpc**: *object*
 
-*Defined in [jsonrpc.types.ts:35](https://github.com/polkadot-js/api/blob/985749ade1/packages/rpc-core/src/jsonrpc.types.ts#L35)*
+*Defined in [jsonrpc.types.ts:35](https://github.com/polkadot-js/api/blob/3196e66efb/packages/rpc-core/src/jsonrpc.types.ts#L35)*
 
 #### Type declaration:
 
@@ -74,7 +74,7 @@ ___
 
 • **state**: *object*
 
-*Defined in [jsonrpc.types.ts:38](https://github.com/polkadot-js/api/blob/985749ade1/packages/rpc-core/src/jsonrpc.types.ts#L38)*
+*Defined in [jsonrpc.types.ts:38](https://github.com/polkadot-js/api/blob/3196e66efb/packages/rpc-core/src/jsonrpc.types.ts#L38)*
 
 #### Type declaration:
 
@@ -84,6 +84,6 @@ ___
 
 • **system**: *object*
 
-*Defined in [jsonrpc.types.ts:54](https://github.com/polkadot-js/api/blob/985749ade1/packages/rpc-core/src/jsonrpc.types.ts#L54)*
+*Defined in [jsonrpc.types.ts:54](https://github.com/polkadot-js/api/blob/3196e66efb/packages/rpc-core/src/jsonrpc.types.ts#L54)*
 
 #### Type declaration:

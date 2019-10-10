@@ -21,7 +21,7 @@
 
 • **BuiltinArray**:
 
-*Defined in [codec/create/types.ts:59](https://github.com/polkadot-js/api/blob/985749ade1/packages/types/src/codec/create/types.ts#L59)*
+*Defined in [codec/create/types.ts:59](https://github.com/polkadot-js/api/blob/3196e66efb/packages/types/src/codec/create/types.ts#L59)*
 
 ___
 
@@ -29,7 +29,7 @@ ___
 
 • **BuiltinPlain**:
 
-*Defined in [codec/create/types.ts:57](https://github.com/polkadot-js/api/blob/985749ade1/packages/types/src/codec/create/types.ts#L57)*
+*Defined in [codec/create/types.ts:57](https://github.com/polkadot-js/api/blob/3196e66efb/packages/types/src/codec/create/types.ts#L57)*
 
 ___
 
@@ -37,7 +37,7 @@ ___
 
 • **BuiltinTuple**:
 
-*Defined in [codec/create/types.ts:58](https://github.com/polkadot-js/api/blob/985749ade1/packages/types/src/codec/create/types.ts#L58)*
+*Defined in [codec/create/types.ts:58](https://github.com/polkadot-js/api/blob/3196e66efb/packages/types/src/codec/create/types.ts#L58)*
 
 ___
 
@@ -45,7 +45,7 @@ ___
 
 • **ClikeEnum**:
 
-*Defined in [codec/create/types.ts:61](https://github.com/polkadot-js/api/blob/985749ade1/packages/types/src/codec/create/types.ts#L61)*
+*Defined in [codec/create/types.ts:61](https://github.com/polkadot-js/api/blob/3196e66efb/packages/types/src/codec/create/types.ts#L61)*
 
 ___
 
@@ -53,7 +53,7 @@ ___
 
 • **Enum**:
 
-*Defined in [codec/create/types.ts:60](https://github.com/polkadot-js/api/blob/985749ade1/packages/types/src/codec/create/types.ts#L60)*
+*Defined in [codec/create/types.ts:60](https://github.com/polkadot-js/api/blob/3196e66efb/packages/types/src/codec/create/types.ts#L60)*
 
 ___
 
@@ -61,7 +61,7 @@ ___
 
 • **Null**:
 
-*Defined in [codec/create/types.ts:64](https://github.com/polkadot-js/api/blob/985749ade1/packages/types/src/codec/create/types.ts#L64)*
+*Defined in [codec/create/types.ts:64](https://github.com/polkadot-js/api/blob/3196e66efb/packages/types/src/codec/create/types.ts#L64)*
 
 ___
 
@@ -69,7 +69,7 @@ ___
 
 • **Struct**:
 
-*Defined in [codec/create/types.ts:62](https://github.com/polkadot-js/api/blob/985749ade1/packages/types/src/codec/create/types.ts#L62)*
+*Defined in [codec/create/types.ts:62](https://github.com/polkadot-js/api/blob/3196e66efb/packages/types/src/codec/create/types.ts#L62)*
 
 ___
 
@@ -77,4 +77,4 @@ ___
 
 • **TupleStruct**:
 
-*Defined in [codec/create/types.ts:63](https://github.com/polkadot-js/api/blob/985749ade1/packages/types/src/codec/create/types.ts#L63)*
+*Defined in [codec/create/types.ts:63](https://github.com/polkadot-js/api/blob/3196e66efb/packages/types/src/codec/create/types.ts#L63)*
