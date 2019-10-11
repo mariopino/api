@@ -18,4 +18,4 @@
 
 • **tuple_struct.types**: *[TypeIndex](../modules/_codec_create_types_.md#typeindex)[]*
 
-*Defined in [codec/create/types.ts:129](https://github.com/polkadot-js/api/blob/bf8bed36ef/packages/types/src/codec/create/types.ts#L129)*
+*Defined in [codec/create/types.ts:129](https://github.com/polkadot-js/api/blob/b8d7f4803b/packages/types/src/codec/create/types.ts#L129)*
