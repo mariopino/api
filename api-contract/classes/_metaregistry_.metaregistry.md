@@ -39,7 +39,7 @@
 
 \+ **new MetaRegistry**(`__namedParameters`: object): *[MetaRegistry](_metaregistry_.metaregistry.md)*
 
-*Defined in [MetaRegistry.ts:67](https://github.com/polkadot-js/api/blob/6fab577e23/packages/api-contract/src/MetaRegistry.ts#L67)*
+*Defined in [MetaRegistry.ts:67](https://github.com/polkadot-js/api/blob/b24fe30a40/packages/api-contract/src/MetaRegistry.ts#L67)*
 
 **Parameters:**
 
@@ -55,7 +55,7 @@ Name | Type |
 
 • **typeDefs**: *TypeDef[]* =  []
 
-*Defined in [MetaRegistry.ts:67](https://github.com/polkadot-js/api/blob/6fab577e23/packages/api-contract/src/MetaRegistry.ts#L67)*
+*Defined in [MetaRegistry.ts:67](https://github.com/polkadot-js/api/blob/b24fe30a40/packages/api-contract/src/MetaRegistry.ts#L67)*
 
 ## Methods
 
@@ -63,7 +63,7 @@ Name | Type |
 
 ▸ **hasTypeDefAt**(`index`: TypeIndex): *boolean*
 
-*Defined in [MetaRegistry.ts:125](https://github.com/polkadot-js/api/blob/6fab577e23/packages/api-contract/src/MetaRegistry.ts#L125)*
+*Defined in [MetaRegistry.ts:125](https://github.com/polkadot-js/api/blob/b24fe30a40/packages/api-contract/src/MetaRegistry.ts#L125)*
 
 **Parameters:**
 
@@ -79,7 +79,7 @@ ___
 
 ▸ **setTypeDefAtIndex**(`typeIndex`: TypeIndex): *void*
 
-*Defined in [MetaRegistry.ts:200](https://github.com/polkadot-js/api/blob/6fab577e23/packages/api-contract/src/MetaRegistry.ts#L200)*
+*Defined in [MetaRegistry.ts:200](https://github.com/polkadot-js/api/blob/b24fe30a40/packages/api-contract/src/MetaRegistry.ts#L200)*
 
 **Parameters:**
 
@@ -95,7 +95,7 @@ ___
 
 ▸ **stringAt**(`index`: StringIndex): *string*
 
-*Defined in [MetaRegistry.ts:109](https://github.com/polkadot-js/api/blob/6fab577e23/packages/api-contract/src/MetaRegistry.ts#L109)*
+*Defined in [MetaRegistry.ts:109](https://github.com/polkadot-js/api/blob/b24fe30a40/packages/api-contract/src/MetaRegistry.ts#L109)*
 
 **Parameters:**
 
@@ -111,7 +111,7 @@ ___
 
 ▸ **stringsAt**(`indices`: StringIndex[]): *string[]*
 
-*Defined in [MetaRegistry.ts:113](https://github.com/polkadot-js/api/blob/6fab577e23/packages/api-contract/src/MetaRegistry.ts#L113)*
+*Defined in [MetaRegistry.ts:113](https://github.com/polkadot-js/api/blob/b24fe30a40/packages/api-contract/src/MetaRegistry.ts#L113)*
 
 **Parameters:**
 
@@ -127,7 +127,7 @@ ___
 
 ▸ **typeAt**(`index`: TypeIndex): *MetaType*
 
-*Defined in [MetaRegistry.ts:117](https://github.com/polkadot-js/api/blob/6fab577e23/packages/api-contract/src/MetaRegistry.ts#L117)*
+*Defined in [MetaRegistry.ts:117](https://github.com/polkadot-js/api/blob/b24fe30a40/packages/api-contract/src/MetaRegistry.ts#L117)*
 
 **Parameters:**
 
@@ -143,7 +143,7 @@ ___
 
 ▸ **typeDefAt**(`index`: TypeIndex, `extra`: Pick‹TypeDef, never›): *TypeDef*
 
-*Defined in [MetaRegistry.ts:129](https://github.com/polkadot-js/api/blob/6fab577e23/packages/api-contract/src/MetaRegistry.ts#L129)*
+*Defined in [MetaRegistry.ts:129](https://github.com/polkadot-js/api/blob/b24fe30a40/packages/api-contract/src/MetaRegistry.ts#L129)*
 
 **Parameters:**
 
@@ -160,7 +160,7 @@ ___
 
 ▸ **typeDefForOption**(`id`: MetaTypeIdCustom, `typeIndex?`: TypeIndex): *Pick‹TypeDef, any›*
 
-*Defined in [MetaRegistry.ts:317](https://github.com/polkadot-js/api/blob/6fab577e23/packages/api-contract/src/MetaRegistry.ts#L317)*
+*Defined in [MetaRegistry.ts:317](https://github.com/polkadot-js/api/blob/b24fe30a40/packages/api-contract/src/MetaRegistry.ts#L317)*
 
 **Parameters:**
 
@@ -177,7 +177,7 @@ ___
 
 ▸ **typeDefForResult**(`id`: MetaTypeIdCustom, `typeIndex?`: TypeIndex): *Pick‹TypeDef, any›*
 
-*Defined in [MetaRegistry.ts:326](https://github.com/polkadot-js/api/blob/6fab577e23/packages/api-contract/src/MetaRegistry.ts#L326)*
+*Defined in [MetaRegistry.ts:326](https://github.com/polkadot-js/api/blob/b24fe30a40/packages/api-contract/src/MetaRegistry.ts#L326)*
 
 **Parameters:**
 
@@ -194,7 +194,7 @@ ___
 
 ▸ **typeDefForStruct**(`def`: MetaTypeDefStruct | MetaTypeDefEnumVariantStruct): *Pick‹TypeDef, any›*
 
-*Defined in [MetaRegistry.ts:335](https://github.com/polkadot-js/api/blob/6fab577e23/packages/api-contract/src/MetaRegistry.ts#L335)*
+*Defined in [MetaRegistry.ts:335](https://github.com/polkadot-js/api/blob/b24fe30a40/packages/api-contract/src/MetaRegistry.ts#L335)*
 
 **Parameters:**
 
@@ -210,7 +210,7 @@ ___
 
 ▸ **typeDefFromMetaType**(`metaType`: MetaType, `typeIndex?`: TypeIndex): *TypeDef*
 
-*Defined in [MetaRegistry.ts:189](https://github.com/polkadot-js/api/blob/6fab577e23/packages/api-contract/src/MetaRegistry.ts#L189)*
+*Defined in [MetaRegistry.ts:189](https://github.com/polkadot-js/api/blob/b24fe30a40/packages/api-contract/src/MetaRegistry.ts#L189)*
 
 **Parameters:**
 
@@ -227,7 +227,7 @@ ___
 
 ▸ **typeDefFromMetaTypeAt**(`typeIndex`: TypeIndex): *TypeDef*
 
-*Defined in [MetaRegistry.ts:206](https://github.com/polkadot-js/api/blob/6fab577e23/packages/api-contract/src/MetaRegistry.ts#L206)*
+*Defined in [MetaRegistry.ts:206](https://github.com/polkadot-js/api/blob/b24fe30a40/packages/api-contract/src/MetaRegistry.ts#L206)*
 
 **Parameters:**
 
@@ -243,7 +243,7 @@ ___
 
 ▸ **typesAt**(`indices`: TypeIndex[]): *MetaType[]*
 
-*Defined in [MetaRegistry.ts:121](https://github.com/polkadot-js/api/blob/6fab577e23/packages/api-contract/src/MetaRegistry.ts#L121)*
+*Defined in [MetaRegistry.ts:121](https://github.com/polkadot-js/api/blob/b24fe30a40/packages/api-contract/src/MetaRegistry.ts#L121)*
 
 **Parameters:**
 
