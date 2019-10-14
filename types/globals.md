@@ -53,6 +53,7 @@
 * ["classes"](modules/_classes_.md)
 * ["codec/AbstractArray"](modules/_codec_abstractarray_.md)
 * ["codec/AbstractInt"](modules/_codec_abstractint_.md)
+* ["codec/BTreeMap"](modules/_codec_btreemap_.md)
 * ["codec/Base"](modules/_codec_base_.md)
 * ["codec/Compact"](modules/_codec_compact_.md)
 * ["codec/Date"](modules/_codec_date_.md)
