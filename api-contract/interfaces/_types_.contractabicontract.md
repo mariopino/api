@@ -24,7 +24,7 @@
 
 • **constructors**: *[ContractABIMethod](_types_.contractabimethod.md)[]*
 
-*Defined in [types.ts:73](https://github.com/polkadot-js/api/blob/21ac0ac2fb/packages/api-contract/src/types.ts#L73)*
+*Defined in [types.ts:73](https://github.com/polkadot-js/api/blob/d194a6e4c9/packages/api-contract/src/types.ts#L73)*
 
 ___
 
@@ -34,7 +34,7 @@ ___
 
 *Overrides [ContractABIContractCommon](_types_.contractabicontractcommon.md).[docs](_types_.contractabicontractcommon.md#optional-docs)*
 
-*Defined in [types.ts:77](https://github.com/polkadot-js/api/blob/21ac0ac2fb/packages/api-contract/src/types.ts#L77)*
+*Defined in [types.ts:77](https://github.com/polkadot-js/api/blob/d194a6e4c9/packages/api-contract/src/types.ts#L77)*
 
 ___
 
@@ -42,7 +42,7 @@ ___
 
 • **events**? : *[ContractABIEvent](_types_.contractabievent.md)[]*
 
-*Defined in [types.ts:76](https://github.com/polkadot-js/api/blob/21ac0ac2fb/packages/api-contract/src/types.ts#L76)*
+*Defined in [types.ts:76](https://github.com/polkadot-js/api/blob/d194a6e4c9/packages/api-contract/src/types.ts#L76)*
 
 ___
 
@@ -50,7 +50,7 @@ ___
 
 • **messages**: *[ContractABIMethod](_types_.contractabimethod.md)[]*
 
-*Defined in [types.ts:74](https://github.com/polkadot-js/api/blob/21ac0ac2fb/packages/api-contract/src/types.ts#L74)*
+*Defined in [types.ts:74](https://github.com/polkadot-js/api/blob/d194a6e4c9/packages/api-contract/src/types.ts#L74)*
 
 ___
 
@@ -58,4 +58,4 @@ ___
 
 • **name**: *string*
 
-*Defined in [types.ts:75](https://github.com/polkadot-js/api/blob/21ac0ac2fb/packages/api-contract/src/types.ts#L75)*
+*Defined in [types.ts:75](https://github.com/polkadot-js/api/blob/d194a6e4c9/packages/api-contract/src/types.ts#L75)*

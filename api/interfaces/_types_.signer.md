@@ -20,7 +20,7 @@
 
 • **signPayload**? : *undefined | function*
 
-*Defined in [types.ts:251](https://github.com/polkadot-js/api/blob/21ac0ac2fb/packages/api/src/types.ts#L251)*
+*Defined in [types.ts:251](https://github.com/polkadot-js/api/blob/d194a6e4c9/packages/api/src/types.ts#L251)*
 
 **`description`** signs an extrinsic payload from a serialized form
 
@@ -30,7 +30,7 @@ ___
 
 • **signRaw**? : *undefined | function*
 
-*Defined in [types.ts:256](https://github.com/polkadot-js/api/blob/21ac0ac2fb/packages/api/src/types.ts#L256)*
+*Defined in [types.ts:256](https://github.com/polkadot-js/api/blob/d194a6e4c9/packages/api/src/types.ts#L256)*
 
 **`description`** signs a raw payload, only the bytes data as supplied
 
@@ -40,6 +40,6 @@ ___
 
 • **update**? : *undefined | function*
 
-*Defined in [types.ts:261](https://github.com/polkadot-js/api/blob/21ac0ac2fb/packages/api/src/types.ts#L261)*
+*Defined in [types.ts:261](https://github.com/polkadot-js/api/blob/d194a6e4c9/packages/api/src/types.ts#L261)*
 
 **`description`** Receives an update for the extrinsic signed by a `signer.sign`

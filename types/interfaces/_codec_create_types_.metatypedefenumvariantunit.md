@@ -18,4 +18,4 @@
 
 • **unit_variant.name**: *[StringIndex](../modules/_codec_create_types_.md#stringindex)*
 
-*Defined in [codec/create/types.ts:99](https://github.com/polkadot-js/api/blob/21ac0ac2fb/packages/types/src/codec/create/types.ts#L99)*
+*Defined in [codec/create/types.ts:99](https://github.com/polkadot-js/api/blob/d194a6e4c9/packages/types/src/codec/create/types.ts#L99)*
