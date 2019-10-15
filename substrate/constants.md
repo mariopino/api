@@ -29,10 +29,10 @@ ___
 
 ### babe
 
-▸ **epochDuration**: `u64`
+### epochDuration: `u64`
 - **summary**: The number of **slots** that an epoch takes. We couple sessions to epochs, i.e. we start a new session once the new epoch begins.
 
-▸ **expectedBlockTime**: `Moment`
+### expectedBlockTime: `Moment`
 - **summary**: The expected average block time at which BABE should be creating blocks. Since BABE is probabilistic it is not trivial to figure out what the expected average block time should be based on the slot duration and the security parameter `c` (where `1 - c` represents the probability of a slot being empty).
 
 ___
@@ -40,19 +40,19 @@ ___
 
 ### balances
 
-▸ **creationFee**: `Balance`
+### creationFee: `Balance`
 - **summary**: The fee required to create an account.
 
-▸ **existentialDeposit**: `Balance`
+### existentialDeposit: `Balance`
 - **summary**: The minimum amount required to keep an account open.
 
-▸ **transactionBaseFee**: `Balance`
+### transactionBaseFee: `Balance`
 - **summary**: The fee to be paid for making a transaction; the base.
 
-▸ **transactionByteFee**: `Balance`
+### transactionByteFee: `Balance`
 - **summary**: The fee to be paid for making a transaction; the per-byte portion.
 
-▸ **transferFee**: `Balance`
+### transferFee: `Balance`
 - **summary**: The fee required to make a transfer.
 
 ___
@@ -60,52 +60,52 @@ ___
 
 ### contracts
 
-▸ **blockGasLimit**: `Gas`
+### blockGasLimit: `Gas`
 - **summary**: The maximum amount of gas that could be expended per block. A reasonable default value is 10_000_000.
 
-▸ **callBaseFee**: `Gas`
+### callBaseFee: `Gas`
 - **summary**: The base fee charged for calling into a contract. A reasonable default value is 135.
 
-▸ **contractFee**: `BalanceOf`
+### contractFee: `BalanceOf`
 - **summary**: The fee required to instantiate a contract instance. A reasonable default value is 21.
 
-▸ **creationFee**: `BalanceOf`
+### creationFee: `BalanceOf`
 - **summary**: The fee required to create an account.
 
-▸ **instantiateBaseFee**: `Gas`
+### instantiateBaseFee: `Gas`
 - **summary**: The base fee charged for instantiating a contract. A reasonable default value is 175.
 
-▸ **maxDepth**: `u32`
+### maxDepth: `u32`
 - **summary**: The maximum nesting level of a call/instantiate stack. A reasonable default value is 100.
 
-▸ **maxValueSize**: `u32`
+### maxValueSize: `u32`
 - **summary**: The maximum size of a storage value in bytes. A reasonable default is 16 KiB.
 
-▸ **rentByteFee**: `BalanceOf`
+### rentByteFee: `BalanceOf`
 - **summary**: Price of a byte of storage per one block interval. Should be greater than 0.
 
-▸ **rentDepositOffset**: `BalanceOf`
+### rentDepositOffset: `BalanceOf`
 - **summary**: The amount of funds a contract should deposit in order to offset the cost of one byte.  Let's suppose the deposit is 1,000 BU (balance units)/byte and the rent is 1 BU/byte/day, then a contract with 1,000,000 BU that uses 1,000 bytes of storage would pay no rent. But if the balance reduced to 500,000 BU and the storage stayed the same at 1,000, then it would pay 500 BU/day.
 
-▸ **signedClaimHandicap**: `BlockNumber`
+### signedClaimHandicap: `BlockNumber`
 - **summary**: Number of block delay an extrinsic claim surcharge has.  When claim surcharge is called by an extrinsic the rent is checked for current_block - delay
 
-▸ **storageSizeOffset**: `u32`
+### storageSizeOffset: `u32`
 - **summary**: Size of a contract at the time of instantiaion. This is a simple way to ensure that empty contracts eventually gets deleted.
 
-▸ **surchargeReward**: `BalanceOf`
+### surchargeReward: `BalanceOf`
 - **summary**: Reward that is received by the party whose touch has led to removal of a contract.
 
-▸ **tombstoneDeposit**: `BalanceOf`
+### tombstoneDeposit: `BalanceOf`
 - **summary**: The minimum amount required to generate a tombstone.
 
-▸ **transactionBaseFee**: `BalanceOf`
+### transactionBaseFee: `BalanceOf`
 - **summary**: The fee to be paid for making a transaction; the base.
 
-▸ **transactionByteFee**: `BalanceOf`
+### transactionByteFee: `BalanceOf`
 - **summary**: The fee to be paid for making a transaction; the per-byte portion.
 
-▸ **transferFee**: `BalanceOf`
+### transferFee: `BalanceOf`
 - **summary**: The fee required to make a transfer.
 
 ___
@@ -113,22 +113,22 @@ ___
 
 ### democracy
 
-▸ **cooloffPeriod**: `BlockNumber`
+### cooloffPeriod: `BlockNumber`
 - **summary**: Period in blocks where an external proposal may not be re-submitted after being vetoed.
 
-▸ **emergencyVotingPeriod**: `BlockNumber`
+### emergencyVotingPeriod: `BlockNumber`
 - **summary**: Minimum voting period allowed for an emergency referendum.
 
-▸ **enactmentPeriod**: `BlockNumber`
+### enactmentPeriod: `BlockNumber`
 - **summary**: The minimum period of locking and the period between a proposal being approved and enacted.  It should generally be a little more than the unstake period to ensure that voting stakers have an opportunity to remove themselves from the system in the case where they are on the losing side of a vote.
 
-▸ **launchPeriod**: `BlockNumber`
+### launchPeriod: `BlockNumber`
 - **summary**: How often (in blocks) new public referenda are launched.
 
-▸ **minimumDeposit**: `BalanceOf`
+### minimumDeposit: `BalanceOf`
 - **summary**: The minimum amount to be used as a deposit for a public referendum proposal.
 
-▸ **votingPeriod**: `BlockNumber`
+### votingPeriod: `BlockNumber`
 - **summary**: How often (in blocks) to check for new votes.
 
 ___
@@ -136,37 +136,37 @@ ___
 
 ### elections
 
-▸ **approvalSetSize**: `u32`
+### approvalSetSize: `u32`
 - **summary**: The chunk size of the approval vector.
 
-▸ **candidacyBond**: `BalanceOf`
+### candidacyBond: `BalanceOf`
 - **summary**: How much should be locked up in order to submit one's candidacy. A reasonable default value is 9.
 
-▸ **carryCount**: `u32`
+### carryCount: `u32`
 - **summary**: How many runners-up should have their approvals persist until the next vote. A reasonable default value is 2.
 
-▸ **decayRatio**: `u32`
+### decayRatio: `u32`
 - **summary**: Decay factor of weight when being accumulated. It should typically be set to __at least__ `membership_size -1` to keep the collective secure. When set to `N`, it indicates `(1/N)^t` of staked is decayed at weight increment step `t`. 0 will result in no weight being added at all (normal approval voting). A reasonable default value is 24.
 
-▸ **inactiveGracePeriod**: `VoteIndex`
+### inactiveGracePeriod: `VoteIndex`
 - **summary**: How many vote indices need to go by after a target voter's last vote before they can be reaped if their approvals are moot. A reasonable default value is 1.
 
-▸ **minimumVotingLock**: `BalanceOf`
+### minimumVotingLock: `BalanceOf`
 - **summary**: Minimum about that can be used as the locked value for voting.
 
-▸ **presentSlashPerVoter**: `BalanceOf`
+### presentSlashPerVoter: `BalanceOf`
 - **summary**: The punishment, per voter, if you provide an invalid presentation. A reasonable default value is 1.
 
-▸ **voterSetSize**: `u32`
+### voterSetSize: `u32`
 - **summary**: The chunk size of the voter vector.
 
-▸ **votingBond**: `BalanceOf`
+### votingBond: `BalanceOf`
 - **summary**: How much should be locked up in order to be able to submit votes.
 
-▸ **votingFee**: `BalanceOf`
+### votingFee: `BalanceOf`
 - **summary**: The amount of fee paid upon each vote submission, unless if they submit a _hole_ index and replace it.
 
-▸ **votingPeriod**: `BlockNumber`
+### votingPeriod: `BlockNumber`
 - **summary**: How often (in blocks) to check for new votes. A reasonable default value is 1000.
 
 ___
@@ -174,10 +174,10 @@ ___
 
 ### finalityTracker
 
-▸ **reportLatency**: `BlockNumber`
+### reportLatency: `BlockNumber`
 - **summary**: The delay after which point things become suspicious. Default is 1000.
 
-▸ **windowSize**: `BlockNumber`
+### windowSize: `BlockNumber`
 - **summary**: The number of recent samples to keep from this chain. Default is 101.
 
 ___
@@ -185,7 +185,7 @@ ___
 
 ### session
 
-▸ **dedupKeyPrefix**: `Bytes`
+### dedupKeyPrefix: `Bytes`
 - **summary**: Used as first key for `NextKeys` and `KeyOwner` to put all the data into the same branch of the trie.
 
 ___
@@ -193,10 +193,10 @@ ___
 
 ### staking
 
-▸ **bondingDuration**: `EraIndex`
+### bondingDuration: `EraIndex`
 - **summary**: Number of eras that staked funds must remain bonded for.
 
-▸ **sessionsPerEra**: `SessionIndex`
+### sessionsPerEra: `SessionIndex`
 - **summary**: Number of sessions per era.
 
 ___
@@ -204,7 +204,7 @@ ___
 
 ### timestamp
 
-▸ **minimumPeriod**: `Moment`
+### minimumPeriod: `Moment`
 - **summary**: The minimum period between blocks. Beware that this is different to the *expected* period that the block production apparatus provides. Your chosen consensus system will generally work with this to determine a sensible block time. e.g. For Aura, it will be double this period on default settings.
 
 ___
@@ -212,14 +212,14 @@ ___
 
 ### treasury
 
-▸ **burn**: `Permill`
+### burn: `Permill`
 - **summary**: Percentage of spare funds (if any) that are burnt per spend period.
 
-▸ **proposalBond**: `Permill`
+### proposalBond: `Permill`
 - **summary**: Fraction of a proposal's value that should be bonded in order to place the proposal. An accepted proposal gets these back. A rejected proposal does not.
 
-▸ **proposalBondMinimum**: `BalanceOf`
+### proposalBondMinimum: `BalanceOf`
 - **summary**: Minimum amount of funds that should be placed in a deposit for making a proposal.
 
-▸ **spendPeriod**: `BlockNumber`
+### spendPeriod: `BlockNumber`
 - **summary**: Period between successive spends.
