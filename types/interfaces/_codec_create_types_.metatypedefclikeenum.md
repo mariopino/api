@@ -18,4 +18,4 @@
 
 • **clike_enum.variants**: *[MetaTypeDefClikeEnumVariant](_codec_create_types_.metatypedefclikeenumvariant.md)[]*
 
-*Defined in [codec/create/types.ts:93](https://github.com/polkadot-js/api/blob/e056675b3a/packages/types/src/codec/create/types.ts#L93)*
+*Defined in [codec/create/types.ts:93](https://github.com/polkadot-js/api/blob/4ec6a0f9b8/packages/types/src/codec/create/types.ts#L93)*

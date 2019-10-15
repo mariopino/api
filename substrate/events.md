@@ -41,7 +41,7 @@ Events are emitted for certain operations on the runtime. The following sections
 ___
 
 
-### balances
+## balances
 
 ### NewAccount(`AccountId`, `Balance`)
 - **summary**: A new account was created.
@@ -55,7 +55,7 @@ ___
 ___
 
 
-### contracts
+## contracts
 
 ### CodeStored(`Hash`)
 - **summary**: Code with the specified hash has been stored.
@@ -78,7 +78,7 @@ ___
 ___
 
 
-### council
+## council
 
 ### Approved(`Hash`)
 - **summary**: A motion was approved by the required threshold.
@@ -101,7 +101,7 @@ ___
 ___
 
 
-### democracy
+## democracy
 
 ### Cancelled(`ReferendumIndex`)
 
@@ -128,7 +128,7 @@ ___
 ___
 
 
-### elections
+## elections
 
 ### BadReaperSlashed(`AccountId`)
 - **summary**: slashed reaper
@@ -145,7 +145,7 @@ ___
 ___
 
 
-### grandpa
+## grandpa
 
 ### NewAuthorities(`Vec<(AuthorityId,AuthorityWeight)>`)
 - **summary**: New authority set has been applied.
@@ -159,7 +159,7 @@ ___
 ___
 
 
-### imOnline
+## imOnline
 
 ### HeartbeatReceived(`AuthorityId`)
 - **summary**: A new heartbeat was received from `AuthorityId`
@@ -167,7 +167,7 @@ ___
 ___
 
 
-### indices
+## indices
 
 ### NewAccountIndex(`AccountId`, `AccountIndex`)
 - **summary**: A new account index was assigned.  This event is not triggered when an existing index is reassigned to another `AccountId`.
@@ -175,7 +175,7 @@ ___
 ___
 
 
-### offences
+## offences
 
 ### Offence(`Kind`, `OpaqueTimeSlot`)
 - **summary**: There is an offence reported of the given `kind` happened at the `session_index` and (kind-specific) time slot. This event is not deposited for duplicate slashes.
@@ -183,7 +183,7 @@ ___
 ___
 
 
-### session
+## session
 
 ### NewSession(`SessionIndex`)
 - **summary**: New session has happened. Note that the argument is the session index, not the block number as the type might suggest.
@@ -191,7 +191,7 @@ ___
 ___
 
 
-### staking
+## staking
 
 ### OldSlashingReportDiscarded(`SessionIndex`)
 - **summary**: An old slashing report from a prior era was discarded because it could not be processed.
@@ -205,7 +205,7 @@ ___
 ___
 
 
-### sudo
+## sudo
 
 ### KeyChanged(`AccountId`)
 - **summary**: The sudoer just switched identity; the old key is supplied.
@@ -219,7 +219,7 @@ ___
 ___
 
 
-### system
+## system
 
 ### ExtrinsicFailed(`DispatchError`)
 - **summary**: An extrinsic failed.
@@ -230,7 +230,7 @@ ___
 ___
 
 
-### technicalCommittee
+## technicalCommittee
 
 ### Approved(`Hash`)
 - **summary**: A motion was approved by the required threshold.
@@ -253,7 +253,7 @@ ___
 ___
 
 
-### technicalMembership
+## technicalMembership
 
 ### Dummy(`PhantomData`)
 - **summary**: Phantom member, never used.
@@ -273,7 +273,7 @@ ___
 ___
 
 
-### treasury
+## treasury
 
 ### Awarded(`ProposalIndex`, `Balance`, `AccountId`)
 - **summary**: Some funds have been allocated.
@@ -293,6 +293,6 @@ ___
 ___
 
 
-### utility
+## utility
 
 ### BatchExecuted(`Vec<DispatchResult>`)
