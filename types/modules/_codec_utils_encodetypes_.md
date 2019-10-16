@@ -17,7 +17,7 @@
 
 ▸ **displayType**(`typeDef`: Pick‹[TypeDef](../interfaces/_codec_create_types_.typedef.md), any›): *string*
 
-*Defined in [codec/utils/encodeTypes.ts:160](https://github.com/polkadot-js/api/blob/db3cb47d05/packages/types/src/codec/utils/encodeTypes.ts#L160)*
+*Defined in [codec/utils/encodeTypes.ts:160](https://github.com/polkadot-js/api/blob/e197c6f114/packages/types/src/codec/utils/encodeTypes.ts#L160)*
 
 **Parameters:**
 
@@ -33,7 +33,7 @@ ___
 
 ▸ **encodeType**(`typeDef`: Pick‹[TypeDef](../interfaces/_codec_create_types_.typedef.md), any›): *string*
 
-*Defined in [codec/utils/encodeTypes.ts:156](https://github.com/polkadot-js/api/blob/db3cb47d05/packages/types/src/codec/utils/encodeTypes.ts#L156)*
+*Defined in [codec/utils/encodeTypes.ts:156](https://github.com/polkadot-js/api/blob/e197c6f114/packages/types/src/codec/utils/encodeTypes.ts#L156)*
 
 **Parameters:**
 
@@ -49,7 +49,7 @@ ___
 
 ▸ **paramsNotation**(`outer`: string, `inner?`: string | any[], `transform?`: undefined | function): *string*
 
-*Defined in [codec/utils/encodeTypes.ts:13](https://github.com/polkadot-js/api/blob/db3cb47d05/packages/types/src/codec/utils/encodeTypes.ts#L13)*
+*Defined in [codec/utils/encodeTypes.ts:13](https://github.com/polkadot-js/api/blob/e197c6f114/packages/types/src/codec/utils/encodeTypes.ts#L13)*
 
 **Parameters:**
 
@@ -67,7 +67,7 @@ ___
 
 ▸ **withTypeString**(`typeDef`: Pick‹[TypeDef](../interfaces/_codec_create_types_.typedef.md), any›): *Pick‹[TypeDef](../interfaces/_codec_create_types_.typedef.md), any›*
 
-*Defined in [codec/utils/encodeTypes.ts:164](https://github.com/polkadot-js/api/blob/db3cb47d05/packages/types/src/codec/utils/encodeTypes.ts#L164)*
+*Defined in [codec/utils/encodeTypes.ts:164](https://github.com/polkadot-js/api/blob/e197c6f114/packages/types/src/codec/utils/encodeTypes.ts#L164)*
 
 **Parameters:**
 
