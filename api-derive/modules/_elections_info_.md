@@ -14,7 +14,7 @@
 
 ▸ **info**(`api`: ApiInterfaceRx): *function*
 
-*Defined in [elections/info.ts:41](https://github.com/polkadot-js/api/blob/4ec6a0f9b8/packages/api-derive/src/elections/info.ts#L41)*
+*Defined in [elections/info.ts:44](https://github.com/polkadot-js/api/blob/db3cb47d05/packages/api-derive/src/elections/info.ts#L44)*
 
 **`name`** info
 
@@ -22,7 +22,7 @@
 <BR>
 
 ```javascript
-api.derive.elections.info(([members, candidates]) => {
+api.derive.elections.info(({ members, candidates }) => {
   console.log(`There are currently ${members.length} council members and ${candidates.length} prospective council candidates.`);
 });
 ```

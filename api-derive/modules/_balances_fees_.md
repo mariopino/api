@@ -14,7 +14,7 @@
 
 ▸ **fees**(`api`: ApiInterfaceRx): *function*
 
-*Defined in [balances/fees.ts:52](https://github.com/polkadot-js/api/blob/4ec6a0f9b8/packages/api-derive/src/balances/fees.ts#L52)*
+*Defined in [balances/fees.ts:52](https://github.com/polkadot-js/api/blob/db3cb47d05/packages/api-derive/src/balances/fees.ts#L52)*
 
 **`name`** fees
 
@@ -22,7 +22,7 @@
 <BR>
 
 ```javascript
-api.derive.balances.fees(([creationFee, transferFee]) => {
+api.derive.balances.fees(({ creationFee, transferFee }) => {
   console.log(`The fee for creating a new account on this chain is ${creationFee} units. The fee required for making a transfer is ${transferFee} units.`);
 });
 ```
