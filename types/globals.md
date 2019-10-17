@@ -138,6 +138,8 @@
 * ["interfaces/system/types"](modules/_interfaces_system_types_.md)
 * ["interfaces/treasury/definitions"](modules/_interfaces_treasury_definitions_.md)
 * ["interfaces/treasury/types"](modules/_interfaces_treasury_types_.md)
+* ["interfaces/txpayment/definitions"](modules/_interfaces_txpayment_definitions_.md)
+* ["interfaces/txpayment/types"](modules/_interfaces_txpayment_types_.md)
 * ["interfaces/types"](modules/_interfaces_types_.md)
 * ["interfaces/utility/definitions"](modules/_interfaces_utility_definitions_.md)
 * ["interfaces/utility/types"](modules/_interfaces_utility_types_.md)

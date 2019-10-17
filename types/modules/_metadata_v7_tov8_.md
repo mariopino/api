@@ -14,7 +14,7 @@
 
 ▸ **toV8**(`__namedParameters`: object): *[MetadataV8](../classes/_metadata_v8_metadata_.metadatav8.md)*
 
-*Defined in [Metadata/v7/toV8.ts:12](https://github.com/polkadot-js/api/blob/e197c6f114/packages/types/src/Metadata/v7/toV8.ts#L12)*
+*Defined in [Metadata/v7/toV8.ts:12](https://github.com/polkadot-js/api/blob/fe3de4379f/packages/types/src/Metadata/v7/toV8.ts#L12)*
 
 Convert from MetadataV7 to MetadataV8
 
