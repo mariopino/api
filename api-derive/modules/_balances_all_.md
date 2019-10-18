@@ -14,7 +14,7 @@
 
 ▸ **all**(`api`: ApiInterfaceRx): *function*
 
-*Defined in [balances/all.ts:75](https://github.com/polkadot-js/api/blob/fe3de4379f/packages/api-derive/src/balances/all.ts#L75)*
+*Defined in [balances/all.ts:85](https://github.com/polkadot-js/api/blob/e49427ac61/packages/api-derive/src/balances/all.ts#L85)*
 
 **`name`** all
 
@@ -24,7 +24,7 @@
 ```javascript
 const ALICE = 'F7Hs';
 
-api.derive.balances.all(ALICE, ([accountId, lockedBalance]) => {
+api.derive.balances.all(ALICE, ({ accountId, lockedBalance }) => {
   console.log(`The account ${accountId} has a locked balance ${lockedBalance} units.`);
 });
 ```
@@ -37,8 +37,7 @@ Name | Type |
 
 **Returns:** *function*
 
-An object containing the combined results of the storage queries for
-all relevant fees as declared in the substrate chain spec.
+An object containing the results of various balance queries
 
 ▸ (`address`: AccountIndex | AccountId | Address | string): *Observable‹[DerivedBalances](../interfaces/_types_.derivedbalances.md)›*
 

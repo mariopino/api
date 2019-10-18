@@ -15,7 +15,7 @@
 
 ▸ **isChildClass**(`Parent`: [Constructor](../interfaces/_types_.constructor.md)‹any›, `Child`: [Constructor](../interfaces/_types_.constructor.md)‹any›): *boolean*
 
-*Defined in [scripts/util/class.ts:11](https://github.com/polkadot-js/api/blob/fe3de4379f/packages/types/src/scripts/util/class.ts#L11)*
+*Defined in [scripts/util/class.ts:11](https://github.com/polkadot-js/api/blob/e49427ac61/packages/types/src/scripts/util/class.ts#L11)*
 
 **Parameters:**
 
@@ -32,7 +32,7 @@ ___
 
 ▸ **isCompactEncodable**(`Child`: [Constructor](../interfaces/_types_.constructor.md)‹any›): *boolean*
 
-*Defined in [scripts/util/class.ts:17](https://github.com/polkadot-js/api/blob/fe3de4379f/packages/types/src/scripts/util/class.ts#L17)*
+*Defined in [scripts/util/class.ts:17](https://github.com/polkadot-js/api/blob/e49427ac61/packages/types/src/scripts/util/class.ts#L17)*
 
 **Parameters:**
 

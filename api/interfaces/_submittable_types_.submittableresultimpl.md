@@ -30,7 +30,7 @@
 
 • **events**: *EventRecord[]*
 
-*Defined in [submittable/types.ts:11](https://github.com/polkadot-js/api/blob/fe3de4379f/packages/api/src/submittable/types.ts#L11)*
+*Defined in [submittable/types.ts:11](https://github.com/polkadot-js/api/blob/e49427ac61/packages/api/src/submittable/types.ts#L11)*
 
 ___
 
@@ -38,7 +38,7 @@ ___
 
 • **isCompleted**: *boolean*
 
-*Defined in [submittable/types.ts:13](https://github.com/polkadot-js/api/blob/fe3de4379f/packages/api/src/submittable/types.ts#L13)*
+*Defined in [submittable/types.ts:13](https://github.com/polkadot-js/api/blob/e49427ac61/packages/api/src/submittable/types.ts#L13)*
 
 ___
 
@@ -46,7 +46,7 @@ ___
 
 • **isError**: *boolean*
 
-*Defined in [submittable/types.ts:14](https://github.com/polkadot-js/api/blob/fe3de4379f/packages/api/src/submittable/types.ts#L14)*
+*Defined in [submittable/types.ts:14](https://github.com/polkadot-js/api/blob/e49427ac61/packages/api/src/submittable/types.ts#L14)*
 
 ___
 
@@ -54,7 +54,7 @@ ___
 
 • **isFinalized**: *boolean*
 
-*Defined in [submittable/types.ts:15](https://github.com/polkadot-js/api/blob/fe3de4379f/packages/api/src/submittable/types.ts#L15)*
+*Defined in [submittable/types.ts:15](https://github.com/polkadot-js/api/blob/e49427ac61/packages/api/src/submittable/types.ts#L15)*
 
 ___
 
@@ -62,7 +62,7 @@ ___
 
 • **status**: *ExtrinsicStatus*
 
-*Defined in [submittable/types.ts:12](https://github.com/polkadot-js/api/blob/fe3de4379f/packages/api/src/submittable/types.ts#L12)*
+*Defined in [submittable/types.ts:12](https://github.com/polkadot-js/api/blob/e49427ac61/packages/api/src/submittable/types.ts#L12)*
 
 ## Methods
 
@@ -70,7 +70,7 @@ ___
 
 ▸ **findRecord**(`section`: string, `method`: string): *EventRecord | undefined*
 
-*Defined in [submittable/types.ts:17](https://github.com/polkadot-js/api/blob/fe3de4379f/packages/api/src/submittable/types.ts#L17)*
+*Defined in [submittable/types.ts:17](https://github.com/polkadot-js/api/blob/e49427ac61/packages/api/src/submittable/types.ts#L17)*
 
 **Parameters:**
 
