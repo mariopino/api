@@ -18,4 +18,4 @@
 
 • **discriminant**: *number*
 
-*Defined in [codec/create/types.ts:38](https://github.com/polkadot-js/api/blob/e49427ac61/packages/types/src/codec/create/types.ts#L38)*
+*Defined in [codec/create/types.ts:38](https://github.com/polkadot-js/api/blob/9086592252/packages/types/src/codec/create/types.ts#L38)*

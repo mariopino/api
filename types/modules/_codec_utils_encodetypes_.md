@@ -17,7 +17,7 @@
 
 ▸ **displayType**(`typeDef`: Pick‹[TypeDef](../interfaces/_codec_create_types_.typedef.md), any›): *string*
 
-*Defined in [codec/utils/encodeTypes.ts:160](https://github.com/polkadot-js/api/blob/e49427ac61/packages/types/src/codec/utils/encodeTypes.ts#L160)*
+*Defined in [codec/utils/encodeTypes.ts:125](https://github.com/polkadot-js/api/blob/9086592252/packages/types/src/codec/utils/encodeTypes.ts#L125)*
 
 **Parameters:**
 
@@ -33,7 +33,7 @@ ___
 
 ▸ **encodeType**(`typeDef`: Pick‹[TypeDef](../interfaces/_codec_create_types_.typedef.md), any›): *string*
 
-*Defined in [codec/utils/encodeTypes.ts:156](https://github.com/polkadot-js/api/blob/e49427ac61/packages/types/src/codec/utils/encodeTypes.ts#L156)*
+*Defined in [codec/utils/encodeTypes.ts:117](https://github.com/polkadot-js/api/blob/9086592252/packages/types/src/codec/utils/encodeTypes.ts#L117)*
 
 **Parameters:**
 
@@ -47,17 +47,25 @@ ___
 
 ###  paramsNotation
 
-▸ **paramsNotation**(`outer`: string, `inner?`: string | any[], `transform?`: undefined | function): *string*
+▸ **paramsNotation**(`outer`: string, `inner?`: string | any[], `transform`: function): *string*
 
-*Defined in [codec/utils/encodeTypes.ts:13](https://github.com/polkadot-js/api/blob/e49427ac61/packages/types/src/codec/utils/encodeTypes.ts#L13)*
+*Defined in [codec/utils/encodeTypes.ts:15](https://github.com/polkadot-js/api/blob/9086592252/packages/types/src/codec/utils/encodeTypes.ts#L15)*
+
+**Parameters:**
+
+▪ **outer**: *string*
+
+▪`Optional`  **inner**: *string | any[]*
+
+▪`Default value`  **transform**: *function*=  identity
+
+▸ (`_`: any): *string*
 
 **Parameters:**
 
 Name | Type |
 ------ | ------ |
-`outer` | string |
-`inner?` | string &#124; any[] |
-`transform?` | undefined &#124; function |
+`_` | any |
 
 **Returns:** *string*
 
@@ -67,7 +75,7 @@ ___
 
 ▸ **withTypeString**(`typeDef`: Pick‹[TypeDef](../interfaces/_codec_create_types_.typedef.md), any›): *Pick‹[TypeDef](../interfaces/_codec_create_types_.typedef.md), any›*
 
-*Defined in [codec/utils/encodeTypes.ts:164](https://github.com/polkadot-js/api/blob/e49427ac61/packages/types/src/codec/utils/encodeTypes.ts#L164)*
+*Defined in [codec/utils/encodeTypes.ts:140](https://github.com/polkadot-js/api/blob/9086592252/packages/types/src/codec/utils/encodeTypes.ts#L140)*
 
 **Parameters:**
 

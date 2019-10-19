@@ -25,7 +25,7 @@
 
 • **candidateCount**: *u32*
 
-*Defined in [types.ts:39](https://github.com/polkadot-js/api/blob/e49427ac61/packages/api-derive/src/types.ts#L39)*
+*Defined in [types.ts:39](https://github.com/polkadot-js/api/blob/9086592252/packages/api-derive/src/types.ts#L39)*
 
 ___
 
@@ -33,7 +33,7 @@ ___
 
 • **candidates**: *AccountId[]*
 
-*Defined in [types.ts:38](https://github.com/polkadot-js/api/blob/e49427ac61/packages/api-derive/src/types.ts#L38)*
+*Defined in [types.ts:38](https://github.com/polkadot-js/api/blob/9086592252/packages/api-derive/src/types.ts#L38)*
 
 ___
 
@@ -41,7 +41,7 @@ ___
 
 • **desiredSeats**: *u32*
 
-*Defined in [types.ts:40](https://github.com/polkadot-js/api/blob/e49427ac61/packages/api-derive/src/types.ts#L40)*
+*Defined in [types.ts:40](https://github.com/polkadot-js/api/blob/9086592252/packages/api-derive/src/types.ts#L40)*
 
 ___
 
@@ -49,7 +49,7 @@ ___
 
 • **members**: *Record‹string, BlockNumber›*
 
-*Defined in [types.ts:37](https://github.com/polkadot-js/api/blob/e49427ac61/packages/api-derive/src/types.ts#L37)*
+*Defined in [types.ts:37](https://github.com/polkadot-js/api/blob/9086592252/packages/api-derive/src/types.ts#L37)*
 
 ___
 
@@ -57,7 +57,7 @@ ___
 
 • **nextVoterSet**: *SetIndex*
 
-*Defined in [types.ts:41](https://github.com/polkadot-js/api/blob/e49427ac61/packages/api-derive/src/types.ts#L41)*
+*Defined in [types.ts:41](https://github.com/polkadot-js/api/blob/9086592252/packages/api-derive/src/types.ts#L41)*
 
 ___
 
@@ -65,7 +65,7 @@ ___
 
 • **termDuration**: *BlockNumber*
 
-*Defined in [types.ts:42](https://github.com/polkadot-js/api/blob/e49427ac61/packages/api-derive/src/types.ts#L42)*
+*Defined in [types.ts:42](https://github.com/polkadot-js/api/blob/9086592252/packages/api-derive/src/types.ts#L42)*
 
 ___
 
@@ -73,7 +73,7 @@ ___
 
 • **voteCount**: *VoteIndex*
 
-*Defined in [types.ts:43](https://github.com/polkadot-js/api/blob/e49427ac61/packages/api-derive/src/types.ts#L43)*
+*Defined in [types.ts:43](https://github.com/polkadot-js/api/blob/9086592252/packages/api-derive/src/types.ts#L43)*
 
 ___
 
@@ -81,4 +81,4 @@ ___
 
 • **voterCount**: *SetIndex*
 
-*Defined in [types.ts:44](https://github.com/polkadot-js/api/blob/e49427ac61/packages/api-derive/src/types.ts#L44)*
+*Defined in [types.ts:44](https://github.com/polkadot-js/api/blob/9086592252/packages/api-derive/src/types.ts#L44)*
