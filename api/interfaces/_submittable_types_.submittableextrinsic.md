@@ -61,7 +61,7 @@
 
 *Inherited from void*
 
-*Defined in [/home/runner/work/api/api/packages/types/src/types.ts:164](https://github.com/polkadot-js/api/blob/9086592252/packages/types/src/types.ts#L164)*
+*Defined in [/home/runner/work/api/api/packages/types/src/types.ts:164](https://github.com/polkadot-js/api/blob/b911bdbd2d/packages/types/src/types.ts#L164)*
 
 ___
 
@@ -71,7 +71,7 @@ ___
 
 *Inherited from void*
 
-*Defined in [/home/runner/work/api/api/packages/types/src/types.ts:165](https://github.com/polkadot-js/api/blob/9086592252/packages/types/src/types.ts#L165)*
+*Defined in [/home/runner/work/api/api/packages/types/src/types.ts:165](https://github.com/polkadot-js/api/blob/b911bdbd2d/packages/types/src/types.ts#L165)*
 
 ___
 
@@ -81,7 +81,7 @@ ___
 
 *Inherited from void*
 
-*Defined in [/home/runner/work/api/api/packages/types/src/types.ts:166](https://github.com/polkadot-js/api/blob/9086592252/packages/types/src/types.ts#L166)*
+*Defined in [/home/runner/work/api/api/packages/types/src/types.ts:166](https://github.com/polkadot-js/api/blob/b911bdbd2d/packages/types/src/types.ts#L166)*
 
 ___
 
@@ -91,7 +91,7 @@ ___
 
 *Inherited from void*
 
-*Defined in [/home/runner/work/api/api/packages/types/src/types.ts:167](https://github.com/polkadot-js/api/blob/9086592252/packages/types/src/types.ts#L167)*
+*Defined in [/home/runner/work/api/api/packages/types/src/types.ts:167](https://github.com/polkadot-js/api/blob/b911bdbd2d/packages/types/src/types.ts#L167)*
 
 ___
 
@@ -101,7 +101,7 @@ ___
 
 *Inherited from void*
 
-*Defined in [/home/runner/work/api/api/packages/types/src/types.ts:76](https://github.com/polkadot-js/api/blob/9086592252/packages/types/src/types.ts#L76)*
+*Defined in [/home/runner/work/api/api/packages/types/src/types.ts:76](https://github.com/polkadot-js/api/blob/b911bdbd2d/packages/types/src/types.ts#L76)*
 
 **`description`** The length of the value when encoded as a Uint8Array
 
@@ -113,7 +113,7 @@ ___
 
 *Inherited from void*
 
-*Defined in [/home/runner/work/api/api/packages/types/src/types.ts:175](https://github.com/polkadot-js/api/blob/9086592252/packages/types/src/types.ts#L175)*
+*Defined in [/home/runner/work/api/api/packages/types/src/types.ts:175](https://github.com/polkadot-js/api/blob/b911bdbd2d/packages/types/src/types.ts#L175)*
 
 ___
 
@@ -123,7 +123,7 @@ ___
 
 *Inherited from void*
 
-*Defined in [/home/runner/work/api/api/packages/types/src/types.ts:169](https://github.com/polkadot-js/api/blob/9086592252/packages/types/src/types.ts#L169)*
+*Defined in [/home/runner/work/api/api/packages/types/src/types.ts:169](https://github.com/polkadot-js/api/blob/b911bdbd2d/packages/types/src/types.ts#L169)*
 
 ___
 
@@ -135,7 +135,7 @@ ___
 
 *Overrides void*
 
-*Defined in [/home/runner/work/api/api/packages/types/src/types.ts:168](https://github.com/polkadot-js/api/blob/9086592252/packages/types/src/types.ts#L168)*
+*Defined in [/home/runner/work/api/api/packages/types/src/types.ts:168](https://github.com/polkadot-js/api/blob/b911bdbd2d/packages/types/src/types.ts#L168)*
 
 ___
 
@@ -145,7 +145,7 @@ ___
 
 *Inherited from void*
 
-*Defined in [/home/runner/work/api/api/packages/types/src/types.ts:86](https://github.com/polkadot-js/api/blob/9086592252/packages/types/src/types.ts#L86)*
+*Defined in [/home/runner/work/api/api/packages/types/src/types.ts:86](https://github.com/polkadot-js/api/blob/b911bdbd2d/packages/types/src/types.ts#L86)*
 
 **`description`** Checks if the value is an empty value
 
@@ -157,7 +157,7 @@ ___
 
 *Inherited from void*
 
-*Defined in [/home/runner/work/api/api/packages/types/src/types.ts:174](https://github.com/polkadot-js/api/blob/9086592252/packages/types/src/types.ts#L174)*
+*Defined in [/home/runner/work/api/api/packages/types/src/types.ts:174](https://github.com/polkadot-js/api/blob/b911bdbd2d/packages/types/src/types.ts#L174)*
 
 ___
 
@@ -167,7 +167,7 @@ ___
 
 *Inherited from void*
 
-*Defined in [/home/runner/work/api/api/packages/types/src/types.ts:219](https://github.com/polkadot-js/api/blob/9086592252/packages/types/src/types.ts#L219)*
+*Defined in [/home/runner/work/api/api/packages/types/src/types.ts:219](https://github.com/polkadot-js/api/blob/b911bdbd2d/packages/types/src/types.ts#L219)*
 
 ___
 
@@ -177,7 +177,7 @@ ___
 
 *Inherited from void*
 
-*Defined in [/home/runner/work/api/api/packages/types/src/types.ts:170](https://github.com/polkadot-js/api/blob/9086592252/packages/types/src/types.ts#L170)*
+*Defined in [/home/runner/work/api/api/packages/types/src/types.ts:170](https://github.com/polkadot-js/api/blob/b911bdbd2d/packages/types/src/types.ts#L170)*
 
 ___
 
@@ -187,7 +187,7 @@ ___
 
 *Inherited from void*
 
-*Defined in [/home/runner/work/api/api/packages/types/src/types.ts:220](https://github.com/polkadot-js/api/blob/9086592252/packages/types/src/types.ts#L220)*
+*Defined in [/home/runner/work/api/api/packages/types/src/types.ts:220](https://github.com/polkadot-js/api/blob/b911bdbd2d/packages/types/src/types.ts#L220)*
 
 ___
 
@@ -197,7 +197,7 @@ ___
 
 *Inherited from void*
 
-*Defined in [/home/runner/work/api/api/packages/types/src/types.ts:176](https://github.com/polkadot-js/api/blob/9086592252/packages/types/src/types.ts#L176)*
+*Defined in [/home/runner/work/api/api/packages/types/src/types.ts:176](https://github.com/polkadot-js/api/blob/b911bdbd2d/packages/types/src/types.ts#L176)*
 
 ___
 
@@ -207,7 +207,7 @@ ___
 
 *Inherited from void*
 
-*Defined in [/home/runner/work/api/api/packages/types/src/types.ts:177](https://github.com/polkadot-js/api/blob/9086592252/packages/types/src/types.ts#L177)*
+*Defined in [/home/runner/work/api/api/packages/types/src/types.ts:177](https://github.com/polkadot-js/api/blob/b911bdbd2d/packages/types/src/types.ts#L177)*
 
 ___
 
@@ -217,7 +217,7 @@ ___
 
 *Inherited from void*
 
-*Defined in [/home/runner/work/api/api/packages/types/src/types.ts:178](https://github.com/polkadot-js/api/blob/9086592252/packages/types/src/types.ts#L178)*
+*Defined in [/home/runner/work/api/api/packages/types/src/types.ts:178](https://github.com/polkadot-js/api/blob/b911bdbd2d/packages/types/src/types.ts#L178)*
 
 ___
 
@@ -227,7 +227,7 @@ ___
 
 *Inherited from void*
 
-*Defined in [/home/runner/work/api/api/packages/types/src/types.ts:179](https://github.com/polkadot-js/api/blob/9086592252/packages/types/src/types.ts#L179)*
+*Defined in [/home/runner/work/api/api/packages/types/src/types.ts:179](https://github.com/polkadot-js/api/blob/b911bdbd2d/packages/types/src/types.ts#L179)*
 
 ___
 
@@ -237,7 +237,7 @@ ___
 
 *Inherited from void*
 
-*Defined in [/home/runner/work/api/api/packages/types/src/types.ts:221](https://github.com/polkadot-js/api/blob/9086592252/packages/types/src/types.ts#L221)*
+*Defined in [/home/runner/work/api/api/packages/types/src/types.ts:221](https://github.com/polkadot-js/api/blob/b911bdbd2d/packages/types/src/types.ts#L221)*
 
 ___
 
@@ -247,7 +247,7 @@ ___
 
 *Inherited from void*
 
-*Defined in [/home/runner/work/api/api/packages/types/src/types.ts:222](https://github.com/polkadot-js/api/blob/9086592252/packages/types/src/types.ts#L222)*
+*Defined in [/home/runner/work/api/api/packages/types/src/types.ts:222](https://github.com/polkadot-js/api/blob/b911bdbd2d/packages/types/src/types.ts#L222)*
 
 ## Methods
 
@@ -257,7 +257,7 @@ ___
 
 *Inherited from void*
 
-*Defined in [/home/runner/work/api/api/packages/types/src/types.ts:206](https://github.com/polkadot-js/api/blob/9086592252/packages/types/src/types.ts#L206)*
+*Defined in [/home/runner/work/api/api/packages/types/src/types.ts:206](https://github.com/polkadot-js/api/blob/b911bdbd2d/packages/types/src/types.ts#L206)*
 
 **Parameters:**
 
@@ -277,7 +277,7 @@ ___
 
 *Inherited from void*
 
-*Defined in [/home/runner/work/api/api/packages/types/src/types.ts:91](https://github.com/polkadot-js/api/blob/9086592252/packages/types/src/types.ts#L91)*
+*Defined in [/home/runner/work/api/api/packages/types/src/types.ts:91](https://github.com/polkadot-js/api/blob/b911bdbd2d/packages/types/src/types.ts#L91)*
 
 **`description`** Compares the value of the input to see if there is a match
 
@@ -295,13 +295,13 @@ ___
 
 ▸ **send**(): *[SubmitableResultResult](../modules/_submittable_types_.md#submitableresultresult)‹ApiType›*
 
-*Defined in [submittable/types.ts:43](https://github.com/polkadot-js/api/blob/9086592252/packages/api/src/submittable/types.ts#L43)*
+*Defined in [submittable/types.ts:43](https://github.com/polkadot-js/api/blob/b911bdbd2d/packages/api/src/submittable/types.ts#L43)*
 
 **Returns:** *[SubmitableResultResult](../modules/_submittable_types_.md#submitableresultresult)‹ApiType›*
 
 ▸ **send**(`statusCb`: Callback‹[SubmittableResultImpl](_submittable_types_.submittableresultimpl.md)›): *[SubmitableResultSubscription](../modules/_submittable_types_.md#submitableresultsubscription)‹ApiType›*
 
-*Defined in [submittable/types.ts:45](https://github.com/polkadot-js/api/blob/9086592252/packages/api/src/submittable/types.ts#L45)*
+*Defined in [submittable/types.ts:45](https://github.com/polkadot-js/api/blob/b911bdbd2d/packages/api/src/submittable/types.ts#L45)*
 
 **Parameters:**
 
@@ -319,7 +319,7 @@ ___
 
 *Overrides void*
 
-*Defined in [submittable/types.ts:47](https://github.com/polkadot-js/api/blob/9086592252/packages/api/src/submittable/types.ts#L47)*
+*Defined in [submittable/types.ts:47](https://github.com/polkadot-js/api/blob/b911bdbd2d/packages/api/src/submittable/types.ts#L47)*
 
 **Parameters:**
 
@@ -336,7 +336,7 @@ ___
 
 ▸ **signAndSend**(`account`: IKeyringPair | string | AccountId | Address, `options?`: Partial‹[SignerOptions](_submittable_types_.signeroptions.md)›): *[SubmitableResultResult](../modules/_submittable_types_.md#submitableresultresult)‹ApiType›*
 
-*Defined in [submittable/types.ts:49](https://github.com/polkadot-js/api/blob/9086592252/packages/api/src/submittable/types.ts#L49)*
+*Defined in [submittable/types.ts:49](https://github.com/polkadot-js/api/blob/b911bdbd2d/packages/api/src/submittable/types.ts#L49)*
 
 **Parameters:**
 
@@ -349,7 +349,7 @@ Name | Type |
 
 ▸ **signAndSend**(`account`: IKeyringPair | string | AccountId | Address, `statusCb`: Callback‹[SubmittableResultImpl](_submittable_types_.submittableresultimpl.md)›): *[SubmitableResultSubscription](../modules/_submittable_types_.md#submitableresultsubscription)‹ApiType›*
 
-*Defined in [submittable/types.ts:51](https://github.com/polkadot-js/api/blob/9086592252/packages/api/src/submittable/types.ts#L51)*
+*Defined in [submittable/types.ts:51](https://github.com/polkadot-js/api/blob/b911bdbd2d/packages/api/src/submittable/types.ts#L51)*
 
 **Parameters:**
 
@@ -362,7 +362,7 @@ Name | Type |
 
 ▸ **signAndSend**(`account`: IKeyringPair | string | AccountId | Address, `options`: Partial‹[SignerOptions](_submittable_types_.signeroptions.md)›, `statusCb?`: Callback‹[SubmittableResultImpl](_submittable_types_.submittableresultimpl.md)›): *[SubmitableResultSubscription](../modules/_submittable_types_.md#submitableresultsubscription)‹ApiType›*
 
-*Defined in [submittable/types.ts:53](https://github.com/polkadot-js/api/blob/9086592252/packages/api/src/submittable/types.ts#L53)*
+*Defined in [submittable/types.ts:53](https://github.com/polkadot-js/api/blob/b911bdbd2d/packages/api/src/submittable/types.ts#L53)*
 
 **Parameters:**
 
@@ -382,7 +382,7 @@ ___
 
 *Inherited from void*
 
-*Defined in [/home/runner/work/api/api/packages/types/src/types.ts:96](https://github.com/polkadot-js/api/blob/9086592252/packages/types/src/types.ts#L96)*
+*Defined in [/home/runner/work/api/api/packages/types/src/types.ts:96](https://github.com/polkadot-js/api/blob/b911bdbd2d/packages/types/src/types.ts#L96)*
 
 **`description`** Returns a hex string representation of the value. isLe returns a LE (number-only) representation
 
@@ -402,7 +402,7 @@ ___
 
 *Inherited from void*
 
-*Defined in [/home/runner/work/api/api/packages/types/src/types.ts:101](https://github.com/polkadot-js/api/blob/9086592252/packages/types/src/types.ts#L101)*
+*Defined in [/home/runner/work/api/api/packages/types/src/types.ts:101](https://github.com/polkadot-js/api/blob/b911bdbd2d/packages/types/src/types.ts#L101)*
 
 **`description`** Converts the Object to JSON, typically used for RPC transfers
 
@@ -416,7 +416,7 @@ ___
 
 *Inherited from void*
 
-*Defined in [/home/runner/work/api/api/packages/types/src/types.ts:106](https://github.com/polkadot-js/api/blob/9086592252/packages/types/src/types.ts#L106)*
+*Defined in [/home/runner/work/api/api/packages/types/src/types.ts:106](https://github.com/polkadot-js/api/blob/b911bdbd2d/packages/types/src/types.ts#L106)*
 
 **`description`** Returns the base runtime type name for this instance
 
@@ -430,7 +430,7 @@ ___
 
 *Inherited from void*
 
-*Defined in [/home/runner/work/api/api/packages/types/src/types.ts:111](https://github.com/polkadot-js/api/blob/9086592252/packages/types/src/types.ts#L111)*
+*Defined in [/home/runner/work/api/api/packages/types/src/types.ts:111](https://github.com/polkadot-js/api/blob/b911bdbd2d/packages/types/src/types.ts#L111)*
 
 **`description`** Returns the string representation of the value
 
@@ -444,7 +444,7 @@ ___
 
 *Inherited from void*
 
-*Defined in [/home/runner/work/api/api/packages/types/src/types.ts:117](https://github.com/polkadot-js/api/blob/9086592252/packages/types/src/types.ts#L117)*
+*Defined in [/home/runner/work/api/api/packages/types/src/types.ts:117](https://github.com/polkadot-js/api/blob/b911bdbd2d/packages/types/src/types.ts#L117)*
 
 **`description`** Encodes the value as a Uint8Array as per the SCALE specifications
 
