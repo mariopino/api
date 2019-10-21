@@ -14,7 +14,7 @@
 
 ▸ **createDescriptor**(`section`: string, `sectionIndex`: number, `methodIndex`: number, `callMetadata`: FunctionMetadataLatest): *CallFunction*
 
-*Defined in [extrinsics/fromMetadata/createUnchecked.ts:20](https://github.com/polkadot-js/api/blob/aed4b3ee6a/packages/api-metadata/src/extrinsics/fromMetadata/createUnchecked.ts#L20)*
+*Defined in [extrinsics/fromMetadata/createUnchecked.ts:20](https://github.com/polkadot-js/api/blob/62eab2d661/packages/api-metadata/src/extrinsics/fromMetadata/createUnchecked.ts#L20)*
 
 From the metadata of a function in the module's storage, generate the function
 that will return the an [[CallFunction]].
