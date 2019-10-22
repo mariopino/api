@@ -87,7 +87,7 @@
 
 *Inherited from void*
 
-Defined in /home/runner/work/api/api/node_modules/@types/node/globals.d.ts:1046
+Defined in /home/runner/work/api/api/node_modules/@types/node/globals.d.ts:1044
 
 ___
 
@@ -97,7 +97,7 @@ ___
 
 *Inherited from void*
 
-Defined in /home/runner/work/api/api/node_modules/@types/node/globals.d.ts:1047
+Defined in /home/runner/work/api/api/node_modules/@types/node/globals.d.ts:1045
 
 ___
 
@@ -107,7 +107,7 @@ ___
 
 *Inherited from void*
 
-Defined in /home/runner/work/api/api/node_modules/@types/node/globals.d.ts:1048
+Defined in /home/runner/work/api/api/node_modules/@types/node/globals.d.ts:1046
 
 ___
 
@@ -117,7 +117,7 @@ ___
 
 *Inherited from void*
 
-Defined in /home/runner/work/api/api/node_modules/@types/node/globals.d.ts:1049
+Defined in /home/runner/work/api/api/node_modules/@types/node/globals.d.ts:1047
 
 ___
 
@@ -127,7 +127,7 @@ ___
 
 *Inherited from void*
 
-Defined in /home/runner/work/api/api/node_modules/@types/node/globals.d.ts:1050
+Defined in /home/runner/work/api/api/node_modules/@types/node/globals.d.ts:1048
 
 ___
 
@@ -137,7 +137,7 @@ ___
 
 *Inherited from void*
 
-Defined in /home/runner/work/api/api/node_modules/@types/node/globals.d.ts:1051
+Defined in /home/runner/work/api/api/node_modules/@types/node/globals.d.ts:1049
 
 ___
 
@@ -147,7 +147,7 @@ ___
 
 *Inherited from void*
 
-Defined in /home/runner/work/api/api/node_modules/@types/node/globals.d.ts:1052
+Defined in /home/runner/work/api/api/node_modules/@types/node/globals.d.ts:1050
 
 ___
 
@@ -157,7 +157,7 @@ ___
 
 *Inherited from void*
 
-Defined in /home/runner/work/api/api/node_modules/@types/node/globals.d.ts:1053
+Defined in /home/runner/work/api/api/node_modules/@types/node/globals.d.ts:1051
 
 ___
 
@@ -167,7 +167,7 @@ ___
 
 *Inherited from void*
 
-Defined in /home/runner/work/api/api/node_modules/@types/node/globals.d.ts:1054
+Defined in /home/runner/work/api/api/node_modules/@types/node/globals.d.ts:1052
 
 ___
 
@@ -177,7 +177,7 @@ ___
 
 *Inherited from void*
 
-Defined in /home/runner/work/api/api/node_modules/@types/node/globals.d.ts:1055
+Defined in /home/runner/work/api/api/node_modules/@types/node/globals.d.ts:1053
 
 ___
 
@@ -187,7 +187,7 @@ ___
 
 *Inherited from void*
 
-Defined in /home/runner/work/api/api/node_modules/@types/node/globals.d.ts:1056
+Defined in /home/runner/work/api/api/node_modules/@types/node/globals.d.ts:1054
 
 ___
 
@@ -197,7 +197,7 @@ ___
 
 *Inherited from void*
 
-Defined in /home/runner/work/api/api/node_modules/@types/node/globals.d.ts:1057
+Defined in /home/runner/work/api/api/node_modules/@types/node/globals.d.ts:1055
 
 ___
 
@@ -207,7 +207,7 @@ ___
 
 *Inherited from void*
 
-Defined in /home/runner/work/api/api/node_modules/@types/node/globals.d.ts:1058
+Defined in /home/runner/work/api/api/node_modules/@types/node/globals.d.ts:1056
 
 ___
 
@@ -217,7 +217,7 @@ ___
 
 *Inherited from void*
 
-Defined in /home/runner/work/api/api/node_modules/@types/node/globals.d.ts:1059
+Defined in /home/runner/work/api/api/node_modules/@types/node/globals.d.ts:1057
 
 ___
 
@@ -227,7 +227,7 @@ ___
 
 *Inherited from void*
 
-Defined in /home/runner/work/api/api/node_modules/@types/node/globals.d.ts:1060
+Defined in /home/runner/work/api/api/node_modules/@types/node/globals.d.ts:1058
 
 ___
 
@@ -237,7 +237,7 @@ ___
 
 *Inherited from void*
 
-Defined in /home/runner/work/api/api/node_modules/@types/node/globals.d.ts:1061
+Defined in /home/runner/work/api/api/node_modules/@types/node/globals.d.ts:1059
 
 ___
 
@@ -247,7 +247,7 @@ ___
 
 *Inherited from void*
 
-Defined in /home/runner/work/api/api/node_modules/@types/node/globals.d.ts:1062
+Defined in /home/runner/work/api/api/node_modules/@types/node/globals.d.ts:1060
 
 ___
 
@@ -257,7 +257,7 @@ ___
 
 *Inherited from void*
 
-Defined in /home/runner/work/api/api/node_modules/@types/node/globals.d.ts:1063
+Defined in /home/runner/work/api/api/node_modules/@types/node/globals.d.ts:1061
 
 ___
 
@@ -267,7 +267,7 @@ ___
 
 *Inherited from void*
 
-Defined in /home/runner/work/api/api/node_modules/@types/node/globals.d.ts:1064
+Defined in /home/runner/work/api/api/node_modules/@types/node/globals.d.ts:1062
 
 ___
 
@@ -277,7 +277,7 @@ ___
 
 *Inherited from void*
 
-Defined in /home/runner/work/api/api/node_modules/@types/node/globals.d.ts:1065
+Defined in /home/runner/work/api/api/node_modules/@types/node/globals.d.ts:1063
 
 ___
 
@@ -287,7 +287,7 @@ ___
 
 *Inherited from void*
 
-Defined in /home/runner/work/api/api/node_modules/@types/node/globals.d.ts:1066
+Defined in /home/runner/work/api/api/node_modules/@types/node/globals.d.ts:1064
 
 ___
 
@@ -297,7 +297,7 @@ ___
 
 *Inherited from void*
 
-Defined in /home/runner/work/api/api/node_modules/@types/node/globals.d.ts:1067
+Defined in /home/runner/work/api/api/node_modules/@types/node/globals.d.ts:1065
 
 ___
 
@@ -307,7 +307,7 @@ ___
 
 *Inherited from void*
 
-Defined in /home/runner/work/api/api/node_modules/@types/node/globals.d.ts:1068
+Defined in /home/runner/work/api/api/node_modules/@types/node/globals.d.ts:1066
 
 ___
 
@@ -317,7 +317,7 @@ ___
 
 *Inherited from void*
 
-Defined in /home/runner/work/api/api/node_modules/@types/node/globals.d.ts:1069
+Defined in /home/runner/work/api/api/node_modules/@types/node/globals.d.ts:1067
 
 ___
 
@@ -327,7 +327,7 @@ ___
 
 *Inherited from void*
 
-Defined in /home/runner/work/api/api/node_modules/@types/node/globals.d.ts:1070
+Defined in /home/runner/work/api/api/node_modules/@types/node/globals.d.ts:1068
 
 ___
 
@@ -337,7 +337,7 @@ ___
 
 *Inherited from void*
 
-Defined in /home/runner/work/api/api/node_modules/@types/node/globals.d.ts:1071
+Defined in /home/runner/work/api/api/node_modules/@types/node/globals.d.ts:1069
 
 ___
 
@@ -347,7 +347,7 @@ ___
 
 *Inherited from void*
 
-Defined in /home/runner/work/api/api/node_modules/@types/node/globals.d.ts:1072
+Defined in /home/runner/work/api/api/node_modules/@types/node/globals.d.ts:1070
 
 ___
 
@@ -357,7 +357,7 @@ ___
 
 *Inherited from void*
 
-Defined in /home/runner/work/api/api/node_modules/@types/node/globals.d.ts:1073
+Defined in /home/runner/work/api/api/node_modules/@types/node/globals.d.ts:1071
 
 ___
 
@@ -367,7 +367,7 @@ ___
 
 *Inherited from void*
 
-Defined in /home/runner/work/api/api/node_modules/@types/node/globals.d.ts:1074
+Defined in /home/runner/work/api/api/node_modules/@types/node/globals.d.ts:1072
 
 ___
 
@@ -377,7 +377,7 @@ ___
 
 *Inherited from void*
 
-Defined in /home/runner/work/api/api/node_modules/@types/node/globals.d.ts:1075
+Defined in /home/runner/work/api/api/node_modules/@types/node/globals.d.ts:1073
 
 ___
 
@@ -387,7 +387,7 @@ ___
 
 *Inherited from void*
 
-Defined in /home/runner/work/api/api/node_modules/@types/node/globals.d.ts:1076
+Defined in /home/runner/work/api/api/node_modules/@types/node/globals.d.ts:1074
 
 ___
 
@@ -397,7 +397,7 @@ ___
 
 *Inherited from void*
 
-Defined in /home/runner/work/api/api/node_modules/@types/node/globals.d.ts:1077
+Defined in /home/runner/work/api/api/node_modules/@types/node/globals.d.ts:1075
 
 ___
 
@@ -407,7 +407,7 @@ ___
 
 *Inherited from void*
 
-Defined in /home/runner/work/api/api/node_modules/@types/node/globals.d.ts:1078
+Defined in /home/runner/work/api/api/node_modules/@types/node/globals.d.ts:1076
 
 ___
 
@@ -417,7 +417,7 @@ ___
 
 *Inherited from void*
 
-Defined in /home/runner/work/api/api/node_modules/@types/node/globals.d.ts:1079
+Defined in /home/runner/work/api/api/node_modules/@types/node/globals.d.ts:1077
 
 ___
 
@@ -427,7 +427,7 @@ ___
 
 *Inherited from void*
 
-Defined in /home/runner/work/api/api/node_modules/@types/node/globals.d.ts:1080
+Defined in /home/runner/work/api/api/node_modules/@types/node/globals.d.ts:1078
 
 ___
 
@@ -437,7 +437,7 @@ ___
 
 *Inherited from void*
 
-Defined in /home/runner/work/api/api/node_modules/@types/node/globals.d.ts:1081
+Defined in /home/runner/work/api/api/node_modules/@types/node/globals.d.ts:1079
 
 ___
 
@@ -447,7 +447,7 @@ ___
 
 *Inherited from void*
 
-Defined in /home/runner/work/api/api/node_modules/@types/node/globals.d.ts:1082
+Defined in /home/runner/work/api/api/node_modules/@types/node/globals.d.ts:1080
 
 ___
 
@@ -457,7 +457,7 @@ ___
 
 *Inherited from void*
 
-Defined in /home/runner/work/api/api/node_modules/@types/node/globals.d.ts:1083
+Defined in /home/runner/work/api/api/node_modules/@types/node/globals.d.ts:1081
 
 ___
 
@@ -467,7 +467,7 @@ ___
 
 *Inherited from void*
 
-Defined in /home/runner/work/api/api/node_modules/@types/node/globals.d.ts:1084
+Defined in /home/runner/work/api/api/node_modules/@types/node/globals.d.ts:1082
 
 ___
 
@@ -475,7 +475,7 @@ ___
 
 • **WebSocket**: *Constructor‹WebSocket›*
 
-*Defined in [mock/types.ts:9](https://github.com/polkadot-js/api/blob/62eab2d661/packages/rpc-provider/src/mock/types.ts#L9)*
+*Defined in [mock/types.ts:9](https://github.com/polkadot-js/api/blob/26c2774992/packages/rpc-provider/src/mock/types.ts#L9)*
 
 ___
 
@@ -485,7 +485,7 @@ ___
 
 *Inherited from void*
 
-Defined in /home/runner/work/api/api/node_modules/@types/node/globals.d.ts:1085
+Defined in /home/runner/work/api/api/node_modules/@types/node/globals.d.ts:1083
 
 #### Type declaration:
 
@@ -505,7 +505,7 @@ ___
 
 *Inherited from void*
 
-Defined in /home/runner/work/api/api/node_modules/@types/node/globals.d.ts:1086
+Defined in /home/runner/work/api/api/node_modules/@types/node/globals.d.ts:1084
 
 #### Type declaration:
 
@@ -525,7 +525,7 @@ ___
 
 *Inherited from void*
 
-Defined in /home/runner/work/api/api/node_modules/@types/node/globals.d.ts:1087
+Defined in /home/runner/work/api/api/node_modules/@types/node/globals.d.ts:1085
 
 #### Type declaration:
 
@@ -545,7 +545,7 @@ ___
 
 *Inherited from void*
 
-Defined in /home/runner/work/api/api/node_modules/@types/node/globals.d.ts:1088
+Defined in /home/runner/work/api/api/node_modules/@types/node/globals.d.ts:1086
 
 ___
 
@@ -555,7 +555,7 @@ ___
 
 *Inherited from void*
 
-Defined in /home/runner/work/api/api/node_modules/@types/node/globals.d.ts:1089
+Defined in /home/runner/work/api/api/node_modules/@types/node/globals.d.ts:1087
 
 ___
 
@@ -565,7 +565,7 @@ ___
 
 *Inherited from void*
 
-Defined in /home/runner/work/api/api/node_modules/@types/node/globals.d.ts:1090
+Defined in /home/runner/work/api/api/node_modules/@types/node/globals.d.ts:1088
 
 ___
 
@@ -575,7 +575,7 @@ ___
 
 *Inherited from void*
 
-Defined in /home/runner/work/api/api/node_modules/@types/node/globals.d.ts:1091
+Defined in /home/runner/work/api/api/node_modules/@types/node/globals.d.ts:1089
 
 ___
 
@@ -585,7 +585,7 @@ ___
 
 *Inherited from void*
 
-Defined in /home/runner/work/api/api/node_modules/@types/node/globals.d.ts:1092
+Defined in /home/runner/work/api/api/node_modules/@types/node/globals.d.ts:1090
 
 ___
 
@@ -595,7 +595,7 @@ ___
 
 *Inherited from void*
 
-Defined in /home/runner/work/api/api/node_modules/@types/node/globals.d.ts:1093
+Defined in /home/runner/work/api/api/node_modules/@types/node/globals.d.ts:1091
 
 #### Type declaration:
 
@@ -615,7 +615,7 @@ ___
 
 *Inherited from void*
 
-Defined in /home/runner/work/api/api/node_modules/@types/node/globals.d.ts:1094
+Defined in /home/runner/work/api/api/node_modules/@types/node/globals.d.ts:1092
 
 ___
 
@@ -623,7 +623,7 @@ ___
 
 • **fetch**: *any*
 
-*Defined in [mock/types.ts:10](https://github.com/polkadot-js/api/blob/62eab2d661/packages/rpc-provider/src/mock/types.ts#L10)*
+*Defined in [mock/types.ts:10](https://github.com/polkadot-js/api/blob/26c2774992/packages/rpc-provider/src/mock/types.ts#L10)*
 
 ___
 
@@ -633,7 +633,7 @@ ___
 
 *Inherited from void*
 
-Defined in /home/runner/work/api/api/node_modules/@types/node/globals.d.ts:1108
+Defined in /home/runner/work/api/api/node_modules/@types/node/globals.d.ts:1106
 
 #### Type declaration:
 
@@ -647,7 +647,7 @@ ___
 
 *Inherited from void*
 
-Defined in /home/runner/work/api/api/node_modules/@types/node/globals.d.ts:1095
+Defined in /home/runner/work/api/api/node_modules/@types/node/globals.d.ts:1093
 
 ___
 
@@ -657,7 +657,7 @@ ___
 
 *Inherited from void*
 
-Defined in /home/runner/work/api/api/node_modules/@types/node/globals.d.ts:1096
+Defined in /home/runner/work/api/api/node_modules/@types/node/globals.d.ts:1094
 
 ___
 
@@ -667,7 +667,7 @@ ___
 
 *Inherited from void*
 
-Defined in /home/runner/work/api/api/node_modules/@types/node/globals.d.ts:1097
+Defined in /home/runner/work/api/api/node_modules/@types/node/globals.d.ts:1095
 
 ___
 
@@ -677,7 +677,7 @@ ___
 
 *Inherited from void*
 
-Defined in /home/runner/work/api/api/node_modules/@types/node/globals.d.ts:1098
+Defined in /home/runner/work/api/api/node_modules/@types/node/globals.d.ts:1096
 
 ___
 
@@ -687,7 +687,7 @@ ___
 
 *Inherited from void*
 
-Defined in /home/runner/work/api/api/node_modules/@types/node/globals.d.ts:1099
+Defined in /home/runner/work/api/api/node_modules/@types/node/globals.d.ts:1097
 
 ___
 
@@ -697,7 +697,7 @@ ___
 
 *Inherited from void*
 
-Defined in /home/runner/work/api/api/node_modules/@types/node/globals.d.ts:1100
+Defined in /home/runner/work/api/api/node_modules/@types/node/globals.d.ts:1098
 
 ___
 
@@ -707,7 +707,7 @@ ___
 
 *Inherited from void*
 
-Defined in /home/runner/work/api/api/node_modules/@types/node/globals.d.ts:1105
+Defined in /home/runner/work/api/api/node_modules/@types/node/globals.d.ts:1103
 
 ___
 
@@ -717,7 +717,7 @@ ___
 
 *Inherited from void*
 
-Defined in /home/runner/work/api/api/node_modules/@types/node/globals.d.ts:1101
+Defined in /home/runner/work/api/api/node_modules/@types/node/globals.d.ts:1099
 
 ___
 
@@ -727,7 +727,7 @@ ___
 
 *Inherited from void*
 
-Defined in /home/runner/work/api/api/node_modules/@types/node/globals.d.ts:1102
+Defined in /home/runner/work/api/api/node_modules/@types/node/globals.d.ts:1100
 
 #### Type declaration:
 
@@ -755,7 +755,7 @@ ___
 
 *Inherited from void*
 
-Defined in /home/runner/work/api/api/node_modules/@types/node/globals.d.ts:1103
+Defined in /home/runner/work/api/api/node_modules/@types/node/globals.d.ts:1101
 
 #### Type declaration:
 
@@ -785,7 +785,7 @@ ___
 
 *Inherited from void*
 
-Defined in /home/runner/work/api/api/node_modules/@types/node/globals.d.ts:1104
+Defined in /home/runner/work/api/api/node_modules/@types/node/globals.d.ts:1102
 
 #### Type declaration:
 
@@ -815,7 +815,7 @@ ___
 
 *Inherited from void*
 
-Defined in /home/runner/work/api/api/node_modules/@types/node/globals.d.ts:1106
+Defined in /home/runner/work/api/api/node_modules/@types/node/globals.d.ts:1104
 
 ___
 
@@ -825,7 +825,7 @@ ___
 
 *Inherited from void*
 
-Defined in /home/runner/work/api/api/node_modules/@types/node/globals.d.ts:1107
+Defined in /home/runner/work/api/api/node_modules/@types/node/globals.d.ts:1105
 
 #### Type declaration:
 
@@ -845,4 +845,4 @@ ___
 
 *Inherited from void*
 
-Defined in /home/runner/work/api/api/node_modules/@types/node/globals.d.ts:1109
+Defined in /home/runner/work/api/api/node_modules/@types/node/globals.d.ts:1107
