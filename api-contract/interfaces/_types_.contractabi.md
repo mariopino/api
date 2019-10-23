@@ -19,7 +19,7 @@
 
 • **contract**: *[ContractABIContract](_types_.contractabicontract.md)*
 
-*Defined in [types.ts:87](https://github.com/polkadot-js/api/blob/30f62f4024/packages/api-contract/src/types.ts#L87)*
+*Defined in [types.ts:87](https://github.com/polkadot-js/api/blob/c10f0e47b2/packages/api-contract/src/types.ts#L87)*
 
 ___
 
@@ -27,4 +27,4 @@ ___
 
 • **storage**: *[ContractABIStorage](../modules/_types_.md#contractabistorage)*
 
-*Defined in [types.ts:86](https://github.com/polkadot-js/api/blob/30f62f4024/packages/api-contract/src/types.ts#L86)*
+*Defined in [types.ts:86](https://github.com/polkadot-js/api/blob/c10f0e47b2/packages/api-contract/src/types.ts#L86)*
