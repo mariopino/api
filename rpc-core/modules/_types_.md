@@ -7,3 +7,16 @@
 ### Interfaces
 
 * [RpcInterfaceMethod](../interfaces/_types_.rpcinterfacemethod.md)
+* [UserRpcMethod](../interfaces/_types_.userrpcmethod.md)
+
+### Type aliases
+
+* [UserRpc](_types_.md#userrpc)
+
+## Type aliases
+
+###  UserRpc
+
+Ƭ **UserRpc**: *Record‹string, [UserRpcMethod](../interfaces/_types_.userrpcmethod.md)[]›*
+
+*Defined in [types.ts:18](https://github.com/polkadot-js/api/blob/3bb719fcfc/packages/rpc-core/src/types.ts#L18)*

@@ -6,5 +6,4 @@
 
 ### Interfaces
 
-* [EcdsaSignature](../interfaces/_interfaces_claims_types_.ecdsasignature.md)
 * [EthereumAddress](../interfaces/_interfaces_claims_types_.ethereumaddress.md)

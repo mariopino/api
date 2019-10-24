@@ -19,7 +19,7 @@
 
 • **struct_variant.fields**: *[MetaTypeDefStructField](_codec_create_types_.metatypedefstructfield.md)[]*
 
-*Defined in [codec/create/types.ts:114](https://github.com/polkadot-js/api/blob/c10f0e47b2/packages/types/src/codec/create/types.ts#L114)*
+*Defined in [codec/create/types.ts:114](https://github.com/polkadot-js/api/blob/3bb719fcfc/packages/types/src/codec/create/types.ts#L114)*
 
 ___
 
@@ -27,4 +27,4 @@ ___
 
 • **struct_variant.name**: *[StringIndex](../modules/_codec_create_types_.md#stringindex)*
 
-*Defined in [codec/create/types.ts:113](https://github.com/polkadot-js/api/blob/c10f0e47b2/packages/types/src/codec/create/types.ts#L113)*
+*Defined in [codec/create/types.ts:113](https://github.com/polkadot-js/api/blob/3bb719fcfc/packages/types/src/codec/create/types.ts#L113)*
