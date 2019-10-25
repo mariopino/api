@@ -18,4 +18,4 @@
 
 • **version**: *number*
 
-*Defined in [primitive/Extrinsic/types.ts:13](https://github.com/polkadot-js/api/blob/a8bfa90b87/packages/types/src/primitive/Extrinsic/types.ts#L13)*
+*Defined in [primitive/Extrinsic/types.ts:13](https://github.com/polkadot-js/api/blob/0b71291cf1/packages/types/src/primitive/Extrinsic/types.ts#L13)*

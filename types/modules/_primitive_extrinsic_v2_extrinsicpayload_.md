@@ -18,28 +18,28 @@
 
 ### ▪ **SignedPayloadBaseV2**: *object*
 
-*Defined in [primitive/Extrinsic/v2/ExtrinsicPayload.ts:23](https://github.com/polkadot-js/api/blob/a8bfa90b87/packages/types/src/primitive/Extrinsic/v2/ExtrinsicPayload.ts#L23)*
+*Defined in [primitive/Extrinsic/v2/ExtrinsicPayload.ts:23](https://github.com/polkadot-js/api/blob/0b71291cf1/packages/types/src/primitive/Extrinsic/v2/ExtrinsicPayload.ts#L23)*
 
 ###  era
 
 • **era**: *"ExtrinsicEra"* = "ExtrinsicEra"
 
-*Defined in [primitive/Extrinsic/v2/ExtrinsicPayload.ts:25](https://github.com/polkadot-js/api/blob/a8bfa90b87/packages/types/src/primitive/Extrinsic/v2/ExtrinsicPayload.ts#L25)*
+*Defined in [primitive/Extrinsic/v2/ExtrinsicPayload.ts:25](https://github.com/polkadot-js/api/blob/0b71291cf1/packages/types/src/primitive/Extrinsic/v2/ExtrinsicPayload.ts#L25)*
 
 ###  method
 
 • **method**: *"Bytes"* = "Bytes"
 
-*Defined in [primitive/Extrinsic/v2/ExtrinsicPayload.ts:24](https://github.com/polkadot-js/api/blob/a8bfa90b87/packages/types/src/primitive/Extrinsic/v2/ExtrinsicPayload.ts#L24)*
+*Defined in [primitive/Extrinsic/v2/ExtrinsicPayload.ts:24](https://github.com/polkadot-js/api/blob/0b71291cf1/packages/types/src/primitive/Extrinsic/v2/ExtrinsicPayload.ts#L24)*
 
 ###  nonce
 
 • **nonce**: *"Compact<Index>"* = "Compact<Index>"
 
-*Defined in [primitive/Extrinsic/v2/ExtrinsicPayload.ts:26](https://github.com/polkadot-js/api/blob/a8bfa90b87/packages/types/src/primitive/Extrinsic/v2/ExtrinsicPayload.ts#L26)*
+*Defined in [primitive/Extrinsic/v2/ExtrinsicPayload.ts:26](https://github.com/polkadot-js/api/blob/0b71291cf1/packages/types/src/primitive/Extrinsic/v2/ExtrinsicPayload.ts#L26)*
 
 ###  tip
 
 • **tip**: *"Compact<Balance>"* = "Compact<Balance>"
 
-*Defined in [primitive/Extrinsic/v2/ExtrinsicPayload.ts:27](https://github.com/polkadot-js/api/blob/a8bfa90b87/packages/types/src/primitive/Extrinsic/v2/ExtrinsicPayload.ts#L27)*
+*Defined in [primitive/Extrinsic/v2/ExtrinsicPayload.ts:27](https://github.com/polkadot-js/api/blob/0b71291cf1/packages/types/src/primitive/Extrinsic/v2/ExtrinsicPayload.ts#L27)*

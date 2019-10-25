@@ -12,7 +12,7 @@
 
 ▸ (...`args`: CodecArg[]): *Uint8Array*
 
-*Defined in [types.ts:101](https://github.com/polkadot-js/api/blob/a8bfa90b87/packages/api-contract/src/types.ts#L101)*
+*Defined in [types.ts:101](https://github.com/polkadot-js/api/blob/0b71291cf1/packages/api-contract/src/types.ts#L101)*
 
 **Parameters:**
 
@@ -38,7 +38,7 @@ Name | Type |
 
 *Inherited from [ContractABIMeta](_types_.contractabimeta.md).[args](_types_.contractabimeta.md#args)*
 
-*Defined in [types.ts:96](https://github.com/polkadot-js/api/blob/a8bfa90b87/packages/api-contract/src/types.ts#L96)*
+*Defined in [types.ts:96](https://github.com/polkadot-js/api/blob/0b71291cf1/packages/api-contract/src/types.ts#L96)*
 
 ___
 
@@ -48,7 +48,7 @@ ___
 
 *Inherited from [ContractABIMeta](_types_.contractabimeta.md).[isConstant](_types_.contractabimeta.md#isconstant)*
 
-*Defined in [types.ts:97](https://github.com/polkadot-js/api/blob/a8bfa90b87/packages/api-contract/src/types.ts#L97)*
+*Defined in [types.ts:97](https://github.com/polkadot-js/api/blob/0b71291cf1/packages/api-contract/src/types.ts#L97)*
 
 ___
 
@@ -58,4 +58,4 @@ ___
 
 *Inherited from [ContractABIMeta](_types_.contractabimeta.md).[type](_types_.contractabimeta.md#type)*
 
-*Defined in [types.ts:98](https://github.com/polkadot-js/api/blob/a8bfa90b87/packages/api-contract/src/types.ts#L98)*
+*Defined in [types.ts:98](https://github.com/polkadot-js/api/blob/0b71291cf1/packages/api-contract/src/types.ts#L98)*
