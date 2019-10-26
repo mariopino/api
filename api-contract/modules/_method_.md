@@ -14,7 +14,7 @@
 
 ▸ **createArgClass**(`args`: [ContractABIFnArg](../interfaces/_types_.contractabifnarg.md)[], `baseDef`: Record‹string, string›): *Constructor*
 
-*Defined in [method.ts:10](https://github.com/polkadot-js/api/blob/6b8d0207a6/packages/api-contract/src/method.ts#L10)*
+*Defined in [method.ts:10](https://github.com/polkadot-js/api/blob/f8084c2d12/packages/api-contract/src/method.ts#L10)*
 
 **Parameters:**
 

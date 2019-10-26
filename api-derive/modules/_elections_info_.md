@@ -14,7 +14,7 @@
 
 ▸ **info**(`api`: ApiInterfaceRx): *function*
 
-*Defined in [elections/info.ts:44](https://github.com/polkadot-js/api/blob/6b8d0207a6/packages/api-derive/src/elections/info.ts#L44)*
+*Defined in [elections/info.ts:78](https://github.com/polkadot-js/api/blob/f8084c2d12/packages/api-derive/src/elections/info.ts#L78)*
 
 **`name`** info
 

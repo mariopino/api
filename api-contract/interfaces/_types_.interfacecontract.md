@@ -23,7 +23,7 @@
 
 • **address**: *Address*
 
-*Defined in [types.ts:183](https://github.com/polkadot-js/api/blob/6b8d0207a6/packages/api-contract/src/types.ts#L183)*
+*Defined in [types.ts:183](https://github.com/polkadot-js/api/blob/f8084c2d12/packages/api-contract/src/types.ts#L183)*
 
 ___
 
@@ -31,4 +31,4 @@ ___
 
 • **calls**: *[InterfaceContractCalls](_types_.interfacecontractcalls.md)*
 
-*Defined in [types.ts:184](https://github.com/polkadot-js/api/blob/6b8d0207a6/packages/api-contract/src/types.ts#L184)*
+*Defined in [types.ts:184](https://github.com/polkadot-js/api/blob/f8084c2d12/packages/api-contract/src/types.ts#L184)*
