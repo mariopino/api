@@ -19,7 +19,7 @@
 
 ▸ **createImports**(`__namedParameters`: object): *[TypeImports](../interfaces/_scripts_util_imports_.typeimports.md)*
 
-*Defined in [scripts/util/imports.ts:68](https://github.com/polkadot-js/api/blob/f8084c2d12/packages/types/src/scripts/util/imports.ts#L68)*
+*Defined in [scripts/util/imports.ts:68](https://github.com/polkadot-js/api/blob/6e96fd6a55/packages/types/src/scripts/util/imports.ts#L68)*
 
 **Parameters:**
 
@@ -35,7 +35,7 @@ ___
 
 ▸ **setImports**(`imports`: [TypeImports](../interfaces/_scripts_util_imports_.typeimports.md), `types`: string[]): *void*
 
-*Defined in [scripts/util/imports.ts:29](https://github.com/polkadot-js/api/blob/f8084c2d12/packages/types/src/scripts/util/imports.ts#L29)*
+*Defined in [scripts/util/imports.ts:29](https://github.com/polkadot-js/api/blob/6e96fd6a55/packages/types/src/scripts/util/imports.ts#L29)*
 
 **Parameters:**
 

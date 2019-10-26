@@ -22,7 +22,7 @@
 
 • **range.elem_type**: *TypeDef*
 
-*Defined in [types.ts:133](https://github.com/polkadot-js/api/blob/f8084c2d12/packages/api-contract/src/types.ts#L133)*
+*Defined in [types.ts:134](https://github.com/polkadot-js/api/blob/6e96fd6a55/packages/api-contract/src/types.ts#L134)*
 
 ___
 
@@ -32,14 +32,14 @@ ___
 
 *Inherited from [ContractABIRangeBase](_types_.contractabirangebase.md).[range.len](_types_.contractabirangebase.md#range.len)*
 
-*Defined in [types.ts:125](https://github.com/polkadot-js/api/blob/f8084c2d12/packages/api-contract/src/types.ts#L125)*
+*Defined in [types.ts:126](https://github.com/polkadot-js/api/blob/6e96fd6a55/packages/api-contract/src/types.ts#L126)*
 
 ___
 
 ###  range.offset
 
-• **range.offset**: *number[]*
+• **range.offset**: *number[] | string*
 
 *Inherited from [ContractABIRangeBase](_types_.contractabirangebase.md).[range.offset](_types_.contractabirangebase.md#range.offset)*
 
-*Defined in [types.ts:124](https://github.com/polkadot-js/api/blob/f8084c2d12/packages/api-contract/src/types.ts#L124)*
+*Defined in [types.ts:125](https://github.com/polkadot-js/api/blob/6e96fd6a55/packages/api-contract/src/types.ts#L125)*
