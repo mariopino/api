@@ -19,7 +19,7 @@
 
 • **discriminant**: *number*
 
-*Defined in [codec/create/types.ts:94](https://github.com/polkadot-js/api/blob/fae67e72ee/packages/types/src/codec/create/types.ts#L94)*
+*Defined in [codec/create/types.ts:94](https://github.com/polkadot-js/api/blob/8d0f20c2a7/packages/types/src/codec/create/types.ts#L94)*
 
 ___
 
@@ -27,4 +27,4 @@ ___
 
 • **name**: *[StringIndex](../modules/_codec_create_types_.md#stringindex)*
 
-*Defined in [codec/create/types.ts:93](https://github.com/polkadot-js/api/blob/fae67e72ee/packages/types/src/codec/create/types.ts#L93)*
+*Defined in [codec/create/types.ts:93](https://github.com/polkadot-js/api/blob/8d0f20c2a7/packages/types/src/codec/create/types.ts#L93)*

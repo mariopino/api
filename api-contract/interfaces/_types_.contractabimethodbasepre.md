@@ -20,4 +20,4 @@
 
 • **args**: *[ContractABIMethodArgPre](../modules/_types_.md#contractabimethodargpre)[]*
 
-*Defined in [types.ts:40](https://github.com/polkadot-js/api/blob/fae67e72ee/packages/api-contract/src/types.ts#L40)*
+*Defined in [types.ts:40](https://github.com/polkadot-js/api/blob/8d0f20c2a7/packages/api-contract/src/types.ts#L40)*

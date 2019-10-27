@@ -18,4 +18,4 @@
 
 ### ▪ **SignedPayloadDefV3**: *object*
 
-*Defined in [primitive/Extrinsic/v3/ExtrinsicPayload.ts:29](https://github.com/polkadot-js/api/blob/fae67e72ee/packages/types/src/primitive/Extrinsic/v3/ExtrinsicPayload.ts#L29)*
+*Defined in [primitive/Extrinsic/v3/ExtrinsicPayload.ts:29](https://github.com/polkadot-js/api/blob/8d0f20c2a7/packages/types/src/primitive/Extrinsic/v3/ExtrinsicPayload.ts#L29)*

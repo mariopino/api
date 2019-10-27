@@ -14,7 +14,7 @@
 
 ▸ **referendumVotesFor**(`api`: ApiInterfaceRx): *function*
 
-*Defined in [democracy/referendumVotesFor.ts:18](https://github.com/polkadot-js/api/blob/fae67e72ee/packages/api-derive/src/democracy/referendumVotesFor.ts#L18)*
+*Defined in [democracy/referendumVotesFor.ts:18](https://github.com/polkadot-js/api/blob/8d0f20c2a7/packages/api-derive/src/democracy/referendumVotesFor.ts#L18)*
 
 **Parameters:**
 
