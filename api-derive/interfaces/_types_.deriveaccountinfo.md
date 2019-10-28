@@ -18,4 +18,4 @@
 
 • **nickname**? : *undefined | string*
 
-*Defined in [types.ts:11](https://github.com/polkadot-js/api/blob/b69d8ec789/packages/api-derive/src/types.ts#L11)*
+*Defined in [types.ts:11](https://github.com/polkadot-js/api/blob/a30d467618/packages/api-derive/src/types.ts#L11)*
