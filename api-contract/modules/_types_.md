@@ -57,7 +57,7 @@
 
 Ƭ **AbiMessages**: *Record‹string, [ContractABIFn](../interfaces/_types_.contractabifn.md)›*
 
-*Defined in [types.ts:165](https://github.com/polkadot-js/api/blob/a30d467618/packages/api-contract/src/types.ts#L165)*
+*Defined in [types.ts:165](https://github.com/polkadot-js/api/blob/07b9cb1a16/packages/api-contract/src/types.ts#L165)*
 
 ___
 
@@ -65,7 +65,7 @@ ___
 
 Ƭ **ApiObject**: *ApiObject<ApiType>*
 
-*Defined in [types.ts:12](https://github.com/polkadot-js/api/blob/a30d467618/packages/api-contract/src/types.ts#L12)*
+*Defined in [types.ts:12](https://github.com/polkadot-js/api/blob/07b9cb1a16/packages/api-contract/src/types.ts#L12)*
 
 ___
 
@@ -73,7 +73,7 @@ ___
 
 Ƭ **ContractABIDocs**: *string[]*
 
-*Defined in [types.ts:113](https://github.com/polkadot-js/api/blob/a30d467618/packages/api-contract/src/types.ts#L113)*
+*Defined in [types.ts:113](https://github.com/polkadot-js/api/blob/07b9cb1a16/packages/api-contract/src/types.ts#L113)*
 
 ___
 
@@ -81,7 +81,7 @@ ___
 
 Ƭ **ContractABIMethodArg**: *[ContractABIArgBase](../interfaces/_types_.contractabiargbase.md)*
 
-*Defined in [types.ts:33](https://github.com/polkadot-js/api/blob/a30d467618/packages/api-contract/src/types.ts#L33)*
+*Defined in [types.ts:33](https://github.com/polkadot-js/api/blob/07b9cb1a16/packages/api-contract/src/types.ts#L33)*
 
 ___
 
@@ -89,7 +89,7 @@ ___
 
 Ƭ **ContractABIMethodArgPre**: *[ContractABIArgBasePre](../interfaces/_types_.contractabiargbasepre.md)*
 
-*Defined in [types.ts:31](https://github.com/polkadot-js/api/blob/a30d467618/packages/api-contract/src/types.ts#L31)*
+*Defined in [types.ts:31](https://github.com/polkadot-js/api/blob/07b9cb1a16/packages/api-contract/src/types.ts#L31)*
 
 ___
 
@@ -97,7 +97,7 @@ ___
 
 Ƭ **ContractABIStorage**: *[ContractABIStorageStruct](../interfaces/_types_.contractabistoragestruct.md)*
 
-*Defined in [types.ts:163](https://github.com/polkadot-js/api/blob/a30d467618/packages/api-contract/src/types.ts#L163)*
+*Defined in [types.ts:163](https://github.com/polkadot-js/api/blob/07b9cb1a16/packages/api-contract/src/types.ts#L163)*
 
 ___
 
@@ -105,7 +105,7 @@ ___
 
 Ƭ **ContractABIStorageLayout**: *[ContractABIStorageStruct](../interfaces/_types_.contractabistoragestruct.md) | [ContractABIRange](../interfaces/_types_.contractabirange.md)*
 
-*Defined in [types.ts:139](https://github.com/polkadot-js/api/blob/a30d467618/packages/api-contract/src/types.ts#L139)*
+*Defined in [types.ts:139](https://github.com/polkadot-js/api/blob/07b9cb1a16/packages/api-contract/src/types.ts#L139)*
 
 ___
 
@@ -113,7 +113,7 @@ ___
 
 Ƭ **ContractABIStorageLayoutPre**: *[ContractABIStorageStructPre](../interfaces/_types_.contractabistoragestructpre.md) | [ContractABIRangePre](../interfaces/_types_.contractabirangepre.md)*
 
-*Defined in [types.ts:137](https://github.com/polkadot-js/api/blob/a30d467618/packages/api-contract/src/types.ts#L137)*
+*Defined in [types.ts:137](https://github.com/polkadot-js/api/blob/07b9cb1a16/packages/api-contract/src/types.ts#L137)*
 
 ___
 
@@ -121,4 +121,4 @@ ___
 
 Ƭ **ContractABIStoragePre**: *[ContractABIStorageStructPre](../interfaces/_types_.contractabistoragestructpre.md)*
 
-*Defined in [types.ts:161](https://github.com/polkadot-js/api/blob/a30d467618/packages/api-contract/src/types.ts#L161)*
+*Defined in [types.ts:161](https://github.com/polkadot-js/api/blob/07b9cb1a16/packages/api-contract/src/types.ts#L161)*
