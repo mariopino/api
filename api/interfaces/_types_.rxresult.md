@@ -14,7 +14,7 @@
 
 ▸ (...`args`: Parameters‹F›): *Observable‹[ObsInnerType](../modules/_types_.md#obsinnertype)‹ReturnType‹F›››*
 
-*Defined in [types.ts:64](https://github.com/polkadot-js/api/blob/07b9cb1a16/packages/api/src/types.ts#L64)*
+*Defined in [types.ts:64](https://github.com/polkadot-js/api/blob/fed9e8f7de/packages/api/src/types.ts#L64)*
 
 **Parameters:**
 
@@ -26,7 +26,7 @@ Name | Type |
 
 ▸ <**T**>(...`args`: Parameters‹F›): *Observable‹T›*
 
-*Defined in [types.ts:65](https://github.com/polkadot-js/api/blob/07b9cb1a16/packages/api/src/types.ts#L65)*
+*Defined in [types.ts:65](https://github.com/polkadot-js/api/blob/fed9e8f7de/packages/api/src/types.ts#L65)*
 
 **Type parameters:**
 
