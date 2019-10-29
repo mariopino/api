@@ -21,7 +21,7 @@
 
 • **offline**? : *object[]*
 
-*Defined in [types.ts:96](https://github.com/polkadot-js/api/blob/41cf32c808/packages/api-derive/src/types.ts#L96)*
+*Defined in [types.ts:96](https://github.com/polkadot-js/api/blob/8cab499a83/packages/api-derive/src/types.ts#L96)*
 
 ___
 
@@ -29,4 +29,4 @@ ___
 
 • **online**? : *undefined | object*
 
-*Defined in [types.ts:92](https://github.com/polkadot-js/api/blob/41cf32c808/packages/api-derive/src/types.ts#L92)*
+*Defined in [types.ts:92](https://github.com/polkadot-js/api/blob/8cab499a83/packages/api-derive/src/types.ts#L92)*
