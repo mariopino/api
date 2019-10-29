@@ -25,7 +25,7 @@
 
 • **accountId**: *AccountId*
 
-*Defined in [types.ts:15](https://github.com/polkadot-js/api/blob/fed9e8f7de/packages/api-derive/src/types.ts#L15)*
+*Defined in [types.ts:15](https://github.com/polkadot-js/api/blob/41cf32c808/packages/api-derive/src/types.ts#L15)*
 
 ___
 
@@ -33,7 +33,7 @@ ___
 
 • **accountNonce**: *Index*
 
-*Defined in [types.ts:16](https://github.com/polkadot-js/api/blob/fed9e8f7de/packages/api-derive/src/types.ts#L16)*
+*Defined in [types.ts:16](https://github.com/polkadot-js/api/blob/41cf32c808/packages/api-derive/src/types.ts#L16)*
 
 ___
 
@@ -41,7 +41,7 @@ ___
 
 • **availableBalance**: *Balance*
 
-*Defined in [types.ts:19](https://github.com/polkadot-js/api/blob/fed9e8f7de/packages/api-derive/src/types.ts#L19)*
+*Defined in [types.ts:19](https://github.com/polkadot-js/api/blob/41cf32c808/packages/api-derive/src/types.ts#L19)*
 
 ___
 
@@ -49,7 +49,7 @@ ___
 
 • **freeBalance**: *Balance*
 
-*Defined in [types.ts:17](https://github.com/polkadot-js/api/blob/fed9e8f7de/packages/api-derive/src/types.ts#L17)*
+*Defined in [types.ts:17](https://github.com/polkadot-js/api/blob/41cf32c808/packages/api-derive/src/types.ts#L17)*
 
 ___
 
@@ -57,7 +57,7 @@ ___
 
 • **lockedBalance**: *Balance*
 
-*Defined in [types.ts:18](https://github.com/polkadot-js/api/blob/fed9e8f7de/packages/api-derive/src/types.ts#L18)*
+*Defined in [types.ts:18](https://github.com/polkadot-js/api/blob/41cf32c808/packages/api-derive/src/types.ts#L18)*
 
 ___
 
@@ -65,7 +65,7 @@ ___
 
 • **reservedBalance**: *Balance*
 
-*Defined in [types.ts:20](https://github.com/polkadot-js/api/blob/fed9e8f7de/packages/api-derive/src/types.ts#L20)*
+*Defined in [types.ts:20](https://github.com/polkadot-js/api/blob/41cf32c808/packages/api-derive/src/types.ts#L20)*
 
 ___
 
@@ -73,7 +73,7 @@ ___
 
 • **vestedBalance**: *Balance*
 
-*Defined in [types.ts:22](https://github.com/polkadot-js/api/blob/fed9e8f7de/packages/api-derive/src/types.ts#L22)*
+*Defined in [types.ts:22](https://github.com/polkadot-js/api/blob/41cf32c808/packages/api-derive/src/types.ts#L22)*
 
 ___
 
@@ -81,4 +81,4 @@ ___
 
 • **votingBalance**: *Balance*
 
-*Defined in [types.ts:21](https://github.com/polkadot-js/api/blob/fed9e8f7de/packages/api-derive/src/types.ts#L21)*
+*Defined in [types.ts:21](https://github.com/polkadot-js/api/blob/41cf32c808/packages/api-derive/src/types.ts#L21)*
