@@ -27,7 +27,7 @@
 
 • **address**: *string*
 
-*Defined in [types.ts:230](https://github.com/polkadot-js/api/blob/8cab499a83/packages/types/src/types.ts#L230)*
+*Defined in [types.ts:230](https://github.com/polkadot-js/api/blob/f533f51003/packages/types/src/types.ts#L230)*
 
 **`description`** The ss-58 encoded address
 
@@ -37,7 +37,7 @@ ___
 
 • **blockHash**: *string*
 
-*Defined in [types.ts:235](https://github.com/polkadot-js/api/blob/8cab499a83/packages/types/src/types.ts#L235)*
+*Defined in [types.ts:235](https://github.com/polkadot-js/api/blob/f533f51003/packages/types/src/types.ts#L235)*
 
 **`description`** The checkpoint hash of the block, in hex
 
@@ -47,7 +47,7 @@ ___
 
 • **blockNumber**: *string*
 
-*Defined in [types.ts:240](https://github.com/polkadot-js/api/blob/8cab499a83/packages/types/src/types.ts#L240)*
+*Defined in [types.ts:240](https://github.com/polkadot-js/api/blob/f533f51003/packages/types/src/types.ts#L240)*
 
 **`description`** The checkpoint block number, in hex
 
@@ -57,7 +57,7 @@ ___
 
 • **era**: *string*
 
-*Defined in [types.ts:245](https://github.com/polkadot-js/api/blob/8cab499a83/packages/types/src/types.ts#L245)*
+*Defined in [types.ts:245](https://github.com/polkadot-js/api/blob/f533f51003/packages/types/src/types.ts#L245)*
 
 **`description`** The era for this transaction, in hex
 
@@ -67,7 +67,7 @@ ___
 
 • **genesisHash**: *string*
 
-*Defined in [types.ts:250](https://github.com/polkadot-js/api/blob/8cab499a83/packages/types/src/types.ts#L250)*
+*Defined in [types.ts:250](https://github.com/polkadot-js/api/blob/f533f51003/packages/types/src/types.ts#L250)*
 
 **`description`** The genesis hash of the chain, in hex
 
@@ -77,7 +77,7 @@ ___
 
 • **method**: *string*
 
-*Defined in [types.ts:255](https://github.com/polkadot-js/api/blob/8cab499a83/packages/types/src/types.ts#L255)*
+*Defined in [types.ts:255](https://github.com/polkadot-js/api/blob/f533f51003/packages/types/src/types.ts#L255)*
 
 **`description`** The encoded method (with arguments) in hex
 
@@ -87,7 +87,7 @@ ___
 
 • **nonce**: *string*
 
-*Defined in [types.ts:260](https://github.com/polkadot-js/api/blob/8cab499a83/packages/types/src/types.ts#L260)*
+*Defined in [types.ts:260](https://github.com/polkadot-js/api/blob/f533f51003/packages/types/src/types.ts#L260)*
 
 **`description`** The nonce for this transaction, in hex
 
@@ -97,7 +97,7 @@ ___
 
 • **specVersion**: *string*
 
-*Defined in [types.ts:265](https://github.com/polkadot-js/api/blob/8cab499a83/packages/types/src/types.ts#L265)*
+*Defined in [types.ts:265](https://github.com/polkadot-js/api/blob/f533f51003/packages/types/src/types.ts#L265)*
 
 **`description`** The current spec version for  the runtime
 
@@ -107,7 +107,7 @@ ___
 
 • **tip**: *string*
 
-*Defined in [types.ts:270](https://github.com/polkadot-js/api/blob/8cab499a83/packages/types/src/types.ts#L270)*
+*Defined in [types.ts:270](https://github.com/polkadot-js/api/blob/f533f51003/packages/types/src/types.ts#L270)*
 
 **`description`** The tip for this transaction, in hex
 
@@ -117,6 +117,6 @@ ___
 
 • **version**: *number*
 
-*Defined in [types.ts:275](https://github.com/polkadot-js/api/blob/8cab499a83/packages/types/src/types.ts#L275)*
+*Defined in [types.ts:275](https://github.com/polkadot-js/api/blob/f533f51003/packages/types/src/types.ts#L275)*
 
 **`description`** The version of the extrinsic we are dealing with
