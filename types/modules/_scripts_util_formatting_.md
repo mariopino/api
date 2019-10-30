@@ -31,7 +31,7 @@
 "* = "
 "
 
-*Defined in [scripts/util/formatting.ts:12](https://github.com/polkadot-js/api/blob/a53c924248/packages/types/src/scripts/util/formatting.ts#L12)*
+*Defined in [scripts/util/formatting.ts:12](https://github.com/polkadot-js/api/blob/8379689eaa/packages/types/src/scripts/util/formatting.ts#L12)*
 
 ___
 
@@ -45,7 +45,7 @@ ___
 
 "
 
-*Defined in [scripts/util/formatting.ts:11](https://github.com/polkadot-js/api/blob/a53c924248/packages/types/src/scripts/util/formatting.ts#L11)*
+*Defined in [scripts/util/formatting.ts:11](https://github.com/polkadot-js/api/blob/8379689eaa/packages/types/src/scripts/util/formatting.ts#L11)*
 
 ## Functions
 
@@ -53,7 +53,7 @@ ___
 
 ▸ **createImportCode**(`header`: string, `checks`: object[]): *string*
 
-*Defined in [scripts/util/formatting.ts:15](https://github.com/polkadot-js/api/blob/a53c924248/packages/types/src/scripts/util/formatting.ts#L15)*
+*Defined in [scripts/util/formatting.ts:15](https://github.com/polkadot-js/api/blob/8379689eaa/packages/types/src/scripts/util/formatting.ts#L15)*
 
 **Parameters:**
 
@@ -70,7 +70,7 @@ ___
 
 ▸ **exportInterface**(`name`: string, `base`: string, `body`: string): *string*
 
-*Defined in [scripts/util/formatting.ts:26](https://github.com/polkadot-js/api/blob/a53c924248/packages/types/src/scripts/util/formatting.ts#L26)*
+*Defined in [scripts/util/formatting.ts:26](https://github.com/polkadot-js/api/blob/8379689eaa/packages/types/src/scripts/util/formatting.ts#L26)*
 
 **Parameters:**
 
@@ -88,7 +88,7 @@ ___
 
 ▸ **exportType**(`name`: string, `base`: string): *string*
 
-*Defined in [scripts/util/formatting.ts:33](https://github.com/polkadot-js/api/blob/a53c924248/packages/types/src/scripts/util/formatting.ts#L33)*
+*Defined in [scripts/util/formatting.ts:33](https://github.com/polkadot-js/api/blob/8379689eaa/packages/types/src/scripts/util/formatting.ts#L33)*
 
 **Parameters:**
 
@@ -105,7 +105,7 @@ ___
 
 ▸ **formatBTreeMap**(`key`: string, `val`: string): *string*
 
-*Defined in [scripts/util/formatting.ts:40](https://github.com/polkadot-js/api/blob/a53c924248/packages/types/src/scripts/util/formatting.ts#L40)*
+*Defined in [scripts/util/formatting.ts:40](https://github.com/polkadot-js/api/blob/8379689eaa/packages/types/src/scripts/util/formatting.ts#L40)*
 
 Given the inner `K` & `V`, return a `BTreeMap<K, V>`  string
 
@@ -124,7 +124,7 @@ ___
 
 ▸ **formatCompact**(`inner`: string): *string*
 
-*Defined in [scripts/util/formatting.ts:47](https://github.com/polkadot-js/api/blob/a53c924248/packages/types/src/scripts/util/formatting.ts#L47)*
+*Defined in [scripts/util/formatting.ts:47](https://github.com/polkadot-js/api/blob/8379689eaa/packages/types/src/scripts/util/formatting.ts#L47)*
 
 Given the inner `T`, return a `Compact<T>` string
 
@@ -142,7 +142,7 @@ ___
 
 ▸ **formatOption**(`inner`: string): *string*
 
-*Defined in [scripts/util/formatting.ts:61](https://github.com/polkadot-js/api/blob/a53c924248/packages/types/src/scripts/util/formatting.ts#L61)*
+*Defined in [scripts/util/formatting.ts:61](https://github.com/polkadot-js/api/blob/8379689eaa/packages/types/src/scripts/util/formatting.ts#L61)*
 
 Given the inner `T`, return a `Option<T>` string
 
@@ -160,7 +160,7 @@ ___
 
 ▸ **formatResult**(`innerOk`: string, `innerError`: string): *string*
 
-*Defined in [scripts/util/formatting.ts:54](https://github.com/polkadot-js/api/blob/a53c924248/packages/types/src/scripts/util/formatting.ts#L54)*
+*Defined in [scripts/util/formatting.ts:54](https://github.com/polkadot-js/api/blob/8379689eaa/packages/types/src/scripts/util/formatting.ts#L54)*
 
 Given the inner `O` & `E`, return a `Result<O, E>`  string
 
@@ -179,7 +179,7 @@ ___
 
 ▸ **formatTuple**(`inners`: string[]): *string*
 
-*Defined in [scripts/util/formatting.ts:68](https://github.com/polkadot-js/api/blob/a53c924248/packages/types/src/scripts/util/formatting.ts#L68)*
+*Defined in [scripts/util/formatting.ts:68](https://github.com/polkadot-js/api/blob/8379689eaa/packages/types/src/scripts/util/formatting.ts#L68)*
 
 Given the inners `T[]`, return a `ITuple<...T>` string
 
@@ -197,7 +197,7 @@ ___
 
 ▸ **formatType**(`type`: string | [TypeDef](../interfaces/_codec_create_types_.typedef.md), `imports`: [TypeImports](../interfaces/_scripts_util_imports_.typeimports.md)): *string*
 
-*Defined in [scripts/util/formatting.ts:82](https://github.com/polkadot-js/api/blob/a53c924248/packages/types/src/scripts/util/formatting.ts#L82)*
+*Defined in [scripts/util/formatting.ts:82](https://github.com/polkadot-js/api/blob/8379689eaa/packages/types/src/scripts/util/formatting.ts#L82)*
 
 Correctly format a given type
 
@@ -216,7 +216,7 @@ ___
 
 ▸ **formatVec**(`inner`: string): *string*
 
-*Defined in [scripts/util/formatting.ts:75](https://github.com/polkadot-js/api/blob/a53c924248/packages/types/src/scripts/util/formatting.ts#L75)*
+*Defined in [scripts/util/formatting.ts:75](https://github.com/polkadot-js/api/blob/8379689eaa/packages/types/src/scripts/util/formatting.ts#L75)*
 
 Given the inner `T`, return a `Vec<T>` string
 
@@ -234,7 +234,7 @@ ___
 
 ▸ **indent**(`n`: number, `char`: string): *function*
 
-*Defined in [scripts/util/formatting.ts:127](https://github.com/polkadot-js/api/blob/a53c924248/packages/types/src/scripts/util/formatting.ts#L127)*
+*Defined in [scripts/util/formatting.ts:127](https://github.com/polkadot-js/api/blob/8379689eaa/packages/types/src/scripts/util/formatting.ts#L127)*
 
 Indent a string with `n` spaces before.
 

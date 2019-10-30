@@ -36,6 +36,7 @@
 * ["session/eraProgress"](modules/_session_eraprogress_.md)
 * ["session/info"](modules/_session_info_.md)
 * ["session/sessionProgress"](modules/_session_sessionprogress_.md)
+* ["staking/all"](modules/_staking_all_.md)
 * ["staking/controllers"](modules/_staking_controllers_.md)
 * ["staking/info"](modules/_staking_info_.md)
 * ["staking/recentlyOffline"](modules/_staking_recentlyoffline_.md)
