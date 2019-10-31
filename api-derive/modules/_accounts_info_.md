@@ -14,11 +14,11 @@
 
 ▸ **info**(`api`: ApiInterfaceRx): *function*
 
-*Defined in [accounts/info.ts:29](https://github.com/polkadot-js/api/blob/8379689eaa/packages/api-derive/src/accounts/info.ts#L29)*
+*Defined in [accounts/info.ts:22](https://github.com/polkadot-js/api/blob/453aacb669/packages/api-derive/src/accounts/info.ts#L22)*
 
 **`name`** info
 
-**`description`** Returns aux. info with regards to an  account, current that includes the nickname
+**`description`** Returns aux. info with regards to an account, current that includes the accountId, accountIndex and nickname
 
 **Parameters:**
 
@@ -28,10 +28,10 @@ Name | Type |
 
 **Returns:** *function*
 
-▸ (`address?`: AccountId | string | null): *Observable‹[DeriveAccountInfo](../interfaces/_types_.deriveaccountinfo.md)›*
+▸ (`address?`: AccountIndex | AccountId | Address | string | null): *Observable‹[DeriveAccountInfo](../interfaces/_types_.deriveaccountinfo.md)›*
 
 **Parameters:**
 
 Name | Type |
 ------ | ------ |
-`address?` | AccountId &#124; string &#124; null |
+`address?` | AccountIndex &#124; AccountId &#124; Address &#124; string &#124; null |

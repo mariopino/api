@@ -14,7 +14,7 @@
 
 ▸ **all**(`api`: ApiInterfaceRx): *function*
 
-*Defined in [staking/all.ts:18](https://github.com/polkadot-js/api/blob/8379689eaa/packages/api-derive/src/staking/all.ts#L18)*
+*Defined in [staking/all.ts:18](https://github.com/polkadot-js/api/blob/453aacb669/packages/api-derive/src/staking/all.ts#L18)*
 
 **`description`** Retrieve all the staking info available for the chain
 

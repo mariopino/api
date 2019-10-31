@@ -20,7 +20,7 @@
 
 • **accountId**: *AccountId*
 
-*Defined in [types.ts:71](https://github.com/polkadot-js/api/blob/8379689eaa/packages/api-derive/src/types.ts#L71)*
+*Defined in [types.ts:73](https://github.com/polkadot-js/api/blob/453aacb669/packages/api-derive/src/types.ts#L73)*
 
 ___
 
@@ -28,7 +28,7 @@ ___
 
 • **balance**: *Balance*
 
-*Defined in [types.ts:72](https://github.com/polkadot-js/api/blob/8379689eaa/packages/api-derive/src/types.ts#L72)*
+*Defined in [types.ts:74](https://github.com/polkadot-js/api/blob/453aacb669/packages/api-derive/src/types.ts#L74)*
 
 ___
 
@@ -36,4 +36,4 @@ ___
 
 • **vote**: *Vote*
 
-*Defined in [types.ts:73](https://github.com/polkadot-js/api/blob/8379689eaa/packages/api-derive/src/types.ts#L73)*
+*Defined in [types.ts:75](https://github.com/polkadot-js/api/blob/453aacb669/packages/api-derive/src/types.ts#L75)*
