@@ -6,10 +6,6 @@
 
 * **InterfaceContract**
 
-## Implemented by
-
-* [RxContract](../classes/_rxcontract_.rxcontract.md)
-
 ## Index
 
 ### Properties
@@ -23,7 +19,7 @@
 
 • **address**: *Address*
 
-*Defined in [types.ts:184](https://github.com/polkadot-js/api/blob/453aacb669/packages/api-contract/src/types.ts#L184)*
+*Defined in [types.ts:195](https://github.com/polkadot-js/api/blob/cf01c41b33/packages/api-contract/src/types.ts#L195)*
 
 ___
 
@@ -31,4 +27,4 @@ ___
 
 • **calls**: *[InterfaceContractCalls](_types_.interfacecontractcalls.md)*
 
-*Defined in [types.ts:185](https://github.com/polkadot-js/api/blob/453aacb669/packages/api-contract/src/types.ts#L185)*
+*Defined in [types.ts:196](https://github.com/polkadot-js/api/blob/cf01c41b33/packages/api-contract/src/types.ts#L196)*

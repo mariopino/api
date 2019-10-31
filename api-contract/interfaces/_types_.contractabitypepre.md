@@ -19,7 +19,7 @@
 
 • **display_name**: *StringIndex[]*
 
-*Defined in [types.ts:18](https://github.com/polkadot-js/api/blob/453aacb669/packages/api-contract/src/types.ts#L18)*
+*Defined in [types.ts:27](https://github.com/polkadot-js/api/blob/cf01c41b33/packages/api-contract/src/types.ts#L27)*
 
 ___
 
@@ -27,4 +27,4 @@ ___
 
 • **ty**: *TypeIndex*
 
-*Defined in [types.ts:17](https://github.com/polkadot-js/api/blob/453aacb669/packages/api-contract/src/types.ts#L17)*
+*Defined in [types.ts:26](https://github.com/polkadot-js/api/blob/cf01c41b33/packages/api-contract/src/types.ts#L26)*

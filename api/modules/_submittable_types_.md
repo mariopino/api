@@ -13,21 +13,21 @@
 
 ### Type aliases
 
-* [SubmitableResultResult](_submittable_types_.md#submitableresultresult)
-* [SubmitableResultSubscription](_submittable_types_.md#submitableresultsubscription)
+* [SubmittableResultResult](_submittable_types_.md#submittableresultresult)
+* [SubmittableResultSubscription](_submittable_types_.md#submittableresultsubscription)
 
 ## Type aliases
 
-###  SubmitableResultResult
+###  SubmittableResultResult
 
-Ƭ **SubmitableResultResult**: *SubmitableResultResult<ApiType>*
+Ƭ **SubmittableResultResult**: *SubmittableResultResult<ApiType>*
 
-*Defined in [submittable/types.ts:25](https://github.com/polkadot-js/api/blob/453aacb669/packages/api/src/submittable/types.ts#L25)*
+*Defined in [submittable/types.ts:26](https://github.com/polkadot-js/api/blob/cf01c41b33/packages/api/src/submittable/types.ts#L26)*
 
 ___
 
-###  SubmitableResultSubscription
+###  SubmittableResultSubscription
 
-Ƭ **SubmitableResultSubscription**: *SubmitableResultSubscription<ApiType>*
+Ƭ **SubmittableResultSubscription**: *SubmittableResultSubscription<ApiType>*
 
-*Defined in [submittable/types.ts:30](https://github.com/polkadot-js/api/blob/453aacb669/packages/api/src/submittable/types.ts#L30)*
+*Defined in [submittable/types.ts:31](https://github.com/polkadot-js/api/blob/cf01c41b33/packages/api/src/submittable/types.ts#L31)*

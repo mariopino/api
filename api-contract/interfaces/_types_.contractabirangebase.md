@@ -23,7 +23,7 @@
 
 • **range.len**: *number*
 
-*Defined in [types.ts:126](https://github.com/polkadot-js/api/blob/453aacb669/packages/api-contract/src/types.ts#L126)*
+*Defined in [types.ts:135](https://github.com/polkadot-js/api/blob/cf01c41b33/packages/api-contract/src/types.ts#L135)*
 
 ___
 
@@ -31,4 +31,4 @@ ___
 
 • **range.offset**: *number[] | string*
 
-*Defined in [types.ts:125](https://github.com/polkadot-js/api/blob/453aacb669/packages/api-contract/src/types.ts#L125)*
+*Defined in [types.ts:134](https://github.com/polkadot-js/api/blob/cf01c41b33/packages/api-contract/src/types.ts#L134)*

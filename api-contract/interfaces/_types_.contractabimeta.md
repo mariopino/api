@@ -22,7 +22,7 @@
 
 • **args**: *[ContractABIFnArg](_types_.contractabifnarg.md)[]*
 
-*Defined in [types.ts:96](https://github.com/polkadot-js/api/blob/453aacb669/packages/api-contract/src/types.ts#L96)*
+*Defined in [types.ts:105](https://github.com/polkadot-js/api/blob/cf01c41b33/packages/api-contract/src/types.ts#L105)*
 
 ___
 
@@ -30,7 +30,7 @@ ___
 
 • **isConstant**: *boolean*
 
-*Defined in [types.ts:97](https://github.com/polkadot-js/api/blob/453aacb669/packages/api-contract/src/types.ts#L97)*
+*Defined in [types.ts:106](https://github.com/polkadot-js/api/blob/cf01c41b33/packages/api-contract/src/types.ts#L106)*
 
 ___
 
@@ -38,4 +38,4 @@ ___
 
 • **type**: *TypeDef | null*
 
-*Defined in [types.ts:98](https://github.com/polkadot-js/api/blob/453aacb669/packages/api-contract/src/types.ts#L98)*
+*Defined in [types.ts:107](https://github.com/polkadot-js/api/blob/cf01c41b33/packages/api-contract/src/types.ts#L107)*

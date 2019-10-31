@@ -4,7 +4,7 @@
 
 ## Type parameters
 
-▪ **ApiType**
+▪ **ApiType**: *[ApiTypes](../modules/_types_.md#apitypes)*
 
 ## Hierarchy
 
@@ -14,7 +14,7 @@
 
 ▸ <**T**>(`calls`: [QueryableStorageMultiArg](../modules/_types_.md#queryablestoragemultiarg)‹ApiType›[]): *Observable‹T›*
 
-*Defined in [types.ts:139](https://github.com/polkadot-js/api/blob/453aacb669/packages/api/src/types.ts#L139)*
+*Defined in [types.ts:139](https://github.com/polkadot-js/api/blob/cf01c41b33/packages/api/src/types.ts#L139)*
 
 **Type parameters:**
 

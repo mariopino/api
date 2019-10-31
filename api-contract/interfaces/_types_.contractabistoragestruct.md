@@ -19,7 +19,7 @@
 
 • **struct.fields**: *[ContractABIStorageStructField](_types_.contractabistoragestructfield.md)[]*
 
-*Defined in [types.ts:158](https://github.com/polkadot-js/api/blob/453aacb669/packages/api-contract/src/types.ts#L158)*
+*Defined in [types.ts:167](https://github.com/polkadot-js/api/blob/cf01c41b33/packages/api-contract/src/types.ts#L167)*
 
 ___
 
@@ -27,4 +27,4 @@ ___
 
 • **struct.type**: *TypeDef*
 
-*Defined in [types.ts:157](https://github.com/polkadot-js/api/blob/453aacb669/packages/api-contract/src/types.ts#L157)*
+*Defined in [types.ts:166](https://github.com/polkadot-js/api/blob/cf01c41b33/packages/api-contract/src/types.ts#L166)*

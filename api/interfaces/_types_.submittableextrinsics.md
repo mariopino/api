@@ -4,7 +4,7 @@
 
 ## Type parameters
 
-▪ **ApiType**
+▪ **ApiType**: *[ApiTypes](../modules/_types_.md#apitypes)*
 
 ## Hierarchy
 
@@ -14,7 +14,7 @@
 
 ▸ (`extrinsic`: Uint8Array | string): *[SubmittableExtrinsic](_submittable_types_.submittableextrinsic.md)‹ApiType›*
 
-*Defined in [types.ts:169](https://github.com/polkadot-js/api/blob/453aacb669/packages/api/src/types.ts#L169)*
+*Defined in [types.ts:169](https://github.com/polkadot-js/api/blob/cf01c41b33/packages/api/src/types.ts#L169)*
 
 **Parameters:**
 

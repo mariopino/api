@@ -4,7 +4,7 @@
 
 ## Type parameters
 
-▪ **ApiType**
+▪ **ApiType**: *[ApiTypes](../modules/_types_.md#apitypes)*
 
 ## Hierarchy
 

@@ -4,7 +4,7 @@
 
 ## Type parameters
 
-▪ **ApiType**
+▪ **ApiType**: *ApiTypes*
 
 ## Hierarchy
 
@@ -12,10 +12,18 @@
 
 ## Implemented by
 
-* [Blueprint](../classes/_rxblueprint_.blueprint.md)
-* [RxBase](../classes/_rxbase_.rxbase.md)
-* [RxCode](../classes/_rxcode_.rxcode.md)
-* [RxContract](../classes/_rxcontract_.rxcontract.md)
+* [Base](../classes/_base_util_.base.md)
+* [BaseWithTx](../classes/_base_util_.basewithtx.md)
+* [BaseWithTxAndRpcCall](../classes/_base_util_.basewithtxandrpccall.md)
+* [Blueprint](../classes/_base_blueprint_.blueprint.md)
+* [Code](../classes/_base_code_.code.md)
+* [Contract](../classes/_base_contract_.contract.md)
+* [PromiseBlueprint](../classes/_promise_promiseblueprint_.promiseblueprint.md)
+* [PromiseCode](../classes/_promise_promisecode_.promisecode.md)
+* [PromiseContract](../classes/_promise_promisecontract_.promisecontract.md)
+* [RxBlueprint](../classes/_rx_rxblueprint_.rxblueprint.md)
+* [RxCode](../classes/_rx_rxcode_.rxcode.md)
+* [RxContract](../classes/_rx_rxcontract_.rxcontract.md)
 
 ## Index
 
@@ -23,7 +31,9 @@
 
 * [abi](_types_.contractbase.md#abi)
 * [api](_types_.contractbase.md#api)
-* [apiContracts](_types_.contractbase.md#apicontracts)
+* [decorateMethod](_types_.contractbase.md#decoratemethod)
+* [getMessage](_types_.contractbase.md#getmessage)
+* [messages](_types_.contractbase.md#messages)
 
 ## Properties
 
@@ -31,7 +41,7 @@
 
 • **abi**: *[InterfaceAbi](_types_.interfaceabi.md)*
 
-*Defined in [types.ts:174](https://github.com/polkadot-js/api/blob/453aacb669/packages/api-contract/src/types.ts#L174)*
+*Defined in [types.ts:18](https://github.com/polkadot-js/api/blob/cf01c41b33/packages/api-contract/src/types.ts#L18)*
 
 ___
 
@@ -39,12 +49,38 @@ ___
 
 • **api**: *[ApiObject](../modules/_types_.md#apiobject)‹ApiType›*
 
-*Defined in [types.ts:175](https://github.com/polkadot-js/api/blob/453aacb669/packages/api-contract/src/types.ts#L175)*
+*Defined in [types.ts:19](https://github.com/polkadot-js/api/blob/cf01c41b33/packages/api-contract/src/types.ts#L19)*
 
 ___
 
-###  apiContracts
+###  decorateMethod
 
-• **apiContracts**: *SubmittableModuleExtrinsics‹ApiType›*
+• **decorateMethod**: *DecorateMethod‹ApiType›*
 
-*Defined in [types.ts:176](https://github.com/polkadot-js/api/blob/453aacb669/packages/api-contract/src/types.ts#L176)*
+*Defined in [types.ts:20](https://github.com/polkadot-js/api/blob/cf01c41b33/packages/api-contract/src/types.ts#L20)*
+
+___
+
+###  getMessage
+
+• **getMessage**: *function*
+
+*Defined in [types.ts:21](https://github.com/polkadot-js/api/blob/cf01c41b33/packages/api-contract/src/types.ts#L21)*
+
+#### Type declaration:
+
+▸ (`name`: string): *[ContractMessage](_types_.contractmessage.md)*
+
+**Parameters:**
+
+Name | Type |
+------ | ------ |
+`name` | string |
+
+___
+
+###  messages
+
+• **messages**: *[ContractMessage](_types_.contractmessage.md)[]*
+
+*Defined in [types.ts:22](https://github.com/polkadot-js/api/blob/cf01c41b33/packages/api-contract/src/types.ts#L22)*

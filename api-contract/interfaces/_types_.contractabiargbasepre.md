@@ -21,7 +21,7 @@
 
 • **name**: *StringIndex*
 
-*Defined in [types.ts:22](https://github.com/polkadot-js/api/blob/453aacb669/packages/api-contract/src/types.ts#L22)*
+*Defined in [types.ts:31](https://github.com/polkadot-js/api/blob/cf01c41b33/packages/api-contract/src/types.ts#L31)*
 
 ___
 
@@ -29,4 +29,4 @@ ___
 
 • **type**: *[ContractABITypePre](_types_.contractabitypepre.md)*
 
-*Defined in [types.ts:23](https://github.com/polkadot-js/api/blob/453aacb669/packages/api-contract/src/types.ts#L23)*
+*Defined in [types.ts:32](https://github.com/polkadot-js/api/blob/cf01c41b33/packages/api-contract/src/types.ts#L32)*
