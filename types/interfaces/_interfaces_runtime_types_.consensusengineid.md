@@ -45,7 +45,7 @@ GenericConsensusEngineId
 
 *Overrides [UInt](../classes/_codec_uint_.uint.md).[constructor](../classes/_codec_uint_.uint.md#constructor)*
 
-*Defined in [primitive/U32.ts:14](https://github.com/polkadot-js/api/blob/cf01c41b33/packages/types/src/primitive/U32.ts#L14)*
+*Defined in [primitive/U32.ts:14](https://github.com/polkadot-js/api/blob/276da86dbe/packages/types/src/primitive/U32.ts#L14)*
 
 **Parameters:**
 
@@ -63,7 +63,7 @@ Name | Type |
 
 *Inherited from [ConsensusEngineId](../classes/_primitive_generic_consensusengineid_.consensusengineid.md).[isAura](../classes/_primitive_generic_consensusengineid_.consensusengineid.md#isaura)*
 
-*Defined in [primitive/Generic/ConsensusEngineId.ts:43](https://github.com/polkadot-js/api/blob/cf01c41b33/packages/types/src/primitive/Generic/ConsensusEngineId.ts#L43)*
+*Defined in [primitive/Generic/ConsensusEngineId.ts:43](https://github.com/polkadot-js/api/blob/276da86dbe/packages/types/src/primitive/Generic/ConsensusEngineId.ts#L43)*
 
 **`description`** `true` if the engine matches aura
 
@@ -77,7 +77,7 @@ ___
 
 *Inherited from [ConsensusEngineId](../classes/_primitive_generic_consensusengineid_.consensusengineid.md).[isBabe](../classes/_primitive_generic_consensusengineid_.consensusengineid.md#isbabe)*
 
-*Defined in [primitive/Generic/ConsensusEngineId.ts:50](https://github.com/polkadot-js/api/blob/cf01c41b33/packages/types/src/primitive/Generic/ConsensusEngineId.ts#L50)*
+*Defined in [primitive/Generic/ConsensusEngineId.ts:50](https://github.com/polkadot-js/api/blob/276da86dbe/packages/types/src/primitive/Generic/ConsensusEngineId.ts#L50)*
 
 **`description`** `true` is the engine matches babe
 
@@ -91,7 +91,7 @@ ___
 
 *Inherited from [ConsensusEngineId](../classes/_primitive_generic_consensusengineid_.consensusengineid.md).[isGrandpa](../classes/_primitive_generic_consensusengineid_.consensusengineid.md#isgrandpa)*
 
-*Defined in [primitive/Generic/ConsensusEngineId.ts:57](https://github.com/polkadot-js/api/blob/cf01c41b33/packages/types/src/primitive/Generic/ConsensusEngineId.ts#L57)*
+*Defined in [primitive/Generic/ConsensusEngineId.ts:57](https://github.com/polkadot-js/api/blob/276da86dbe/packages/types/src/primitive/Generic/ConsensusEngineId.ts#L57)*
 
 **`description`** `true` is the engine matches grandpa
 
@@ -105,7 +105,7 @@ ___
 
 *Inherited from [ConsensusEngineId](../classes/_primitive_generic_consensusengineid_.consensusengineid.md).[extractAuthor](../classes/_primitive_generic_consensusengineid_.consensusengineid.md#extractauthor)*
 
-*Defined in [primitive/Generic/ConsensusEngineId.ts:80](https://github.com/polkadot-js/api/blob/cf01c41b33/packages/types/src/primitive/Generic/ConsensusEngineId.ts#L80)*
+*Defined in [primitive/Generic/ConsensusEngineId.ts:80](https://github.com/polkadot-js/api/blob/276da86dbe/packages/types/src/primitive/Generic/ConsensusEngineId.ts#L80)*
 
 **`description`** From the input bytes, decode into an author
 
@@ -128,7 +128,7 @@ ___
 
 *Overrides void*
 
-*Defined in [codec/UInt.ts:37](https://github.com/polkadot-js/api/blob/cf01c41b33/packages/types/src/codec/UInt.ts#L37)*
+*Defined in [codec/UInt.ts:37](https://github.com/polkadot-js/api/blob/276da86dbe/packages/types/src/codec/UInt.ts#L37)*
 
 **`description`** Returns a hex string representation of the value
 
@@ -150,7 +150,7 @@ ___
 
 *Overrides void*
 
-*Defined in [codec/UInt.ts:49](https://github.com/polkadot-js/api/blob/cf01c41b33/packages/types/src/codec/UInt.ts#L49)*
+*Defined in [codec/UInt.ts:49](https://github.com/polkadot-js/api/blob/276da86dbe/packages/types/src/codec/UInt.ts#L49)*
 
 **`description`** Returns the base runtime type name for this instance
 
@@ -166,7 +166,7 @@ ___
 
 *Overrides void*
 
-*Defined in [codec/UInt.ts:63](https://github.com/polkadot-js/api/blob/cf01c41b33/packages/types/src/codec/UInt.ts#L63)*
+*Defined in [codec/UInt.ts:63](https://github.com/polkadot-js/api/blob/276da86dbe/packages/types/src/codec/UInt.ts#L63)*
 
 **`description`** Encodes the value as a Uint8Array as per the SCALE specifications
 
@@ -186,7 +186,7 @@ ___
 
 *Inherited from [ConsensusEngineId](../classes/_primitive_generic_consensusengineid_.consensusengineid.md).[idToString](../classes/_primitive_generic_consensusengineid_.consensusengineid.md#static-idtostring)*
 
-*Defined in [primitive/Generic/ConsensusEngineId.ts:26](https://github.com/polkadot-js/api/blob/cf01c41b33/packages/types/src/primitive/Generic/ConsensusEngineId.ts#L26)*
+*Defined in [primitive/Generic/ConsensusEngineId.ts:26](https://github.com/polkadot-js/api/blob/276da86dbe/packages/types/src/primitive/Generic/ConsensusEngineId.ts#L26)*
 
 **Parameters:**
 
@@ -204,7 +204,7 @@ ___
 
 *Inherited from [ConsensusEngineId](../classes/_primitive_generic_consensusengineid_.consensusengineid.md).[stringToId](../classes/_primitive_generic_consensusengineid_.consensusengineid.md#static-stringtoid)*
 
-*Defined in [primitive/Generic/ConsensusEngineId.ts:33](https://github.com/polkadot-js/api/blob/cf01c41b33/packages/types/src/primitive/Generic/ConsensusEngineId.ts#L33)*
+*Defined in [primitive/Generic/ConsensusEngineId.ts:33](https://github.com/polkadot-js/api/blob/276da86dbe/packages/types/src/primitive/Generic/ConsensusEngineId.ts#L33)*
 
 **Parameters:**
 
