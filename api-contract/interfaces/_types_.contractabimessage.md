@@ -25,7 +25,7 @@
 
 • **args**: *[ContractABIMessageArg](../modules/_types_.md#contractabimessagearg)[]*
 
-*Defined in [types.ts:64](https://github.com/polkadot-js/api/blob/276da86dbe/packages/api-contract/src/types.ts#L64)*
+*Defined in [types.ts:64](https://github.com/polkadot-js/api/blob/dc105e6b31/packages/api-contract/src/types.ts#L64)*
 
 ___
 
@@ -35,7 +35,7 @@ ___
 
 *Inherited from [ContractABIMessageCommon](_types_.contractabimessagecommon.md).[docs](_types_.contractabimessagecommon.md#optional-docs)*
 
-*Defined in [types.ts:53](https://github.com/polkadot-js/api/blob/276da86dbe/packages/api-contract/src/types.ts#L53)*
+*Defined in [types.ts:53](https://github.com/polkadot-js/api/blob/dc105e6b31/packages/api-contract/src/types.ts#L53)*
 
 ___
 
@@ -45,7 +45,7 @@ ___
 
 *Inherited from [ContractABIMessageCommon](_types_.contractabimessagecommon.md).[mutates](_types_.contractabimessagecommon.md#optional-mutates)*
 
-*Defined in [types.ts:54](https://github.com/polkadot-js/api/blob/276da86dbe/packages/api-contract/src/types.ts#L54)*
+*Defined in [types.ts:54](https://github.com/polkadot-js/api/blob/dc105e6b31/packages/api-contract/src/types.ts#L54)*
 
 ___
 
@@ -53,7 +53,7 @@ ___
 
 • **name**: *string*
 
-*Defined in [types.ts:65](https://github.com/polkadot-js/api/blob/276da86dbe/packages/api-contract/src/types.ts#L65)*
+*Defined in [types.ts:65](https://github.com/polkadot-js/api/blob/dc105e6b31/packages/api-contract/src/types.ts#L65)*
 
 ___
 
@@ -61,7 +61,7 @@ ___
 
 • **returnType**: *TypeDef | null*
 
-*Defined in [types.ts:66](https://github.com/polkadot-js/api/blob/276da86dbe/packages/api-contract/src/types.ts#L66)*
+*Defined in [types.ts:66](https://github.com/polkadot-js/api/blob/dc105e6b31/packages/api-contract/src/types.ts#L66)*
 
 ___
 
@@ -71,4 +71,4 @@ ___
 
 *Inherited from [ContractABIMessageCommon](_types_.contractabimessagecommon.md).[selector](_types_.contractabimessagecommon.md#selector)*
 
-*Defined in [types.ts:55](https://github.com/polkadot-js/api/blob/276da86dbe/packages/api-contract/src/types.ts#L55)*
+*Defined in [types.ts:55](https://github.com/polkadot-js/api/blob/dc105e6b31/packages/api-contract/src/types.ts#L55)*
