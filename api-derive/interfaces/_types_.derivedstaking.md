@@ -35,7 +35,7 @@
 
 • **accountId**: *AccountId*
 
-*Defined in [types.ts:114](https://github.com/polkadot-js/api/blob/d41f6ec3ef/packages/api-derive/src/types.ts#L114)*
+*Defined in [types.ts:115](https://github.com/polkadot-js/api/blob/2c44b5ca8a/packages/api-derive/src/types.ts#L115)*
 
 ___
 
@@ -43,7 +43,7 @@ ___
 
 • **controllerId**? : *AccountId*
 
-*Defined in [types.ts:115](https://github.com/polkadot-js/api/blob/d41f6ec3ef/packages/api-derive/src/types.ts#L115)*
+*Defined in [types.ts:116](https://github.com/polkadot-js/api/blob/2c44b5ca8a/packages/api-derive/src/types.ts#L116)*
 
 ___
 
@@ -51,7 +51,7 @@ ___
 
 • **nextSessionId**? : *AccountId*
 
-*Defined in [types.ts:117](https://github.com/polkadot-js/api/blob/d41f6ec3ef/packages/api-derive/src/types.ts#L117)*
+*Defined in [types.ts:118](https://github.com/polkadot-js/api/blob/2c44b5ca8a/packages/api-derive/src/types.ts#L118)*
 
 ___
 
@@ -59,7 +59,7 @@ ___
 
 • **nextSessionIds**: *AccountId[]*
 
-*Defined in [types.ts:118](https://github.com/polkadot-js/api/blob/d41f6ec3ef/packages/api-derive/src/types.ts#L118)*
+*Defined in [types.ts:119](https://github.com/polkadot-js/api/blob/2c44b5ca8a/packages/api-derive/src/types.ts#L119)*
 
 ___
 
@@ -67,7 +67,7 @@ ___
 
 • **nominators**? : *AccountId[]*
 
-*Defined in [types.ts:119](https://github.com/polkadot-js/api/blob/d41f6ec3ef/packages/api-derive/src/types.ts#L119)*
+*Defined in [types.ts:120](https://github.com/polkadot-js/api/blob/2c44b5ca8a/packages/api-derive/src/types.ts#L120)*
 
 ___
 
@@ -77,7 +77,7 @@ ___
 
 *Inherited from [DerivedStakingOnlineStatus](_types_.derivedstakingonlinestatus.md).[offline](_types_.derivedstakingonlinestatus.md#optional-offline)*
 
-*Defined in [types.ts:107](https://github.com/polkadot-js/api/blob/d41f6ec3ef/packages/api-derive/src/types.ts#L107)*
+*Defined in [types.ts:108](https://github.com/polkadot-js/api/blob/2c44b5ca8a/packages/api-derive/src/types.ts#L108)*
 
 ___
 
@@ -87,7 +87,7 @@ ___
 
 *Inherited from [DerivedStakingOnlineStatus](_types_.derivedstakingonlinestatus.md).[online](_types_.derivedstakingonlinestatus.md#optional-online)*
 
-*Defined in [types.ts:103](https://github.com/polkadot-js/api/blob/d41f6ec3ef/packages/api-derive/src/types.ts#L103)*
+*Defined in [types.ts:104](https://github.com/polkadot-js/api/blob/2c44b5ca8a/packages/api-derive/src/types.ts#L104)*
 
 ___
 
@@ -95,7 +95,7 @@ ___
 
 • **redeemable**? : *Balance*
 
-*Defined in [types.ts:120](https://github.com/polkadot-js/api/blob/d41f6ec3ef/packages/api-derive/src/types.ts#L120)*
+*Defined in [types.ts:121](https://github.com/polkadot-js/api/blob/2c44b5ca8a/packages/api-derive/src/types.ts#L121)*
 
 ___
 
@@ -103,7 +103,7 @@ ___
 
 • **rewardDestination**? : *RewardDestination*
 
-*Defined in [types.ts:121](https://github.com/polkadot-js/api/blob/d41f6ec3ef/packages/api-derive/src/types.ts#L121)*
+*Defined in [types.ts:122](https://github.com/polkadot-js/api/blob/2c44b5ca8a/packages/api-derive/src/types.ts#L122)*
 
 ___
 
@@ -111,7 +111,7 @@ ___
 
 • **sessionId**? : *AccountId*
 
-*Defined in [types.ts:123](https://github.com/polkadot-js/api/blob/d41f6ec3ef/packages/api-derive/src/types.ts#L123)*
+*Defined in [types.ts:124](https://github.com/polkadot-js/api/blob/2c44b5ca8a/packages/api-derive/src/types.ts#L124)*
 
 ___
 
@@ -119,7 +119,7 @@ ___
 
 • **sessionIds**: *AccountId[]*
 
-*Defined in [types.ts:124](https://github.com/polkadot-js/api/blob/d41f6ec3ef/packages/api-derive/src/types.ts#L124)*
+*Defined in [types.ts:125](https://github.com/polkadot-js/api/blob/2c44b5ca8a/packages/api-derive/src/types.ts#L125)*
 
 ___
 
@@ -127,7 +127,7 @@ ___
 
 • **stakers**? : *Exposure*
 
-*Defined in [types.ts:125](https://github.com/polkadot-js/api/blob/d41f6ec3ef/packages/api-derive/src/types.ts#L125)*
+*Defined in [types.ts:126](https://github.com/polkadot-js/api/blob/2c44b5ca8a/packages/api-derive/src/types.ts#L126)*
 
 ___
 
@@ -135,7 +135,7 @@ ___
 
 • **stakingLedger**? : *StakingLedger*
 
-*Defined in [types.ts:126](https://github.com/polkadot-js/api/blob/d41f6ec3ef/packages/api-derive/src/types.ts#L126)*
+*Defined in [types.ts:127](https://github.com/polkadot-js/api/blob/2c44b5ca8a/packages/api-derive/src/types.ts#L127)*
 
 ___
 
@@ -143,7 +143,7 @@ ___
 
 • **stashId**? : *AccountId*
 
-*Defined in [types.ts:127](https://github.com/polkadot-js/api/blob/d41f6ec3ef/packages/api-derive/src/types.ts#L127)*
+*Defined in [types.ts:128](https://github.com/polkadot-js/api/blob/2c44b5ca8a/packages/api-derive/src/types.ts#L128)*
 
 ___
 
@@ -151,7 +151,7 @@ ___
 
 • **unlocking**? : *[DerivedUnlocking](../modules/_types_.md#derivedunlocking)[]*
 
-*Defined in [types.ts:128](https://github.com/polkadot-js/api/blob/d41f6ec3ef/packages/api-derive/src/types.ts#L128)*
+*Defined in [types.ts:129](https://github.com/polkadot-js/api/blob/2c44b5ca8a/packages/api-derive/src/types.ts#L129)*
 
 ___
 
@@ -159,4 +159,4 @@ ___
 
 • **validatorPrefs**? : *ValidatorPrefs*
 
-*Defined in [types.ts:129](https://github.com/polkadot-js/api/blob/d41f6ec3ef/packages/api-derive/src/types.ts#L129)*
+*Defined in [types.ts:130](https://github.com/polkadot-js/api/blob/2c44b5ca8a/packages/api-derive/src/types.ts#L130)*
