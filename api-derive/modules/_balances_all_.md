@@ -40,7 +40,7 @@
   });
 }, true)
 
-*Defined in [balances/all.ts:80](https://github.com/polkadot-js/api/blob/7cc961f789/packages/api-derive/src/balances/all.ts#L80)*
+*Defined in [balances/all.ts:80](https://github.com/polkadot-js/api/blob/8d3cb72189/packages/api-derive/src/balances/all.ts#L80)*
 
 **`name`** all
 

@@ -20,7 +20,7 @@
   });
 }, true)
 
-*Defined in [elections/info.ts:92](https://github.com/polkadot-js/api/blob/7cc961f789/packages/api-derive/src/elections/info.ts#L92)*
+*Defined in [elections/info.ts:92](https://github.com/polkadot-js/api/blob/8d3cb72189/packages/api-derive/src/elections/info.ts#L92)*
 
 **`name`** info
 

@@ -27,7 +27,9 @@
         combineLatest([
           of({ currentElected, currentEra, currentIndex, validators, validatorCount }),
           // this will change on a per block basis, keep it innermost (and it needs eraIndex)
-          api.query.staking.currentEraPointsEarned<EraPoints>(currentEra)
+          api.query.staking.currentEraPointsEarned
+            ? api.query.staking.currentEraPointsEarned<EraPoints>(currentEra)
+            : of(createType('EraPoints'))
         ])
       ),
       map(([{ currentElected, currentEra, currentIndex, validators, validatorCount }, eraPoints]): DerivedStakingOverview => ({
@@ -38,6 +40,6 @@
   );
 }, true)
 
-*Defined in [staking/overview.ts:19](https://github.com/polkadot-js/api/blob/7cc961f789/packages/api-derive/src/staking/overview.ts#L19)*
+*Defined in [staking/overview.ts:19](https://github.com/polkadot-js/api/blob/8d3cb72189/packages/api-derive/src/staking/overview.ts#L19)*
 
 **`description`** Retrieve the staking overview, including elected and points earned

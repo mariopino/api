@@ -28,6 +28,6 @@
   });
 }, true)
 
-*Defined in [staking/info.ts:227](https://github.com/polkadot-js/api/blob/7cc961f789/packages/api-derive/src/staking/info.ts#L227)*
+*Defined in [staking/info.ts:227](https://github.com/polkadot-js/api/blob/8d3cb72189/packages/api-derive/src/staking/info.ts#L227)*
 
 **`description`** From a stash, retrieve the controllerId and fill in all the relevant staking details

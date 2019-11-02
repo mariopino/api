@@ -23,4 +23,4 @@
   );
 }, true)
 
-*Defined in [session/eraProgress.ts:14](https://github.com/polkadot-js/api/blob/7cc961f789/packages/api-derive/src/session/eraProgress.ts#L14)*
+*Defined in [session/eraProgress.ts:14](https://github.com/polkadot-js/api/blob/8d3cb72189/packages/api-derive/src/session/eraProgress.ts#L14)*

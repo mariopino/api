@@ -36,7 +36,7 @@
   );
 }, true)
 
-*Defined in [accounts/info.ts:29](https://github.com/polkadot-js/api/blob/7cc961f789/packages/api-derive/src/accounts/info.ts#L29)*
+*Defined in [accounts/info.ts:29](https://github.com/polkadot-js/api/blob/8d3cb72189/packages/api-derive/src/accounts/info.ts#L29)*
 
 **`name`** info
 

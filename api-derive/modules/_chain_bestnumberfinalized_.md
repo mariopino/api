@@ -21,7 +21,7 @@
   );
 }, true)
 
-*Defined in [chain/bestNumberFinalized.ts:26](https://github.com/polkadot-js/api/blob/7cc961f789/packages/api-derive/src/chain/bestNumberFinalized.ts#L26)*
+*Defined in [chain/bestNumberFinalized.ts:26](https://github.com/polkadot-js/api/blob/8d3cb72189/packages/api-derive/src/chain/bestNumberFinalized.ts#L26)*
 
 **`name`** bestNumberFinalized
 

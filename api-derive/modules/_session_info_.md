@@ -27,6 +27,6 @@
   });
 }, true)
 
-*Defined in [session/info.ts:133](https://github.com/polkadot-js/api/blob/7cc961f789/packages/api-derive/src/session/info.ts#L133)*
+*Defined in [session/info.ts:133](https://github.com/polkadot-js/api/blob/8d3cb72189/packages/api-derive/src/session/info.ts#L133)*
 
 **`description`** Retrieves all the session and era info and calculates specific values on it as the length of the session and eras

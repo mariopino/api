@@ -29,7 +29,7 @@
   );
 }, true)
 
-*Defined in [chain/bestNumberLag.ts:29](https://github.com/polkadot-js/api/blob/7cc961f789/packages/api-derive/src/chain/bestNumberLag.ts#L29)*
+*Defined in [chain/bestNumberLag.ts:29](https://github.com/polkadot-js/api/blob/8d3cb72189/packages/api-derive/src/chain/bestNumberLag.ts#L29)*
 
 **`name`** bestNumberLag
 

@@ -18,7 +18,7 @@
 
 Ƭ **AccountIndexes**: *Record‹string, AccountIndex›*
 
-*Defined in [accounts/indexes.ts:15](https://github.com/polkadot-js/api/blob/7cc961f789/packages/api-derive/src/accounts/indexes.ts#L15)*
+*Defined in [accounts/indexes.ts:15](https://github.com/polkadot-js/api/blob/8d3cb72189/packages/api-derive/src/accounts/indexes.ts#L15)*
 
 ## Variables
 
@@ -53,7 +53,7 @@
   });
 }, true)
 
-*Defined in [accounts/indexes.ts:34](https://github.com/polkadot-js/api/blob/7cc961f789/packages/api-derive/src/accounts/indexes.ts#L34)*
+*Defined in [accounts/indexes.ts:34](https://github.com/polkadot-js/api/blob/8d3cb72189/packages/api-derive/src/accounts/indexes.ts#L34)*
 
 **`name`** indexes
 
