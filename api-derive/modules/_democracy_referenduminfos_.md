@@ -4,30 +4,29 @@
 
 ## Index
 
-### Functions
+### Variables
 
-* [referendumInfos](_democracy_referenduminfos_.md#referenduminfos)
+* [referendumInfos](_democracy_referenduminfos_.md#const-referenduminfos)
 
-## Functions
+## Variables
 
-###  referendumInfos
+### `Const` referendumInfos
 
-▸ **referendumInfos**(`api`: ApiInterfaceRx): *function*
+• **referendumInfos**: *(Anonymous function)* =  memo((api: ApiInterfaceRx): (ids?: (BN | number)[]) => Observable<Option<ReferendumInfoExtended>[]> => {
+  return memo((ids: (BN | number)[] = []): Observable<Option<ReferendumInfoExtended>[]> => {
+    return (
+      !ids || !ids.length
+        ? of([] as Option<ReferendumInfo>[])
+        : api.query.democracy.referendumInfoOf.multi(ids) as Observable<Vec<Option<ReferendumInfo>>>
+    ).pipe(
+      map((infos): Option<ReferendumInfoExtended>[] =>
+        ids.map((id, index): Option<ReferendumInfoExtended> =>
+          constructInfo(id, infos[index])
+        )
+      ),
+      drr()
+    );
+  });
+}, true)
 
-*Defined in [democracy/referendumInfos.ts:17](https://github.com/polkadot-js/api/blob/2c44b5ca8a/packages/api-derive/src/democracy/referendumInfos.ts#L17)*
-
-**Parameters:**
-
-Name | Type |
------- | ------ |
-`api` | ApiInterfaceRx |
-
-**Returns:** *function*
-
-▸ (`ids?`: number | BN[]): *Observable‹Option‹[ReferendumInfoExtended](../classes/_type_referenduminfoextended_.referenduminfoextended.md)›[]›*
-
-**Parameters:**
-
-Name | Type |
------- | ------ |
-`ids?` | number &#124; BN[] |
+*Defined in [democracy/referendumInfos.ts:17](https://github.com/polkadot-js/api/blob/7cc961f789/packages/api-derive/src/democracy/referendumInfos.ts#L17)*

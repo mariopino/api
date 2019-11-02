@@ -4,19 +4,28 @@
 
 ## Index
 
-### Functions
+### Variables
 
-* [approvalsOfAt](_elections_approvalsofat_.md#approvalsofat)
+* [approvalsOfAt](_elections_approvalsofat_.md#const-approvalsofat)
 
-## Functions
+## Variables
 
-###  approvalsOfAt
+### `Const` approvalsOfAt
 
-▸ **approvalsOfAt**(`api`: ApiInterfaceRx): *function*
+• **approvalsOfAt**: *(Anonymous function)* =  memo((api: ApiInterfaceRx): (who: AccountId, at: SetIndex) => Observable<boolean[]> => {
+  return memo((who: AccountId | string, at: SetIndex | BN | number): Observable<boolean[]> =>
+    api.query.elections.approvalsOf<Vec<ApprovalFlag>>([who.toString(), at]).pipe(
+      map((flags: Vec<ApprovalFlag>): boolean[] => approvalFlagsToBools(flags)),
+      drr()
+    )
+  );
+}, true)
 
-*Defined in [elections/approvalsOfAt.ts:28](https://github.com/polkadot-js/api/blob/2c44b5ca8a/packages/api-derive/src/elections/approvalsOfAt.ts#L28)*
+*Defined in [elections/approvalsOfAt.ts:28](https://github.com/polkadot-js/api/blob/7cc961f789/packages/api-derive/src/elections/approvalsOfAt.ts#L28)*
 
 **`name`** approvalsOfAt
+
+**`returns`** An array of boolean approvals for the account and set index, converted from the returned ApprovalFlag.
 
 **`example`** 
 <BR>
@@ -26,22 +35,3 @@ api.derive.elections.approvalsOfAt(ALICE, new BN(0), (approvals) => {
   // approvals === [false, true, ...]
 });
 ```
-
-**Parameters:**
-
-Name | Type |
------- | ------ |
-`api` | ApiInterfaceRx |
-
-**Returns:** *function*
-
-An array of boolean approvals for the account and set index, converted from the returned ApprovalFlag.
-
-▸ (`who`: AccountId, `at`: SetIndex): *Observable‹boolean[]›*
-
-**Parameters:**
-
-Name | Type |
------- | ------ |
-`who` | AccountId |
-`at` | SetIndex |

@@ -4,19 +4,28 @@
 
 ## Index
 
-### Functions
+### Variables
 
-* [info](_elections_info_.md#info)
+* [info](_elections_info_.md#const-info)
 
-## Functions
+## Variables
 
-###  info
+### `Const` info
 
-▸ **info**(`api`: ApiInterfaceRx): *function*
+• **info**: *(Anonymous function)* =  memo((api: ApiInterfaceRx): () => Observable<DerivedElectionsInfo> => {
+  return memo((): Observable<DerivedElectionsInfo> => {
+    return api.query.electionsPhragmen
+      ? queryPhragmen(api)
+      : queryElections(api);
+  });
+}, true)
 
-*Defined in [elections/info.ts:92](https://github.com/polkadot-js/api/blob/2c44b5ca8a/packages/api-derive/src/elections/info.ts#L92)*
+*Defined in [elections/info.ts:92](https://github.com/polkadot-js/api/blob/7cc961f789/packages/api-derive/src/elections/info.ts#L92)*
 
 **`name`** info
+
+**`returns`** An object containing the combined results of the storage queries for
+all relevant election module properties.
 
 **`example`** 
 <BR>
@@ -26,16 +35,3 @@ api.derive.elections.info(({ members, candidates }) => {
   console.log(`There are currently ${members.length} council members and ${candidates.length} prospective council candidates.`);
 });
 ```
-
-**Parameters:**
-
-Name | Type |
------- | ------ |
-`api` | ApiInterfaceRx |
-
-**Returns:** *function*
-
-An object containing the combined results of the storage queries for
-all relevant election module properties.
-
-▸ (): *Observable‹[DerivedElectionsInfo](../interfaces/_types_.derivedelectionsinfo.md)›*

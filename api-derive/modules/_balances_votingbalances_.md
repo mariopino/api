@@ -4,30 +4,24 @@
 
 ## Index
 
-### Functions
+### Variables
 
-* [votingBalances](_balances_votingbalances_.md#votingbalances)
+* [votingBalances](_balances_votingbalances_.md#const-votingbalances)
 
-## Functions
+## Variables
 
-###  votingBalances
+### `Const` votingBalances
 
-▸ **votingBalances**(`api`: ApiInterfaceRx): *function*
+• **votingBalances**: *(Anonymous function)* =  memo((api: ApiInterfaceRx): (addresses?: (AccountId | AccountIndex | Address | string)[]) => Observable<DerivedBalances[]> => {
+  return memo((addresses?: (AccountId | AccountIndex | Address | string)[]): Observable<DerivedBalances[]> => {
+    return (
+      !addresses || !addresses.length
+        ? of([] as DerivedBalances[])
+        : combineLatest(addresses.map(all(api)))
+    ).pipe(
+      drr()
+    );
+  });
+}, true)
 
-*Defined in [balances/votingBalances.ts:14](https://github.com/polkadot-js/api/blob/2c44b5ca8a/packages/api-derive/src/balances/votingBalances.ts#L14)*
-
-**Parameters:**
-
-Name | Type |
------- | ------ |
-`api` | ApiInterfaceRx |
-
-**Returns:** *function*
-
-▸ (`addresses?`: string | AccountIndex | AccountId | Address[]): *Observable‹[DerivedBalances](../interfaces/_types_.derivedbalances.md)[]›*
-
-**Parameters:**
-
-Name | Type |
------- | ------ |
-`addresses?` | string &#124; AccountIndex &#124; AccountId &#124; Address[] |
+*Defined in [balances/votingBalances.ts:14](https://github.com/polkadot-js/api/blob/7cc961f789/packages/api-derive/src/balances/votingBalances.ts#L14)*

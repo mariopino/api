@@ -4,31 +4,33 @@
 
 ## Index
 
-### Type aliases
+### Variables
 
-* [HeaderAndValidators](_chain_subscribenewheads_.md#headerandvalidators)
+* [subscribeNewHeads](_chain_subscribenewheads_.md#const-subscribenewheads)
 
-### Functions
+## Variables
 
-* [subscribeNewHeads](_chain_subscribenewheads_.md#subscribenewheads)
+### `Const` subscribeNewHeads
 
-## Type aliases
+• **subscribeNewHeads**: *(Anonymous function)* =  memo((api: ApiInterfaceRx): () => Observable<HeaderExtended> => {
+  return memo((): Observable<HeaderExtended> =>
+    combineLatest([
+      api.rpc.chain.subscribeNewHeads(),
+      api.query.session.validators<Vec<AccountId>>()
+    ]).pipe(
+      map(([header, validators]): HeaderExtended =>
+        new HeaderExtended(header, validators)
+      ),
+      drr()
+    )
+  );
+}, true)
 
-###  HeaderAndValidators
-
-Ƭ **HeaderAndValidators**: *[Header, AccountId[]]*
-
-*Defined in [chain/subscribeNewHeads.ts:14](https://github.com/polkadot-js/api/blob/2c44b5ca8a/packages/api-derive/src/chain/subscribeNewHeads.ts#L14)*
-
-## Functions
-
-###  subscribeNewHeads
-
-▸ **subscribeNewHeads**(`api`: ApiInterfaceRx): *function*
-
-*Defined in [chain/subscribeNewHeads.ts:29](https://github.com/polkadot-js/api/blob/2c44b5ca8a/packages/api-derive/src/chain/subscribeNewHeads.ts#L29)*
+*Defined in [chain/subscribeNewHeads.ts:28](https://github.com/polkadot-js/api/blob/7cc961f789/packages/api-derive/src/chain/subscribeNewHeads.ts#L28)*
 
 **`name`** subscribeNewHeads
+
+**`returns`** An array containing the block header and the block author
 
 **`description`** An observable of the current block header and it's author
 
@@ -40,15 +42,3 @@ api.derive.chain.subscribeNewHeads((header) => {
   console.log(`block #${header.number} was authored by ${header.author}`);
 });
 ```
-
-**Parameters:**
-
-Name | Type |
------- | ------ |
-`api` | ApiInterfaceRx |
-
-**Returns:** *function*
-
-An array containing the block header and the block author
-
-▸ (): *Observable‹[HeaderExtended](../classes/_type_headerextended_.headerextended.md)›*
