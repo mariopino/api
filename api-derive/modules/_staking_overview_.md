@@ -4,42 +4,26 @@
 
 ## Index
 
-### Variables
+### Functions
 
-* [overview](_staking_overview_.md#const-overview)
+* [overview](_staking_overview_.md#overview)
 
-## Variables
+## Functions
 
-### `Const` overview
+###  overview
 
-• **overview**: *(Anonymous function)* =  memo((api: ApiInterfaceRx): () => Observable<DerivedStakingOverview> => {
-  const sessionIndexesCall = sessionIndexes(api);
+▸ **overview**(`api`: ApiInterfaceRx): *function*
 
-  return memo((): Observable<DerivedStakingOverview> =>
-    combineLatest([
-      sessionIndexesCall(),
-      api.queryMulti<[Vec<AccountId>, Vec<AccountId>]>([
-        api.query.session.validators,
-        api.query.staking.currentElected
-      ])
-    ]).pipe(
-      switchMap(([{ currentEra, currentIndex, validatorCount }, [validators, currentElected]]) =>
-        combineLatest([
-          of({ currentElected, currentEra, currentIndex, validators, validatorCount }),
-          // this will change on a per block basis, keep it innermost (and it needs eraIndex)
-          api.query.staking.currentEraPointsEarned
-            ? api.query.staking.currentEraPointsEarned<EraPoints>(currentEra)
-            : of(createType('EraPoints'))
-        ])
-      ),
-      map(([{ currentElected, currentEra, currentIndex, validators, validatorCount }, eraPoints]): DerivedStakingOverview => ({
-        currentElected, currentEra, currentIndex, eraPoints, validators, validatorCount
-      })),
-      drr()
-    )
-  );
-}, true)
-
-*Defined in [staking/overview.ts:19](https://github.com/polkadot-js/api/blob/8d3cb72189/packages/api-derive/src/staking/overview.ts#L19)*
+*Defined in [staking/overview.ts:19](https://github.com/polkadot-js/api/blob/506b042f8c/packages/api-derive/src/staking/overview.ts#L19)*
 
 **`description`** Retrieve the staking overview, including elected and points earned
+
+**Parameters:**
+
+Name | Type |
+------ | ------ |
+`api` | ApiInterfaceRx |
+
+**Returns:** *function*
+
+▸ (): *Observable‹[DerivedStakingOverview](../interfaces/_types_.derivedstakingoverview.md)›*

@@ -4,25 +4,26 @@
 
 ## Index
 
-### Variables
+### Functions
 
-* [validators](_staking_validators_.md#const-validators)
+* [validators](_staking_validators_.md#validators)
 
-## Variables
+## Functions
 
-### `Const` validators
+###  validators
 
-• **validators**: *(Anonymous function)* =  memo((api: ApiInterfaceRx): () => Observable<AccountId[]> => {
-  const overviewCall = overview(api);
+▸ **validators**(`api`: ApiInterfaceRx): *function*
 
-  return memo((): Observable<AccountId[]> =>
-    overviewCall().pipe(
-      map(({ validators }): AccountId[] => validators),
-      drr()
-    )
-  );
-}, true)
-
-*Defined in [staking/validators.ts:17](https://github.com/polkadot-js/api/blob/8d3cb72189/packages/api-derive/src/staking/validators.ts#L17)*
+*Defined in [staking/validators.ts:17](https://github.com/polkadot-js/api/blob/506b042f8c/packages/api-derive/src/staking/validators.ts#L17)*
 
 **`description`** Retrieve latest list of validators
+
+**Parameters:**
+
+Name | Type |
+------ | ------ |
+`api` | ApiInterfaceRx |
+
+**Returns:** *function*
+
+▸ (): *Observable‹AccountId[]›*

@@ -15,7 +15,7 @@
 
 ▸ **getDerivedTypes**(`type`: string, `primitiveName`: string, `imports`: [TypeImports](../interfaces/_scripts_util_imports_.typeimports.md)): *string[]*
 
-*Defined in [scripts/util/derived.ts:17](https://github.com/polkadot-js/api/blob/8d3cb72189/packages/types/src/scripts/util/derived.ts#L17)*
+*Defined in [scripts/util/derived.ts:17](https://github.com/polkadot-js/api/blob/506b042f8c/packages/types/src/scripts/util/derived.ts#L17)*
 
 **Parameters:**
 
@@ -33,7 +33,7 @@ ___
 
 ▸ **getSimilarTypes**(`type`: string, `imports`: [TypeImports](../interfaces/_scripts_util_imports_.typeimports.md)): *string[]*
 
-*Defined in [scripts/util/derived.ts:37](https://github.com/polkadot-js/api/blob/8d3cb72189/packages/types/src/scripts/util/derived.ts#L37)*
+*Defined in [scripts/util/derived.ts:37](https://github.com/polkadot-js/api/blob/506b042f8c/packages/types/src/scripts/util/derived.ts#L37)*
 
 **Parameters:**
 

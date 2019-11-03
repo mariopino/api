@@ -14,7 +14,7 @@
 
 ▸ **validateTypes**(`types`: string[], `throwError`: boolean): *void*
 
-*Defined in [Metadata/util/validateTypes.ts:39](https://github.com/polkadot-js/api/blob/8d3cb72189/packages/types/src/Metadata/util/validateTypes.ts#L39)*
+*Defined in [Metadata/util/validateTypes.ts:39](https://github.com/polkadot-js/api/blob/506b042f8c/packages/types/src/Metadata/util/validateTypes.ts#L39)*
 
 **Parameters:**
 

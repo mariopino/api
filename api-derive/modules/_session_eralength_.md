@@ -4,23 +4,24 @@
 
 ## Index
 
-### Variables
+### Functions
 
-* [eraLength](_session_eralength_.md#const-eralength)
+* [eraLength](_session_eralength_.md#eralength)
 
-## Variables
+## Functions
 
-### `Const` eraLength
+###  eraLength
 
-• **eraLength**: *(Anonymous function)* =  memo((api: ApiInterfaceRx): () => Observable<BlockNumber> => {
-  const infoCall = info(api);
+▸ **eraLength**(`api`: ApiInterfaceRx): *function*
 
-  return memo((): Observable<BlockNumber> =>
-    infoCall().pipe(
-      map(({ eraLength }): BlockNumber => eraLength),
-      drr()
-    )
-  );
-}, true)
+*Defined in [session/eraLength.ts:14](https://github.com/polkadot-js/api/blob/506b042f8c/packages/api-derive/src/session/eraLength.ts#L14)*
 
-*Defined in [session/eraLength.ts:14](https://github.com/polkadot-js/api/blob/8d3cb72189/packages/api-derive/src/session/eraLength.ts#L14)*
+**Parameters:**
+
+Name | Type |
+------ | ------ |
+`api` | ApiInterfaceRx |
+
+**Returns:** *function*
+
+▸ (): *Observable‹BlockNumber›*

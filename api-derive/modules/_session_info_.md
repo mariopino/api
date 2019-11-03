@@ -4,29 +4,26 @@
 
 ## Index
 
-### Variables
+### Functions
 
-* [info](_session_info_.md#const-info)
+* [info](_session_info_.md#info)
 
-## Variables
+## Functions
 
-### `Const` info
+###  info
 
-• **info**: *(Anonymous function)* =  memo((api: ApiInterfaceRx): () => Observable<DerivedSessionInfo> => {
-  const calls = {
-    bestNumberCall: bestNumber(api),
-    indexesCall: indexes(api)
-  };
+▸ **info**(`api`: ApiInterfaceRx): *function*
 
-  return memo((): Observable<DerivedSessionInfo> => {
-    return api.consts.staking
-      ? api.consts.babe
-        ? infoLatestBabe(api, calls) // 2.x with Babe
-        : infoLatestAura(api, calls) // 2.x with Aura (not all info there)
-      : infoV1(api, calls); // 1.x
-  });
-}, true)
-
-*Defined in [session/info.ts:133](https://github.com/polkadot-js/api/blob/8d3cb72189/packages/api-derive/src/session/info.ts#L133)*
+*Defined in [session/info.ts:130](https://github.com/polkadot-js/api/blob/506b042f8c/packages/api-derive/src/session/info.ts#L130)*
 
 **`description`** Retrieves all the session and era info and calculates specific values on it as the length of the session and eras
+
+**Parameters:**
+
+Name | Type |
+------ | ------ |
+`api` | ApiInterfaceRx |
+
+**Returns:** *function*
+
+▸ (): *Observable‹[DerivedSessionInfo](../interfaces/_types_.derivedsessioninfo.md)›*

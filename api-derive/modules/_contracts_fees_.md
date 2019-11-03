@@ -4,42 +4,19 @@
 
 ## Index
 
-### Variables
+### Functions
 
-* [fees](_contracts_fees_.md#const-fees)
+* [fees](_contracts_fees_.md#fees)
 
-## Variables
+## Functions
 
-### `Const` fees
+###  fees
 
-• **fees**: *(Anonymous function)* =  memo((api: ApiInterfaceRx): () => Observable<DerivedContractFees> => {
-  return memo((): Observable<DerivedContractFees> => {
-    if (api.query.contract && !api.query.contract.rentByteFee) {
-      return queryV1(api);
-    }
+▸ **fees**(`api`: ApiInterfaceRx): *function*
 
-    return (
-      api.consts.contracts
-        ? queryConstants(api)
-        : queryQuery(api)
-    ).pipe(
-      map(([callBaseFee, contractFee, createBaseFee, creationFee, rentByteFee, rentDepositOffset, tombstoneDeposit, transactionBaseFee, transactionByteFee, transferFee]): DerivedContractFees =>
-        // We've done this on purpose, i.e. so we can  just copy the name/order from the parse above and see gaps
-        parseResult([
-          callBaseFee, contractFee, createBaseFee, creationFee, rentByteFee, rentDepositOffset, tombstoneDeposit, transactionBaseFee, transactionByteFee, transferFee
-        ])
-      ),
-      drr()
-    );
-  });
-}, true)
-
-*Defined in [contracts/fees.ts:106](https://github.com/polkadot-js/api/blob/8d3cb72189/packages/api-derive/src/contracts/fees.ts#L106)*
+*Defined in [contracts/fees.ts:106](https://github.com/polkadot-js/api/blob/506b042f8c/packages/api-derive/src/contracts/fees.ts#L106)*
 
 **`name`** fees
-
-**`returns`** An object containing the combined results of the queries for
-all relevant contract fees as declared in the substrate chain spec.
 
 **`example`** 
 <BR>
@@ -49,3 +26,16 @@ api.derive.contracts.fees(([creationFee, transferFee]) => {
   console.log(`The fee for creating a new contract on this chain is ${creationFee} units. The fee required to call this contract is ${transferFee} units.`);
 });
 ```
+
+**Parameters:**
+
+Name | Type |
+------ | ------ |
+`api` | ApiInterfaceRx |
+
+**Returns:** *function*
+
+An object containing the combined results of the queries for
+all relevant contract fees as declared in the substrate chain spec.
+
+▸ (): *Observable‹[DerivedContractFees](../interfaces/_types_.derivedcontractfees.md)›*

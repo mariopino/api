@@ -22,4 +22,4 @@
 
 • **docs**? : *[ContractABIDocs](../modules/_types_.md#contractabidocs)*
 
-*Defined in [types.ts:70](https://github.com/polkadot-js/api/blob/8d3cb72189/packages/api-contract/src/types.ts#L70)*
+*Defined in [types.ts:70](https://github.com/polkadot-js/api/blob/506b042f8c/packages/api-contract/src/types.ts#L70)*
