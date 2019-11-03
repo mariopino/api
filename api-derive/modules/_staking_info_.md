@@ -4,32 +4,28 @@
 
 ## Index
 
-### Functions
+### Variables
 
-* [info](_staking_info_.md#info)
+* [info](_staking_info_.md#const-info)
 
-## Functions
+## Variables
 
-###  info
+### `Const` info
 
-▸ **info**(`api`: ApiInterfaceRx): *function*
+• **info**: *(Anonymous function)* =  memo((api: ApiInterfaceRx): (_accountId: Uint8Array | string) => Observable<DerivedStaking> => {
+  const calls = {
+    eraLengthCall: eraLength(api),
+    bestNumberCall: bestNumber(api),
+    recentlyOfflineCall: recentlyOffline(api)
+  };
+  const query = api.consts.session
+    ? retrieveV2
+    : retrieveV1;
 
-*Defined in [staking/info.ts:227](https://github.com/polkadot-js/api/blob/506b042f8c/packages/api-derive/src/staking/info.ts#L227)*
+  return memo((accountId: Uint8Array | string): Observable<DerivedStaking> =>
+    query(api, calls, createType('AccountId', accountId)).pipe(drr()));
+}, true)
+
+*Defined in [staking/info.ts:225](https://github.com/polkadot-js/api/blob/e601ae27a1/packages/api-derive/src/staking/info.ts#L225)*
 
 **`description`** From a stash, retrieve the controllerId and fill in all the relevant staking details
-
-**Parameters:**
-
-Name | Type |
------- | ------ |
-`api` | ApiInterfaceRx |
-
-**Returns:** *function*
-
-▸ (`_accountId`: Uint8Array | string): *Observable‹[DerivedStaking](../interfaces/_types_.derivedstaking.md)›*
-
-**Parameters:**
-
-Name | Type |
------- | ------ |
-`_accountId` | Uint8Array &#124; string |

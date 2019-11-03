@@ -18,4 +18,4 @@
 
 • **struct.fields**: *[MetaTypeDefStructField](_codec_create_types_.metatypedefstructfield.md)[]*
 
-*Defined in [codec/create/types.ts:131](https://github.com/polkadot-js/api/blob/506b042f8c/packages/types/src/codec/create/types.ts#L131)*
+*Defined in [codec/create/types.ts:131](https://github.com/polkadot-js/api/blob/e601ae27a1/packages/types/src/codec/create/types.ts#L131)*

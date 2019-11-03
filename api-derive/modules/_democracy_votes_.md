@@ -4,31 +4,25 @@
 
 ## Index
 
-### Functions
+### Variables
 
-* [votes](_democracy_votes_.md#votes)
+* [votes](_democracy_votes_.md#const-votes)
 
-## Functions
+## Variables
 
-###  votes
+### `Const` votes
 
-▸ **votes**(`api`: ApiInterfaceRx): *function*
+• **votes**: *(Anonymous function)* =  memo((api: ApiInterfaceRx): (referendumId: BN, accountIds?: AccountId[]) => Observable<Vote[]> => {
+  return memo((referendumId: BN, accountIds: AccountId[] = []): Observable<Vote[]> =>
+    (
+      !accountIds || !accountIds.length
+        ? of([] as Vote[])
+        : api.query.democracy.voteOf.multi<Vote>(
+          accountIds.map((accountId): [BN, AccountId] =>
+            [referendumId, accountId]
+          )
+        )
+    ).pipe(drr()));
+}, true)
 
-*Defined in [democracy/votes.ts:14](https://github.com/polkadot-js/api/blob/506b042f8c/packages/api-derive/src/democracy/votes.ts#L14)*
-
-**Parameters:**
-
-Name | Type |
------- | ------ |
-`api` | ApiInterfaceRx |
-
-**Returns:** *function*
-
-▸ (`referendumId`: BN, `accountIds?`: AccountId[]): *Observable‹Vote[]›*
-
-**Parameters:**
-
-Name | Type |
------- | ------ |
-`referendumId` | BN |
-`accountIds?` | AccountId[] |
+*Defined in [democracy/votes.ts:13](https://github.com/polkadot-js/api/blob/e601ae27a1/packages/api-derive/src/democracy/votes.ts#L13)*

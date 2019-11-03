@@ -4,19 +4,27 @@
 
 ## Index
 
-### Functions
+### Variables
 
-* [bestNumberFinalized](_chain_bestnumberfinalized_.md#bestnumberfinalized)
+* [bestNumberFinalized](_chain_bestnumberfinalized_.md#const-bestnumberfinalized)
 
-## Functions
+## Variables
 
-###  bestNumberFinalized
+### `Const` bestNumberFinalized
 
-▸ **bestNumberFinalized**(`api`: ApiInterfaceRx): *function*
+• **bestNumberFinalized**: *(Anonymous function)* =  memo((api: ApiInterfaceRx): () => Observable<BlockNumber> => {
+  return memo((): Observable<BlockNumber> =>
+    api.rpc.chain.subscribeFinalizedHeads().pipe(
+      map((header): BlockNumber => header.number.unwrap()),
+      drr()
+    ));
+}, true)
 
-*Defined in [chain/bestNumberFinalized.ts:26](https://github.com/polkadot-js/api/blob/506b042f8c/packages/api-derive/src/chain/bestNumberFinalized.ts#L26)*
+*Defined in [chain/bestNumberFinalized.ts:26](https://github.com/polkadot-js/api/blob/e601ae27a1/packages/api-derive/src/chain/bestNumberFinalized.ts#L26)*
 
 **`name`** bestNumberFinalized
+
+**`returns`** A BlockNumber
 
 **`description`** Get the latest finalized block number.
 
@@ -28,15 +36,3 @@ api.derive.chain.bestNumberFinalized((blockNumber) => {
   console.log(`the current finalized block is #${blockNumber}`);
 });
 ```
-
-**Parameters:**
-
-Name | Type |
------- | ------ |
-`api` | ApiInterfaceRx |
-
-**Returns:** *function*
-
-A BlockNumber
-
-▸ (): *Observable‹BlockNumber›*

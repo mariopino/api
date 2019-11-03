@@ -4,30 +4,27 @@
 
 ## Index
 
-### Functions
+### Variables
 
-* [votingBalancesNominatorsFor](_balances_votingbalancesnominatorsfor_.md#votingbalancesnominatorsfor)
+* [votingBalancesNominatorsFor](_balances_votingbalancesnominatorsfor_.md#const-votingbalancesnominatorsfor)
 
-## Functions
+## Variables
 
-###  votingBalancesNominatorsFor
+### `Const` votingBalancesNominatorsFor
 
-▸ **votingBalancesNominatorsFor**(`api`: ApiInterfaceRx): *function*
+• **votingBalancesNominatorsFor**: *(Anonymous function)* =  memo((api: ApiInterfaceRx): (address: AccountId | AccountIndex | Address | string) => Observable<DerivedBalances[]> => {
+  const infoCall = info(api);
 
-*Defined in [balances/votingBalancesNominatorsFor.ts:17](https://github.com/polkadot-js/api/blob/506b042f8c/packages/api-derive/src/balances/votingBalancesNominatorsFor.ts#L17)*
+  return memo((address: AccountId | AccountIndex | Address | string): Observable<DerivedBalances[]> =>
+    infoCall(address).pipe(
+      switchMap(({ accountId }): Observable<AccountId[]> =>
+        accountId
+          ? (api.query.staking.nominatorsFor<Vec<AccountId>>(accountId))
+          : of([] as AccountId[])
+      ),
+      switchMap(votingBalances(api)),
+      drr()
+    ));
+}, true)
 
-**Parameters:**
-
-Name | Type |
------- | ------ |
-`api` | ApiInterfaceRx |
-
-**Returns:** *function*
-
-▸ (`address`: AccountId | AccountIndex | Address | string): *Observable‹[DerivedBalances](../interfaces/_types_.derivedbalances.md)[]›*
-
-**Parameters:**
-
-Name | Type |
------- | ------ |
-`address` | AccountId &#124; AccountIndex &#124; Address &#124; string |
+*Defined in [balances/votingBalancesNominatorsFor.ts:17](https://github.com/polkadot-js/api/blob/e601ae27a1/packages/api-derive/src/balances/votingBalancesNominatorsFor.ts#L17)*

@@ -4,19 +4,48 @@
 
 ## Index
 
-### Functions
+### Variables
 
-* [all](_balances_all_.md#all)
+* [all](_balances_all_.md#const-all)
 
-## Functions
+## Variables
 
-###  all
+### `Const` all
 
-▸ **all**(`api`: ApiInterfaceRx): *function*
+• **all**: *(Anonymous function)* =  memo((api: ApiInterfaceRx): (address: AccountIndex | AccountId | Address | string) => Observable<DerivedBalances> => {
+  const bestNumberCall = bestNumber(api);
+  const infoCall = info(api);
 
-*Defined in [balances/all.ts:80](https://github.com/polkadot-js/api/blob/506b042f8c/packages/api-derive/src/balances/all.ts#L80)*
+  return memo((address: AccountIndex | AccountId | Address | string): Observable<DerivedBalances> =>
+    infoCall(address).pipe(
+      switchMap(({ accountId }): Observable<Result> =>
+        (accountId
+          ? combineLatest([
+            of(accountId),
+            bestNumberCall(),
+            queryBalances(api, accountId),
+            // FIXME This is having issues with Kusama, only use accountNonce atm
+            // api.rpc.account && api.rpc.account.nextIndex
+            //   ? api.rpc.account.nextIndex(accountId)
+            //   // otherwise we end up with this: type 'Codec | Index' is not assignable to type 'Index'.
+            //   : api.query.system.accountNonce<Index>(accountId)
+            api.query.system.accountNonce<Index>(accountId)
+          ])
+          : of([createType('AccountId'), createType('BlockNumber'), [createType('Balance'), createType('Balance'), createType('Vec<BalanceLock>'), createType('Option<VestingSchedule>', null)], createType('Index')])
+        )
+      ),
+      map(calcBalances),
+      drr()
+    ));
+}, true)
+
+*Defined in [balances/all.ts:80](https://github.com/polkadot-js/api/blob/e601ae27a1/packages/api-derive/src/balances/all.ts#L80)*
 
 **`name`** all
+
+**`param`** An accounts Id in different formats.
+
+**`returns`** An object containing the results of various balance queries
 
 **`example`** 
 <BR>
@@ -28,21 +57,3 @@ api.derive.balances.all(ALICE, ({ accountId, lockedBalance }) => {
   console.log(`The account ${accountId} has a locked balance ${lockedBalance} units.`);
 });
 ```
-
-**Parameters:**
-
-Name | Type |
------- | ------ |
-`api` | ApiInterfaceRx |
-
-**Returns:** *function*
-
-An object containing the results of various balance queries
-
-▸ (`address`: AccountIndex | AccountId | Address | string): *Observable‹[DerivedBalances](../interfaces/_types_.derivedbalances.md)›*
-
-**Parameters:**
-
-Name | Type | Description |
------- | ------ | ------ |
-`address` | AccountIndex &#124; AccountId &#124; Address &#124; string | An accounts Id in different formats. |

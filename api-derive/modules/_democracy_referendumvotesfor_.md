@@ -4,30 +4,36 @@
 
 ## Index
 
-### Functions
+### Variables
 
-* [referendumVotesFor](_democracy_referendumvotesfor_.md#referendumvotesfor)
+* [referendumVotesFor](_democracy_referendumvotesfor_.md#const-referendumvotesfor)
 
-## Functions
+## Variables
 
-###  referendumVotesFor
+### `Const` referendumVotesFor
 
-▸ **referendumVotesFor**(`api`: ApiInterfaceRx): *function*
+• **referendumVotesFor**: *(Anonymous function)* =  memo((api: ApiInterfaceRx): (referendumId: BN | number) => Observable<DerivedReferendumVote[]> => {
+  const votesCall = votes(api);
+  const votingBalancesCall = votingBalances(api);
 
-*Defined in [democracy/referendumVotesFor.ts:18](https://github.com/polkadot-js/api/blob/506b042f8c/packages/api-derive/src/democracy/referendumVotesFor.ts#L18)*
+  return memo((referendumId: BN | number): Observable<DerivedReferendumVote[]> =>
+    api.query.democracy.votersFor<Vec<AccountId>>(referendumId).pipe(
+      switchMap((votersFor): Observable<[Vec<AccountId>, Vote[], DerivedBalances[]]> =>
+        combineLatest([
+          of(votersFor),
+          votesCall(referendumId as BN, votersFor),
+          votingBalancesCall(votersFor)
+        ])
+      ),
+      map(([votersFor, votes, balances]): DerivedReferendumVote[] =>
+        votersFor.map((accountId, index): DerivedReferendumVote => ({
+          accountId,
+          balance: balances[index].votingBalance || createType('Balance'),
+          vote: votes[index] || createType('Vote')
+        } as unknown as DerivedReferendumVote))
+      ),
+      drr()
+    ));
+}, true)
 
-**Parameters:**
-
-Name | Type |
------- | ------ |
-`api` | ApiInterfaceRx |
-
-**Returns:** *function*
-
-▸ (`referendumId`: BN | number): *Observable‹[DerivedReferendumVote](../interfaces/_types_.derivedreferendumvote.md)[]›*
-
-**Parameters:**
-
-Name | Type |
------- | ------ |
-`referendumId` | BN &#124; number |
+*Defined in [democracy/referendumVotesFor.ts:18](https://github.com/polkadot-js/api/blob/e601ae27a1/packages/api-derive/src/democracy/referendumVotesFor.ts#L18)*

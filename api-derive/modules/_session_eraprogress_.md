@@ -4,24 +4,22 @@
 
 ## Index
 
-### Functions
+### Variables
 
-* [eraProgress](_session_eraprogress_.md#eraprogress)
+* [eraProgress](_session_eraprogress_.md#const-eraprogress)
 
-## Functions
+## Variables
 
-###  eraProgress
+### `Const` eraProgress
 
-▸ **eraProgress**(`api`: ApiInterfaceRx): *function*
+• **eraProgress**: *(Anonymous function)* =  memo((api: ApiInterfaceRx): () => Observable<BlockNumber> => {
+  const infoCall = info(api);
 
-*Defined in [session/eraProgress.ts:14](https://github.com/polkadot-js/api/blob/506b042f8c/packages/api-derive/src/session/eraProgress.ts#L14)*
+  return memo((): Observable<BlockNumber> =>
+    infoCall().pipe(
+      map(({ eraProgress }): BlockNumber => eraProgress),
+      drr()
+    ));
+}, true)
 
-**Parameters:**
-
-Name | Type |
------- | ------ |
-`api` | ApiInterfaceRx |
-
-**Returns:** *function*
-
-▸ (): *Observable‹BlockNumber›*
+*Defined in [session/eraProgress.ts:14](https://github.com/polkadot-js/api/blob/e601ae27a1/packages/api-derive/src/session/eraProgress.ts#L14)*

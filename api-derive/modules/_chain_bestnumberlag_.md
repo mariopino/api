@@ -4,19 +4,35 @@
 
 ## Index
 
-### Functions
+### Variables
 
-* [bestNumberLag](_chain_bestnumberlag_.md#bestnumberlag)
+* [bestNumberLag](_chain_bestnumberlag_.md#const-bestnumberlag)
 
-## Functions
+## Variables
 
-###  bestNumberLag
+### `Const` bestNumberLag
 
-▸ **bestNumberLag**(`api`: ApiInterfaceRx): *function*
+• **bestNumberLag**: *(Anonymous function)* =  memo((api: ApiInterfaceRx): () => Observable<BlockNumber> => {
+  const bestNumberCall = bestNumber(api);
+  const bestNumberFinalizedCall = bestNumberFinalized(api);
 
-*Defined in [chain/bestNumberLag.ts:29](https://github.com/polkadot-js/api/blob/506b042f8c/packages/api-derive/src/chain/bestNumberLag.ts#L29)*
+  return memo((): Observable<BlockNumber> =>
+    combineLatest([
+      bestNumberCall(),
+      bestNumberFinalizedCall()
+    ]).pipe(
+      map(([bestNumber, bestNumberFinalized]): BlockNumber =>
+        createType('BlockNumber', bestNumber.sub(bestNumberFinalized))
+      ),
+      drr()
+    ));
+}, true)
+
+*Defined in [chain/bestNumberLag.ts:29](https://github.com/polkadot-js/api/blob/e601ae27a1/packages/api-derive/src/chain/bestNumberLag.ts#L29)*
 
 **`name`** bestNumberLag
+
+**`returns`** A number of blocks
 
 **`description`** Calculates the lag between finalized head and best head
 
@@ -28,15 +44,3 @@ api.derive.chain.bestNumberLag((lag) => {
   console.log(`finalized is ${lag} blocks behind head`);
 });
 ```
-
-**Parameters:**
-
-Name | Type |
------- | ------ |
-`api` | ApiInterfaceRx |
-
-**Returns:** *function*
-
-A number of blocks
-
-▸ (): *Observable‹BlockNumber›*
