@@ -16,7 +16,7 @@
   const bestNumberCall = bestNumber(api);
   const infoCall = info(api);
 
-  return memo((address: AccountIndex | AccountId | Address | string): Observable<DerivedBalances> =>
+  return (address: AccountIndex | AccountId | Address | string): Observable<DerivedBalances> =>
     infoCall(address).pipe(
       switchMap(({ accountId }): Observable<Result> =>
         (accountId
@@ -36,10 +36,10 @@
       ),
       map(calcBalances),
       drr()
-    ));
+    );
 }, true)
 
-*Defined in [balances/all.ts:80](https://github.com/polkadot-js/api/blob/287ceb2ded/packages/api-derive/src/balances/all.ts#L80)*
+*Defined in [balances/all.ts:80](https://github.com/polkadot-js/api/blob/2371d6a29c/packages/api-derive/src/balances/all.ts#L80)*
 
 **`name`** all
 

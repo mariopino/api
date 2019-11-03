@@ -17,17 +17,16 @@
 ### `Const` referendumInfo
 
 • **referendumInfo**: *(Anonymous function)* =  memo((api: ApiInterfaceRx): (index: BN | number) => Observable<Option<ReferendumInfoExtended>> => {
-  return memo((index: BN | number): Observable<Option<ReferendumInfoExtended>> =>
-    (api.query.democracy.referendumInfoOf<Option<ReferendumInfo>>(index))
-      .pipe(
-        map((optionInfo): Option<ReferendumInfoExtended> =>
-          constructInfo(index, optionInfo)
-        ),
-        drr()
-      ));
+  return (index: BN | number): Observable<Option<ReferendumInfoExtended>> =>
+    api.query.democracy.referendumInfoOf<Option<ReferendumInfo>>(index).pipe(
+      map((optionInfo): Option<ReferendumInfoExtended> =>
+        constructInfo(index, optionInfo)
+      ),
+      drr()
+    );
 }, true)
 
-*Defined in [democracy/referendumInfo.ts:30](https://github.com/polkadot-js/api/blob/287ceb2ded/packages/api-derive/src/democracy/referendumInfo.ts#L30)*
+*Defined in [democracy/referendumInfo.ts:30](https://github.com/polkadot-js/api/blob/2371d6a29c/packages/api-derive/src/democracy/referendumInfo.ts#L30)*
 
 ## Functions
 
@@ -35,7 +34,7 @@
 
 ▸ **constructInfo**(`index`: BN | number, `optionInfo?`: Option‹ReferendumInfo›): *Option‹[ReferendumInfoExtended](../classes/_type_referenduminfoextended_.referenduminfoextended.md)›*
 
-*Defined in [democracy/referendumInfo.ts:17](https://github.com/polkadot-js/api/blob/287ceb2ded/packages/api-derive/src/democracy/referendumInfo.ts#L17)*
+*Defined in [democracy/referendumInfo.ts:17](https://github.com/polkadot-js/api/blob/2371d6a29c/packages/api-derive/src/democracy/referendumInfo.ts#L17)*
 
 **Parameters:**
 

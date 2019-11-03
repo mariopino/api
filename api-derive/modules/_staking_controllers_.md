@@ -13,7 +13,7 @@
 ### `Const` controllers
 
 • **controllers**: *(Anonymous function)* =  memo((api: ApiInterfaceRx): () => Observable<[AccountId[], Option<AccountId>[]]> => {
-  return memo((): Observable<[AccountId[], Option<AccountId>[]]> =>
+  return (): Observable<[AccountId[], Option<AccountId>[]]> =>
     api.query.staking.validators<[AccountId[]] & Codec>().pipe(
       switchMap(([stashIds]): Observable<[AccountId[], Option<AccountId>[]]> =>
         combineLatest([
@@ -25,9 +25,9 @@
         ])
       ),
       drr()
-    ));
+    );
 }, true)
 
-*Defined in [staking/controllers.ts:18](https://github.com/polkadot-js/api/blob/287ceb2ded/packages/api-derive/src/staking/controllers.ts#L18)*
+*Defined in [staking/controllers.ts:18](https://github.com/polkadot-js/api/blob/2371d6a29c/packages/api-derive/src/staking/controllers.ts#L18)*
 
 **`description`** From the list of stash accounts, retrieve the list of controllers

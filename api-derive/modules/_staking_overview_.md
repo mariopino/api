@@ -14,16 +14,14 @@
 
 • **overview**: *(Anonymous function)* =  memo((api: ApiInterfaceRx): () => Observable<DerivedStakingOverview> => {
   const sessionIndexesCall = sessionIndexes(api);
+  const validatorsCall = validators(api);
 
-  return memo((): Observable<DerivedStakingOverview> =>
+  return (): Observable<DerivedStakingOverview> =>
     combineLatest([
       sessionIndexesCall(),
-      api.queryMulti<[Vec<AccountId>, Vec<AccountId>]>([
-        api.query.session.validators,
-        api.query.staking.currentElected
-      ])
+      validatorsCall()
     ]).pipe(
-      switchMap(([{ currentEra, currentIndex, validatorCount }, [validators, currentElected]]) =>
+      switchMap(([{ currentEra, currentIndex, validatorCount }, { currentElected, validators }]) =>
         combineLatest([
           of({ currentElected, currentEra, currentIndex, validators, validatorCount }),
           // this will change on a per block basis, keep it innermost (and it needs eraIndex)
@@ -36,9 +34,9 @@
         currentElected, currentEra, currentIndex, eraPoints, validators, validatorCount
       })),
       drr()
-    ));
+    );
 }, true)
 
-*Defined in [staking/overview.ts:19](https://github.com/polkadot-js/api/blob/287ceb2ded/packages/api-derive/src/staking/overview.ts#L19)*
+*Defined in [staking/overview.ts:20](https://github.com/polkadot-js/api/blob/2371d6a29c/packages/api-derive/src/staking/overview.ts#L20)*
 
 **`description`** Retrieve the staking overview, including elected and points earned

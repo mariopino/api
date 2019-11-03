@@ -18,14 +18,14 @@
 
 Ƭ **AccountIndexes**: *Record‹string, AccountIndex›*
 
-*Defined in [accounts/indexes.ts:15](https://github.com/polkadot-js/api/blob/287ceb2ded/packages/api-derive/src/accounts/indexes.ts#L15)*
+*Defined in [accounts/indexes.ts:15](https://github.com/polkadot-js/api/blob/2371d6a29c/packages/api-derive/src/accounts/indexes.ts#L15)*
 
 ## Variables
 
 ### `Const` indexes
 
 • **indexes**: *(Anonymous function)* =  memo((api: ApiInterfaceRx): () => Observable<AccountIndexes> => {
-  return memo((): Observable<AccountIndexes> =>
+  return (): Observable<AccountIndexes> =>
     api.query.indices.nextEnumSet<AccountIndex>().pipe(
       // use the nextEnumSet (which is a counter of the number of sets) to construct
       // a range of values to query [0, 1, 2, ...]. Retrieve the full enum set for the
@@ -47,10 +47,10 @@
           return result;
         }, {} as AccountIndexes)),
       drr()
-    ));
+    );
 }, true)
 
-*Defined in [accounts/indexes.ts:34](https://github.com/polkadot-js/api/blob/287ceb2ded/packages/api-derive/src/accounts/indexes.ts#L34)*
+*Defined in [accounts/indexes.ts:34](https://github.com/polkadot-js/api/blob/2371d6a29c/packages/api-derive/src/accounts/indexes.ts#L34)*
 
 **`name`** indexes
 

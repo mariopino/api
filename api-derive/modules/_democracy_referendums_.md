@@ -15,7 +15,7 @@
 • **referendums**: *(Anonymous function)* =  memo((api: ApiInterfaceRx): () => Observable<Option<ReferendumInfoExtended>[]> => {
   const referendumInfosCall = referendumInfos(api);
 
-  return memo((): Observable<Option<ReferendumInfoExtended>[]> =>
+  return (): Observable<Option<ReferendumInfoExtended>[]> =>
     api.queryMulti<[ReferendumIndex, ReferendumIndex]>([
       api.query.democracy.nextTally,
       api.query.democracy.referendumCount
@@ -30,7 +30,7 @@
           : of([])
       ),
       drr()
-    ));
+    );
 }, true)
 
-*Defined in [democracy/referendums.ts:17](https://github.com/polkadot-js/api/blob/287ceb2ded/packages/api-derive/src/democracy/referendums.ts#L17)*
+*Defined in [democracy/referendums.ts:17](https://github.com/polkadot-js/api/blob/2371d6a29c/packages/api-derive/src/democracy/referendums.ts#L17)*

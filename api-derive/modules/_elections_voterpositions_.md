@@ -13,7 +13,7 @@
 ### `Const` voterPositions
 
 • **voterPositions**: *(Anonymous function)* =  memo((api: ApiInterfaceRx): () => Observable<DerivedVoterPositions> => {
-  return memo((): Observable<DerivedVoterPositions> =>
+  return (): Observable<DerivedVoterPositions> =>
     api.query.elections.nextVoterSet<SetIndex>().pipe(
       switchMap((nextVoterSet: SetIndex): Observable<[BN, Vec<Option<AccountId>>[]]> => combineLatest(
         of(api.consts.elections.voterSetSize) as any as Observable<BN>,
@@ -40,10 +40,10 @@
         }, {});
       }),
       drr()
-    ));
+    );
 }, true)
 
-*Defined in [elections/voterPositions.ts:29](https://github.com/polkadot-js/api/blob/287ceb2ded/packages/api-derive/src/elections/voterPositions.ts#L29)*
+*Defined in [elections/voterPositions.ts:29](https://github.com/polkadot-js/api/blob/2371d6a29c/packages/api-derive/src/elections/voterPositions.ts#L29)*
 
 **`name`** voterPositions
 

@@ -15,7 +15,7 @@
 • **indexToId**: *(Anonymous function)* =  memo((api: ApiInterfaceRx): (accountIndex: AccountIndex | string) => Observable<AccountId | undefined> => {
   const querySection = api.query.indices || api.query.balances;
 
-  return memo((_accountIndex: AccountIndex | string): Observable<AccountId | undefined> => {
+  return (_accountIndex: AccountIndex | string): Observable<AccountId | undefined> => {
     const accountIndex = _accountIndex instanceof ClassOf('AccountIndex')
       ? _accountIndex
       : createType('AccountIndex', _accountIndex);
@@ -27,10 +27,10 @@
       ),
       drr()
     );
-  });
+  };
 }, true)
 
-*Defined in [accounts/indexToId.ts:28](https://github.com/polkadot-js/api/blob/287ceb2ded/packages/api-derive/src/accounts/indexToId.ts#L28)*
+*Defined in [accounts/indexToId.ts:28](https://github.com/polkadot-js/api/blob/2371d6a29c/packages/api-derive/src/accounts/indexToId.ts#L28)*
 
 **`name`** indexToId
 

@@ -16,7 +16,7 @@
   const votesCall = votes(api);
   const votingBalancesCall = votingBalances(api);
 
-  return memo((referendumId: BN | number): Observable<DerivedReferendumVote[]> =>
+  return (referendumId: BN | number): Observable<DerivedReferendumVote[]> =>
     api.query.democracy.votersFor<Vec<AccountId>>(referendumId).pipe(
       switchMap((votersFor): Observable<[Vec<AccountId>, Vote[], DerivedBalances[]]> =>
         combineLatest([
@@ -33,7 +33,7 @@
         } as unknown as DerivedReferendumVote))
       ),
       drr()
-    ));
+    );
 }, true)
 
-*Defined in [democracy/referendumVotesFor.ts:18](https://github.com/polkadot-js/api/blob/287ceb2ded/packages/api-derive/src/democracy/referendumVotesFor.ts#L18)*
+*Defined in [democracy/referendumVotesFor.ts:18](https://github.com/polkadot-js/api/blob/2371d6a29c/packages/api-derive/src/democracy/referendumVotesFor.ts#L18)*

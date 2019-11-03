@@ -15,7 +15,7 @@
 • **votingBalancesNominatorsFor**: *(Anonymous function)* =  memo((api: ApiInterfaceRx): (address: AccountId | AccountIndex | Address | string) => Observable<DerivedBalances[]> => {
   const infoCall = info(api);
 
-  return memo((address: AccountId | AccountIndex | Address | string): Observable<DerivedBalances[]> =>
+  return (address: AccountId | AccountIndex | Address | string): Observable<DerivedBalances[]> =>
     infoCall(address).pipe(
       switchMap(({ accountId }): Observable<AccountId[]> =>
         accountId
@@ -24,7 +24,7 @@
       ),
       switchMap(votingBalances(api)),
       drr()
-    ));
+    );
 }, true)
 
-*Defined in [balances/votingBalancesNominatorsFor.ts:17](https://github.com/polkadot-js/api/blob/287ceb2ded/packages/api-derive/src/balances/votingBalancesNominatorsFor.ts#L17)*
+*Defined in [balances/votingBalancesNominatorsFor.ts:17](https://github.com/polkadot-js/api/blob/2371d6a29c/packages/api-derive/src/balances/votingBalancesNominatorsFor.ts#L17)*

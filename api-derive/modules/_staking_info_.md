@@ -22,10 +22,10 @@
     ? retrieveV2
     : retrieveV1;
 
-  return memo((accountId: Uint8Array | string): Observable<DerivedStaking> =>
-    query(api, calls, createType('AccountId', accountId)).pipe(drr()));
+  return (accountId: Uint8Array | string): Observable<DerivedStaking> =>
+    query(api, calls, createType('AccountId', accountId)).pipe(drr());
 }, true)
 
-*Defined in [staking/info.ts:225](https://github.com/polkadot-js/api/blob/287ceb2ded/packages/api-derive/src/staking/info.ts#L225)*
+*Defined in [staking/info.ts:225](https://github.com/polkadot-js/api/blob/2371d6a29c/packages/api-derive/src/staking/info.ts#L225)*
 
 **`description`** From a stash, retrieve the controllerId and fill in all the relevant staking details

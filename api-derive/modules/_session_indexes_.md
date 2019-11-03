@@ -13,7 +13,7 @@
 ### `Const` indexes
 
 • **indexes**: *(Anonymous function)* =  memo((api: ApiInterfaceRx): () => Observable<DeriveSessionIndexes> => {
-  return memo((): Observable<DeriveSessionIndexes> =>
+  return (): Observable<DeriveSessionIndexes> =>
     api.queryMulti<[SessionIndex, EraIndex, u32]>([
       api.query.session.currentIndex,
       api.query.staking.currentEra,
@@ -23,7 +23,7 @@
         currentIndex, currentEra, validatorCount
       })),
       drr()
-    ));
+    );
 }, true)
 
-*Defined in [session/indexes.ts:15](https://github.com/polkadot-js/api/blob/287ceb2ded/packages/api-derive/src/session/indexes.ts#L15)*
+*Defined in [session/indexes.ts:15](https://github.com/polkadot-js/api/blob/2371d6a29c/packages/api-derive/src/session/indexes.ts#L15)*

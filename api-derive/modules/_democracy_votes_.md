@@ -13,7 +13,7 @@
 ### `Const` votes
 
 • **votes**: *(Anonymous function)* =  memo((api: ApiInterfaceRx): (referendumId: BN, accountIds?: AccountId[]) => Observable<Vote[]> => {
-  return memo((referendumId: BN, accountIds: AccountId[] = []): Observable<Vote[]> =>
+  return (referendumId: BN, accountIds: AccountId[] = []): Observable<Vote[]> =>
     (
       !accountIds || !accountIds.length
         ? of([] as Vote[])
@@ -22,7 +22,7 @@
             [referendumId, accountId]
           )
         )
-    ).pipe(drr()));
+    ).pipe(drr());
 }, true)
 
-*Defined in [democracy/votes.ts:13](https://github.com/polkadot-js/api/blob/287ceb2ded/packages/api-derive/src/democracy/votes.ts#L13)*
+*Defined in [democracy/votes.ts:13](https://github.com/polkadot-js/api/blob/2371d6a29c/packages/api-derive/src/democracy/votes.ts#L13)*

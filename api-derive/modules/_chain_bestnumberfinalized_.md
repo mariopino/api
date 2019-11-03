@@ -13,14 +13,14 @@
 ### `Const` bestNumberFinalized
 
 • **bestNumberFinalized**: *(Anonymous function)* =  memo((api: ApiInterfaceRx): () => Observable<BlockNumber> => {
-  return memo((): Observable<BlockNumber> =>
+  return (): Observable<BlockNumber> =>
     api.rpc.chain.subscribeFinalizedHeads().pipe(
       map((header): BlockNumber => header.number.unwrap()),
       drr()
-    ));
+    );
 }, true)
 
-*Defined in [chain/bestNumberFinalized.ts:26](https://github.com/polkadot-js/api/blob/287ceb2ded/packages/api-derive/src/chain/bestNumberFinalized.ts#L26)*
+*Defined in [chain/bestNumberFinalized.ts:26](https://github.com/polkadot-js/api/blob/2371d6a29c/packages/api-derive/src/chain/bestNumberFinalized.ts#L26)*
 
 **`name`** bestNumberFinalized
 

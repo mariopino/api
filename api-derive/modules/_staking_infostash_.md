@@ -17,11 +17,11 @@
     ? retrieveV2
     : retrieveV1;
 
-  return memo((stashId: AccountId): Observable<DerivedStakingStash> =>
+  return (stashId: AccountId): Observable<DerivedStakingStash> =>
     query(api, stashId).pipe(
       map((result): DerivedStakingStash => parse(stashId, result)),
       drr()
-    ));
+    );
 }, true)
 
-*Defined in [staking/infoStash.ts:55](https://github.com/polkadot-js/api/blob/287ceb2ded/packages/api-derive/src/staking/infoStash.ts#L55)*
+*Defined in [staking/infoStash.ts:55](https://github.com/polkadot-js/api/blob/2371d6a29c/packages/api-derive/src/staking/infoStash.ts#L55)*

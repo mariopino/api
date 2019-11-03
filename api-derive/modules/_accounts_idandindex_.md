@@ -18,7 +18,7 @@
 
 Ƭ **AccountIdAndIndex**: *[undefined | AccountId, undefined | AccountIndex]*
 
-*Defined in [accounts/idAndIndex.ts:23](https://github.com/polkadot-js/api/blob/287ceb2ded/packages/api-derive/src/accounts/idAndIndex.ts#L23)*
+*Defined in [accounts/idAndIndex.ts:23](https://github.com/polkadot-js/api/blob/2371d6a29c/packages/api-derive/src/accounts/idAndIndex.ts#L23)*
 
 ## Variables
 
@@ -30,11 +30,11 @@
     indexToIdCall: indexToId(api)
   };
 
-  return memo((address?: Address | AccountId | AccountIndex | string | null): Observable<AccountIdAndIndex> =>
-    retrieve(address, calls).pipe(drr()));
+  return (address?: Address | AccountId | AccountIndex | string | null): Observable<AccountIdAndIndex> =>
+    retrieve(address, calls).pipe(drr());
 }, true)
 
-*Defined in [accounts/idAndIndex.ts:63](https://github.com/polkadot-js/api/blob/287ceb2ded/packages/api-derive/src/accounts/idAndIndex.ts#L63)*
+*Defined in [accounts/idAndIndex.ts:63](https://github.com/polkadot-js/api/blob/2371d6a29c/packages/api-derive/src/accounts/idAndIndex.ts#L63)*
 
 **`name`** idAndIndex
 

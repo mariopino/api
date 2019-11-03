@@ -13,14 +13,14 @@
 ### `Const` votingBalances
 
 • **votingBalances**: *(Anonymous function)* =  memo((api: ApiInterfaceRx): (addresses?: (AccountId | AccountIndex | Address | string)[]) => Observable<DerivedBalances[]> => {
-  return memo((addresses?: (AccountId | AccountIndex | Address | string)[]): Observable<DerivedBalances[]> =>
+  return (addresses?: (AccountId | AccountIndex | Address | string)[]): Observable<DerivedBalances[]> =>
     (
       !addresses || !addresses.length
         ? of([] as DerivedBalances[])
         : combineLatest(addresses.map(all(api)))
     ).pipe(
       drr()
-    ));
+    );
 }, true)
 
-*Defined in [balances/votingBalances.ts:14](https://github.com/polkadot-js/api/blob/287ceb2ded/packages/api-derive/src/balances/votingBalances.ts#L14)*
+*Defined in [balances/votingBalances.ts:14](https://github.com/polkadot-js/api/blob/2371d6a29c/packages/api-derive/src/balances/votingBalances.ts#L14)*

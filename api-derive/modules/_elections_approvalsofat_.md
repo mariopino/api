@@ -13,14 +13,14 @@
 ### `Const` approvalsOfAt
 
 • **approvalsOfAt**: *(Anonymous function)* =  memo((api: ApiInterfaceRx): (who: AccountId, at: SetIndex) => Observable<boolean[]> => {
-  return memo((who: AccountId | string, at: SetIndex | BN | number): Observable<boolean[]> =>
+  return (who: AccountId | string, at: SetIndex | BN | number): Observable<boolean[]> =>
     api.query.elections.approvalsOf<Vec<ApprovalFlag>>([who.toString(), at]).pipe(
       map((flags: Vec<ApprovalFlag>): boolean[] => approvalFlagsToBools(flags)),
       drr()
-    ));
+    );
 }, true)
 
-*Defined in [elections/approvalsOfAt.ts:28](https://github.com/polkadot-js/api/blob/287ceb2ded/packages/api-derive/src/elections/approvalsOfAt.ts#L28)*
+*Defined in [elections/approvalsOfAt.ts:28](https://github.com/polkadot-js/api/blob/2371d6a29c/packages/api-derive/src/elections/approvalsOfAt.ts#L28)*
 
 **`name`** approvalsOfAt
 

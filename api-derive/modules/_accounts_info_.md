@@ -16,7 +16,7 @@
   const idAndIndexCall = idAndIndex(api);
   const nickCall = retrieveNick(api);
 
-  return memo((address?: AccountIndex | AccountId | Address | string | null): Observable<DeriveAccountInfo> =>
+  return (address?: AccountIndex | AccountId | Address | string | null): Observable<DeriveAccountInfo> =>
     idAndIndexCall(address).pipe(
       switchMap(([accountId, accountIndex]): Observable<[DeriveAccountInfo, Option<[Bytes, Balance] & Codec>?]> =>
         combineLatest([
@@ -32,10 +32,10 @@
           : undefined
       })),
       drr()
-    ));
+    );
 }, true)
 
-*Defined in [accounts/info.ts:29](https://github.com/polkadot-js/api/blob/287ceb2ded/packages/api-derive/src/accounts/info.ts#L29)*
+*Defined in [accounts/info.ts:29](https://github.com/polkadot-js/api/blob/2371d6a29c/packages/api-derive/src/accounts/info.ts#L29)*
 
 **`name`** info
 

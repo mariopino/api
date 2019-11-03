@@ -13,7 +13,7 @@
 ### `Const` approvalsOf
 
 • **approvalsOf**: *(Anonymous function)* =  memo((api: ApiInterfaceRx): (who: AccountId) => Observable<boolean[][]> => {
-  return memo((who: AccountId | string): Observable<boolean[][]> =>
+  return (who: AccountId | string): Observable<boolean[][]> =>
     api.query.elections.nextVoterSet<SetIndex>().pipe(
       switchMap((nextVoterSet: SetIndex): Observable<Vec<ApprovalFlag>[]> =>
         api.query.elections.approvalsOf.multi(
@@ -28,10 +28,10 @@
         )
       ),
       drr()
-    ));
+    );
 }, true)
 
-*Defined in [elections/approvalsOf.ts:26](https://github.com/polkadot-js/api/blob/287ceb2ded/packages/api-derive/src/elections/approvalsOf.ts#L26)*
+*Defined in [elections/approvalsOf.ts:26](https://github.com/polkadot-js/api/blob/2371d6a29c/packages/api-derive/src/elections/approvalsOf.ts#L26)*
 
 **`name`** approvalsOf
 

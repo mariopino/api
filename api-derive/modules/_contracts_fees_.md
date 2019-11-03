@@ -13,7 +13,7 @@
 ### `Const` fees
 
 • **fees**: *(Anonymous function)* =  memo((api: ApiInterfaceRx): () => Observable<DerivedContractFees> => {
-  return memo((): Observable<DerivedContractFees> => {
+  return (): Observable<DerivedContractFees> => {
     if (api.query.contract && !api.query.contract.rentByteFee) {
       return queryV1(api);
     }
@@ -31,10 +31,10 @@
       ),
       drr()
     );
-  });
+  };
 }, true)
 
-*Defined in [contracts/fees.ts:106](https://github.com/polkadot-js/api/blob/287ceb2ded/packages/api-derive/src/contracts/fees.ts#L106)*
+*Defined in [contracts/fees.ts:106](https://github.com/polkadot-js/api/blob/2371d6a29c/packages/api-derive/src/contracts/fees.ts#L106)*
 
 **`name`** fees
 

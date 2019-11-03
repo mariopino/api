@@ -16,7 +16,7 @@
   const bestNumberCall = bestNumber(api);
   const bestNumberFinalizedCall = bestNumberFinalized(api);
 
-  return memo((): Observable<BlockNumber> =>
+  return (): Observable<BlockNumber> =>
     combineLatest([
       bestNumberCall(),
       bestNumberFinalizedCall()
@@ -25,10 +25,10 @@
         createType('BlockNumber', bestNumber.sub(bestNumberFinalized))
       ),
       drr()
-    ));
+    );
 }, true)
 
-*Defined in [chain/bestNumberLag.ts:29](https://github.com/polkadot-js/api/blob/287ceb2ded/packages/api-derive/src/chain/bestNumberLag.ts#L29)*
+*Defined in [chain/bestNumberLag.ts:29](https://github.com/polkadot-js/api/blob/2371d6a29c/packages/api-derive/src/chain/bestNumberLag.ts#L29)*
 
 **`name`** bestNumberLag
 

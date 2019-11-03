@@ -13,7 +13,7 @@
 ### `Const` getHeader
 
 • **getHeader**: *(Anonymous function)* =  memo((api: ApiInterfaceRx): (hash: Uint8Array | string) => Observable<HeaderExtended | undefined> => {
-  return memo((hash: Uint8Array | string): Observable<HeaderExtended | undefined> =>
+  return (hash: Uint8Array | string): Observable<HeaderExtended | undefined> =>
     combineLatest([
       api.rpc.chain.getHeader(hash),
       api.query.session.validators.at(hash) as Observable<Vec<AccountId>>
@@ -28,10 +28,10 @@
         of()
       ),
       drr()
-    ));
+    );
 }, true)
 
-*Defined in [chain/getHeader.ts:30](https://github.com/polkadot-js/api/blob/287ceb2ded/packages/api-derive/src/chain/getHeader.ts#L30)*
+*Defined in [chain/getHeader.ts:30](https://github.com/polkadot-js/api/blob/2371d6a29c/packages/api-derive/src/chain/getHeader.ts#L30)*
 
 **`name`** bestNumberFinalized
 

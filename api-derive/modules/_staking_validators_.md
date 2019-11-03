@@ -12,16 +12,19 @@
 
 ### `Const` validators
 
-• **validators**: *(Anonymous function)* =  memo((api: ApiInterfaceRx): () => Observable<AccountId[]> => {
-  const overviewCall = overview(api);
-
-  return memo((): Observable<AccountId[]> =>
-    overviewCall().pipe(
-      map(({ validators }): AccountId[] => validators),
+• **validators**: *(Anonymous function)* =  memo((api: ApiInterfaceRx): () => Observable<DeriveStakingValidators> => {
+  return (): Observable<DeriveStakingValidators> =>
+    api.queryMulti<[Vec<AccountId>, Vec<AccountId>]>([
+      api.query.session.validators,
+      api.query.staking.currentElected
+    ]).pipe(
+      map(([validators, currentElected]): DeriveStakingValidators => ({
+        currentElected, validators
+      })),
       drr()
-    ));
+    );
 }, true)
 
-*Defined in [staking/validators.ts:17](https://github.com/polkadot-js/api/blob/287ceb2ded/packages/api-derive/src/staking/validators.ts#L17)*
+*Defined in [staking/validators.ts:18](https://github.com/polkadot-js/api/blob/2371d6a29c/packages/api-derive/src/staking/validators.ts#L18)*
 
 **`description`** Retrieve latest list of validators

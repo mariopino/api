@@ -15,11 +15,11 @@
 • **eraProgress**: *(Anonymous function)* =  memo((api: ApiInterfaceRx): () => Observable<BlockNumber> => {
   const infoCall = info(api);
 
-  return memo((): Observable<BlockNumber> =>
+  return (): Observable<BlockNumber> =>
     infoCall().pipe(
       map(({ eraProgress }): BlockNumber => eraProgress),
       drr()
-    ));
+    );
 }, true)
 
-*Defined in [session/eraProgress.ts:14](https://github.com/polkadot-js/api/blob/287ceb2ded/packages/api-derive/src/session/eraProgress.ts#L14)*
+*Defined in [session/eraProgress.ts:14](https://github.com/polkadot-js/api/blob/2371d6a29c/packages/api-derive/src/session/eraProgress.ts#L14)*

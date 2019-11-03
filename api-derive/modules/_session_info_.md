@@ -23,10 +23,10 @@
       : infoLatestAura // 2.x with Aura (not all info there)
     : infoV1;
 
-  return memo((): Observable<DerivedSessionInfo> =>
-    query(api, calls).pipe(drr()));
+  return (): Observable<DerivedSessionInfo> =>
+    query(api, calls).pipe(drr());
 }, true)
 
-*Defined in [session/info.ts:130](https://github.com/polkadot-js/api/blob/287ceb2ded/packages/api-derive/src/session/info.ts#L130)*
+*Defined in [session/info.ts:130](https://github.com/polkadot-js/api/blob/2371d6a29c/packages/api-derive/src/session/info.ts#L130)*
 
 **`description`** Retrieves all the session and era info and calculates specific values on it as the length of the session and eras

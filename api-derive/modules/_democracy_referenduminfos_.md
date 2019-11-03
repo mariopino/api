@@ -13,7 +13,7 @@
 ### `Const` referendumInfos
 
 • **referendumInfos**: *(Anonymous function)* =  memo((api: ApiInterfaceRx): (ids?: (BN | number)[]) => Observable<Option<ReferendumInfoExtended>[]> => {
-  return memo((ids: (BN | number)[] = []): Observable<Option<ReferendumInfoExtended>[]> =>
+  return (ids: (BN | number)[] = []): Observable<Option<ReferendumInfoExtended>[]> =>
     (
       !ids || !ids.length
         ? of([] as Option<ReferendumInfo>[])
@@ -25,7 +25,7 @@
         )
       ),
       drr()
-    ));
+    );
 }, true)
 
-*Defined in [democracy/referendumInfos.ts:17](https://github.com/polkadot-js/api/blob/287ceb2ded/packages/api-derive/src/democracy/referendumInfos.ts#L17)*
+*Defined in [democracy/referendumInfos.ts:17](https://github.com/polkadot-js/api/blob/2371d6a29c/packages/api-derive/src/democracy/referendumInfos.ts#L17)*

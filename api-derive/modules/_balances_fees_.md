@@ -17,7 +17,7 @@
     ? queryV2
     : queryV1;
 
-  return memo((): Observable<DerivedFees> =>
+  return (): Observable<DerivedFees> =>
     query(api).pipe(
       map(([creationFee, existentialDeposit, transferFee, transactionBaseFee, transactionByteFee]): DerivedFees => ({
         creationFee,
@@ -27,10 +27,10 @@
         transferFee
       })),
       drr()
-    ));
+    );
 }, true)
 
-*Defined in [balances/fees.ts:54](https://github.com/polkadot-js/api/blob/287ceb2ded/packages/api-derive/src/balances/fees.ts#L54)*
+*Defined in [balances/fees.ts:54](https://github.com/polkadot-js/api/blob/2371d6a29c/packages/api-derive/src/balances/fees.ts#L54)*
 
 **`name`** fees
 
