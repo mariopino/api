@@ -29,7 +29,7 @@
     ));
 }, true)
 
-*Defined in [elections/voters.ts:28](https://github.com/polkadot-js/api/blob/e601ae27a1/packages/api-derive/src/elections/voters.ts#L28)*
+*Defined in [elections/voters.ts:28](https://github.com/polkadot-js/api/blob/287ceb2ded/packages/api-derive/src/elections/voters.ts#L28)*
 
 **`name`** voters
 

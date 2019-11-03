@@ -22,4 +22,4 @@
     ));
 }, true)
 
-*Defined in [session/eraLength.ts:14](https://github.com/polkadot-js/api/blob/e601ae27a1/packages/api-derive/src/session/eraLength.ts#L14)*
+*Defined in [session/eraLength.ts:14](https://github.com/polkadot-js/api/blob/287ceb2ded/packages/api-derive/src/session/eraLength.ts#L14)*

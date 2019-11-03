@@ -24,4 +24,4 @@
     ));
 }, true)
 
-*Defined in [staking/infoStash.ts:55](https://github.com/polkadot-js/api/blob/e601ae27a1/packages/api-derive/src/staking/infoStash.ts#L55)*
+*Defined in [staking/infoStash.ts:55](https://github.com/polkadot-js/api/blob/287ceb2ded/packages/api-derive/src/staking/infoStash.ts#L55)*

@@ -25,7 +25,7 @@
     ));
 }, true)
 
-*Defined in [accounts/idToIndex.ts:28](https://github.com/polkadot-js/api/blob/e601ae27a1/packages/api-derive/src/accounts/idToIndex.ts#L28)*
+*Defined in [accounts/idToIndex.ts:28](https://github.com/polkadot-js/api/blob/287ceb2ded/packages/api-derive/src/accounts/idToIndex.ts#L28)*
 
 **`name`** idToIndex
 

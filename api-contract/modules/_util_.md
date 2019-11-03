@@ -12,15 +12,15 @@
 
 ###  formatData
 
-▸ **formatData**(`value`: Bytes, `__namedParameters`: object): *Codec*
+▸ **formatData**(`data`: Data, `__namedParameters`: object): *Codec*
 
-*Defined in [util.ts:11](https://github.com/polkadot-js/api/blob/e601ae27a1/packages/api-contract/src/util.ts#L11)*
+*Defined in [util.ts:10](https://github.com/polkadot-js/api/blob/287ceb2ded/packages/api-contract/src/util.ts#L10)*
 
 **Parameters:**
 
 Name | Type |
 ------ | ------ |
-`value` | Bytes |
+`data` | Data |
 `__namedParameters` | object |
 
 **Returns:** *Codec*

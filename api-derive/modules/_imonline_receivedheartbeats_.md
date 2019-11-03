@@ -40,6 +40,6 @@
       : of({}));
 }, true)
 
-*Defined in [imOnline/receivedHeartbeats.ts:19](https://github.com/polkadot-js/api/blob/e601ae27a1/packages/api-derive/src/imOnline/receivedHeartbeats.ts#L19)*
+*Defined in [imOnline/receivedHeartbeats.ts:19](https://github.com/polkadot-js/api/blob/287ceb2ded/packages/api-derive/src/imOnline/receivedHeartbeats.ts#L19)*
 
 **`description`** Return a boolean array indicating whether the passed accounts had received heartbeats in the current session

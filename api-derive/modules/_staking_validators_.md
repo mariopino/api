@@ -22,6 +22,6 @@
     ));
 }, true)
 
-*Defined in [staking/validators.ts:17](https://github.com/polkadot-js/api/blob/e601ae27a1/packages/api-derive/src/staking/validators.ts#L17)*
+*Defined in [staking/validators.ts:17](https://github.com/polkadot-js/api/blob/287ceb2ded/packages/api-derive/src/staking/validators.ts#L17)*
 
 **`description`** Retrieve latest list of validators

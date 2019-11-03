@@ -20,7 +20,7 @@
     ));
 }, true)
 
-*Defined in [chain/bestNumber.ts:25](https://github.com/polkadot-js/api/blob/e601ae27a1/packages/api-derive/src/chain/bestNumber.ts#L25)*
+*Defined in [chain/bestNumber.ts:25](https://github.com/polkadot-js/api/blob/287ceb2ded/packages/api-derive/src/chain/bestNumber.ts#L25)*
 
 **`name`** bestNumber
 

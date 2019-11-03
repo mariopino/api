@@ -31,7 +31,7 @@
     ));
 }, true)
 
-*Defined in [elections/approvalsOf.ts:26](https://github.com/polkadot-js/api/blob/e601ae27a1/packages/api-derive/src/elections/approvalsOf.ts#L26)*
+*Defined in [elections/approvalsOf.ts:26](https://github.com/polkadot-js/api/blob/287ceb2ded/packages/api-derive/src/elections/approvalsOf.ts#L26)*
 
 **`name`** approvalsOf
 

@@ -26,6 +26,6 @@
     ));
 }, true)
 
-*Defined in [staking/recentlyOffline.ts:38](https://github.com/polkadot-js/api/blob/e601ae27a1/packages/api-derive/src/staking/recentlyOffline.ts#L38)*
+*Defined in [staking/recentlyOffline.ts:38](https://github.com/polkadot-js/api/blob/287ceb2ded/packages/api-derive/src/staking/recentlyOffline.ts#L38)*
 
 **`description`** Retrieve a keyed record of accounts recently reported to be offline

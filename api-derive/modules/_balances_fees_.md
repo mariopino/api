@@ -30,7 +30,7 @@
     ));
 }, true)
 
-*Defined in [balances/fees.ts:54](https://github.com/polkadot-js/api/blob/e601ae27a1/packages/api-derive/src/balances/fees.ts#L54)*
+*Defined in [balances/fees.ts:54](https://github.com/polkadot-js/api/blob/287ceb2ded/packages/api-derive/src/balances/fees.ts#L54)*
 
 **`name`** fees
 

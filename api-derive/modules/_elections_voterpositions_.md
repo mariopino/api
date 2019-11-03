@@ -43,7 +43,7 @@
     ));
 }, true)
 
-*Defined in [elections/voterPositions.ts:29](https://github.com/polkadot-js/api/blob/e601ae27a1/packages/api-derive/src/elections/voterPositions.ts#L29)*
+*Defined in [elections/voterPositions.ts:29](https://github.com/polkadot-js/api/blob/287ceb2ded/packages/api-derive/src/elections/voterPositions.ts#L29)*
 
 **`name`** voterPositions
 

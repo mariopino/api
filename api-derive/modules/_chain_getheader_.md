@@ -31,7 +31,7 @@
     ));
 }, true)
 
-*Defined in [chain/getHeader.ts:30](https://github.com/polkadot-js/api/blob/e601ae27a1/packages/api-derive/src/chain/getHeader.ts#L30)*
+*Defined in [chain/getHeader.ts:30](https://github.com/polkadot-js/api/blob/287ceb2ded/packages/api-derive/src/chain/getHeader.ts#L30)*
 
 **`name`** bestNumberFinalized
 

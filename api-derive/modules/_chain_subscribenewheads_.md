@@ -25,7 +25,7 @@
     ));
 }, true)
 
-*Defined in [chain/subscribeNewHeads.ts:28](https://github.com/polkadot-js/api/blob/e601ae27a1/packages/api-derive/src/chain/subscribeNewHeads.ts#L28)*
+*Defined in [chain/subscribeNewHeads.ts:28](https://github.com/polkadot-js/api/blob/287ceb2ded/packages/api-derive/src/chain/subscribeNewHeads.ts#L28)*
 
 **`name`** subscribeNewHeads
 
