@@ -26,7 +26,7 @@
 
 *Inherited from [ContractABIEventArgBase](_types_.contractabieventargbase.md).[indexed](_types_.contractabieventargbase.md#indexed)*
 
-*Defined in [types.ts:115](https://github.com/polkadot-js/api/blob/ad570cac5a/packages/api-contract/src/types.ts#L115)*
+*Defined in [types.ts:115](https://github.com/polkadot-js/api/blob/6075a21efb/packages/api-contract/src/types.ts#L115)*
 
 ___
 
@@ -36,7 +36,7 @@ ___
 
 *Inherited from [ContractABIArgBase](_types_.contractabiargbase.md).[name](_types_.contractabiargbase.md#name)*
 
-*Defined in [types.ts:36](https://github.com/polkadot-js/api/blob/ad570cac5a/packages/api-contract/src/types.ts#L36)*
+*Defined in [types.ts:36](https://github.com/polkadot-js/api/blob/6075a21efb/packages/api-contract/src/types.ts#L36)*
 
 ___
 
@@ -46,4 +46,4 @@ ___
 
 *Inherited from [ContractABIArgBase](_types_.contractabiargbase.md).[type](_types_.contractabiargbase.md#type)*
 
-*Defined in [types.ts:37](https://github.com/polkadot-js/api/blob/ad570cac5a/packages/api-contract/src/types.ts#L37)*
+*Defined in [types.ts:37](https://github.com/polkadot-js/api/blob/6075a21efb/packages/api-contract/src/types.ts#L37)*

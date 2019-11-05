@@ -25,7 +25,7 @@
 
 • **currentElected**: *AccountId[]*
 
-*Defined in [types.ts:143](https://github.com/polkadot-js/api/blob/ad570cac5a/packages/api-derive/src/types.ts#L143)*
+*Defined in [types.ts:143](https://github.com/polkadot-js/api/blob/6075a21efb/packages/api-derive/src/types.ts#L143)*
 
 ___
 
@@ -35,7 +35,7 @@ ___
 
 *Inherited from [DeriveSessionIndexes](_types_.derivesessionindexes.md).[currentEra](_types_.derivesessionindexes.md#currentera)*
 
-*Defined in [types.ts:87](https://github.com/polkadot-js/api/blob/ad570cac5a/packages/api-derive/src/types.ts#L87)*
+*Defined in [types.ts:87](https://github.com/polkadot-js/api/blob/6075a21efb/packages/api-derive/src/types.ts#L87)*
 
 ___
 
@@ -45,7 +45,7 @@ ___
 
 *Inherited from [DeriveSessionIndexes](_types_.derivesessionindexes.md).[currentIndex](_types_.derivesessionindexes.md#currentindex)*
 
-*Defined in [types.ts:88](https://github.com/polkadot-js/api/blob/ad570cac5a/packages/api-derive/src/types.ts#L88)*
+*Defined in [types.ts:88](https://github.com/polkadot-js/api/blob/6075a21efb/packages/api-derive/src/types.ts#L88)*
 
 ___
 
@@ -53,7 +53,7 @@ ___
 
 • **eraPoints**: *EraPoints*
 
-*Defined in [types.ts:144](https://github.com/polkadot-js/api/blob/ad570cac5a/packages/api-derive/src/types.ts#L144)*
+*Defined in [types.ts:144](https://github.com/polkadot-js/api/blob/6075a21efb/packages/api-derive/src/types.ts#L144)*
 
 ___
 
@@ -63,7 +63,7 @@ ___
 
 *Inherited from [DeriveSessionIndexes](_types_.derivesessionindexes.md).[validatorCount](_types_.derivesessionindexes.md#validatorcount)*
 
-*Defined in [types.ts:89](https://github.com/polkadot-js/api/blob/ad570cac5a/packages/api-derive/src/types.ts#L89)*
+*Defined in [types.ts:89](https://github.com/polkadot-js/api/blob/6075a21efb/packages/api-derive/src/types.ts#L89)*
 
 ___
 
@@ -71,4 +71,4 @@ ___
 
 • **validators**: *AccountId[]*
 
-*Defined in [types.ts:145](https://github.com/polkadot-js/api/blob/ad570cac5a/packages/api-derive/src/types.ts#L145)*
+*Defined in [types.ts:145](https://github.com/polkadot-js/api/blob/6075a21efb/packages/api-derive/src/types.ts#L145)*
