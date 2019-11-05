@@ -28,4 +28,4 @@
     );
 }, true)
 
-*Defined in [democracy/referendumInfos.ts:17](https://github.com/polkadot-js/api/blob/2371d6a29c/packages/api-derive/src/democracy/referendumInfos.ts#L17)*
+*Defined in [democracy/referendumInfos.ts:17](https://github.com/polkadot-js/api/blob/fcf89d1501/packages/api-derive/src/democracy/referendumInfos.ts#L17)*

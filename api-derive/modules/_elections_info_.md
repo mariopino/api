@@ -21,7 +21,7 @@
     query(api).pipe(drr());
 }, true)
 
-*Defined in [elections/info.ts:91](https://github.com/polkadot-js/api/blob/2371d6a29c/packages/api-derive/src/elections/info.ts#L91)*
+*Defined in [elections/info.ts:91](https://github.com/polkadot-js/api/blob/fcf89d1501/packages/api-derive/src/elections/info.ts#L91)*
 
 **`name`** info
 

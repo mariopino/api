@@ -22,4 +22,4 @@
     );
 }, true)
 
-*Defined in [session/sessionProgress.ts:14](https://github.com/polkadot-js/api/blob/2371d6a29c/packages/api-derive/src/session/sessionProgress.ts#L14)*
+*Defined in [session/sessionProgress.ts:14](https://github.com/polkadot-js/api/blob/fcf89d1501/packages/api-derive/src/session/sessionProgress.ts#L14)*

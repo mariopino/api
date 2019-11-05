@@ -23,4 +23,4 @@
     );
 }, true)
 
-*Defined in [balances/votingBalances.ts:14](https://github.com/polkadot-js/api/blob/2371d6a29c/packages/api-derive/src/balances/votingBalances.ts#L14)*
+*Defined in [balances/votingBalances.ts:14](https://github.com/polkadot-js/api/blob/fcf89d1501/packages/api-derive/src/balances/votingBalances.ts#L14)*

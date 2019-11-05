@@ -29,7 +29,7 @@
 
 *Inherited from [ContractABIMessageBasePre](_types_.contractabimessagebasepre.md).[args](_types_.contractabimessagebasepre.md#args)*
 
-*Defined in [types.ts:49](https://github.com/polkadot-js/api/blob/2371d6a29c/packages/api-contract/src/types.ts#L49)*
+*Defined in [types.ts:49](https://github.com/polkadot-js/api/blob/fcf89d1501/packages/api-contract/src/types.ts#L49)*
 
 ___
 
@@ -39,7 +39,7 @@ ___
 
 *Inherited from [ContractABIMessageCommon](_types_.contractabimessagecommon.md).[docs](_types_.contractabimessagecommon.md#optional-docs)*
 
-*Defined in [types.ts:53](https://github.com/polkadot-js/api/blob/2371d6a29c/packages/api-contract/src/types.ts#L53)*
+*Defined in [types.ts:53](https://github.com/polkadot-js/api/blob/fcf89d1501/packages/api-contract/src/types.ts#L53)*
 
 ___
 
@@ -49,7 +49,7 @@ ___
 
 *Inherited from [ContractABIMessageCommon](_types_.contractabimessagecommon.md).[mutates](_types_.contractabimessagecommon.md#optional-mutates)*
 
-*Defined in [types.ts:54](https://github.com/polkadot-js/api/blob/2371d6a29c/packages/api-contract/src/types.ts#L54)*
+*Defined in [types.ts:54](https://github.com/polkadot-js/api/blob/fcf89d1501/packages/api-contract/src/types.ts#L54)*
 
 ___
 
@@ -57,7 +57,7 @@ ___
 
 • **name**: *StringIndex*
 
-*Defined in [types.ts:59](https://github.com/polkadot-js/api/blob/2371d6a29c/packages/api-contract/src/types.ts#L59)*
+*Defined in [types.ts:59](https://github.com/polkadot-js/api/blob/fcf89d1501/packages/api-contract/src/types.ts#L59)*
 
 ___
 
@@ -65,7 +65,7 @@ ___
 
 • **return_type**: *[ContractABITypePre](_types_.contractabitypepre.md) | null*
 
-*Defined in [types.ts:60](https://github.com/polkadot-js/api/blob/2371d6a29c/packages/api-contract/src/types.ts#L60)*
+*Defined in [types.ts:60](https://github.com/polkadot-js/api/blob/fcf89d1501/packages/api-contract/src/types.ts#L60)*
 
 ___
 
@@ -75,4 +75,4 @@ ___
 
 *Inherited from [ContractABIMessageCommon](_types_.contractabimessagecommon.md).[selector](_types_.contractabimessagecommon.md#selector)*
 
-*Defined in [types.ts:55](https://github.com/polkadot-js/api/blob/2371d6a29c/packages/api-contract/src/types.ts#L55)*
+*Defined in [types.ts:55](https://github.com/polkadot-js/api/blob/fcf89d1501/packages/api-contract/src/types.ts#L55)*

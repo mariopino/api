@@ -25,4 +25,4 @@
     ).pipe(drr());
 }, true)
 
-*Defined in [democracy/votes.ts:13](https://github.com/polkadot-js/api/blob/2371d6a29c/packages/api-derive/src/democracy/votes.ts#L13)*
+*Defined in [democracy/votes.ts:13](https://github.com/polkadot-js/api/blob/fcf89d1501/packages/api-derive/src/democracy/votes.ts#L13)*
