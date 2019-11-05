@@ -26,6 +26,6 @@
     query(api, calls, createType('AccountId', accountId)).pipe(drr());
 }, true)
 
-*Defined in [staking/info.ts:225](https://github.com/polkadot-js/api/blob/fcf89d1501/packages/api-derive/src/staking/info.ts#L225)*
+*Defined in [staking/info.ts:225](https://github.com/polkadot-js/api/blob/cba5710fec/packages/api-derive/src/staking/info.ts#L225)*
 
 **`description`** From a stash, retrieve the controllerId and fill in all the relevant staking details

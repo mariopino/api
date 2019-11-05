@@ -34,7 +34,7 @@
   };
 }, true)
 
-*Defined in [contracts/fees.ts:106](https://github.com/polkadot-js/api/blob/fcf89d1501/packages/api-derive/src/contracts/fees.ts#L106)*
+*Defined in [contracts/fees.ts:106](https://github.com/polkadot-js/api/blob/cba5710fec/packages/api-derive/src/contracts/fees.ts#L106)*
 
 **`name`** fees
 

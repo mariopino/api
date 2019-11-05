@@ -26,4 +26,4 @@
     );
 }, true)
 
-*Defined in [session/indexes.ts:15](https://github.com/polkadot-js/api/blob/fcf89d1501/packages/api-derive/src/session/indexes.ts#L15)*
+*Defined in [session/indexes.ts:15](https://github.com/polkadot-js/api/blob/cba5710fec/packages/api-derive/src/session/indexes.ts#L15)*

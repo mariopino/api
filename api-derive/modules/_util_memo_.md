@@ -14,7 +14,7 @@
 
 ▸ **memo**<**T**>(`fn`: T, `withoutJSON?`: undefined | false | true): *T*
 
-*Defined in [util/memo.ts:7](https://github.com/polkadot-js/api/blob/fcf89d1501/packages/api-derive/src/util/memo.ts#L7)*
+*Defined in [util/memo.ts:7](https://github.com/polkadot-js/api/blob/cba5710fec/packages/api-derive/src/util/memo.ts#L7)*
 
 **Type parameters:**
 

@@ -28,6 +28,6 @@
     );
 }, true)
 
-*Defined in [staking/controllers.ts:18](https://github.com/polkadot-js/api/blob/fcf89d1501/packages/api-derive/src/staking/controllers.ts#L18)*
+*Defined in [staking/controllers.ts:18](https://github.com/polkadot-js/api/blob/cba5710fec/packages/api-derive/src/staking/controllers.ts#L18)*
 
 **`description`** From the list of stash accounts, retrieve the list of controllers

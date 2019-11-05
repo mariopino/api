@@ -26,7 +26,7 @@
 
 • **controllerId**? : *AccountId*
 
-*Defined in [types.ts:124](https://github.com/polkadot-js/api/blob/fcf89d1501/packages/api-derive/src/types.ts#L124)*
+*Defined in [types.ts:124](https://github.com/polkadot-js/api/blob/cba5710fec/packages/api-derive/src/types.ts#L124)*
 
 ___
 
@@ -34,7 +34,7 @@ ___
 
 • **nextKeys**? : *Keys*
 
-*Defined in [types.ts:127](https://github.com/polkadot-js/api/blob/fcf89d1501/packages/api-derive/src/types.ts#L127)*
+*Defined in [types.ts:127](https://github.com/polkadot-js/api/blob/cba5710fec/packages/api-derive/src/types.ts#L127)*
 
 ___
 
@@ -42,7 +42,7 @@ ___
 
 • **nominators**? : *AccountId[]*
 
-*Defined in [types.ts:125](https://github.com/polkadot-js/api/blob/fcf89d1501/packages/api-derive/src/types.ts#L125)*
+*Defined in [types.ts:125](https://github.com/polkadot-js/api/blob/cba5710fec/packages/api-derive/src/types.ts#L125)*
 
 ___
 
@@ -50,7 +50,7 @@ ___
 
 • **rewardDestination**? : *RewardDestination*
 
-*Defined in [types.ts:126](https://github.com/polkadot-js/api/blob/fcf89d1501/packages/api-derive/src/types.ts#L126)*
+*Defined in [types.ts:126](https://github.com/polkadot-js/api/blob/cba5710fec/packages/api-derive/src/types.ts#L126)*
 
 ___
 
@@ -58,7 +58,7 @@ ___
 
 • **stakers**? : *Exposure*
 
-*Defined in [types.ts:128](https://github.com/polkadot-js/api/blob/fcf89d1501/packages/api-derive/src/types.ts#L128)*
+*Defined in [types.ts:128](https://github.com/polkadot-js/api/blob/cba5710fec/packages/api-derive/src/types.ts#L128)*
 
 ___
 
@@ -66,7 +66,7 @@ ___
 
 • **stashId**? : *AccountId*
 
-*Defined in [types.ts:129](https://github.com/polkadot-js/api/blob/fcf89d1501/packages/api-derive/src/types.ts#L129)*
+*Defined in [types.ts:129](https://github.com/polkadot-js/api/blob/cba5710fec/packages/api-derive/src/types.ts#L129)*
 
 ___
 
@@ -74,4 +74,4 @@ ___
 
 • **validatorPrefs**? : *ValidatorPrefs*
 
-*Defined in [types.ts:130](https://github.com/polkadot-js/api/blob/fcf89d1501/packages/api-derive/src/types.ts#L130)*
+*Defined in [types.ts:130](https://github.com/polkadot-js/api/blob/cba5710fec/packages/api-derive/src/types.ts#L130)*

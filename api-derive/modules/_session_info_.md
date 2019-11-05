@@ -27,6 +27,6 @@
     query(api, calls).pipe(drr());
 }, true)
 
-*Defined in [session/info.ts:130](https://github.com/polkadot-js/api/blob/fcf89d1501/packages/api-derive/src/session/info.ts#L130)*
+*Defined in [session/info.ts:130](https://github.com/polkadot-js/api/blob/cba5710fec/packages/api-derive/src/session/info.ts#L130)*
 
 **`description`** Retrieves all the session and era info and calculates specific values on it as the length of the session and eras

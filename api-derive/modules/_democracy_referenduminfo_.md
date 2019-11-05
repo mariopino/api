@@ -26,7 +26,7 @@
     );
 }, true)
 
-*Defined in [democracy/referendumInfo.ts:30](https://github.com/polkadot-js/api/blob/fcf89d1501/packages/api-derive/src/democracy/referendumInfo.ts#L30)*
+*Defined in [democracy/referendumInfo.ts:30](https://github.com/polkadot-js/api/blob/cba5710fec/packages/api-derive/src/democracy/referendumInfo.ts#L30)*
 
 ## Functions
 
@@ -34,7 +34,7 @@
 
 ▸ **constructInfo**(`index`: BN | number, `optionInfo?`: Option‹ReferendumInfo›): *Option‹[ReferendumInfoExtended](../classes/_type_referenduminfoextended_.referenduminfoextended.md)›*
 
-*Defined in [democracy/referendumInfo.ts:17](https://github.com/polkadot-js/api/blob/fcf89d1501/packages/api-derive/src/democracy/referendumInfo.ts#L17)*
+*Defined in [democracy/referendumInfo.ts:17](https://github.com/polkadot-js/api/blob/cba5710fec/packages/api-derive/src/democracy/referendumInfo.ts#L17)*
 
 **Parameters:**
 

@@ -37,6 +37,6 @@
     );
 }, true)
 
-*Defined in [staking/overview.ts:20](https://github.com/polkadot-js/api/blob/fcf89d1501/packages/api-derive/src/staking/overview.ts#L20)*
+*Defined in [staking/overview.ts:20](https://github.com/polkadot-js/api/blob/cba5710fec/packages/api-derive/src/staking/overview.ts#L20)*
 
 **`description`** Retrieve the staking overview, including elected and points earned

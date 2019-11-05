@@ -22,4 +22,4 @@
     );
 }, true)
 
-*Defined in [session/eraLength.ts:14](https://github.com/polkadot-js/api/blob/fcf89d1501/packages/api-derive/src/session/eraLength.ts#L14)*
+*Defined in [session/eraLength.ts:14](https://github.com/polkadot-js/api/blob/cba5710fec/packages/api-derive/src/session/eraLength.ts#L14)*
