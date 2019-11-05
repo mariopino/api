@@ -4,36 +4,30 @@
 
 ## Index
 
-### Variables
+### Functions
 
-* [referendumVotesFor](_democracy_referendumvotesfor_.md#const-referendumvotesfor)
+* [referendumVotesFor](_democracy_referendumvotesfor_.md#referendumvotesfor)
 
-## Variables
+## Functions
 
-### `Const` referendumVotesFor
+###  referendumVotesFor
 
-• **referendumVotesFor**: *(Anonymous function)* =  memo((api: ApiInterfaceRx): (referendumId: BN | number) => Observable<DerivedReferendumVote[]> => {
-  const votesCall = votes(api);
-  const votingBalancesCall = votingBalances(api);
+▸ **referendumVotesFor**(`api`: ApiInterfaceRx): *function*
 
-  return (referendumId: BN | number): Observable<DerivedReferendumVote[]> =>
-    api.query.democracy.votersFor<Vec<AccountId>>(referendumId).pipe(
-      switchMap((votersFor): Observable<[Vec<AccountId>, Vote[], DerivedBalances[]]> =>
-        combineLatest([
-          of(votersFor),
-          votesCall(referendumId as BN, votersFor),
-          votingBalancesCall(votersFor)
-        ])
-      ),
-      map(([votersFor, votes, balances]): DerivedReferendumVote[] =>
-        votersFor.map((accountId, index): DerivedReferendumVote => ({
-          accountId,
-          balance: balances[index].votingBalance || createType('Balance'),
-          vote: votes[index] || createType('Vote')
-        } as unknown as DerivedReferendumVote))
-      ),
-      drr()
-    );
-}, true)
+*Defined in [democracy/referendumVotesFor.ts:18](https://github.com/polkadot-js/api/blob/ad570cac5a/packages/api-derive/src/democracy/referendumVotesFor.ts#L18)*
 
-*Defined in [democracy/referendumVotesFor.ts:18](https://github.com/polkadot-js/api/blob/cba5710fec/packages/api-derive/src/democracy/referendumVotesFor.ts#L18)*
+**Parameters:**
+
+Name | Type |
+------ | ------ |
+`api` | ApiInterfaceRx |
+
+**Returns:** *function*
+
+▸ (`referendumId`: BN | number): *Observable‹[DerivedReferendumVote](../interfaces/_types_.derivedreferendumvote.md)[]›*
+
+**Parameters:**
+
+Name | Type |
+------ | ------ |
+`referendumId` | BN &#124; number |

@@ -4,27 +4,26 @@
 
 ## Index
 
-### Variables
+### Functions
 
-* [validators](_staking_validators_.md#const-validators)
+* [validators](_staking_validators_.md#validators)
 
-## Variables
+## Functions
 
-### `Const` validators
+###  validators
 
-• **validators**: *(Anonymous function)* =  memo((api: ApiInterfaceRx): () => Observable<DeriveStakingValidators> => {
-  return (): Observable<DeriveStakingValidators> =>
-    api.queryMulti<[Vec<AccountId>, Vec<AccountId>]>([
-      api.query.session.validators,
-      api.query.staking.currentElected
-    ]).pipe(
-      map(([validators, currentElected]): DeriveStakingValidators => ({
-        currentElected, validators
-      })),
-      drr()
-    );
-}, true)
+▸ **validators**(`api`: ApiInterfaceRx): *function*
 
-*Defined in [staking/validators.ts:18](https://github.com/polkadot-js/api/blob/cba5710fec/packages/api-derive/src/staking/validators.ts#L18)*
+*Defined in [staking/validators.ts:18](https://github.com/polkadot-js/api/blob/ad570cac5a/packages/api-derive/src/staking/validators.ts#L18)*
 
 **`description`** Retrieve latest list of validators
+
+**Parameters:**
+
+Name | Type |
+------ | ------ |
+`api` | ApiInterfaceRx |
+
+**Returns:** *function*
+
+▸ (): *Observable‹[DeriveStakingValidators](../interfaces/_types_.derivestakingvalidators.md)›*

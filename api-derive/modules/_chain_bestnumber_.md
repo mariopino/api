@@ -4,27 +4,19 @@
 
 ## Index
 
-### Variables
+### Functions
 
-* [bestNumber](_chain_bestnumber_.md#const-bestnumber)
+* [bestNumber](_chain_bestnumber_.md#bestnumber)
 
-## Variables
+## Functions
 
-### `Const` bestNumber
+###  bestNumber
 
-• **bestNumber**: *(Anonymous function)* =  memo((api: ApiInterfaceRx): () => Observable<BlockNumber> => {
-  return (): Observable<BlockNumber> =>
-    api.rpc.chain.subscribeNewHeads().pipe(
-      map((header): BlockNumber => header.number.unwrap()),
-      drr()
-    );
-}, true)
+▸ **bestNumber**(`api`: ApiInterfaceRx): *function*
 
-*Defined in [chain/bestNumber.ts:25](https://github.com/polkadot-js/api/blob/cba5710fec/packages/api-derive/src/chain/bestNumber.ts#L25)*
+*Defined in [chain/bestNumber.ts:25](https://github.com/polkadot-js/api/blob/ad570cac5a/packages/api-derive/src/chain/bestNumber.ts#L25)*
 
 **`name`** bestNumber
-
-**`returns`** The latest block number.
 
 **`example`** 
 <BR>
@@ -34,3 +26,15 @@ api.derive.chain.bestNumber((blockNumber) => {
   console.log(`the current best block is #${blockNumber}`);
 });
 ```
+
+**Parameters:**
+
+Name | Type |
+------ | ------ |
+`api` | ApiInterfaceRx |
+
+**Returns:** *function*
+
+The latest block number.
+
+▸ (): *Observable‹BlockNumber›*

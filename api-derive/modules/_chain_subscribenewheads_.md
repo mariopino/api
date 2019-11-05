@@ -4,32 +4,19 @@
 
 ## Index
 
-### Variables
+### Functions
 
-* [subscribeNewHeads](_chain_subscribenewheads_.md#const-subscribenewheads)
+* [subscribeNewHeads](_chain_subscribenewheads_.md#subscribenewheads)
 
-## Variables
+## Functions
 
-### `Const` subscribeNewHeads
+###  subscribeNewHeads
 
-• **subscribeNewHeads**: *(Anonymous function)* =  memo((api: ApiInterfaceRx): () => Observable<HeaderExtended> => {
-  return (): Observable<HeaderExtended> =>
-    combineLatest([
-      api.rpc.chain.subscribeNewHeads(),
-      api.query.session.validators<Vec<AccountId>>()
-    ]).pipe(
-      map(([header, validators]): HeaderExtended =>
-        new HeaderExtended(header, validators)
-      ),
-      drr()
-    );
-}, true)
+▸ **subscribeNewHeads**(`api`: ApiInterfaceRx): *function*
 
-*Defined in [chain/subscribeNewHeads.ts:28](https://github.com/polkadot-js/api/blob/cba5710fec/packages/api-derive/src/chain/subscribeNewHeads.ts#L28)*
+*Defined in [chain/subscribeNewHeads.ts:28](https://github.com/polkadot-js/api/blob/ad570cac5a/packages/api-derive/src/chain/subscribeNewHeads.ts#L28)*
 
 **`name`** subscribeNewHeads
-
-**`returns`** An array containing the block header and the block author
 
 **`description`** An observable of the current block header and it's author
 
@@ -41,3 +28,15 @@ api.derive.chain.subscribeNewHeads((header) => {
   console.log(`block #${header.number} was authored by ${header.author}`);
 });
 ```
+
+**Parameters:**
+
+Name | Type |
+------ | ------ |
+`api` | ApiInterfaceRx |
+
+**Returns:** *function*
+
+An array containing the block header and the block author
+
+▸ (): *Observable‹[HeaderExtended](../classes/_type_headerextended_.headerextended.md)›*

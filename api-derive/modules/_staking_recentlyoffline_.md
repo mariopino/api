@@ -4,28 +4,26 @@
 
 ## Index
 
-### Variables
+### Functions
 
-* [recentlyOffline](_staking_recentlyoffline_.md#const-recentlyoffline)
+* [recentlyOffline](_staking_recentlyoffline_.md#recentlyoffline)
 
-## Variables
+## Functions
 
-### `Const` recentlyOffline
+###  recentlyOffline
 
-• **recentlyOffline**: *(Anonymous function)* =  memo((api: ApiInterfaceRx): () => Observable<DerivedRecentlyOffline> => {
-  return (): Observable<DerivedRecentlyOffline> =>
-    (
-      // TODO recentlyOffline  has been dropped for 2.x and replaced, figure out the
-      // replacement as actually use and implement it
-      api.query.staking.recentlyOffline
-        ? api.query.staking.recentlyOffline<OfflineResult>()
-        : of([] as unknown as OfflineResult)
-    ).pipe(
-      map(expandDerived),
-      drr()
-    );
-}, true)
+▸ **recentlyOffline**(`api`: ApiInterfaceRx): *function*
 
-*Defined in [staking/recentlyOffline.ts:38](https://github.com/polkadot-js/api/blob/cba5710fec/packages/api-derive/src/staking/recentlyOffline.ts#L38)*
+*Defined in [staking/recentlyOffline.ts:38](https://github.com/polkadot-js/api/blob/ad570cac5a/packages/api-derive/src/staking/recentlyOffline.ts#L38)*
 
 **`description`** Retrieve a keyed record of accounts recently reported to be offline
+
+**Parameters:**
+
+Name | Type |
+------ | ------ |
+`api` | ApiInterfaceRx |
+
+**Returns:** *function*
+
+▸ (): *Observable‹[DerivedRecentlyOffline](_types_.md#derivedrecentlyoffline)›*

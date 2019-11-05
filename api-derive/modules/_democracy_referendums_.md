@@ -4,33 +4,24 @@
 
 ## Index
 
-### Variables
+### Functions
 
-* [referendums](_democracy_referendums_.md#const-referendums)
+* [referendums](_democracy_referendums_.md#referendums)
 
-## Variables
+## Functions
 
-### `Const` referendums
+###  referendums
 
-• **referendums**: *(Anonymous function)* =  memo((api: ApiInterfaceRx): () => Observable<Option<ReferendumInfoExtended>[]> => {
-  const referendumInfosCall = referendumInfos(api);
+▸ **referendums**(`api`: ApiInterfaceRx): *function*
 
-  return (): Observable<Option<ReferendumInfoExtended>[]> =>
-    api.queryMulti<[ReferendumIndex, ReferendumIndex]>([
-      api.query.democracy.nextTally,
-      api.query.democracy.referendumCount
-    ]).pipe(
-      switchMap(([nextTally, referendumCount]): Observable<Option<ReferendumInfoExtended>[]> =>
-        referendumCount && nextTally && referendumCount.gt(nextTally) && referendumCount.gtn(0)
-          ? referendumInfosCall(
-            [...Array(referendumCount.sub(nextTally).toNumber())].map((_, i): BN =>
-              nextTally.addn(i)
-            )
-          )
-          : of([])
-      ),
-      drr()
-    );
-}, true)
+*Defined in [democracy/referendums.ts:17](https://github.com/polkadot-js/api/blob/ad570cac5a/packages/api-derive/src/democracy/referendums.ts#L17)*
 
-*Defined in [democracy/referendums.ts:17](https://github.com/polkadot-js/api/blob/cba5710fec/packages/api-derive/src/democracy/referendums.ts#L17)*
+**Parameters:**
+
+Name | Type |
+------ | ------ |
+`api` | ApiInterfaceRx |
+
+**Returns:** *function*
+
+▸ (): *Observable‹Option‹[ReferendumInfoExtended](../classes/_type_referenduminfoextended_.referenduminfoextended.md)›[]›*

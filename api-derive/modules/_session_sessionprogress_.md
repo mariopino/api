@@ -4,22 +4,24 @@
 
 ## Index
 
-### Variables
+### Functions
 
-* [sessionProgress](_session_sessionprogress_.md#const-sessionprogress)
+* [sessionProgress](_session_sessionprogress_.md#sessionprogress)
 
-## Variables
+## Functions
 
-### `Const` sessionProgress
+###  sessionProgress
 
-• **sessionProgress**: *(Anonymous function)* =  memo((api: ApiInterfaceRx): () => Observable<BlockNumber> => {
-  const infoCall = info(api);
+▸ **sessionProgress**(`api`: ApiInterfaceRx): *function*
 
-  return (): Observable<BlockNumber> =>
-    infoCall().pipe(
-      map(({ sessionProgress }): BlockNumber => sessionProgress),
-      drr()
-    );
-}, true)
+*Defined in [session/sessionProgress.ts:14](https://github.com/polkadot-js/api/blob/ad570cac5a/packages/api-derive/src/session/sessionProgress.ts#L14)*
 
-*Defined in [session/sessionProgress.ts:14](https://github.com/polkadot-js/api/blob/cba5710fec/packages/api-derive/src/session/sessionProgress.ts#L14)*
+**Parameters:**
+
+Name | Type |
+------ | ------ |
+`api` | ApiInterfaceRx |
+
+**Returns:** *function*
+
+▸ (): *Observable‹BlockNumber›*

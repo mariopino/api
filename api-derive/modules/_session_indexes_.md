@@ -4,26 +4,24 @@
 
 ## Index
 
-### Variables
+### Functions
 
-* [indexes](_session_indexes_.md#const-indexes)
+* [indexes](_session_indexes_.md#indexes)
 
-## Variables
+## Functions
 
-### `Const` indexes
+###  indexes
 
-• **indexes**: *(Anonymous function)* =  memo((api: ApiInterfaceRx): () => Observable<DeriveSessionIndexes> => {
-  return (): Observable<DeriveSessionIndexes> =>
-    api.queryMulti<[SessionIndex, EraIndex, u32]>([
-      api.query.session.currentIndex,
-      api.query.staking.currentEra,
-      api.query.staking.validatorCount
-    ]).pipe(
-      map(([currentIndex, currentEra, validatorCount]): DeriveSessionIndexes => ({
-        currentIndex, currentEra, validatorCount
-      })),
-      drr()
-    );
-}, true)
+▸ **indexes**(`api`: ApiInterfaceRx): *function*
 
-*Defined in [session/indexes.ts:15](https://github.com/polkadot-js/api/blob/cba5710fec/packages/api-derive/src/session/indexes.ts#L15)*
+*Defined in [session/indexes.ts:15](https://github.com/polkadot-js/api/blob/ad570cac5a/packages/api-derive/src/session/indexes.ts#L15)*
+
+**Parameters:**
+
+Name | Type |
+------ | ------ |
+`api` | ApiInterfaceRx |
+
+**Returns:** *function*
+
+▸ (): *Observable‹[DeriveSessionIndexes](../interfaces/_types_.derivesessionindexes.md)›*

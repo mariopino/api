@@ -8,9 +8,9 @@
 
 * [AccountIdAndIndex](_accounts_idandindex_.md#accountidandindex)
 
-### Variables
+### Functions
 
-* [idAndIndex](_accounts_idandindex_.md#const-idandindex)
+* [idAndIndex](_accounts_idandindex_.md#idandindex)
 
 ## Type aliases
 
@@ -18,27 +18,17 @@
 
 Ƭ **AccountIdAndIndex**: *[undefined | AccountId, undefined | AccountIndex]*
 
-*Defined in [accounts/idAndIndex.ts:23](https://github.com/polkadot-js/api/blob/cba5710fec/packages/api-derive/src/accounts/idAndIndex.ts#L23)*
+*Defined in [accounts/idAndIndex.ts:23](https://github.com/polkadot-js/api/blob/ad570cac5a/packages/api-derive/src/accounts/idAndIndex.ts#L23)*
 
-## Variables
+## Functions
 
-### `Const` idAndIndex
+###  idAndIndex
 
-• **idAndIndex**: *(Anonymous function)* =  memo((api: ApiInterfaceRx): (address?: Address | AccountId | AccountIndex | string | null) => Observable<AccountIdAndIndex> => {
-  const calls = {
-    idToIndexCall: idToIndex(api),
-    indexToIdCall: indexToId(api)
-  };
+▸ **idAndIndex**(`api`: ApiInterfaceRx): *function*
 
-  return (address?: Address | AccountId | AccountIndex | string | null): Observable<AccountIdAndIndex> =>
-    retrieve(address, calls).pipe(drr());
-}, true)
-
-*Defined in [accounts/idAndIndex.ts:63](https://github.com/polkadot-js/api/blob/cba5710fec/packages/api-derive/src/accounts/idAndIndex.ts#L63)*
+*Defined in [accounts/idAndIndex.ts:63](https://github.com/polkadot-js/api/blob/ad570cac5a/packages/api-derive/src/accounts/idAndIndex.ts#L63)*
 
 **`name`** idAndIndex
-
-**`param`** An accounts address in various formats.
 
 **`description`** An array containing the [[AccountId]] and [[AccountIndex]] as optional values.
 
@@ -50,3 +40,19 @@ api.derive.accounts.idAndIndex('F7Hs', ([id, ix]) => {
   console.log(`AccountId #${id} with corresponding AccountIndex ${ix}`);
 });
 ```
+
+**Parameters:**
+
+Name | Type |
+------ | ------ |
+`api` | ApiInterfaceRx |
+
+**Returns:** *function*
+
+▸ (`address?`: Address | AccountId | AccountIndex | string | null): *Observable‹[AccountIdAndIndex](_accounts_idandindex_.md#accountidandindex)›*
+
+**Parameters:**
+
+Name | Type | Description |
+------ | ------ | ------ |
+`address?` | Address &#124; AccountId &#124; AccountIndex &#124; string &#124; null | An accounts address in various formats. |

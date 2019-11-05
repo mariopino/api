@@ -4,38 +4,19 @@
 
 ## Index
 
-### Variables
+### Functions
 
-* [fees](_balances_fees_.md#const-fees)
+* [fees](_balances_fees_.md#fees)
 
-## Variables
+## Functions
 
-### `Const` fees
+###  fees
 
-• **fees**: *(Anonymous function)* =  memo((api: ApiInterfaceRx): () => Observable<DerivedFees> => {
-  const query = api.consts.balances
-    ? queryV2
-    : queryV1;
+▸ **fees**(`api`: ApiInterfaceRx): *function*
 
-  return (): Observable<DerivedFees> =>
-    query(api).pipe(
-      map(([creationFee, existentialDeposit, transferFee, transactionBaseFee, transactionByteFee]): DerivedFees => ({
-        creationFee,
-        existentialDeposit,
-        transactionBaseFee,
-        transactionByteFee,
-        transferFee
-      })),
-      drr()
-    );
-}, true)
-
-*Defined in [balances/fees.ts:54](https://github.com/polkadot-js/api/blob/cba5710fec/packages/api-derive/src/balances/fees.ts#L54)*
+*Defined in [balances/fees.ts:54](https://github.com/polkadot-js/api/blob/ad570cac5a/packages/api-derive/src/balances/fees.ts#L54)*
 
 **`name`** fees
-
-**`returns`** An object containing the combined results of the storage queries for
-all relevant fees as declared in the substrate chain spec.
 
 **`example`** 
 <BR>
@@ -45,3 +26,16 @@ api.derive.balances.fees(({ creationFee, transferFee }) => {
   console.log(`The fee for creating a new account on this chain is ${creationFee} units. The fee required for making a transfer is ${transferFee} units.`);
 });
 ```
+
+**Parameters:**
+
+Name | Type |
+------ | ------ |
+`api` | ApiInterfaceRx |
+
+**Returns:** *function*
+
+An object containing the combined results of the storage queries for
+all relevant fees as declared in the substrate chain spec.
+
+▸ (): *Observable‹[DerivedFees](../interfaces/_types_.derivedfees.md)›*

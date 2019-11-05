@@ -4,39 +4,34 @@
 
 ## Index
 
-### Variables
+### Functions
 
-* [info](_accounts_info_.md#const-info)
+* [info](_accounts_info_.md#info)
 
-## Variables
+## Functions
 
-### `Const` info
+###  info
 
-• **info**: *(Anonymous function)* =  memo((api: ApiInterfaceRx): (address?: AccountIndex | AccountId | Address | string | null) => Observable<DeriveAccountInfo> => {
-  const idAndIndexCall = idAndIndex(api);
-  const nickCall = retrieveNick(api);
+▸ **info**(`api`: ApiInterfaceRx): *function*
 
-  return (address?: AccountIndex | AccountId | Address | string | null): Observable<DeriveAccountInfo> =>
-    idAndIndexCall(address).pipe(
-      switchMap(([accountId, accountIndex]): Observable<[DeriveAccountInfo, Option<[Bytes, Balance] & Codec>?]> =>
-        combineLatest([
-          of({ accountId, accountIndex }),
-          nickCall(accountId)
-        ])
-      ),
-      map(([{ accountId, accountIndex }, nameOf]): DeriveAccountInfo => ({
-        accountId,
-        accountIndex,
-        nickname: nameOf && nameOf.isSome
-          ? u8aToString(nameOf.unwrap()[0]).substr(0, (api.consts.nicks.maxLength as u32).toNumber())
-          : undefined
-      })),
-      drr()
-    );
-}, true)
-
-*Defined in [accounts/info.ts:29](https://github.com/polkadot-js/api/blob/cba5710fec/packages/api-derive/src/accounts/info.ts#L29)*
+*Defined in [accounts/info.ts:29](https://github.com/polkadot-js/api/blob/ad570cac5a/packages/api-derive/src/accounts/info.ts#L29)*
 
 **`name`** info
 
 **`description`** Returns aux. info with regards to an account, current that includes the accountId, accountIndex and nickname
+
+**Parameters:**
+
+Name | Type |
+------ | ------ |
+`api` | ApiInterfaceRx |
+
+**Returns:** *function*
+
+▸ (`address?`: AccountIndex | AccountId | Address | string | null): *Observable‹[DeriveAccountInfo](../interfaces/_types_.deriveaccountinfo.md)›*
+
+**Parameters:**
+
+Name | Type |
+------ | ------ |
+`address?` | AccountIndex &#124; AccountId &#124; Address &#124; string &#124; null |

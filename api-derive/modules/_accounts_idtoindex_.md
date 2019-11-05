@@ -4,34 +4,19 @@
 
 ## Index
 
-### Variables
+### Functions
 
-* [idToIndex](_accounts_idtoindex_.md#const-idtoindex)
+* [idToIndex](_accounts_idtoindex_.md#idtoindex)
 
-## Variables
+## Functions
 
-### `Const` idToIndex
+###  idToIndex
 
-• **idToIndex**: *(Anonymous function)* =  memo((api: ApiInterfaceRx): (accountId: AccountId | string) => Observable<AccountIndex | undefined> => {
-  const indexesCall = indexes(api);
+▸ **idToIndex**(`api`: ApiInterfaceRx): *function*
 
-  return (accountId: AccountId | string): Observable<AccountIndex | undefined> =>
-    indexesCall().pipe(
-      startWith({}),
-      map((indexes: AccountIndexes): AccountIndex | undefined =>
-        (indexes || {})[accountId.toString()]
-      ),
-      drr()
-    );
-}, true)
-
-*Defined in [accounts/idToIndex.ts:28](https://github.com/polkadot-js/api/blob/cba5710fec/packages/api-derive/src/accounts/idToIndex.ts#L28)*
+*Defined in [accounts/idToIndex.ts:28](https://github.com/polkadot-js/api/blob/ad570cac5a/packages/api-derive/src/accounts/idToIndex.ts#L28)*
 
 **`name`** idToIndex
-
-**`param`** An accounts Id in different formats.
-
-**`returns`** Returns the corresponding AccountIndex.
 
 **`example`** 
 <BR>
@@ -42,3 +27,21 @@ api.derive.accounts.idToIndex(ALICE, (accountIndex) => {
   console.log(`The AccountIndex of ${ALICE} is ${accountIndex}`);
 });
 ```
+
+**Parameters:**
+
+Name | Type |
+------ | ------ |
+`api` | ApiInterfaceRx |
+
+**Returns:** *function*
+
+Returns the corresponding AccountIndex.
+
+▸ (`accountId`: AccountId | string): *Observable‹AccountIndex | undefined›*
+
+**Parameters:**
+
+Name | Type | Description |
+------ | ------ | ------ |
+`accountId` | AccountId &#124; string | An accounts Id in different formats. |

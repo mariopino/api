@@ -4,24 +4,30 @@
 
 ## Index
 
-### Variables
+### Functions
 
-* [infoStash](_staking_infostash_.md#const-infostash)
+* [infoStash](_staking_infostash_.md#infostash)
 
-## Variables
+## Functions
 
-### `Const` infoStash
+###  infoStash
 
-• **infoStash**: *(Anonymous function)* =  memo((api: ApiInterfaceRx): (stashId: AccountId) => Observable<DerivedStakingStash> => {
-  const query = api.consts.session
-    ? retrieveV2
-    : retrieveV1;
+▸ **infoStash**(`api`: ApiInterfaceRx): *function*
 
-  return (stashId: AccountId): Observable<DerivedStakingStash> =>
-    query(api, stashId).pipe(
-      map((result): DerivedStakingStash => parse(stashId, result)),
-      drr()
-    );
-}, true)
+*Defined in [staking/infoStash.ts:55](https://github.com/polkadot-js/api/blob/ad570cac5a/packages/api-derive/src/staking/infoStash.ts#L55)*
 
-*Defined in [staking/infoStash.ts:55](https://github.com/polkadot-js/api/blob/cba5710fec/packages/api-derive/src/staking/infoStash.ts#L55)*
+**Parameters:**
+
+Name | Type |
+------ | ------ |
+`api` | ApiInterfaceRx |
+
+**Returns:** *function*
+
+▸ (`stashId`: AccountId): *Observable‹[DerivedStakingStash](../interfaces/_types_.derivedstakingstash.md)›*
+
+**Parameters:**
+
+Name | Type |
+------ | ------ |
+`stashId` | AccountId |
