@@ -61,7 +61,7 @@
 
 • **Array**: *ArrayConstructor*
 
-Defined in /home/runner/work/api/api/node_modules/typescript/lib/lib.es5.d.ts:1368
+Defined in /home/runner/work/api/api/node_modules/typescript/lib/lib.es5.d.ts:1385
 
 ___
 
@@ -71,7 +71,7 @@ ___
 
 *Inherited from void*
 
-Defined in /home/runner/work/api/api/node_modules/typescript/lib/lib.es5.d.ts:1209
+Defined in /home/runner/work/api/api/node_modules/typescript/lib/lib.es5.d.ts:1215
 
 Gets or sets the length of the array. This is a number one higher than the highest element defined in an array.
 
@@ -112,7 +112,7 @@ ___
 
 *Inherited from void*
 
-Defined in /home/runner/work/api/api/node_modules/typescript/lib/lib.es5.d.ts:1231
+Defined in /home/runner/work/api/api/node_modules/typescript/lib/lib.es5.d.ts:1237
 
 Combines two or more arrays.
 
@@ -128,7 +128,7 @@ Name | Type | Description |
 
 *Inherited from void*
 
-Defined in /home/runner/work/api/api/node_modules/typescript/lib/lib.es5.d.ts:1236
+Defined in /home/runner/work/api/api/node_modules/typescript/lib/lib.es5.d.ts:1242
 
 Combines two or more arrays.
 
@@ -185,7 +185,7 @@ ___
 
 *Inherited from void*
 
-Defined in /home/runner/work/api/api/node_modules/typescript/lib/lib.es5.d.ts:1296
+Defined in /home/runner/work/api/api/node_modules/typescript/lib/lib.es5.d.ts:1310
 
 Determines whether all the members of an array satisfy the specified test.
 
@@ -193,7 +193,9 @@ Determines whether all the members of an array satisfy the specified test.
 
 ▪ **callbackfn**: *function*
 
-A function that accepts up to three arguments. The every method calls the callbackfn function for each element in array1 until the callbackfn returns false, or until the end of the array.
+A function that accepts up to three arguments. The every method calls
+the callbackfn function for each element in the array until the callbackfn returns a value
+which is coercible to the Boolean value false, or until the end of the array.
 
 ▸ (`value`: [AnyJson](../modules/_types_.md#anyjson), `index`: number, `array`: [AnyJson](../modules/_types_.md#anyjson)[]): *unknown*
 
@@ -207,7 +209,8 @@ Name | Type |
 
 ▪`Optional`  **thisArg**: *any*
 
-An object to which the this keyword can refer in the callbackfn function. If thisArg is omitted, undefined is used as the this value.
+An object to which the this keyword can refer in the callbackfn function.
+If thisArg is omitted, undefined is used as the this value.
 
 **Returns:** *boolean*
 
@@ -241,7 +244,7 @@ ___
 
 *Inherited from void*
 
-Defined in /home/runner/work/api/api/node_modules/typescript/lib/lib.es5.d.ts:1320
+Defined in /home/runner/work/api/api/node_modules/typescript/lib/lib.es5.d.ts:1337
 
 Returns the elements of an array that meet the condition specified in a callback function.
 
@@ -275,7 +278,7 @@ An object to which the this keyword can refer in the callbackfn function. If thi
 
 *Inherited from void*
 
-Defined in /home/runner/work/api/api/node_modules/typescript/lib/lib.es5.d.ts:1326
+Defined in /home/runner/work/api/api/node_modules/typescript/lib/lib.es5.d.ts:1343
 
 Returns the elements of an array that meet the condition specified in a callback function.
 
@@ -660,7 +663,7 @@ ___
 
 *Inherited from void*
 
-Defined in /home/runner/work/api/api/node_modules/typescript/lib/lib.es5.d.ts:1308
+Defined in /home/runner/work/api/api/node_modules/typescript/lib/lib.es5.d.ts:1325
 
 Performs the specified action for each element in an array.
 
@@ -715,7 +718,7 @@ ___
 
 *Inherited from void*
 
-Defined in /home/runner/work/api/api/node_modules/typescript/lib/lib.es5.d.ts:1284
+Defined in /home/runner/work/api/api/node_modules/typescript/lib/lib.es5.d.ts:1295
 
 Returns the index of the first occurrence of a value in an array.
 
@@ -736,7 +739,7 @@ ___
 
 *Inherited from void*
 
-Defined in /home/runner/work/api/api/node_modules/typescript/lib/lib.es5.d.ts:1241
+Defined in /home/runner/work/api/api/node_modules/typescript/lib/lib.es5.d.ts:1247
 
 Adds all the elements of an array separated by the specified separator string.
 
@@ -770,7 +773,7 @@ ___
 
 *Inherited from void*
 
-Defined in /home/runner/work/api/api/node_modules/typescript/lib/lib.es5.d.ts:1290
+Defined in /home/runner/work/api/api/node_modules/typescript/lib/lib.es5.d.ts:1301
 
 Returns the index of the last occurrence of a specified value in an array.
 
@@ -791,7 +794,7 @@ ___
 
 *Inherited from void*
 
-Defined in /home/runner/work/api/api/node_modules/typescript/lib/lib.es5.d.ts:1314
+Defined in /home/runner/work/api/api/node_modules/typescript/lib/lib.es5.d.ts:1331
 
 Calls a defined callback function on each element of an array, and returns an array that contains the results.
 
@@ -829,7 +832,7 @@ ___
 
 *Inherited from void*
 
-Defined in /home/runner/work/api/api/node_modules/typescript/lib/lib.es5.d.ts:1221
+Defined in /home/runner/work/api/api/node_modules/typescript/lib/lib.es5.d.ts:1227
 
 Removes the last element from an array and returns it.
 
@@ -843,7 +846,7 @@ ___
 
 *Inherited from void*
 
-Defined in /home/runner/work/api/api/node_modules/typescript/lib/lib.es5.d.ts:1226
+Defined in /home/runner/work/api/api/node_modules/typescript/lib/lib.es5.d.ts:1232
 
 Appends new elements to an array, and returns the new length of the array.
 
@@ -863,7 +866,7 @@ ___
 
 *Inherited from void*
 
-Defined in /home/runner/work/api/api/node_modules/typescript/lib/lib.es5.d.ts:1332
+Defined in /home/runner/work/api/api/node_modules/typescript/lib/lib.es5.d.ts:1349
 
 Calls the specified callback function for all the elements in an array. The return value of the callback function is the accumulated result, and is provided as an argument in the next call to the callback function.
 
@@ -890,7 +893,7 @@ Name | Type |
 
 *Inherited from void*
 
-Defined in /home/runner/work/api/api/node_modules/typescript/lib/lib.es5.d.ts:1333
+Defined in /home/runner/work/api/api/node_modules/typescript/lib/lib.es5.d.ts:1350
 
 **Parameters:**
 
@@ -915,7 +918,7 @@ Name | Type |
 
 *Inherited from void*
 
-Defined in /home/runner/work/api/api/node_modules/typescript/lib/lib.es5.d.ts:1339
+Defined in /home/runner/work/api/api/node_modules/typescript/lib/lib.es5.d.ts:1356
 
 Calls the specified callback function for all the elements in an array. The return value of the callback function is the accumulated result, and is provided as an argument in the next call to the callback function.
 
@@ -954,7 +957,7 @@ ___
 
 *Inherited from void*
 
-Defined in /home/runner/work/api/api/node_modules/typescript/lib/lib.es5.d.ts:1345
+Defined in /home/runner/work/api/api/node_modules/typescript/lib/lib.es5.d.ts:1362
 
 Calls the specified callback function for all the elements in an array, in descending order. The return value of the callback function is the accumulated result, and is provided as an argument in the next call to the callback function.
 
@@ -981,7 +984,7 @@ Name | Type |
 
 *Inherited from void*
 
-Defined in /home/runner/work/api/api/node_modules/typescript/lib/lib.es5.d.ts:1346
+Defined in /home/runner/work/api/api/node_modules/typescript/lib/lib.es5.d.ts:1363
 
 **Parameters:**
 
@@ -1006,7 +1009,7 @@ Name | Type |
 
 *Inherited from void*
 
-Defined in /home/runner/work/api/api/node_modules/typescript/lib/lib.es5.d.ts:1352
+Defined in /home/runner/work/api/api/node_modules/typescript/lib/lib.es5.d.ts:1369
 
 Calls the specified callback function for all the elements in an array, in descending order. The return value of the callback function is the accumulated result, and is provided as an argument in the next call to the callback function.
 
@@ -1045,7 +1048,7 @@ ___
 
 *Inherited from void*
 
-Defined in /home/runner/work/api/api/node_modules/typescript/lib/lib.es5.d.ts:1245
+Defined in /home/runner/work/api/api/node_modules/typescript/lib/lib.es5.d.ts:1251
 
 Reverses the elements in an Array.
 
@@ -1059,7 +1062,7 @@ ___
 
 *Inherited from void*
 
-Defined in /home/runner/work/api/api/node_modules/typescript/lib/lib.es5.d.ts:1249
+Defined in /home/runner/work/api/api/node_modules/typescript/lib/lib.es5.d.ts:1255
 
 Removes the first element from an array and returns it.
 
@@ -1073,7 +1076,7 @@ ___
 
 *Inherited from void*
 
-Defined in /home/runner/work/api/api/node_modules/typescript/lib/lib.es5.d.ts:1255
+Defined in /home/runner/work/api/api/node_modules/typescript/lib/lib.es5.d.ts:1261
 
 Returns a section of an array.
 
@@ -1082,7 +1085,7 @@ Returns a section of an array.
 Name | Type | Description |
 ------ | ------ | ------ |
 `start?` | undefined &#124; number | The beginning of the specified portion of the array. |
-`end?` | undefined &#124; number | The end of the specified portion of the array.  |
+`end?` | undefined &#124; number | The end of the specified portion of the array. This is exclusive of the element at the index 'end'.  |
 
 **Returns:** *[AnyJson](../modules/_types_.md#anyjson)[]*
 
@@ -1094,7 +1097,7 @@ ___
 
 *Inherited from void*
 
-Defined in /home/runner/work/api/api/node_modules/typescript/lib/lib.es5.d.ts:1302
+Defined in /home/runner/work/api/api/node_modules/typescript/lib/lib.es5.d.ts:1319
 
 Determines whether the specified callback function returns true for any element of an array.
 
@@ -1102,7 +1105,9 @@ Determines whether the specified callback function returns true for any element 
 
 ▪ **callbackfn**: *function*
 
-A function that accepts up to three arguments. The some method calls the callbackfn function for each element in array1 until the callbackfn returns true, or until the end of the array.
+A function that accepts up to three arguments. The some method calls
+the callbackfn function for each element in the array until the callbackfn returns a value
+which is coercible to the Boolean value true, or until the end of the array.
 
 ▸ (`value`: [AnyJson](../modules/_types_.md#anyjson), `index`: number, `array`: [AnyJson](../modules/_types_.md#anyjson)[]): *unknown*
 
@@ -1116,7 +1121,8 @@ Name | Type |
 
 ▪`Optional`  **thisArg**: *any*
 
-An object to which the this keyword can refer in the callbackfn function. If thisArg is omitted, undefined is used as the this value.
+An object to which the this keyword can refer in the callbackfn function.
+If thisArg is omitted, undefined is used as the this value.
 
 **Returns:** *boolean*
 
@@ -1128,7 +1134,7 @@ ___
 
 *Inherited from void*
 
-Defined in /home/runner/work/api/api/node_modules/typescript/lib/lib.es5.d.ts:1260
+Defined in /home/runner/work/api/api/node_modules/typescript/lib/lib.es5.d.ts:1271
 
 Sorts an array.
 
@@ -1136,7 +1142,7 @@ Sorts an array.
 
 Name | Type | Description |
 ------ | ------ | ------ |
-`compareFn?` | undefined &#124; function | The name of the function used to determine the order of the elements. If omitted, the elements are sorted in ascending, ASCII character order.  |
+`compareFn?` | undefined &#124; function | Function used to determine the order of the elements. It is expected to return a negative value if first argument is less than second argument, zero if they're equal and a positive value otherwise. If omitted, the elements are sorted in ascending, ASCII character order. ```ts [11,2,22,1].sort((a, b) => a - b) ```  |
 
 **Returns:** *this*
 
@@ -1148,7 +1154,7 @@ ___
 
 *Inherited from void*
 
-Defined in /home/runner/work/api/api/node_modules/typescript/lib/lib.es5.d.ts:1266
+Defined in /home/runner/work/api/api/node_modules/typescript/lib/lib.es5.d.ts:1277
 
 Removes elements from an array and, if necessary, inserts new elements in their place, returning the deleted elements.
 
@@ -1165,7 +1171,7 @@ Name | Type | Description |
 
 *Inherited from void*
 
-Defined in /home/runner/work/api/api/node_modules/typescript/lib/lib.es5.d.ts:1273
+Defined in /home/runner/work/api/api/node_modules/typescript/lib/lib.es5.d.ts:1284
 
 Removes elements from an array and, if necessary, inserts new elements in their place, returning the deleted elements.
 
@@ -1187,7 +1193,7 @@ ___
 
 *Inherited from void*
 
-Defined in /home/runner/work/api/api/node_modules/typescript/lib/lib.es5.d.ts:1217
+Defined in /home/runner/work/api/api/node_modules/typescript/lib/lib.es5.d.ts:1223
 
 Returns a string representation of an array. The elements are converted to string using their toLocalString methods.
 
@@ -1201,7 +1207,7 @@ ___
 
 *Inherited from void*
 
-Defined in /home/runner/work/api/api/node_modules/typescript/lib/lib.es5.d.ts:1213
+Defined in /home/runner/work/api/api/node_modules/typescript/lib/lib.es5.d.ts:1219
 
 Returns a string representation of an array.
 
@@ -1215,7 +1221,7 @@ ___
 
 *Inherited from void*
 
-Defined in /home/runner/work/api/api/node_modules/typescript/lib/lib.es5.d.ts:1278
+Defined in /home/runner/work/api/api/node_modules/typescript/lib/lib.es5.d.ts:1289
 
 Inserts new elements at the start of an array.
 

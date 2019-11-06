@@ -16,9 +16,9 @@
 
 ###  AccountIdAndIndex
 
-Ƭ **AccountIdAndIndex**: *[undefined | AccountId, undefined | AccountIndex]*
+Ƭ **AccountIdAndIndex**: *[undefined | AccountId‹›, undefined | AccountIndex‹›]*
 
-*Defined in [accounts/idAndIndex.ts:23](https://github.com/polkadot-js/api/blob/8cc256fdcf/packages/api-derive/src/accounts/idAndIndex.ts#L23)*
+*Defined in [accounts/idAndIndex.ts:23](https://github.com/polkadot-js/api/blob/c077d0f2e7/packages/api-derive/src/accounts/idAndIndex.ts#L23)*
 
 ## Functions
 
@@ -26,7 +26,7 @@
 
 ▸ **idAndIndex**(`api`: ApiInterfaceRx): *function*
 
-*Defined in [accounts/idAndIndex.ts:63](https://github.com/polkadot-js/api/blob/8cc256fdcf/packages/api-derive/src/accounts/idAndIndex.ts#L63)*
+*Defined in [accounts/idAndIndex.ts:63](https://github.com/polkadot-js/api/blob/c077d0f2e7/packages/api-derive/src/accounts/idAndIndex.ts#L63)*
 
 **`name`** idAndIndex
 

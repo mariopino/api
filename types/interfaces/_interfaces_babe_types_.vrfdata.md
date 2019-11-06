@@ -75,7 +75,7 @@ Uint8Array, Codec
 
 *Inherited from void*
 
-Defined in /home/runner/work/api/api/node_modules/typescript/lib/lib.es5.d.ts:1967
+Defined in /home/runner/work/api/api/node_modules/typescript/lib/lib.es5.d.ts:1988
 
 The size in bytes of each element in the array.
 
@@ -85,7 +85,7 @@ ___
 
 • **Uint8Array**: *Uint8ArrayConstructor*
 
-Defined in /home/runner/work/api/api/node_modules/typescript/lib/lib.es5.d.ts:2232
+Defined in /home/runner/work/api/api/node_modules/typescript/lib/lib.es5.d.ts:2257
 
 ___
 
@@ -105,7 +105,7 @@ ___
 
 *Inherited from void*
 
-Defined in /home/runner/work/api/api/node_modules/typescript/lib/lib.es5.d.ts:1972
+Defined in /home/runner/work/api/api/node_modules/typescript/lib/lib.es5.d.ts:1993
 
 The ArrayBuffer instance referenced by the array.
 
@@ -117,7 +117,7 @@ ___
 
 *Inherited from void*
 
-Defined in /home/runner/work/api/api/node_modules/typescript/lib/lib.es5.d.ts:1977
+Defined in /home/runner/work/api/api/node_modules/typescript/lib/lib.es5.d.ts:1998
 
 The length in bytes of the array.
 
@@ -129,7 +129,7 @@ ___
 
 *Inherited from void*
 
-Defined in /home/runner/work/api/api/node_modules/typescript/lib/lib.es5.d.ts:1982
+Defined in /home/runner/work/api/api/node_modules/typescript/lib/lib.es5.d.ts:2003
 
 The offset in bytes of the array.
 
@@ -141,7 +141,7 @@ ___
 
 *Inherited from [Codec](_types_.codec.md).[encodedLength](_types_.codec.md#encodedlength)*
 
-*Defined in [types.ts:77](https://github.com/polkadot-js/api/blob/8cc256fdcf/packages/types/src/types.ts#L77)*
+*Defined in [types.ts:77](https://github.com/polkadot-js/api/blob/c077d0f2e7/packages/types/src/types.ts#L77)*
 
 **`description`** The length of the value when encoded as a Uint8Array
 
@@ -153,7 +153,7 @@ ___
 
 *Inherited from [Codec](_types_.codec.md).[hash](_types_.codec.md#hash)*
 
-*Defined in [types.ts:82](https://github.com/polkadot-js/api/blob/8cc256fdcf/packages/types/src/types.ts#L82)*
+*Defined in [types.ts:82](https://github.com/polkadot-js/api/blob/c077d0f2e7/packages/types/src/types.ts#L82)*
 
 **`description`** Returns a hash of the value
 
@@ -165,7 +165,7 @@ ___
 
 *Inherited from [Codec](_types_.codec.md).[isEmpty](_types_.codec.md#isempty)*
 
-*Defined in [types.ts:87](https://github.com/polkadot-js/api/blob/8cc256fdcf/packages/types/src/types.ts#L87)*
+*Defined in [types.ts:87](https://github.com/polkadot-js/api/blob/c077d0f2e7/packages/types/src/types.ts#L87)*
 
 **`description`** Checks if the value is an empty value
 
@@ -177,7 +177,7 @@ ___
 
 *Inherited from void*
 
-Defined in /home/runner/work/api/api/node_modules/typescript/lib/lib.es5.d.ts:2081
+Defined in /home/runner/work/api/api/node_modules/typescript/lib/lib.es5.d.ts:2102
 
 The length of the array.
 
@@ -201,7 +201,7 @@ ___
 
 *Inherited from void*
 
-Defined in /home/runner/work/api/api/node_modules/typescript/lib/lib.es5.d.ts:1993
+Defined in /home/runner/work/api/api/node_modules/typescript/lib/lib.es5.d.ts:2014
 
 Returns the this object after copying a section of the array identified by start and end
 to the same array starting at position target
@@ -238,7 +238,7 @@ ___
 
 *Inherited from [Codec](_types_.codec.md).[eq](_types_.codec.md#eq)*
 
-*Defined in [types.ts:92](https://github.com/polkadot-js/api/blob/8cc256fdcf/packages/types/src/types.ts#L92)*
+*Defined in [types.ts:92](https://github.com/polkadot-js/api/blob/c077d0f2e7/packages/types/src/types.ts#L92)*
 
 **`description`** Compares the value of the input to see if there is a match
 
@@ -258,7 +258,7 @@ ___
 
 *Inherited from void*
 
-Defined in /home/runner/work/api/api/node_modules/typescript/lib/lib.es5.d.ts:2003
+Defined in /home/runner/work/api/api/node_modules/typescript/lib/lib.es5.d.ts:2024
 
 Determines whether all the members of an array satisfy the specified test.
 
@@ -267,10 +267,10 @@ Determines whether all the members of an array satisfy the specified test.
 ▪ **callbackfn**: *function*
 
 A function that accepts up to three arguments. The every method calls
-the callbackfn function for each element in array1 until the callbackfn returns false,
-or until the end of the array.
+the callbackfn function for each element in the array until the callbackfn returns a value
+which is coercible to the Boolean value false, or until the end of the array.
 
-▸ (`value`: number, `index`: number, `array`: Uint8Array): *boolean*
+▸ (`value`: number, `index`: number, `array`: Uint8Array): *unknown*
 
 **Parameters:**
 
@@ -295,7 +295,7 @@ ___
 
 *Inherited from void*
 
-Defined in /home/runner/work/api/api/node_modules/typescript/lib/lib.es5.d.ts:2013
+Defined in /home/runner/work/api/api/node_modules/typescript/lib/lib.es5.d.ts:2034
 
 Returns the this object after filling the section identified by start and end with value
 
@@ -317,7 +317,7 @@ ___
 
 *Inherited from void*
 
-Defined in /home/runner/work/api/api/node_modules/typescript/lib/lib.es5.d.ts:2022
+Defined in /home/runner/work/api/api/node_modules/typescript/lib/lib.es5.d.ts:2043
 
 Returns the elements of an array that meet the condition specified in a callback function.
 
@@ -353,7 +353,7 @@ ___
 
 *Inherited from void*
 
-Defined in /home/runner/work/api/api/node_modules/typescript/lib/lib.es5.d.ts:2033
+Defined in /home/runner/work/api/api/node_modules/typescript/lib/lib.es5.d.ts:2054
 
 Returns the value of the first element in the array where predicate is true, and undefined
 otherwise.
@@ -391,7 +391,7 @@ ___
 
 *Inherited from void*
 
-Defined in /home/runner/work/api/api/node_modules/typescript/lib/lib.es5.d.ts:2044
+Defined in /home/runner/work/api/api/node_modules/typescript/lib/lib.es5.d.ts:2065
 
 Returns the index of the first element in the array where predicate is true, and -1
 otherwise.
@@ -429,7 +429,7 @@ ___
 
 *Inherited from void*
 
-Defined in /home/runner/work/api/api/node_modules/typescript/lib/lib.es5.d.ts:2053
+Defined in /home/runner/work/api/api/node_modules/typescript/lib/lib.es5.d.ts:2074
 
 Performs the specified action for each element in an array.
 
@@ -486,7 +486,7 @@ ___
 
 *Inherited from void*
 
-Defined in /home/runner/work/api/api/node_modules/typescript/lib/lib.es5.d.ts:2061
+Defined in /home/runner/work/api/api/node_modules/typescript/lib/lib.es5.d.ts:2082
 
 Returns the index of the first occurrence of a value in an array.
 
@@ -507,7 +507,7 @@ ___
 
 *Inherited from void*
 
-Defined in /home/runner/work/api/api/node_modules/typescript/lib/lib.es5.d.ts:2068
+Defined in /home/runner/work/api/api/node_modules/typescript/lib/lib.es5.d.ts:2089
 
 Adds all the elements of an array separated by the specified separator string.
 
@@ -541,7 +541,7 @@ ___
 
 *Inherited from void*
 
-Defined in /home/runner/work/api/api/node_modules/typescript/lib/lib.es5.d.ts:2076
+Defined in /home/runner/work/api/api/node_modules/typescript/lib/lib.es5.d.ts:2097
 
 Returns the index of the last occurrence of a value in an array.
 
@@ -562,7 +562,7 @@ ___
 
 *Inherited from void*
 
-Defined in /home/runner/work/api/api/node_modules/typescript/lib/lib.es5.d.ts:2091
+Defined in /home/runner/work/api/api/node_modules/typescript/lib/lib.es5.d.ts:2112
 
 Calls a defined callback function on each element of an array, and returns an array that
 contains the results.
@@ -599,7 +599,7 @@ ___
 
 *Inherited from void*
 
-Defined in /home/runner/work/api/api/node_modules/typescript/lib/lib.es5.d.ts:2103
+Defined in /home/runner/work/api/api/node_modules/typescript/lib/lib.es5.d.ts:2124
 
 Calls the specified callback function for all the elements in an array. The return value of
 the callback function is the accumulated result, and is provided as an argument in the next
@@ -629,7 +629,7 @@ Name | Type |
 
 *Inherited from void*
 
-Defined in /home/runner/work/api/api/node_modules/typescript/lib/lib.es5.d.ts:2104
+Defined in /home/runner/work/api/api/node_modules/typescript/lib/lib.es5.d.ts:2125
 
 **Parameters:**
 
@@ -654,7 +654,7 @@ Name | Type |
 
 *Inherited from void*
 
-Defined in /home/runner/work/api/api/node_modules/typescript/lib/lib.es5.d.ts:2116
+Defined in /home/runner/work/api/api/node_modules/typescript/lib/lib.es5.d.ts:2137
 
 Calls the specified callback function for all the elements in an array. The return value of
 the callback function is the accumulated result, and is provided as an argument in the next
@@ -698,7 +698,7 @@ ___
 
 *Inherited from void*
 
-Defined in /home/runner/work/api/api/node_modules/typescript/lib/lib.es5.d.ts:2128
+Defined in /home/runner/work/api/api/node_modules/typescript/lib/lib.es5.d.ts:2149
 
 Calls the specified callback function for all the elements in an array, in descending order.
 The return value of the callback function is the accumulated result, and is provided as an
@@ -728,7 +728,7 @@ Name | Type |
 
 *Inherited from void*
 
-Defined in /home/runner/work/api/api/node_modules/typescript/lib/lib.es5.d.ts:2129
+Defined in /home/runner/work/api/api/node_modules/typescript/lib/lib.es5.d.ts:2150
 
 **Parameters:**
 
@@ -753,7 +753,7 @@ Name | Type |
 
 *Inherited from void*
 
-Defined in /home/runner/work/api/api/node_modules/typescript/lib/lib.es5.d.ts:2141
+Defined in /home/runner/work/api/api/node_modules/typescript/lib/lib.es5.d.ts:2162
 
 Calls the specified callback function for all the elements in an array, in descending order.
 The return value of the callback function is the accumulated result, and is provided as an
@@ -797,7 +797,7 @@ ___
 
 *Inherited from void*
 
-Defined in /home/runner/work/api/api/node_modules/typescript/lib/lib.es5.d.ts:2146
+Defined in /home/runner/work/api/api/node_modules/typescript/lib/lib.es5.d.ts:2167
 
 Reverses the elements in an Array.
 
@@ -811,7 +811,7 @@ ___
 
 *Inherited from void*
 
-Defined in /home/runner/work/api/api/node_modules/typescript/lib/lib.es5.d.ts:2153
+Defined in /home/runner/work/api/api/node_modules/typescript/lib/lib.es5.d.ts:2174
 
 Sets a value or an array of values.
 
@@ -832,7 +832,7 @@ ___
 
 *Inherited from void*
 
-Defined in /home/runner/work/api/api/node_modules/typescript/lib/lib.es5.d.ts:2160
+Defined in /home/runner/work/api/api/node_modules/typescript/lib/lib.es5.d.ts:2181
 
 Returns a section of an array.
 
@@ -841,7 +841,7 @@ Returns a section of an array.
 Name | Type | Description |
 ------ | ------ | ------ |
 `start?` | undefined &#124; number | The beginning of the specified portion of the array. |
-`end?` | undefined &#124; number | The end of the specified portion of the array.  |
+`end?` | undefined &#124; number | The end of the specified portion of the array. This is exclusive of the element at the index 'end'.  |
 
 **Returns:** *Uint8Array*
 
@@ -853,7 +853,7 @@ ___
 
 *Inherited from void*
 
-Defined in /home/runner/work/api/api/node_modules/typescript/lib/lib.es5.d.ts:2170
+Defined in /home/runner/work/api/api/node_modules/typescript/lib/lib.es5.d.ts:2191
 
 Determines whether the specified callback function returns true for any element of an array.
 
@@ -861,11 +861,11 @@ Determines whether the specified callback function returns true for any element 
 
 ▪ **callbackfn**: *function*
 
-A function that accepts up to three arguments. The some method calls the
-callbackfn function for each element in array1 until the callbackfn returns true, or until
-the end of the array.
+A function that accepts up to three arguments. The some method calls
+the callbackfn function for each element in the array until the callbackfn returns a value
+which is coercible to the Boolean value true, or until the end of the array.
 
-▸ (`value`: number, `index`: number, `array`: Uint8Array): *boolean*
+▸ (`value`: number, `index`: number, `array`: Uint8Array): *unknown*
 
 **Parameters:**
 
@@ -890,7 +890,7 @@ ___
 
 *Inherited from void*
 
-Defined in /home/runner/work/api/api/node_modules/typescript/lib/lib.es5.d.ts:2177
+Defined in /home/runner/work/api/api/node_modules/typescript/lib/lib.es5.d.ts:2202
 
 Sorts an array.
 
@@ -898,7 +898,7 @@ Sorts an array.
 
 Name | Type | Description |
 ------ | ------ | ------ |
-`compareFn?` | undefined &#124; function | The name of the function used to determine the order of the elements. If omitted, the elements are sorted in ascending, ASCII character order.  |
+`compareFn?` | undefined &#124; function | Function used to determine the order of the elements. It is expected to return a negative value if first argument is less than second argument, zero if they're equal and a positive value otherwise. If omitted, the elements are sorted in ascending, ASCII character order. ```ts [11,2,22,1].sort((a, b) => a - b) ```  |
 
 **Returns:** *this*
 
@@ -906,11 +906,11 @@ ___
 
 ###  subarray
 
-▸ **subarray**(`begin`: number, `end?`: undefined | number): *Uint8Array*
+▸ **subarray**(`begin?`: undefined | number, `end?`: undefined | number): *Uint8Array*
 
 *Inherited from void*
 
-Defined in /home/runner/work/api/api/node_modules/typescript/lib/lib.es5.d.ts:2185
+Defined in /home/runner/work/api/api/node_modules/typescript/lib/lib.es5.d.ts:2210
 
 Gets a new Uint8Array view of the ArrayBuffer store for this array, referencing the elements
 at begin, inclusive, up to end, exclusive.
@@ -919,7 +919,7 @@ at begin, inclusive, up to end, exclusive.
 
 Name | Type | Description |
 ------ | ------ | ------ |
-`begin` | number | The index of the beginning of the array. |
+`begin?` | undefined &#124; number | The index of the beginning of the array. |
 `end?` | undefined &#124; number | The index of the end of the array.  |
 
 **Returns:** *Uint8Array*
@@ -932,7 +932,7 @@ ___
 
 *Inherited from [Codec](_types_.codec.md).[toHex](_types_.codec.md#tohex)*
 
-*Defined in [types.ts:97](https://github.com/polkadot-js/api/blob/8cc256fdcf/packages/types/src/types.ts#L97)*
+*Defined in [types.ts:97](https://github.com/polkadot-js/api/blob/c077d0f2e7/packages/types/src/types.ts#L97)*
 
 **`description`** Returns a hex string representation of the value. isLe returns a LE (number-only) representation
 
@@ -952,7 +952,7 @@ ___
 
 *Inherited from [Codec](_types_.codec.md).[toJSON](_types_.codec.md#tojson)*
 
-*Defined in [types.ts:102](https://github.com/polkadot-js/api/blob/8cc256fdcf/packages/types/src/types.ts#L102)*
+*Defined in [types.ts:102](https://github.com/polkadot-js/api/blob/c077d0f2e7/packages/types/src/types.ts#L102)*
 
 **`description`** Converts the Object to JSON, typically used for RPC transfers
 
@@ -966,7 +966,7 @@ ___
 
 *Inherited from void*
 
-Defined in /home/runner/work/api/api/node_modules/typescript/lib/lib.es5.d.ts:2190
+Defined in /home/runner/work/api/api/node_modules/typescript/lib/lib.es5.d.ts:2215
 
 Converts a number to a string by using the current locale.
 
@@ -980,7 +980,7 @@ ___
 
 *Inherited from [Codec](_types_.codec.md).[toRawType](_types_.codec.md#torawtype)*
 
-*Defined in [types.ts:107](https://github.com/polkadot-js/api/blob/8cc256fdcf/packages/types/src/types.ts#L107)*
+*Defined in [types.ts:107](https://github.com/polkadot-js/api/blob/c077d0f2e7/packages/types/src/types.ts#L107)*
 
 **`description`** Returns the base runtime type name for this instance
 
@@ -996,7 +996,7 @@ ___
 
 *Overrides [Codec](_types_.codec.md).[toString](_types_.codec.md#tostring)*
 
-Defined in /home/runner/work/api/api/node_modules/typescript/lib/lib.es5.d.ts:2195
+Defined in /home/runner/work/api/api/node_modules/typescript/lib/lib.es5.d.ts:2220
 
 Returns a string representation of an array.
 
@@ -1010,7 +1010,7 @@ ___
 
 *Inherited from [Codec](_types_.codec.md).[toU8a](_types_.codec.md#tou8a)*
 
-*Defined in [types.ts:118](https://github.com/polkadot-js/api/blob/8cc256fdcf/packages/types/src/types.ts#L118)*
+*Defined in [types.ts:118](https://github.com/polkadot-js/api/blob/c077d0f2e7/packages/types/src/types.ts#L118)*
 
 **`description`** Encodes the value as a Uint8Array as per the SCALE specifications
 

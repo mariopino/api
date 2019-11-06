@@ -19,7 +19,7 @@
 
 • **blockNumber**: *BlockNumber*
 
-*Defined in [types.ts:74](https://github.com/polkadot-js/api/blob/8cc256fdcf/packages/api-derive/src/types.ts#L74)*
+*Defined in [types.ts:74](https://github.com/polkadot-js/api/blob/c077d0f2e7/packages/api-derive/src/types.ts#L74)*
 
 ___
 
@@ -27,4 +27,4 @@ ___
 
 • **count**: *BN*
 
-*Defined in [types.ts:75](https://github.com/polkadot-js/api/blob/8cc256fdcf/packages/api-derive/src/types.ts#L75)*
+*Defined in [types.ts:75](https://github.com/polkadot-js/api/blob/c077d0f2e7/packages/api-derive/src/types.ts#L75)*
