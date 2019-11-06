@@ -20,4 +20,4 @@
 
 • **args**: *[ContractABIMessageArgPre](../modules/_types_.md#contractabimessageargpre)[]*
 
-*Defined in [types.ts:49](https://github.com/polkadot-js/api/blob/6075a21efb/packages/api-contract/src/types.ts#L49)*
+*Defined in [types.ts:49](https://github.com/polkadot-js/api/blob/8cc256fdcf/packages/api-contract/src/types.ts#L49)*

@@ -47,4 +47,5 @@
 * ["type/ReferendumInfoExtended"](modules/_type_referenduminfoextended_.md)
 * ["types"](modules/_types_.md)
 * ["util/approvalFlagsToBools"](modules/_util_approvalflagstobools_.md)
+* ["util/drr"](modules/_util_drr_.md)
 * ["util/memo"](modules/_util_memo_.md)
