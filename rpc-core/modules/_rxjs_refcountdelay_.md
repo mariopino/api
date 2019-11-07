@@ -14,7 +14,7 @@
 
 ▸ **refCountDelay**<**T**>(): *MonoTypeOperatorFunction‹T›*
 
-*Defined in [rxjs/refCountDelay.ts:30](https://github.com/polkadot-js/api/blob/479c742471/packages/rpc-core/src/rxjs/refCountDelay.ts#L30)*
+*Defined in [rxjs/refCountDelay.ts:46](https://github.com/polkadot-js/api/blob/022c7ea645/packages/rpc-core/src/rxjs/refCountDelay.ts#L46)*
 
 **Type parameters:**
 

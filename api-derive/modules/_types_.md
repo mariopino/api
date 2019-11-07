@@ -25,6 +25,7 @@
 
 ### Type aliases
 
+* [AccountIndexes](_types_.md#accountindexes)
 * [DerivedBalancesMap](_types_.md#derivedbalancesmap)
 * [DerivedHeartbeats](_types_.md#derivedheartbeats)
 * [DerivedRecentlyOffline](_types_.md#derivedrecentlyoffline)
@@ -35,11 +36,19 @@
 
 ## Type aliases
 
+###  AccountIndexes
+
+Ƭ **AccountIndexes**: *Record‹string, AccountIndex›*
+
+*Defined in [types.ts:10](https://github.com/polkadot-js/api/blob/022c7ea645/packages/api-derive/src/types.ts#L10)*
+
+___
+
 ###  DerivedBalancesMap
 
 Ƭ **DerivedBalancesMap**: *Record‹string, [DerivedBalances](../interfaces/_types_.derivedbalances.md)›*
 
-*Defined in [types.ts:29](https://github.com/polkadot-js/api/blob/479c742471/packages/api-derive/src/types.ts#L29)*
+*Defined in [types.ts:31](https://github.com/polkadot-js/api/blob/022c7ea645/packages/api-derive/src/types.ts#L31)*
 
 ___
 
@@ -47,7 +56,7 @@ ___
 
 Ƭ **DerivedHeartbeats**: *Record‹string, [DerivedHeartbeatAuthor](../interfaces/_types_.derivedheartbeatauthor.md)›*
 
-*Defined in [types.ts:71](https://github.com/polkadot-js/api/blob/479c742471/packages/api-derive/src/types.ts#L71)*
+*Defined in [types.ts:73](https://github.com/polkadot-js/api/blob/022c7ea645/packages/api-derive/src/types.ts#L73)*
 
 ___
 
@@ -55,7 +64,7 @@ ___
 
 Ƭ **DerivedRecentlyOffline**: *Record‹string, [RecentlyOffline](../interfaces/_types_.recentlyoffline.md)[]›*
 
-*Defined in [types.ts:78](https://github.com/polkadot-js/api/blob/479c742471/packages/api-derive/src/types.ts#L78)*
+*Defined in [types.ts:80](https://github.com/polkadot-js/api/blob/022c7ea645/packages/api-derive/src/types.ts#L80)*
 
 ___
 
@@ -63,7 +72,7 @@ ___
 
 Ƭ **DerivedStakingAccount**: *[AccountId, [DerivedStakingOnlineStatus](../interfaces/_types_.derivedstakingonlinestatus.md)]*
 
-*Defined in [types.ts:103](https://github.com/polkadot-js/api/blob/479c742471/packages/api-derive/src/types.ts#L103)*
+*Defined in [types.ts:105](https://github.com/polkadot-js/api/blob/022c7ea645/packages/api-derive/src/types.ts#L105)*
 
 ___
 
@@ -71,7 +80,7 @@ ___
 
 Ƭ **DerivedStakingAccounts**: *[DerivedStakingAccount](_types_.md#derivedstakingaccount)[]*
 
-*Defined in [types.ts:105](https://github.com/polkadot-js/api/blob/479c742471/packages/api-derive/src/types.ts#L105)*
+*Defined in [types.ts:107](https://github.com/polkadot-js/api/blob/022c7ea645/packages/api-derive/src/types.ts#L107)*
 
 ___
 
@@ -79,7 +88,7 @@ ___
 
 Ƭ **DerivedUnlocking**: *object*
 
-*Defined in [types.ts:148](https://github.com/polkadot-js/api/blob/479c742471/packages/api-derive/src/types.ts#L148)*
+*Defined in [types.ts:150](https://github.com/polkadot-js/api/blob/022c7ea645/packages/api-derive/src/types.ts#L150)*
 
 #### Type declaration:
 
@@ -89,4 +98,4 @@ ___
 
 Ƭ **DerivedVoterPositions**: *Record‹string, [VoterPosition](../interfaces/_types_.voterposition.md)›*
 
-*Defined in [types.ts:156](https://github.com/polkadot-js/api/blob/479c742471/packages/api-derive/src/types.ts#L156)*
+*Defined in [types.ts:158](https://github.com/polkadot-js/api/blob/022c7ea645/packages/api-derive/src/types.ts#L158)*
