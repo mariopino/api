@@ -62,7 +62,7 @@
 
 \+ **new BTreeMap**(`keyType`: [Constructor](../interfaces/_types_.constructor.md)‹K› | [InterfaceTypes](../modules/_types_.md#interfacetypes), `valType`: [Constructor](../interfaces/_types_.constructor.md)‹V› | [InterfaceTypes](../modules/_types_.md#interfacetypes), `rawValue`: any): *[BTreeMap](_codec_btreemap_.btreemap.md)*
 
-*Defined in [codec/BTreeMap.ts:17](https://github.com/polkadot-js/api/blob/c077d0f2e7/packages/types/src/codec/BTreeMap.ts#L17)*
+*Defined in [codec/BTreeMap.ts:17](https://github.com/polkadot-js/api/blob/479c742471/packages/types/src/codec/BTreeMap.ts#L17)*
 
 **Parameters:**
 
@@ -108,7 +108,7 @@ Defined in /home/runner/work/api/api/node_modules/typescript/lib/lib.es2015.coll
 
 • **get encodedLength**(): *number*
 
-*Defined in [codec/BTreeMap.ts:105](https://github.com/polkadot-js/api/blob/c077d0f2e7/packages/types/src/codec/BTreeMap.ts#L105)*
+*Defined in [codec/BTreeMap.ts:105](https://github.com/polkadot-js/api/blob/479c742471/packages/types/src/codec/BTreeMap.ts#L105)*
 
 **`description`** The length of the value when encoded as a Uint8Array
 
@@ -120,7 +120,7 @@ ___
 
 • **get hash**(): *[IHash](../interfaces/_types_.ihash.md)*
 
-*Defined in [codec/BTreeMap.ts:118](https://github.com/polkadot-js/api/blob/c077d0f2e7/packages/types/src/codec/BTreeMap.ts#L118)*
+*Defined in [codec/BTreeMap.ts:118](https://github.com/polkadot-js/api/blob/479c742471/packages/types/src/codec/BTreeMap.ts#L118)*
 
 **`description`** Returns a hash of the value
 
@@ -132,7 +132,7 @@ ___
 
 • **get isEmpty**(): *boolean*
 
-*Defined in [codec/BTreeMap.ts:125](https://github.com/polkadot-js/api/blob/c077d0f2e7/packages/types/src/codec/BTreeMap.ts#L125)*
+*Defined in [codec/BTreeMap.ts:125](https://github.com/polkadot-js/api/blob/479c742471/packages/types/src/codec/BTreeMap.ts#L125)*
 
 **`description`** Checks if the value is an empty value
 
@@ -204,7 +204,7 @@ ___
 
 *Implementation of [Codec](../interfaces/_types_.codec.md)*
 
-*Defined in [codec/BTreeMap.ts:132](https://github.com/polkadot-js/api/blob/c077d0f2e7/packages/types/src/codec/BTreeMap.ts#L132)*
+*Defined in [codec/BTreeMap.ts:132](https://github.com/polkadot-js/api/blob/479c742471/packages/types/src/codec/BTreeMap.ts#L132)*
 
 **`description`** Compares the value of the input to see if there is a match
 
@@ -319,7 +319,7 @@ ___
 
 ▸ **toHex**(): *string*
 
-*Defined in [codec/BTreeMap.ts:139](https://github.com/polkadot-js/api/blob/c077d0f2e7/packages/types/src/codec/BTreeMap.ts#L139)*
+*Defined in [codec/BTreeMap.ts:139](https://github.com/polkadot-js/api/blob/479c742471/packages/types/src/codec/BTreeMap.ts#L139)*
 
 **`description`** Returns a hex string representation of the value. isLe returns a LE (number-only) representation
 
@@ -333,7 +333,7 @@ ___
 
 *Implementation of [Codec](../interfaces/_types_.codec.md)*
 
-*Defined in [codec/BTreeMap.ts:146](https://github.com/polkadot-js/api/blob/c077d0f2e7/packages/types/src/codec/BTreeMap.ts#L146)*
+*Defined in [codec/BTreeMap.ts:146](https://github.com/polkadot-js/api/blob/479c742471/packages/types/src/codec/BTreeMap.ts#L146)*
 
 **`description`** Converts the Object to JSON, typically used for RPC transfers
 
@@ -347,7 +347,7 @@ ___
 
 *Implementation of [Codec](../interfaces/_types_.codec.md)*
 
-*Defined in [codec/BTreeMap.ts:159](https://github.com/polkadot-js/api/blob/c077d0f2e7/packages/types/src/codec/BTreeMap.ts#L159)*
+*Defined in [codec/BTreeMap.ts:159](https://github.com/polkadot-js/api/blob/479c742471/packages/types/src/codec/BTreeMap.ts#L159)*
 
 **`description`** Returns the base runtime type name for this instance
 
@@ -361,7 +361,7 @@ ___
 
 *Implementation of [Codec](../interfaces/_types_.codec.md)*
 
-*Defined in [codec/BTreeMap.ts:166](https://github.com/polkadot-js/api/blob/c077d0f2e7/packages/types/src/codec/BTreeMap.ts#L166)*
+*Defined in [codec/BTreeMap.ts:166](https://github.com/polkadot-js/api/blob/479c742471/packages/types/src/codec/BTreeMap.ts#L166)*
 
 **`description`** Returns the string representation of the value
 
@@ -375,7 +375,7 @@ ___
 
 *Implementation of [Codec](../interfaces/_types_.codec.md)*
 
-*Defined in [codec/BTreeMap.ts:174](https://github.com/polkadot-js/api/blob/c077d0f2e7/packages/types/src/codec/BTreeMap.ts#L174)*
+*Defined in [codec/BTreeMap.ts:174](https://github.com/polkadot-js/api/blob/479c742471/packages/types/src/codec/BTreeMap.ts#L174)*
 
 **`description`** Encodes the value as a Uint8Array as per the SCALE specifications
 
@@ -407,7 +407,7 @@ ___
 
 ▸ **with**<**K**, **V**>(`keyType`: [Constructor](../interfaces/_types_.constructor.md)‹K› | [InterfaceTypes](../modules/_types_.md#interfacetypes), `valType`: [Constructor](../interfaces/_types_.constructor.md)‹V› | [InterfaceTypes](../modules/_types_.md#interfacetypes)): *[Constructor](../interfaces/_types_.constructor.md)‹[BTreeMap](_codec_btreemap_.btreemap.md)‹K, V››*
 
-*Defined in [codec/BTreeMap.ts:94](https://github.com/polkadot-js/api/blob/c077d0f2e7/packages/types/src/codec/BTreeMap.ts#L94)*
+*Defined in [codec/BTreeMap.ts:94](https://github.com/polkadot-js/api/blob/479c742471/packages/types/src/codec/BTreeMap.ts#L94)*
 
 **Type parameters:**
 
