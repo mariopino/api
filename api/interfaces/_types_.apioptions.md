@@ -26,7 +26,7 @@
 
 • **derives**? : *DeriveCustom*
 
-*Defined in [types.ts:179](https://github.com/polkadot-js/api/blob/2be97310d3/packages/api/src/types.ts#L179)*
+*Defined in [types.ts:179](https://github.com/polkadot-js/api/blob/5b5d0a3fb8/packages/api/src/types.ts#L179)*
 
 **`description`** Add custom derives to be injected
 
@@ -36,7 +36,7 @@ ___
 
 • **metadata**? : *Record‹string, string›*
 
-*Defined in [types.ts:184](https://github.com/polkadot-js/api/blob/2be97310d3/packages/api/src/types.ts#L184)*
+*Defined in [types.ts:184](https://github.com/polkadot-js/api/blob/5b5d0a3fb8/packages/api/src/types.ts#L184)*
 
 **`description`** prebundles is a map of 'genesis hash and runtime spec version' as key to metadata's hex string
 if genesis hash and runtime spec version matches, then use metadata, else fetch it from chain
@@ -47,7 +47,7 @@ ___
 
 • **provider**? : *ProviderInterface*
 
-*Defined in [types.ts:189](https://github.com/polkadot-js/api/blob/2be97310d3/packages/api/src/types.ts#L189)*
+*Defined in [types.ts:189](https://github.com/polkadot-js/api/blob/5b5d0a3fb8/packages/api/src/types.ts#L189)*
 
 **`description`** Transport Provider from rpc-provider. If not specified, it will default to
 connecting to a WsProvider connecting localhost with the default port, i.e. `ws://127.0.0.1:9944`
@@ -58,7 +58,7 @@ ___
 
 • **rpc**? : *UserRpc*
 
-*Defined in [types.ts:193](https://github.com/polkadot-js/api/blob/2be97310d3/packages/api/src/types.ts#L193)*
+*Defined in [types.ts:193](https://github.com/polkadot-js/api/blob/5b5d0a3fb8/packages/api/src/types.ts#L193)*
 
 **`description`** User-defined RPC methods
 
@@ -68,7 +68,7 @@ ___
 
 • **signer**? : *[Signer](_types_.signer.md)*
 
-*Defined in [types.ts:197](https://github.com/polkadot-js/api/blob/2be97310d3/packages/api/src/types.ts#L197)*
+*Defined in [types.ts:197](https://github.com/polkadot-js/api/blob/5b5d0a3fb8/packages/api/src/types.ts#L197)*
 
 **`description`** An external signer which will be used to sign extrinsic when account passed in is not KeyringPair
 
@@ -78,7 +78,7 @@ ___
 
 • **source**? : *ApiBase‹any›*
 
-*Defined in [types.ts:201](https://github.com/polkadot-js/api/blob/2be97310d3/packages/api/src/types.ts#L201)*
+*Defined in [types.ts:201](https://github.com/polkadot-js/api/blob/5b5d0a3fb8/packages/api/src/types.ts#L201)*
 
 **`description`** The source object to use for runtime information (only used when cloning)
 
@@ -88,7 +88,7 @@ ___
 
 • **types**? : *RegistryTypes*
 
-*Defined in [types.ts:206](https://github.com/polkadot-js/api/blob/2be97310d3/packages/api/src/types.ts#L206)*
+*Defined in [types.ts:206](https://github.com/polkadot-js/api/blob/5b5d0a3fb8/packages/api/src/types.ts#L206)*
 
 **`description`** Additional types used by runtime modules. This is nessusary if the runtime modules
 uses types not available in the base Substrate runtime.
@@ -99,7 +99,7 @@ ___
 
 • **typesChain**? : *Record‹string, RegistryTypes›*
 
-*Defined in [types.ts:210](https://github.com/polkadot-js/api/blob/2be97310d3/packages/api/src/types.ts#L210)*
+*Defined in [types.ts:210](https://github.com/polkadot-js/api/blob/5b5d0a3fb8/packages/api/src/types.ts#L210)*
 
 **`description`** Additional types that are injected based on the chain we are connecting to. There are keyed by the chain, i.e. `{ 'Kusama CC1': { ... } }`
 
@@ -109,6 +109,6 @@ ___
 
 • **typesSpec**? : *Record‹string, RegistryTypes›*
 
-*Defined in [types.ts:214](https://github.com/polkadot-js/api/blob/2be97310d3/packages/api/src/types.ts#L214)*
+*Defined in [types.ts:214](https://github.com/polkadot-js/api/blob/5b5d0a3fb8/packages/api/src/types.ts#L214)*
 
 **`description`** Additional types that are injected based on the type of node we are connecting to, as set via specName in the runtime version. There are keyed by the node, i.e. `{ 'edgeware': { ... } }`

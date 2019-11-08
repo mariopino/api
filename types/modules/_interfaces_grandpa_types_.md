@@ -6,6 +6,8 @@
 
 ### Interfaces
 
+* [AuthorityIndex](../interfaces/_interfaces_grandpa_types_.authorityindex.md)
+* [AuthorityList](../interfaces/_interfaces_grandpa_types_.authoritylist.md)
 * [AuthorityWeight](../interfaces/_interfaces_grandpa_types_.authorityweight.md)
 * [NextAuthority](../interfaces/_interfaces_grandpa_types_.nextauthority.md)
 * [PendingPause](../interfaces/_interfaces_grandpa_types_.pendingpause.md)
