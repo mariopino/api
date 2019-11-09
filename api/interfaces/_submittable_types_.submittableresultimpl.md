@@ -22,6 +22,7 @@
 
 ### Methods
 
+* [filterRecords](_submittable_types_.submittableresultimpl.md#filterrecords)
 * [findRecord](_submittable_types_.submittableresultimpl.md#findrecord)
 
 ## Properties
@@ -30,7 +31,7 @@
 
 • **events**: *EventRecord[]*
 
-*Defined in [submittable/types.ts:12](https://github.com/polkadot-js/api/blob/5b5d0a3fb8/packages/api/src/submittable/types.ts#L12)*
+*Defined in [submittable/types.ts:12](https://github.com/polkadot-js/api/blob/5671af8db7/packages/api/src/submittable/types.ts#L12)*
 
 ___
 
@@ -38,7 +39,7 @@ ___
 
 • **isCompleted**: *boolean*
 
-*Defined in [submittable/types.ts:14](https://github.com/polkadot-js/api/blob/5b5d0a3fb8/packages/api/src/submittable/types.ts#L14)*
+*Defined in [submittable/types.ts:14](https://github.com/polkadot-js/api/blob/5671af8db7/packages/api/src/submittable/types.ts#L14)*
 
 ___
 
@@ -46,7 +47,7 @@ ___
 
 • **isError**: *boolean*
 
-*Defined in [submittable/types.ts:15](https://github.com/polkadot-js/api/blob/5b5d0a3fb8/packages/api/src/submittable/types.ts#L15)*
+*Defined in [submittable/types.ts:15](https://github.com/polkadot-js/api/blob/5671af8db7/packages/api/src/submittable/types.ts#L15)*
 
 ___
 
@@ -54,7 +55,7 @@ ___
 
 • **isFinalized**: *boolean*
 
-*Defined in [submittable/types.ts:16](https://github.com/polkadot-js/api/blob/5b5d0a3fb8/packages/api/src/submittable/types.ts#L16)*
+*Defined in [submittable/types.ts:16](https://github.com/polkadot-js/api/blob/5671af8db7/packages/api/src/submittable/types.ts#L16)*
 
 ___
 
@@ -62,15 +63,32 @@ ___
 
 • **status**: *ExtrinsicStatus*
 
-*Defined in [submittable/types.ts:13](https://github.com/polkadot-js/api/blob/5b5d0a3fb8/packages/api/src/submittable/types.ts#L13)*
+*Defined in [submittable/types.ts:13](https://github.com/polkadot-js/api/blob/5671af8db7/packages/api/src/submittable/types.ts#L13)*
 
 ## Methods
+
+###  filterRecords
+
+▸ **filterRecords**(`section`: string, `method`: string): *EventRecord[]*
+
+*Defined in [submittable/types.ts:18](https://github.com/polkadot-js/api/blob/5671af8db7/packages/api/src/submittable/types.ts#L18)*
+
+**Parameters:**
+
+Name | Type |
+------ | ------ |
+`section` | string |
+`method` | string |
+
+**Returns:** *EventRecord[]*
+
+___
 
 ###  findRecord
 
 ▸ **findRecord**(`section`: string, `method`: string): *EventRecord | undefined*
 
-*Defined in [submittable/types.ts:18](https://github.com/polkadot-js/api/blob/5b5d0a3fb8/packages/api/src/submittable/types.ts#L18)*
+*Defined in [submittable/types.ts:19](https://github.com/polkadot-js/api/blob/5671af8db7/packages/api/src/submittable/types.ts#L19)*
 
 **Parameters:**
 

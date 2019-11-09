@@ -37,7 +37,7 @@
 
 *Overrides [Decorate](_base_decorate_.decorate.md).[constructor](_base_decorate_.decorate.md#constructor)*
 
-*Defined in [base/Init.ts:57](https://github.com/polkadot-js/api/blob/5b5d0a3fb8/packages/api/src/base/Init.ts#L57)*
+*Defined in [base/Init.ts:57](https://github.com/polkadot-js/api/blob/5671af8db7/packages/api/src/base/Init.ts#L57)*
 
 **Parameters:**
 
@@ -57,7 +57,7 @@ Name | Type |
 
 *Inherited from [Decorate](_base_decorate_.decorate.md).[hasSubscriptions](_base_decorate_.decorate.md#hassubscriptions)*
 
-*Defined in [base/Decorate.ts:132](https://github.com/polkadot-js/api/blob/5b5d0a3fb8/packages/api/src/base/Decorate.ts#L132)*
+*Defined in [base/Decorate.ts:132](https://github.com/polkadot-js/api/blob/5671af8db7/packages/api/src/base/Decorate.ts#L132)*
 
 **Returns:** *boolean*
 
@@ -71,7 +71,7 @@ Name | Type |
 
 *Inherited from [Events](_base_events_.events.md).[off](_base_events_.events.md#off)*
 
-*Defined in [base/Events.ts:62](https://github.com/polkadot-js/api/blob/5b5d0a3fb8/packages/api/src/base/Events.ts#L62)*
+*Defined in [base/Events.ts:62](https://github.com/polkadot-js/api/blob/5671af8db7/packages/api/src/base/Events.ts#L62)*
 
 **`description`** Remove the given eventemitter handler
 
@@ -118,7 +118,7 @@ ___
 
 *Inherited from [Events](_base_events_.events.md).[on](_base_events_.events.md#on)*
 
-*Defined in [base/Events.ts:35](https://github.com/polkadot-js/api/blob/5b5d0a3fb8/packages/api/src/base/Events.ts#L35)*
+*Defined in [base/Events.ts:35](https://github.com/polkadot-js/api/blob/5671af8db7/packages/api/src/base/Events.ts#L35)*
 
 **`description`** Attach an eventemitter handler to listen to a specific event
 
@@ -163,7 +163,7 @@ ___
 
 *Inherited from [Events](_base_events_.events.md).[once](_base_events_.events.md#once)*
 
-*Defined in [base/Events.ts:87](https://github.com/polkadot-js/api/blob/5b5d0a3fb8/packages/api/src/base/Events.ts#L87)*
+*Defined in [base/Events.ts:87](https://github.com/polkadot-js/api/blob/5671af8db7/packages/api/src/base/Events.ts#L87)*
 
 **`description`** Attach an one-time eventemitter handler to listen to a specific event
 
@@ -206,7 +206,7 @@ ___
 
 ▸ **registerTypes**(`types?`: RegistryTypes): *void*
 
-*Defined in [base/Init.ts:84](https://github.com/polkadot-js/api/blob/5b5d0a3fb8/packages/api/src/base/Init.ts#L84)*
+*Defined in [base/Init.ts:84](https://github.com/polkadot-js/api/blob/5671af8db7/packages/api/src/base/Init.ts#L84)*
 
 **Parameters:**
 
