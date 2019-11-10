@@ -14,6 +14,6 @@
 
 ▸ **drr**(): *DrrResult*
 
-*Defined in [util/drr.ts:7](https://github.com/polkadot-js/api/blob/188363d407/packages/api-derive/src/util/drr.ts#L7)*
+*Defined in [util/drr.ts:7](https://github.com/polkadot-js/api/blob/3c47c3fdc3/packages/api-derive/src/util/drr.ts#L7)*
 
 **Returns:** *DrrResult*
