@@ -14,7 +14,7 @@
 
 ▸ **toCallsOnly**(`__namedParameters`: object): *any*
 
-*Defined in [Metadata/util/toCallsOnly.ts:10](https://github.com/polkadot-js/api/blob/3c47c3fdc3/packages/types/src/Metadata/util/toCallsOnly.ts#L10)*
+*Defined in [Metadata/util/toCallsOnly.ts:10](https://github.com/polkadot-js/api/blob/f080d6ed1c/packages/types/src/Metadata/util/toCallsOnly.ts#L10)*
 
 **`description`** Convert from MetadataV8 to a stripped representation of MetadataV8
 
