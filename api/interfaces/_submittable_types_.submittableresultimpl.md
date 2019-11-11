@@ -31,7 +31,7 @@
 
 • **events**: *EventRecord[]*
 
-*Defined in [submittable/types.ts:12](https://github.com/polkadot-js/api/blob/f080d6ed1c/packages/api/src/submittable/types.ts#L12)*
+*Defined in [submittable/types.ts:12](https://github.com/polkadot-js/api/blob/2875fdf2cf/packages/api/src/submittable/types.ts#L12)*
 
 ___
 
@@ -39,7 +39,7 @@ ___
 
 • **isCompleted**: *boolean*
 
-*Defined in [submittable/types.ts:14](https://github.com/polkadot-js/api/blob/f080d6ed1c/packages/api/src/submittable/types.ts#L14)*
+*Defined in [submittable/types.ts:14](https://github.com/polkadot-js/api/blob/2875fdf2cf/packages/api/src/submittable/types.ts#L14)*
 
 ___
 
@@ -47,7 +47,7 @@ ___
 
 • **isError**: *boolean*
 
-*Defined in [submittable/types.ts:15](https://github.com/polkadot-js/api/blob/f080d6ed1c/packages/api/src/submittable/types.ts#L15)*
+*Defined in [submittable/types.ts:15](https://github.com/polkadot-js/api/blob/2875fdf2cf/packages/api/src/submittable/types.ts#L15)*
 
 ___
 
@@ -55,7 +55,7 @@ ___
 
 • **isFinalized**: *boolean*
 
-*Defined in [submittable/types.ts:16](https://github.com/polkadot-js/api/blob/f080d6ed1c/packages/api/src/submittable/types.ts#L16)*
+*Defined in [submittable/types.ts:16](https://github.com/polkadot-js/api/blob/2875fdf2cf/packages/api/src/submittable/types.ts#L16)*
 
 ___
 
@@ -63,7 +63,7 @@ ___
 
 • **status**: *ExtrinsicStatus*
 
-*Defined in [submittable/types.ts:13](https://github.com/polkadot-js/api/blob/f080d6ed1c/packages/api/src/submittable/types.ts#L13)*
+*Defined in [submittable/types.ts:13](https://github.com/polkadot-js/api/blob/2875fdf2cf/packages/api/src/submittable/types.ts#L13)*
 
 ## Methods
 
@@ -71,7 +71,7 @@ ___
 
 ▸ **filterRecords**(`section`: string, `method`: string): *EventRecord[]*
 
-*Defined in [submittable/types.ts:18](https://github.com/polkadot-js/api/blob/f080d6ed1c/packages/api/src/submittable/types.ts#L18)*
+*Defined in [submittable/types.ts:18](https://github.com/polkadot-js/api/blob/2875fdf2cf/packages/api/src/submittable/types.ts#L18)*
 
 **Parameters:**
 
@@ -88,7 +88,7 @@ ___
 
 ▸ **findRecord**(`section`: string, `method`: string): *EventRecord | undefined*
 
-*Defined in [submittable/types.ts:19](https://github.com/polkadot-js/api/blob/f080d6ed1c/packages/api/src/submittable/types.ts#L19)*
+*Defined in [submittable/types.ts:19](https://github.com/polkadot-js/api/blob/2875fdf2cf/packages/api/src/submittable/types.ts#L19)*
 
 **Parameters:**
 

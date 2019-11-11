@@ -12,19 +12,18 @@
 
 ###  memo
 
-▸ **memo**<**T**>(`fn`: T, `withoutJSON?`: undefined | false | true): *T*
+▸ **memo**<**T**>(`inner`: ObsFn‹T›): *ObsFn‹T›*
 
-*Defined in [util/memo.ts:7](https://github.com/polkadot-js/api/blob/f080d6ed1c/packages/api-derive/src/util/memo.ts#L7)*
+*Defined in [util/memo.ts:18](https://github.com/polkadot-js/api/blob/2875fdf2cf/packages/api-derive/src/util/memo.ts#L18)*
 
 **Type parameters:**
 
-▪ **T**: *Function*
+▪ **T**
 
 **Parameters:**
 
 Name | Type |
 ------ | ------ |
-`fn` | T |
-`withoutJSON?` | undefined &#124; false &#124; true |
+`inner` | ObsFn‹T› |
 
-**Returns:** *T*
+**Returns:** *ObsFn‹T›*
