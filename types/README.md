@@ -40,7 +40,7 @@ These primitive types are available:
 | [Call](interfaces/_interfaces_runtime_types_.call.md) | Extrinsic function descriptor, as defined in [the extrinsic format for a node](https://github.com/paritytech/wiki/blob/master/Extrinsic.md#the-extrinsic-format-for-node) |
 | [Data](classes/_primitive_data_.data.md) | A raw data structure. It is an encoding of a U8a without any length encoding |
 | [Event](interfaces/_interfaces_system_types_.event.md) | Wrapper for the actual data that forms part of an [Event](interfaces/_interfaces_system_types_.event.md) |
-| [EventRecord](interfaces/_interfaces_system_types_.eventrecord.md) | A record for an [Event](interfaces/_interfaces_system_types_.event.md) (as specified by [Metadata](classes/_metadata_metadata_.metadata.md)) with the specific [Phase](interfaces/_interfaces_system_types_.phase.md) of application |
+| [EventRecord](interfaces/_interfaces_system_types_.eventrecord.md) | A record for an [Event](interfaces/_interfaces_system_types_.event.md) (as specified by [[Metadata]]) with the specific [Phase](interfaces/_interfaces_system_types_.phase.md) of application |
 | [Extrinsic](interfaces/_interfaces_runtime_types_.extrinsic.md) | Representation of an Extrinsic in the system |
 | [ExtrinsicEra](interfaces/_interfaces_runtime_types_.extrinsicera.md) | The era for an extrinsic, indicating either a mortal or immortal extrinsic |
 | [ExtrinsicPayload](interfaces/_interfaces_runtime_types_.extrinsicpayload.md) | A signing payload for an [Extrinsic](interfaces/_interfaces_runtime_types_.extrinsic.md). For the final encoding, it is variable length based on the contents included |
