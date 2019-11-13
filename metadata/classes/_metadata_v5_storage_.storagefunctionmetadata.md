@@ -81,7 +81,7 @@ The definition of a storage function
 
 *Overrides void*
 
-*Defined in [Metadata/v5/Storage.ts:106](https://github.com/polkadot-js/api/blob/16e0ea9315/packages/metadata/src/Metadata/v5/Storage.ts#L106)*
+*Defined in [Metadata/v5/Storage.ts:106](https://github.com/polkadot-js/api/blob/eef1c5327b/packages/metadata/src/Metadata/v5/Storage.ts#L106)*
 
 **Parameters:**
 
@@ -119,7 +119,7 @@ Defined in /home/runner/work/api/api/node_modules/typescript/lib/lib.es2015.coll
 
 *Inherited from void*
 
-*Defined in [/home/runner/work/api/api/packages/types/src/codec/Struct.ts:155](https://github.com/polkadot-js/api/blob/16e0ea9315/packages/types/src/codec/Struct.ts#L155)*
+*Defined in [/home/runner/work/api/api/packages/types/src/codec/Struct.ts:155](https://github.com/polkadot-js/api/blob/eef1c5327b/packages/types/src/codec/Struct.ts#L155)*
 
 **`description`** Returns the Type description to sthe structure
 
@@ -131,7 +131,7 @@ ___
 
 • **get documentation**(): *Vec‹Text›*
 
-*Defined in [Metadata/v5/Storage.ts:127](https://github.com/polkadot-js/api/blob/16e0ea9315/packages/metadata/src/Metadata/v5/Storage.ts#L127)*
+*Defined in [Metadata/v5/Storage.ts:127](https://github.com/polkadot-js/api/blob/eef1c5327b/packages/metadata/src/Metadata/v5/Storage.ts#L127)*
 
 **`description`** The [[Text]] documentation
 
@@ -145,7 +145,7 @@ ___
 
 *Inherited from void*
 
-*Defined in [/home/runner/work/api/api/packages/types/src/codec/Struct.ts:168](https://github.com/polkadot-js/api/blob/16e0ea9315/packages/types/src/codec/Struct.ts#L168)*
+*Defined in [/home/runner/work/api/api/packages/types/src/codec/Struct.ts:168](https://github.com/polkadot-js/api/blob/eef1c5327b/packages/types/src/codec/Struct.ts#L168)*
 
 **`description`** The length of the value when encoded as a Uint8Array
 
@@ -157,7 +157,7 @@ ___
 
 • **get fallback**(): *Bytes*
 
-*Defined in [Metadata/v5/Storage.ts:120](https://github.com/polkadot-js/api/blob/16e0ea9315/packages/metadata/src/Metadata/v5/Storage.ts#L120)*
+*Defined in [Metadata/v5/Storage.ts:120](https://github.com/polkadot-js/api/blob/eef1c5327b/packages/metadata/src/Metadata/v5/Storage.ts#L120)*
 
 **`description`** The default value of the storage function
 
@@ -171,7 +171,7 @@ ___
 
 *Inherited from void*
 
-*Defined in [/home/runner/work/api/api/packages/types/src/codec/Struct.ts:179](https://github.com/polkadot-js/api/blob/16e0ea9315/packages/types/src/codec/Struct.ts#L179)*
+*Defined in [/home/runner/work/api/api/packages/types/src/codec/Struct.ts:179](https://github.com/polkadot-js/api/blob/eef1c5327b/packages/types/src/codec/Struct.ts#L179)*
 
 **`description`** returns a hash of the contents
 
@@ -185,7 +185,7 @@ ___
 
 *Inherited from void*
 
-*Defined in [/home/runner/work/api/api/packages/types/src/codec/Struct.ts:140](https://github.com/polkadot-js/api/blob/16e0ea9315/packages/types/src/codec/Struct.ts#L140)*
+*Defined in [/home/runner/work/api/api/packages/types/src/codec/Struct.ts:140](https://github.com/polkadot-js/api/blob/eef1c5327b/packages/types/src/codec/Struct.ts#L140)*
 
 **`description`** Checks if the value is an empty value
 
@@ -197,7 +197,7 @@ ___
 
 • **get modifier**(): *StorageFunctionModifierV5*
 
-*Defined in [Metadata/v5/Storage.ts:141](https://github.com/polkadot-js/api/blob/16e0ea9315/packages/metadata/src/Metadata/v5/Storage.ts#L141)*
+*Defined in [Metadata/v5/Storage.ts:141](https://github.com/polkadot-js/api/blob/eef1c5327b/packages/metadata/src/Metadata/v5/Storage.ts#L141)*
 
 **`description`** The modifier
 
@@ -209,7 +209,7 @@ ___
 
 • **get name**(): *Text*
 
-*Defined in [Metadata/v5/Storage.ts:134](https://github.com/polkadot-js/api/blob/16e0ea9315/packages/metadata/src/Metadata/v5/Storage.ts#L134)*
+*Defined in [Metadata/v5/Storage.ts:134](https://github.com/polkadot-js/api/blob/eef1c5327b/packages/metadata/src/Metadata/v5/Storage.ts#L134)*
 
 **`description`** The key name
 
@@ -221,7 +221,7 @@ ___
 
 • **get type**(): *[StorageFunctionType](_metadata_v5_storage_.storagefunctiontype.md)*
 
-*Defined in [Metadata/v5/Storage.ts:148](https://github.com/polkadot-js/api/blob/16e0ea9315/packages/metadata/src/Metadata/v5/Storage.ts#L148)*
+*Defined in [Metadata/v5/Storage.ts:148](https://github.com/polkadot-js/api/blob/eef1c5327b/packages/metadata/src/Metadata/v5/Storage.ts#L148)*
 
 **`description`** The [StorageFunctionType](_metadata_v5_storage_.storagefunctiontype.md)
 
@@ -293,7 +293,7 @@ ___
 
 *Inherited from void*
 
-*Defined in [/home/runner/work/api/api/packages/types/src/codec/Struct.ts:186](https://github.com/polkadot-js/api/blob/16e0ea9315/packages/types/src/codec/Struct.ts#L186)*
+*Defined in [/home/runner/work/api/api/packages/types/src/codec/Struct.ts:186](https://github.com/polkadot-js/api/blob/eef1c5327b/packages/types/src/codec/Struct.ts#L186)*
 
 **`description`** Compares the value of the input to see if there is a match
 
@@ -343,7 +343,7 @@ ___
 
 *Overrides void*
 
-*Defined in [/home/runner/work/api/api/packages/types/src/codec/Struct.ts:194](https://github.com/polkadot-js/api/blob/16e0ea9315/packages/types/src/codec/Struct.ts#L194)*
+*Defined in [/home/runner/work/api/api/packages/types/src/codec/Struct.ts:194](https://github.com/polkadot-js/api/blob/eef1c5327b/packages/types/src/codec/Struct.ts#L194)*
 
 **`description`** Returns a specific names entry in the structure
 
@@ -363,7 +363,7 @@ ___
 
 *Inherited from void*
 
-*Defined in [/home/runner/work/api/api/packages/types/src/codec/Struct.ts:201](https://github.com/polkadot-js/api/blob/16e0ea9315/packages/types/src/codec/Struct.ts#L201)*
+*Defined in [/home/runner/work/api/api/packages/types/src/codec/Struct.ts:201](https://github.com/polkadot-js/api/blob/eef1c5327b/packages/types/src/codec/Struct.ts#L201)*
 
 **`description`** Returns the values of a member at a specific index (Rather use get(name) for performance)
 
@@ -434,7 +434,7 @@ ___
 
 *Inherited from void*
 
-*Defined in [/home/runner/work/api/api/packages/types/src/codec/Struct.ts:208](https://github.com/polkadot-js/api/blob/16e0ea9315/packages/types/src/codec/Struct.ts#L208)*
+*Defined in [/home/runner/work/api/api/packages/types/src/codec/Struct.ts:208](https://github.com/polkadot-js/api/blob/eef1c5327b/packages/types/src/codec/Struct.ts#L208)*
 
 **`description`** Converts the Object to an standard JavaScript Array
 
@@ -448,7 +448,7 @@ ___
 
 *Inherited from void*
 
-*Defined in [/home/runner/work/api/api/packages/types/src/codec/Struct.ts:215](https://github.com/polkadot-js/api/blob/16e0ea9315/packages/types/src/codec/Struct.ts#L215)*
+*Defined in [/home/runner/work/api/api/packages/types/src/codec/Struct.ts:215](https://github.com/polkadot-js/api/blob/eef1c5327b/packages/types/src/codec/Struct.ts#L215)*
 
 **`description`** Returns a hex string representation of the value
 
@@ -462,7 +462,7 @@ ___
 
 *Inherited from void*
 
-*Defined in [/home/runner/work/api/api/packages/types/src/codec/Struct.ts:222](https://github.com/polkadot-js/api/blob/16e0ea9315/packages/types/src/codec/Struct.ts#L222)*
+*Defined in [/home/runner/work/api/api/packages/types/src/codec/Struct.ts:222](https://github.com/polkadot-js/api/blob/eef1c5327b/packages/types/src/codec/Struct.ts#L222)*
 
 **`description`** Converts the Object to JSON, typically used for RPC transfers
 
@@ -476,7 +476,7 @@ ___
 
 *Inherited from void*
 
-*Defined in [/home/runner/work/api/api/packages/types/src/codec/Struct.ts:246](https://github.com/polkadot-js/api/blob/16e0ea9315/packages/types/src/codec/Struct.ts#L246)*
+*Defined in [/home/runner/work/api/api/packages/types/src/codec/Struct.ts:246](https://github.com/polkadot-js/api/blob/eef1c5327b/packages/types/src/codec/Struct.ts#L246)*
 
 **`description`** Returns the base runtime type name for this instance
 
@@ -490,7 +490,7 @@ ___
 
 *Inherited from void*
 
-*Defined in [/home/runner/work/api/api/packages/types/src/codec/Struct.ts:255](https://github.com/polkadot-js/api/blob/16e0ea9315/packages/types/src/codec/Struct.ts#L255)*
+*Defined in [/home/runner/work/api/api/packages/types/src/codec/Struct.ts:255](https://github.com/polkadot-js/api/blob/eef1c5327b/packages/types/src/codec/Struct.ts#L255)*
 
 **`description`** Returns the string representation of the value
 
@@ -504,7 +504,7 @@ ___
 
 *Inherited from void*
 
-*Defined in [/home/runner/work/api/api/packages/types/src/codec/Struct.ts:263](https://github.com/polkadot-js/api/blob/16e0ea9315/packages/types/src/codec/Struct.ts#L263)*
+*Defined in [/home/runner/work/api/api/packages/types/src/codec/Struct.ts:263](https://github.com/polkadot-js/api/blob/eef1c5327b/packages/types/src/codec/Struct.ts#L263)*
 
 **`description`** Encodes the value as a Uint8Array as per the SCALE specifications
 
@@ -538,7 +538,7 @@ ___
 
 *Inherited from void*
 
-*Defined in [/home/runner/work/api/api/packages/types/src/codec/Struct.ts:235](https://github.com/polkadot-js/api/blob/16e0ea9315/packages/types/src/codec/Struct.ts#L235)*
+*Defined in [/home/runner/work/api/api/packages/types/src/codec/Struct.ts:235](https://github.com/polkadot-js/api/blob/eef1c5327b/packages/types/src/codec/Struct.ts#L235)*
 
 **Parameters:**
 
@@ -556,7 +556,7 @@ ___
 
 *Inherited from void*
 
-*Defined in [/home/runner/work/api/api/packages/types/src/codec/Struct.ts:117](https://github.com/polkadot-js/api/blob/16e0ea9315/packages/types/src/codec/Struct.ts#L117)*
+*Defined in [/home/runner/work/api/api/packages/types/src/codec/Struct.ts:117](https://github.com/polkadot-js/api/blob/eef1c5327b/packages/types/src/codec/Struct.ts#L117)*
 
 **Type parameters:**
 

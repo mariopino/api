@@ -29,7 +29,7 @@ composes it and populates the `.query`, `.tx` and `.consts` sections.
 
 \+ **new Decorated**(`value?`: Uint8Array | string | [Metadata](_metadata_metadata_.metadata.md)): *[Decorated](_decorated_decorated_.decorated.md)*
 
-*Defined in [Decorated/Decorated.ts:25](https://github.com/polkadot-js/api/blob/16e0ea9315/packages/metadata/src/Decorated/Decorated.ts#L25)*
+*Defined in [Decorated/Decorated.ts:25](https://github.com/polkadot-js/api/blob/eef1c5327b/packages/metadata/src/Decorated/Decorated.ts#L25)*
 
 **Parameters:**
 
@@ -45,7 +45,7 @@ Name | Type |
 
 • **consts**: *[Constants](../modules/_decorated_types_.md#constants)*
 
-*Defined in [Decorated/Decorated.ts:19](https://github.com/polkadot-js/api/blob/16e0ea9315/packages/metadata/src/Decorated/Decorated.ts#L19)*
+*Defined in [Decorated/Decorated.ts:19](https://github.com/polkadot-js/api/blob/eef1c5327b/packages/metadata/src/Decorated/Decorated.ts#L19)*
 
 ___
 
@@ -53,7 +53,7 @@ ___
 
 • **metadata**: *[Metadata](_metadata_metadata_.metadata.md)*
 
-*Defined in [Decorated/Decorated.ts:21](https://github.com/polkadot-js/api/blob/16e0ea9315/packages/metadata/src/Decorated/Decorated.ts#L21)*
+*Defined in [Decorated/Decorated.ts:21](https://github.com/polkadot-js/api/blob/eef1c5327b/packages/metadata/src/Decorated/Decorated.ts#L21)*
 
 ___
 
@@ -61,7 +61,7 @@ ___
 
 • **query**: *[Storage](../interfaces/_decorated_types_.storage.md)*
 
-*Defined in [Decorated/Decorated.ts:23](https://github.com/polkadot-js/api/blob/16e0ea9315/packages/metadata/src/Decorated/Decorated.ts#L23)*
+*Defined in [Decorated/Decorated.ts:23](https://github.com/polkadot-js/api/blob/eef1c5327b/packages/metadata/src/Decorated/Decorated.ts#L23)*
 
 ___
 
@@ -69,4 +69,4 @@ ___
 
 • **tx**: *ModulesWithCalls*
 
-*Defined in [Decorated/Decorated.ts:25](https://github.com/polkadot-js/api/blob/16e0ea9315/packages/metadata/src/Decorated/Decorated.ts#L25)*
+*Defined in [Decorated/Decorated.ts:25](https://github.com/polkadot-js/api/blob/eef1c5327b/packages/metadata/src/Decorated/Decorated.ts#L25)*

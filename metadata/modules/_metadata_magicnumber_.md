@@ -18,4 +18,4 @@
 
 • **MAGIC_NUMBER**: *U32‹›* =  new U32(0x6174656d)
 
-*Defined in [Metadata/MagicNumber.ts:9](https://github.com/polkadot-js/api/blob/16e0ea9315/packages/metadata/src/Metadata/MagicNumber.ts#L9)*
+*Defined in [Metadata/MagicNumber.ts:9](https://github.com/polkadot-js/api/blob/eef1c5327b/packages/metadata/src/Metadata/MagicNumber.ts#L9)*

@@ -19,7 +19,7 @@
 
 • **name**: *[StringIndex](../modules/_codec_create_types_.md#stringindex)*
 
-*Defined in [codec/create/types.ts:124](https://github.com/polkadot-js/api/blob/16e0ea9315/packages/types/src/codec/create/types.ts#L124)*
+*Defined in [codec/create/types.ts:124](https://github.com/polkadot-js/api/blob/eef1c5327b/packages/types/src/codec/create/types.ts#L124)*
 
 ___
 
@@ -27,4 +27,4 @@ ___
 
 • **type**: *[TypeIndex](../modules/_codec_create_types_.md#typeindex)*
 
-*Defined in [codec/create/types.ts:125](https://github.com/polkadot-js/api/blob/16e0ea9315/packages/types/src/codec/create/types.ts#L125)*
+*Defined in [codec/create/types.ts:125](https://github.com/polkadot-js/api/blob/eef1c5327b/packages/types/src/codec/create/types.ts#L125)*

@@ -258,7 +258,7 @@ Returns the elements of an array that meet the condition specified in a callback
 
 A function that accepts up to three arguments. The filter method calls the callbackfn function one time for each element in the array.
 
-▸ (`value`: [AnyJson](../modules/_types_.md#anyjson), `index`: number, `array`: [AnyJson](../modules/_types_.md#anyjson)[]): *boolean*
+▸ (`value`: [AnyJson](../modules/_types_.md#anyjson), `index`: number, `array`: [AnyJson](../modules/_types_.md#anyjson)[]): *value is S*
 
 **Parameters:**
 
@@ -329,7 +329,7 @@ find calls predicate once for each element of the array, in ascending
 order, until it finds one where predicate returns true. If such an element is found, find
 immediately returns that element value. Otherwise, find returns undefined.
 
-▸ (`this`: void, `value`: [AnyJson](../modules/_types_.md#anyjson), `index`: number, `obj`: [AnyJson](../modules/_types_.md#anyjson)[]): *boolean*
+▸ (`this`: void, `value`: [AnyJson](../modules/_types_.md#anyjson), `index`: number, `obj`: [AnyJson](../modules/_types_.md#anyjson)[]): *value is S*
 
 **Parameters:**
 
