@@ -19,7 +19,7 @@
 
 • **currentElected**: *AccountId[]*
 
-*Defined in [types.ts:122](https://github.com/polkadot-js/api/blob/eef1c5327b/packages/api-derive/src/types.ts#L122)*
+*Defined in [types.ts:122](https://github.com/polkadot-js/api/blob/921e329d18/packages/api-derive/src/types.ts#L122)*
 
 ___
 
@@ -27,4 +27,4 @@ ___
 
 • **validators**: *AccountId[]*
 
-*Defined in [types.ts:123](https://github.com/polkadot-js/api/blob/eef1c5327b/packages/api-derive/src/types.ts#L123)*
+*Defined in [types.ts:123](https://github.com/polkadot-js/api/blob/921e329d18/packages/api-derive/src/types.ts#L123)*
