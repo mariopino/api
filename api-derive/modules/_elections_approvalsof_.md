@@ -14,7 +14,7 @@
 
 ▸ **approvalsOf**(`api`: ApiInterfaceRx): *function*
 
-*Defined in [elections/approvalsOf.ts:26](https://github.com/polkadot-js/api/blob/921e329d18/packages/api-derive/src/elections/approvalsOf.ts#L26)*
+*Defined in [elections/approvalsOf.ts:43](https://github.com/polkadot-js/api/blob/a70af20eba/packages/api-derive/src/elections/approvalsOf.ts#L43)*
 
 **`name`** approvalsOf
 
@@ -37,10 +37,10 @@ Name | Type |
 
 A nested array of boolean approvals for the given account in each voter set index, converted from its ApprovalFlag(s).
 
-▸ (`who`: AccountId): *Observable‹boolean[][]›*
+▸ (`who`: AccountId | string): *Observable‹boolean[][]›*
 
 **Parameters:**
 
 Name | Type |
 ------ | ------ |
-`who` | AccountId |
+`who` | AccountId &#124; string |

@@ -14,7 +14,7 @@
 
 ▸ **voters**(`api`: ApiInterfaceRx): *function*
 
-*Defined in [elections/voters.ts:27](https://github.com/polkadot-js/api/blob/921e329d18/packages/api-derive/src/elections/voters.ts#L27)*
+*Defined in [elections/voters.ts:39](https://github.com/polkadot-js/api/blob/a70af20eba/packages/api-derive/src/elections/voters.ts#L39)*
 
 **`name`** voters
 
@@ -37,4 +37,4 @@ Name | Type |
 
 An array of all current voters from all sets.
 
-▸ (): *Observable‹Vec‹AccountId››*
+▸ (): *Observable‹AccountId[]›*
