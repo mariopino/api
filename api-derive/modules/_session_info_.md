@@ -14,7 +14,7 @@
 
 ▸ **info**(`api`: ApiInterfaceRx): *function*
 
-*Defined in [session/info.ts:123](https://github.com/polkadot-js/api/blob/a70af20eba/packages/api-derive/src/session/info.ts#L123)*
+*Defined in [session/info.ts:123](https://github.com/polkadot-js/api/blob/be4b9a4133/packages/api-derive/src/session/info.ts#L123)*
 
 **`description`** Retrieves all the session and era info and calculates specific values on it as the length of the session and eras
 
