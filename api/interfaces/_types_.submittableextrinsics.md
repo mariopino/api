@@ -14,7 +14,7 @@
 
 ▸ (`extrinsic`: Uint8Array | string): *[SubmittableExtrinsic](_submittable_types_.submittableextrinsic.md)‹ApiType›*
 
-*Defined in [types.ts:174](https://github.com/polkadot-js/api/blob/ca186a4b2c/packages/api/src/types.ts#L174)*
+*Defined in [types.ts:175](https://github.com/polkadot-js/api/blob/0a27f63423/packages/api/src/types.ts#L175)*
 
 **Parameters:**
 

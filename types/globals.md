@@ -159,6 +159,7 @@
 * ["primitive/Unconstructable"](modules/_primitive_unconstructable_.md)
 * ["scripts/MetadataMd"](modules/_scripts_metadatamd_.md)
 * ["scripts/extractChain"](modules/_scripts_extractchain_.md)
+* ["scripts/generateTypes/consts"](modules/_scripts_generatetypes_consts_.md)
 * ["scripts/generateTypes/interfaceRegistry"](modules/_scripts_generatetypes_interfaceregistry_.md)
 * ["scripts/generateTypes/query"](modules/_scripts_generatetypes_query_.md)
 * ["scripts/generateTypes/rpc"](modules/_scripts_generatetypes_rpc_.md)

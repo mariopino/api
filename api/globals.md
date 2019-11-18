@@ -10,6 +10,7 @@
 * ["base/Events"](modules/_base_events_.md)
 * ["base/Init"](modules/_base_init_.md)
 * ["checkTypes.manual"](modules/_checktypes_manual_.md)
+* ["consts.types"](modules/_consts_types_.md)
 * ["promise/Api"](modules/_promise_api_.md)
 * ["promise/Combinator"](modules/_promise_combinator_.md)
 * ["promise/types"](modules/_promise_types_.md)

@@ -7,26 +7,18 @@
 ### Interfaces
 
 * [ConstantCodec](../interfaces/_decorated_types_.constantcodec.md)
+* [Constants](../interfaces/_decorated_types_.constants.md)
 * [ModuleStorage](../interfaces/_decorated_types_.modulestorage.md)
 * [Storage](../interfaces/_decorated_types_.storage.md)
 
 ### Type aliases
 
-* [Constants](_decorated_types_.md#constants)
 * [ModuleConstants](_decorated_types_.md#moduleconstants)
 
 ## Type aliases
-
-###  Constants
-
-Ƭ **Constants**: *Record‹string, [ModuleConstants](_decorated_types_.md#moduleconstants)›*
-
-*Defined in [Decorated/types.ts:15](https://github.com/polkadot-js/api/blob/ca186a4b2c/packages/metadata/src/Decorated/types.ts#L15)*
-
-___
 
 ###  ModuleConstants
 
 Ƭ **ModuleConstants**: *Record‹string, Codec›*
 
-*Defined in [Decorated/types.ts:13](https://github.com/polkadot-js/api/blob/ca186a4b2c/packages/metadata/src/Decorated/types.ts#L13)*
+*Defined in [Decorated/types.ts:13](https://github.com/polkadot-js/api/blob/0a27f63423/packages/metadata/src/Decorated/types.ts#L13)*
