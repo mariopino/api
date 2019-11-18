@@ -10,6 +10,8 @@ The following sections contain RPC methods that are Remote Calls available by de
 
 - **[contracts](#contracts)**
 
+- **[payment](#payment)**
+
 - **[rpc](#rpc)**
 
 - **[state](#state)**
@@ -114,6 +116,18 @@ _(Optional) Methods that performs actions on contracts_
 - **jsonrpc**: contracts_call
 - **interface**: api.rpc.contracts.call
 - **summary**: Executes a call to a contract
+
+___
+
+
+## payment
+
+_Methods that retrieves payment information, e.g. fee calculations_
+
+### queryInfo(extrinsic: `Bytes`, hash?: `Hash`): `RuntimeDispatchInfo`
+- **jsonrpc**: payment_queryInfo
+- **interface**: api.rpc.payment.queryInfo
+- **summary**: Retrieves the fee information for an encoded extrinsic
 
 ___
 

@@ -20,6 +20,7 @@
 * [ConsensusEngineId](../interfaces/_interfaces_runtime_types_.consensusengineid.md)
 * [Digest](../interfaces/_interfaces_runtime_types_.digest.md)
 * [DigestItem](../interfaces/_interfaces_runtime_types_.digestitem.md)
+* [DispatchClass](../interfaces/_interfaces_runtime_types_.dispatchclass.md)
 * [EcdsaSignature](../interfaces/_interfaces_runtime_types_.ecdsasignature.md)
 * [Ed25519Signature](../interfaces/_interfaces_runtime_types_.ed25519signature.md)
 * [Extrinsic](../interfaces/_interfaces_runtime_types_.extrinsic.md)

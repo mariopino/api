@@ -15,6 +15,7 @@
 * [NetworkState](../interfaces/_interfaces_rpc_types_.networkstate.md)
 * [PeerInfo](../interfaces/_interfaces_rpc_types_.peerinfo.md)
 * [RpcMethods](../interfaces/_interfaces_rpc_types_.rpcmethods.md)
+* [RuntimeDispatchInfo](../interfaces/_interfaces_rpc_types_.runtimedispatchinfo.md)
 * [RuntimeVersion](../interfaces/_interfaces_rpc_types_.runtimeversion.md)
 * [RuntimeVersionApi](../interfaces/_interfaces_rpc_types_.runtimeversionapi.md)
 * [StorageChangeSet](../interfaces/_interfaces_rpc_types_.storagechangeset.md)
