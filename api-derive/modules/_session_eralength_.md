@@ -14,7 +14,7 @@
 
 ▸ **eraLength**(`api`: ApiInterfaceRx): *function*
 
-*Defined in [session/eraLength.ts:14](https://github.com/polkadot-js/api/blob/75220eb54f/packages/api-derive/src/session/eraLength.ts#L14)*
+*Defined in [session/eraLength.ts:14](https://github.com/polkadot-js/api/blob/ca186a4b2c/packages/api-derive/src/session/eraLength.ts#L14)*
 
 **Parameters:**
 

@@ -21,7 +21,7 @@
 
 Ƭ **Constants**: *Record‹string, [ModuleConstants](_decorated_types_.md#moduleconstants)›*
 
-*Defined in [Decorated/types.ts:15](https://github.com/polkadot-js/api/blob/75220eb54f/packages/metadata/src/Decorated/types.ts#L15)*
+*Defined in [Decorated/types.ts:15](https://github.com/polkadot-js/api/blob/ca186a4b2c/packages/metadata/src/Decorated/types.ts#L15)*
 
 ___
 
@@ -29,4 +29,4 @@ ___
 
 Ƭ **ModuleConstants**: *Record‹string, Codec›*
 
-*Defined in [Decorated/types.ts:13](https://github.com/polkadot-js/api/blob/75220eb54f/packages/metadata/src/Decorated/types.ts#L13)*
+*Defined in [Decorated/types.ts:13](https://github.com/polkadot-js/api/blob/ca186a4b2c/packages/metadata/src/Decorated/types.ts#L13)*

@@ -21,7 +21,7 @@
 
 • **name**: *string*
 
-*Defined in [types.ts:36](https://github.com/polkadot-js/api/blob/75220eb54f/packages/api-contract/src/types.ts#L36)*
+*Defined in [types.ts:36](https://github.com/polkadot-js/api/blob/ca186a4b2c/packages/api-contract/src/types.ts#L36)*
 
 ___
 
@@ -29,4 +29,4 @@ ___
 
 • **type**: *TypeDef*
 
-*Defined in [types.ts:37](https://github.com/polkadot-js/api/blob/75220eb54f/packages/api-contract/src/types.ts#L37)*
+*Defined in [types.ts:37](https://github.com/polkadot-js/api/blob/ca186a4b2c/packages/api-contract/src/types.ts#L37)*
