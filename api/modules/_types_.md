@@ -47,7 +47,7 @@
 
 Ƭ **ApiInterfaceEvents**: *ProviderInterfaceEmitted | "ready"*
 
-*Defined in [types.ts:239](https://github.com/polkadot-js/api/blob/1c6a2582f3/packages/api/src/types.ts#L239)*
+*Defined in [types.ts:239](https://github.com/polkadot-js/api/blob/6b74ea39c2/packages/api/src/types.ts#L239)*
 
 ___
 
@@ -55,7 +55,7 @@ ___
 
 Ƭ **ApiTypes**: *"promise" | "rxjs"*
 
-*Defined in [types.ts:241](https://github.com/polkadot-js/api/blob/1c6a2582f3/packages/api/src/types.ts#L241)*
+*Defined in [types.ts:241](https://github.com/polkadot-js/api/blob/6b74ea39c2/packages/api/src/types.ts#L241)*
 
 ___
 
@@ -63,7 +63,7 @@ ___
 
 Ƭ **DecorateMethod**: *function*
 
-*Defined in [types.ts:60](https://github.com/polkadot-js/api/blob/1c6a2582f3/packages/api/src/types.ts#L60)*
+*Defined in [types.ts:60](https://github.com/polkadot-js/api/blob/6b74ea39c2/packages/api/src/types.ts#L60)*
 
 #### Type declaration:
 
@@ -86,7 +86,7 @@ ___
 
 Ƭ **DecoratedRpc**: *object*
 
-*Defined in [types.ts:97](https://github.com/polkadot-js/api/blob/1c6a2582f3/packages/api/src/types.ts#L97)*
+*Defined in [types.ts:97](https://github.com/polkadot-js/api/blob/6b74ea39c2/packages/api/src/types.ts#L97)*
 
 #### Type declaration:
 
@@ -96,7 +96,7 @@ ___
 
 Ƭ **DecoratedRpcSection**: *object*
 
-*Defined in [types.ts:91](https://github.com/polkadot-js/api/blob/1c6a2582f3/packages/api/src/types.ts#L91)*
+*Defined in [types.ts:91](https://github.com/polkadot-js/api/blob/6b74ea39c2/packages/api/src/types.ts#L91)*
 
 #### Type declaration:
 
@@ -106,7 +106,7 @@ ___
 
 Ƭ **MethodResult**: *MethodResult<ApiType, F>*
 
-*Defined in [types.ts:87](https://github.com/polkadot-js/api/blob/1c6a2582f3/packages/api/src/types.ts#L87)*
+*Defined in [types.ts:87](https://github.com/polkadot-js/api/blob/6b74ea39c2/packages/api/src/types.ts#L87)*
 
 ___
 
@@ -114,7 +114,7 @@ ___
 
 Ƭ **ObsInnerType**: *ObsInnerType<O>*
 
-*Defined in [types.ts:50](https://github.com/polkadot-js/api/blob/1c6a2582f3/packages/api/src/types.ts#L50)*
+*Defined in [types.ts:50](https://github.com/polkadot-js/api/blob/6b74ea39c2/packages/api/src/types.ts#L50)*
 
 ___
 
@@ -122,7 +122,7 @@ ___
 
 Ƭ **PromiseOrObs**: *PromiseOrObs<ApiType, T>*
 
-*Defined in [types.ts:82](https://github.com/polkadot-js/api/blob/1c6a2582f3/packages/api/src/types.ts#L82)*
+*Defined in [types.ts:82](https://github.com/polkadot-js/api/blob/6b74ea39c2/packages/api/src/types.ts#L82)*
 
 ___
 
@@ -130,7 +130,7 @@ ___
 
 Ƭ **QueryableStorageEntry**: *QueryableStorageEntry<ApiType>*
 
-*Defined in [types.ts:132](https://github.com/polkadot-js/api/blob/1c6a2582f3/packages/api/src/types.ts#L132)*
+*Defined in [types.ts:132](https://github.com/polkadot-js/api/blob/6b74ea39c2/packages/api/src/types.ts#L132)*
 
 ___
 
@@ -138,7 +138,7 @@ ___
 
 Ƭ **QueryableStorageMulti**: *QueryableStorageMulti<ApiType>*
 
-*Defined in [types.ts:153](https://github.com/polkadot-js/api/blob/1c6a2582f3/packages/api/src/types.ts#L153)*
+*Defined in [types.ts:153](https://github.com/polkadot-js/api/blob/6b74ea39c2/packages/api/src/types.ts#L153)*
 
 ___
 
@@ -146,7 +146,7 @@ ___
 
 Ƭ **QueryableStorageMultiArg**: *[QueryableStorageEntry](_types_.md#queryablestorageentry)‹ApiType› | [[QueryableStorageEntry](_types_.md#queryablestorageentry)‹ApiType›, undefined | string | number | false | true | Codec | Uint8Array‹› | BN‹› | CodecArgArray‹› | CodecArgObject]*
 
-*Defined in [types.ts:141](https://github.com/polkadot-js/api/blob/1c6a2582f3/packages/api/src/types.ts#L141)*
+*Defined in [types.ts:141](https://github.com/polkadot-js/api/blob/6b74ea39c2/packages/api/src/types.ts#L141)*
 
 ___
 
@@ -154,7 +154,7 @@ ___
 
 Ƭ **StorageEntryExact**: *[MethodResult](_types_.md#methodresult)‹ApiType, F› & [StorageEntryBase](../interfaces/_types_.storageentrybase.md)‹ApiType, F›*
 
-*Defined in [types.ts:127](https://github.com/polkadot-js/api/blob/1c6a2582f3/packages/api/src/types.ts#L127)*
+*Defined in [types.ts:127](https://github.com/polkadot-js/api/blob/6b74ea39c2/packages/api/src/types.ts#L127)*
 
 ___
 
@@ -162,4 +162,4 @@ ___
 
 Ƭ **UnsubscribePromise**: *Promise‹function›*
 
-*Defined in [types.ts:52](https://github.com/polkadot-js/api/blob/1c6a2582f3/packages/api/src/types.ts#L52)*
+*Defined in [types.ts:52](https://github.com/polkadot-js/api/blob/6b74ea39c2/packages/api/src/types.ts#L52)*
