@@ -29,7 +29,7 @@
 
 • **at**: *function*
 
-*Defined in [types.ts:111](https://github.com/polkadot-js/api/blob/b2daf7482f/packages/api/src/types.ts#L111)*
+*Defined in [types.ts:111](https://github.com/polkadot-js/api/blob/1c6a2582f3/packages/api/src/types.ts#L111)*
 
 #### Type declaration:
 
@@ -48,7 +48,7 @@ ___
 
 • **creator**: *StorageEntry*
 
-*Defined in [types.ts:112](https://github.com/polkadot-js/api/blob/b2daf7482f/packages/api/src/types.ts#L112)*
+*Defined in [types.ts:112](https://github.com/polkadot-js/api/blob/1c6a2582f3/packages/api/src/types.ts#L112)*
 
 ___
 
@@ -56,7 +56,7 @@ ___
 
 • **hash**: *function*
 
-*Defined in [types.ts:113](https://github.com/polkadot-js/api/blob/b2daf7482f/packages/api/src/types.ts#L113)*
+*Defined in [types.ts:113](https://github.com/polkadot-js/api/blob/1c6a2582f3/packages/api/src/types.ts#L113)*
 
 #### Type declaration:
 
@@ -74,7 +74,7 @@ ___
 
 • **key**: *function*
 
-*Defined in [types.ts:114](https://github.com/polkadot-js/api/blob/b2daf7482f/packages/api/src/types.ts#L114)*
+*Defined in [types.ts:114](https://github.com/polkadot-js/api/blob/1c6a2582f3/packages/api/src/types.ts#L114)*
 
 #### Type declaration:
 
@@ -92,7 +92,7 @@ ___
 
 • **multi**: *ApiType extends "rxjs" ? StorageEntryObservableMulti : StorageEntryPromiseMulti*
 
-*Defined in [types.ts:116](https://github.com/polkadot-js/api/blob/b2daf7482f/packages/api/src/types.ts#L116)*
+*Defined in [types.ts:116](https://github.com/polkadot-js/api/blob/1c6a2582f3/packages/api/src/types.ts#L116)*
 
 ___
 
@@ -100,7 +100,7 @@ ___
 
 • **size**: *function*
 
-*Defined in [types.ts:115](https://github.com/polkadot-js/api/blob/b2daf7482f/packages/api/src/types.ts#L115)*
+*Defined in [types.ts:115](https://github.com/polkadot-js/api/blob/1c6a2582f3/packages/api/src/types.ts#L115)*
 
 #### Type declaration:
 
