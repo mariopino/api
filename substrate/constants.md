@@ -15,11 +15,15 @@ The following sections contain the module constants, also known as parameter typ
 
 - **[finalityTracker](#finalityTracker)**
 
+- **[nicks](#nicks)**
+
 - **[session](#session)**
 
 - **[staking](#staking)**
 
 - **[timestamp](#timestamp)**
+
+- **[transactionPayment](#transactionPayment)**
 
 - **[treasury](#treasury)**
 
@@ -49,14 +53,6 @@ ___
 ### existentialDeposit: `Balance`
 - **interface**: api.consts.balances.existentialDeposit
 - **summary**: The minimum amount required to keep an account open.
-
-### transactionBaseFee: `Balance`
-- **interface**: api.consts.balances.transactionBaseFee
-- **summary**: The fee to be paid for making a transaction; the base.
-
-### transactionByteFee: `Balance`
-- **interface**: api.consts.balances.transactionByteFee
-- **summary**: The fee to be paid for making a transaction; the per-byte portion.
 
 ### transferFee: `Balance`
 - **interface**: api.consts.balances.transferFee
@@ -165,49 +161,20 @@ ___
 
 ## elections
 
-### approvalSetSize: `u32`
-- **interface**: api.consts.elections.approvalSetSize
-- **summary**: The chunk size of the approval vector.
-
 ### candidacyBond: `BalanceOf`
 - **interface**: api.consts.elections.candidacyBond
-- **summary**: How much should be locked up in order to submit one's candidacy. A reasonable default value is 9.
 
-### carryCount: `u32`
-- **interface**: api.consts.elections.carryCount
-- **summary**: How many runners-up should have their approvals persist until the next vote. A reasonable default value is 2.
+### desiredMembers: `u32`
+- **interface**: api.consts.elections.desiredMembers
 
-### decayRatio: `u32`
-- **interface**: api.consts.elections.decayRatio
-- **summary**: Decay factor of weight when being accumulated. It should typically be set to __at least__ `membership_size -1` to keep the collective secure. When set to `N`, it indicates `(1/N)^t` of staked is decayed at weight increment step `t`. 0 will result in no weight being added at all (normal approval voting). A reasonable default value is 24.
+### desiredRunnersUp: `u32`
+- **interface**: api.consts.elections.desiredRunnersUp
 
-### inactiveGracePeriod: `VoteIndex`
-- **interface**: api.consts.elections.inactiveGracePeriod
-- **summary**: How many vote indices need to go by after a target voter's last vote before they can be reaped if their approvals are moot. A reasonable default value is 1.
-
-### minimumVotingLock: `BalanceOf`
-- **interface**: api.consts.elections.minimumVotingLock
-- **summary**: Minimum about that can be used as the locked value for voting.
-
-### presentSlashPerVoter: `BalanceOf`
-- **interface**: api.consts.elections.presentSlashPerVoter
-- **summary**: The punishment, per voter, if you provide an invalid presentation. A reasonable default value is 1.
-
-### voterSetSize: `u32`
-- **interface**: api.consts.elections.voterSetSize
-- **summary**: The chunk size of the voter vector.
+### termDuration: `BlockNumber`
+- **interface**: api.consts.elections.termDuration
 
 ### votingBond: `BalanceOf`
 - **interface**: api.consts.elections.votingBond
-- **summary**: How much should be locked up in order to be able to submit votes.
-
-### votingFee: `BalanceOf`
-- **interface**: api.consts.elections.votingFee
-- **summary**: The amount of fee paid upon each vote submission, unless if they submit a _hole_ index and replace it.
-
-### votingPeriod: `BlockNumber`
-- **interface**: api.consts.elections.votingPeriod
-- **summary**: How often (in blocks) to check for new votes. A reasonable default value is 1000.
 
 ___
 
@@ -221,6 +188,23 @@ ___
 ### windowSize: `BlockNumber`
 - **interface**: api.consts.finalityTracker.windowSize
 - **summary**: The number of recent samples to keep from this chain. Default is 101.
+
+___
+
+
+## nicks
+
+### maxLength: `u32`
+- **interface**: api.consts.nicks.maxLength
+- **summary**: The maximum length a name may be.
+
+### minLength: `u32`
+- **interface**: api.consts.nicks.minLength
+- **summary**: The minimum length a name may be.
+
+### reservationFee: `BalanceOf`
+- **interface**: api.consts.nicks.reservationFee
+- **summary**: Reservation fee.
 
 ___
 
@@ -252,6 +236,19 @@ ___
 ### minimumPeriod: `Moment`
 - **interface**: api.consts.timestamp.minimumPeriod
 - **summary**: The minimum period between blocks. Beware that this is different to the *expected* period that the block production apparatus provides. Your chosen consensus system will generally work with this to determine a sensible block time. e.g. For Aura, it will be double this period on default settings.
+
+___
+
+
+## transactionPayment
+
+### transactionBaseFee: `BalanceOf`
+- **interface**: api.consts.transactionPayment.transactionBaseFee
+- **summary**: The fee to be paid for making a transaction; the base.
+
+### transactionByteFee: `BalanceOf`
+- **interface**: api.consts.transactionPayment.transactionByteFee
+- **summary**: The fee to be paid for making a transaction; the per-byte portion.
 
 ___
 

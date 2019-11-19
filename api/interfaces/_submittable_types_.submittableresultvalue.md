@@ -19,7 +19,7 @@
 
 • **events**? : *EventRecord[]*
 
-*Defined in [submittable/types.ts:23](https://github.com/polkadot-js/api/blob/6b74ea39c2/packages/api/src/submittable/types.ts#L23)*
+*Defined in [submittable/types.ts:23](https://github.com/polkadot-js/api/blob/d6239cbe56/packages/api/src/submittable/types.ts#L23)*
 
 ___
 
@@ -27,4 +27,4 @@ ___
 
 • **status**: *ExtrinsicStatus*
 
-*Defined in [submittable/types.ts:24](https://github.com/polkadot-js/api/blob/6b74ea39c2/packages/api/src/submittable/types.ts#L24)*
+*Defined in [submittable/types.ts:24](https://github.com/polkadot-js/api/blob/d6239cbe56/packages/api/src/submittable/types.ts#L24)*

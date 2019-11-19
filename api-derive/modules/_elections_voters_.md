@@ -14,7 +14,7 @@
 
 ▸ **voters**(`api`: ApiInterfaceRx): *function*
 
-*Defined in [elections/voters.ts:39](https://github.com/polkadot-js/api/blob/6b74ea39c2/packages/api-derive/src/elections/voters.ts#L39)*
+*Defined in [elections/voters.ts:39](https://github.com/polkadot-js/api/blob/d6239cbe56/packages/api-derive/src/elections/voters.ts#L39)*
 
 **`name`** voters
 

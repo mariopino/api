@@ -14,7 +14,7 @@
 
 ▸ **all**(`api`: ApiInterfaceRx): *function*
 
-*Defined in [balances/all.ts:90](https://github.com/polkadot-js/api/blob/6b74ea39c2/packages/api-derive/src/balances/all.ts#L90)*
+*Defined in [balances/all.ts:90](https://github.com/polkadot-js/api/blob/d6239cbe56/packages/api-derive/src/balances/all.ts#L90)*
 
 **`name`** all
 

@@ -23,7 +23,11 @@ The following sections contain Storage methods are part of the default Substrate
 
 - **[indices](#indices)**
 
+- **[nicks](#nicks)**
+
 - **[offences](#offences)**
+
+- **[randomnessCollectiveFlip](#randomnessCollectiveFlip)**
 
 - **[session](#session)**
 
@@ -38,6 +42,8 @@ The following sections contain Storage methods are part of the default Substrate
 - **[technicalMembership](#technicalMembership)**
 
 - **[timestamp](#timestamp)**
+
+- **[transactionPayment](#transactionPayment)**
 
 - **[treasury](#treasury)**
 
@@ -254,77 +260,42 @@ ___
 
 ## elections
 
-### approvalsOf(`(AccountId,SetIndex)`): `Vec<ApprovalFlag>`
-- **interface**: api.query.elections.approvalsOf
-
-### candidateCount(): `u32`
-- **interface**: api.query.elections.candidateCount
-- **summary**: Current number of active candidates
-
 ### candidates(): `Vec<AccountId>`
 - **interface**: api.query.elections.candidates
-- **summary**: The present candidate list.
+- **summary**: The present candidate list. Sorted based on account id. A current member can never enter this vector and is always implicitly assumed to be a candidate.
 
-### desiredSeats(): `u32`
-- **interface**: api.query.elections.desiredSeats
-- **summary**: Number of accounts that should constitute the collective.
+### didMigrate(): `bool`
+- **interface**: api.query.elections.didMigrate
+- **summary**: Has the storage format been updated? NOTE: Only use and set to false if you have used an early version of this module. Should be set to true otherwise.
 
-### leaderboard(): `Option<Vec<(BalanceOf,AccountId)>>`
-- **interface**: api.query.elections.leaderboard
-- **summary**: Get the leaderboard if we're in the presentation phase. The first element is the weight of each entry; It may be the direct summed approval stakes, or a weighted version of it. Sorted from low to high.
+### electionRounds(): `u32`
+- **interface**: api.query.elections.electionRounds
+- **summary**: The total number of vote rounds that have happened, excluding the upcoming one.
 
-### members(): `Vec<(AccountId,BlockNumber)>`
+### members(): `Vec<(AccountId,BalanceOf)>`
 - **interface**: api.query.elections.members
-- **summary**: The current membership. When there's a vote going on, this should still be used for executive matters. The block number (second element in the tuple) is the block that their position is active until (calculated by the sum of the block number when the member was elected and their term duration).
+- **summary**: The current elected membership. Sorted based on account id.
 
-### nextFinalize(): `Option<(BlockNumber,u32,Vec<AccountId>)>`
-- **interface**: api.query.elections.nextFinalize
-- **summary**: The accounts holding the seats that will become free on the next tally.
+### runnersUp(): `Vec<(AccountId,BalanceOf)>`
+- **interface**: api.query.elections.runnersUp
+- **summary**: The current runners_up. Sorted based on low to high merit (worse to best runner).
 
-### nextVoterSet(): `SetIndex`
-- **interface**: api.query.elections.nextVoterSet
-- **summary**: the next free set to store a voter in. This will keep growing.
+### stakeOf(`AccountId`): `BalanceOf`
+- **interface**: api.query.elections.stakeOf
+- **summary**: Locked stake of a voter.
 
-### presentationDuration(): `BlockNumber`
-- **interface**: api.query.elections.presentationDuration
-- **summary**: How long to give each top candidate to present themselves after the vote ends.
-
-### proxy(`AccountId`): `Option<AccountId>`
-- **interface**: api.query.elections.proxy
-- **summary**: Who is able to vote for whom. Value is the fund-holding account, key is the vote-transaction-sending account.
-
-### registerInfoOf(`AccountId`): `Option<(VoteIndex,u32)>`
-- **interface**: api.query.elections.registerInfoOf
-- **summary**: The vote index and list slot that the candidate `who` was registered or `None` if they are not currently registered.
-
-### termDuration(): `BlockNumber`
-- **interface**: api.query.elections.termDuration
-- **summary**: How long each position is active for.
-
-### voteCount(): `VoteIndex`
-- **interface**: api.query.elections.voteCount
-- **summary**: The total number of vote rounds that have happened or are in progress.
-
-### voterCount(): `SetIndex`
-- **interface**: api.query.elections.voterCount
-- **summary**: Current number of Voters.
-
-### voterInfoOf(`AccountId`): `Option<VoterInfo>`
-- **interface**: api.query.elections.voterInfoOf
-- **summary**: Basic information about a voter.
-
-### voters(`SetIndex`): `Vec<Option<AccountId>>`
-- **interface**: api.query.elections.voters
-- **summary**: The present voter list (chunked and capped at [`VOTER_SET_SIZE`]).
+### votesOf(`AccountId`): `(Vec<AccountId>, Linkage<AccountId>)`
+- **interface**: api.query.elections.votesOf
+- **summary**: Votes of a particular voter, with the round index of the votes.
 
 ___
 
 
 ## grandpa
 
-### authorities(): `Vec<(AuthorityId,AuthorityWeight)>`
+### authorities(): `AuthorityList`
 - **interface**: api.query.grandpa.authorities
-- **summary**: The current authority set.
+- **summary**: DEPRECATED  This used to store the current authority set, which has been migrated to the well-known GRANDPA_AUTHORITES_KEY unhashed key.
 
 ### currentSetId(): `SetId`
 - **interface**: api.query.grandpa.currentSetId
@@ -355,6 +326,10 @@ ___
 
 ## imOnline
 
+### authoredBlocks(`SessionIndex, ValidatorId`): `u32`
+- **interface**: api.query.imOnline.authoredBlocks
+- **summary**: For each session index, we keep a mapping of `T::ValidatorId` to the number of blocks authored by the given authority.
+
 ### gossipAt(): `BlockNumber`
 - **interface**: api.query.imOnline.gossipAt
 - **summary**: The block number when we should gossip.
@@ -363,9 +338,9 @@ ___
 - **interface**: api.query.imOnline.keys
 - **summary**: The current set of keys that may issue a heartbeat.
 
-### receivedHeartbeats(`SessionIndex, AuthIndex`): `Bytes`
+### receivedHeartbeats(`SessionIndex, AuthIndex`): `Option<Bytes>`
 - **interface**: api.query.imOnline.receivedHeartbeats
-- **summary**: For each session index we keep a mapping of `AuthorityId` to `offchain::OpaqueNetworkState`.
+- **summary**: For each session index, we keep a mapping of `AuthIndex` to `offchain::OpaqueNetworkState`.
 
 ___
 
@@ -383,6 +358,15 @@ ___
 ___
 
 
+## nicks
+
+### nameOf(`AccountId`): `Option<(Bytes,BalanceOf)>`
+- **interface**: api.query.nicks.nameOf
+- **summary**: The lookup table for names.
+
+___
+
+
 ## offences
 
 ### concurrentReportsIndex(`Kind, OpaqueTimeSlot`): `Vec<ReportIdOf>`
@@ -396,6 +380,15 @@ ___
 ### reportsByKindIndex(`Kind`): `Bytes`
 - **interface**: api.query.offences.reportsByKindIndex
 - **summary**: Enumerates all reports of a kind along with the time they happened.  All reports are sorted by the time of offence.  Note that the actual type of this mapping is `Vec<u8>`, this is because values of different types are not supported at the moment so we are doing the manual serialization.
+
+___
+
+
+## randomnessCollectiveFlip
+
+### randomMaterial(): `Vec<Hash>`
+- **interface**: api.query.randomnessCollectiveFlip.randomMaterial
+- **summary**: Series of block headers from the last 81 blocks that acts as random seed material. This is arranged as a ring buffer with `block_number % 81` being the index into the `Vec` of the oldest hash.
 
 ___
 
@@ -443,6 +436,10 @@ ___
 - **interface**: api.query.staking.bondedEras
 - **summary**: A mapping from still-bonded eras to the first session index of that era.
 
+### canceledSlashPayout(): `BalanceOf`
+- **interface**: api.query.staking.canceledSlashPayout
+- **summary**: The amount of currency given to reporters of a slash event which was canceled by extraordinary circumstances (e.g. governance).
+
 ### currentElected(): `Vec<AccountId>`
 - **interface**: api.query.staking.currentElected
 - **summary**: The currently elected validator set keyed by stash account ID.
@@ -463,9 +460,9 @@ ___
 - **interface**: api.query.staking.currentEraStartSessionIndex
 - **summary**: The session index at which the current era started.
 
-### eraSlashJournal(`EraIndex`): `Vec<SlashJournalEntry>`
-- **interface**: api.query.staking.eraSlashJournal
-- **summary**: All slashes that have occurred in a given era.
+### earliestUnappliedSlash(): `Option<EraIndex>`
+- **interface**: api.query.staking.earliestUnappliedSlash
+- **summary**: The earliest era for which we have a pending, unapplied slash.
 
 ### forceEra(): `Forcing`
 - **interface**: api.query.staking.forceEra
@@ -483,13 +480,21 @@ ___
 - **interface**: api.query.staking.minimumValidatorCount
 - **summary**: Minimum number of staking participants before emergency conditions are imposed.
 
-### nominators(`AccountId`): `(Vec<AccountId>, Linkage<AccountId>)`
+### nominators(`AccountId`): `Option<(Nominations, Linkage<AccountId>)>`
 - **interface**: api.query.staking.nominators
-- **summary**: The map from nominator stash key to the set of stash keys of all validators to nominate.
+- **summary**: The map from nominator stash key to the set of stash keys of all validators to nominate.  NOTE: is private so that we can ensure upgraded before all typical accesses. Direct storage APIs can still bypass this protection.
+
+### nominatorSlashInEra(`EraIndex, AccountId`): `Option<BalanceOf>`
+- **interface**: api.query.staking.nominatorSlashInEra
+- **summary**: All slashing events on nominators, mapped by era to the highest slash value of the era.
 
 ### payee(`AccountId`): `RewardDestination`
 - **interface**: api.query.staking.payee
 - **summary**: Where the reward payment should be made. Keyed by stash.
+
+### slashingSpans(`AccountId`): `Option<SlashingSpans>`
+- **interface**: api.query.staking.slashingSpans
+- **summary**: Slashing spans for stash accounts.
 
 ### slashRewardFraction(): `Perbill`
 - **interface**: api.query.staking.slashRewardFraction
@@ -499,9 +504,21 @@ ___
 - **interface**: api.query.staking.slotStake
 - **summary**: The amount of balance actively at stake for each validator slot, currently.  This is used to derive rewards and punishments.
 
+### spanSlash(`(AccountId,SpanIndex)`): `SpanRecord`
+- **interface**: api.query.staking.spanSlash
+- **summary**: Records information about the maximum slash of a stash within a slashing span, as well as how much reward has been paid out.
+
 ### stakers(`AccountId`): `Exposure`
 - **interface**: api.query.staking.stakers
 - **summary**: Nominators for a particular account that is in action right now. You can't iterate through validators here, but you can find them in the Session module.  This is keyed by the stash account.
+
+### storageVersion(): `u32`
+- **interface**: api.query.staking.storageVersion
+- **summary**: The version of storage for upgrade.
+
+### unappliedSlashes(`EraIndex`): `Vec<UnappliedSlash>`
+- **interface**: api.query.staking.unappliedSlashes
+- **summary**: All unapplied slashes that are queued for later.
 
 ### validatorCount(): `u32`
 - **interface**: api.query.staking.validatorCount
@@ -510,6 +527,10 @@ ___
 ### validators(`AccountId`): `(ValidatorPrefs, Linkage<AccountId>)`
 - **interface**: api.query.staking.validators
 - **summary**: The map from (wannabe) validator stash key to the preferences of that validator.
+
+### validatorSlashInEra(`EraIndex, AccountId`): `Option<(Perbill,BalanceOf)>`
+- **interface**: api.query.staking.validatorSlashInEra
+- **summary**: All slashing events on validators, mapped by era to the highest slash proportion and slash value of the era.
 
 ___
 
@@ -569,10 +590,6 @@ ___
 - **interface**: api.query.system.extrinsicsRoot
 - **summary**: Extrinsics root of the current block, also part of the block header.
 
-### nextWeightMultiplier(): `WeightMultiplier`
-- **interface**: api.query.system.nextWeightMultiplier
-- **summary**: The next weight multiplier. This should be updated at the end of each block based on the saturation level (weight).
-
 ### number(): `BlockNumber`
 - **interface**: api.query.system.number
 - **summary**: The current block number being processed. Set by `execute_block`.
@@ -580,10 +597,6 @@ ___
 ### parentHash(): `Hash`
 - **interface**: api.query.system.parentHash
 - **summary**: Hash of the previous block.
-
-### randomMaterial(): `(i8,Vec<Hash>)`
-- **interface**: api.query.system.randomMaterial
-- **summary**: Series of block headers from the last 81 blocks that acts as random seed material. This is arranged as a ring buffer with the `i8` prefix being the index into the `Vec` of the oldest hash.
 
 ___
 
@@ -631,6 +644,14 @@ ___
 ### now(): `Moment`
 - **interface**: api.query.timestamp.now
 - **summary**: Current time for the current block.
+
+___
+
+
+## transactionPayment
+
+### nextFeeMultiplier(): `Multiplier`
+- **interface**: api.query.transactionPayment.nextFeeMultiplier
 
 ___
 

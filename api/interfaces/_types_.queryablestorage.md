@@ -30,7 +30,9 @@
 * [grandpa](_types_.queryablestorage.md#grandpa)
 * [imOnline](_types_.queryablestorage.md#imonline)
 * [indices](_types_.queryablestorage.md#indices)
+* [nicks](_types_.queryablestorage.md#nicks)
 * [offences](_types_.queryablestorage.md#offences)
+* [randomnessCollectiveFlip](_types_.queryablestorage.md#randomnesscollectiveflip)
 * [session](_types_.queryablestorage.md#session)
 * [staking](_types_.queryablestorage.md#staking)
 * [sudo](_types_.queryablestorage.md#sudo)
@@ -38,6 +40,7 @@
 * [technicalCommittee](_types_.queryablestorage.md#technicalcommittee)
 * [technicalMembership](_types_.queryablestorage.md#technicalmembership)
 * [timestamp](_types_.queryablestorage.md#timestamp)
+* [transactionPayment](_types_.queryablestorage.md#transactionpayment)
 * [treasury](_types_.queryablestorage.md#treasury)
 
 ## Properties
@@ -48,7 +51,7 @@
 
 *Inherited from void*
 
-*Defined in [query.types.ts:62](https://github.com/polkadot-js/api/blob/6b74ea39c2/packages/api/src/query.types.ts#L62)*
+*Defined in [query.types.ts:61](https://github.com/polkadot-js/api/blob/d6239cbe56/packages/api/src/query.types.ts#L61)*
 
 #### Type declaration:
 
@@ -62,7 +65,7 @@ ___
 
 *Inherited from void*
 
-*Defined in [query.types.ts:45](https://github.com/polkadot-js/api/blob/6b74ea39c2/packages/api/src/query.types.ts#L45)*
+*Defined in [query.types.ts:44](https://github.com/polkadot-js/api/blob/d6239cbe56/packages/api/src/query.types.ts#L44)*
 
 #### Type declaration:
 
@@ -76,7 +79,7 @@ ___
 
 *Inherited from void*
 
-*Defined in [query.types.ts:73](https://github.com/polkadot-js/api/blob/6b74ea39c2/packages/api/src/query.types.ts#L73)*
+*Defined in [query.types.ts:72](https://github.com/polkadot-js/api/blob/d6239cbe56/packages/api/src/query.types.ts#L72)*
 
 #### Type declaration:
 
@@ -90,7 +93,7 @@ ___
 
 *Inherited from void*
 
-*Defined in [query.types.ts:186](https://github.com/polkadot-js/api/blob/6b74ea39c2/packages/api/src/query.types.ts#L186)*
+*Defined in [query.types.ts:187](https://github.com/polkadot-js/api/blob/d6239cbe56/packages/api/src/query.types.ts#L187)*
 
 #### Type declaration:
 
@@ -104,7 +107,7 @@ ___
 
 *Inherited from void*
 
-*Defined in [query.types.ts:131](https://github.com/polkadot-js/api/blob/6b74ea39c2/packages/api/src/query.types.ts#L131)*
+*Defined in [query.types.ts:141](https://github.com/polkadot-js/api/blob/d6239cbe56/packages/api/src/query.types.ts#L141)*
 
 #### Type declaration:
 
@@ -118,7 +121,7 @@ ___
 
 *Inherited from void*
 
-*Defined in [query.types.ts:113](https://github.com/polkadot-js/api/blob/6b74ea39c2/packages/api/src/query.types.ts#L113)*
+*Defined in [query.types.ts:123](https://github.com/polkadot-js/api/blob/d6239cbe56/packages/api/src/query.types.ts#L123)*
 
 #### Type declaration:
 
@@ -132,7 +135,7 @@ ___
 
 *Inherited from void*
 
-*Defined in [query.types.ts:147](https://github.com/polkadot-js/api/blob/6b74ea39c2/packages/api/src/query.types.ts#L147)*
+*Defined in [query.types.ts:157](https://github.com/polkadot-js/api/blob/d6239cbe56/packages/api/src/query.types.ts#L157)*
 
 #### Type declaration:
 
@@ -146,7 +149,7 @@ ___
 
 *Inherited from void*
 
-*Defined in [query.types.ts:170](https://github.com/polkadot-js/api/blob/6b74ea39c2/packages/api/src/query.types.ts#L170)*
+*Defined in [query.types.ts:171](https://github.com/polkadot-js/api/blob/d6239cbe56/packages/api/src/query.types.ts#L171)*
 
 #### Type declaration:
 
@@ -160,7 +163,7 @@ ___
 
 *Inherited from void*
 
-*Defined in [query.types.ts:200](https://github.com/polkadot-js/api/blob/6b74ea39c2/packages/api/src/query.types.ts#L200)*
+*Defined in [query.types.ts:201](https://github.com/polkadot-js/api/blob/d6239cbe56/packages/api/src/query.types.ts#L201)*
 
 #### Type declaration:
 
@@ -174,7 +177,21 @@ ___
 
 *Inherited from void*
 
-*Defined in [query.types.ts:68](https://github.com/polkadot-js/api/blob/6b74ea39c2/packages/api/src/query.types.ts#L68)*
+*Defined in [query.types.ts:67](https://github.com/polkadot-js/api/blob/d6239cbe56/packages/api/src/query.types.ts#L67)*
+
+#### Type declaration:
+
+* \[ **index**: *string*\]: [QueryableStorageEntry](../modules/_types_.md#queryablestorageentry)‹ApiType›
+
+___
+
+###  nicks
+
+• **nicks**: *object*
+
+*Inherited from void*
+
+*Defined in [query.types.ts:218](https://github.com/polkadot-js/api/blob/d6239cbe56/packages/api/src/query.types.ts#L218)*
 
 #### Type declaration:
 
@@ -188,7 +205,21 @@ ___
 
 *Inherited from void*
 
-*Defined in [query.types.ts:206](https://github.com/polkadot-js/api/blob/6b74ea39c2/packages/api/src/query.types.ts#L206)*
+*Defined in [query.types.ts:208](https://github.com/polkadot-js/api/blob/d6239cbe56/packages/api/src/query.types.ts#L208)*
+
+#### Type declaration:
+
+* \[ **index**: *string*\]: [QueryableStorageEntry](../modules/_types_.md#queryablestorageentry)‹ApiType›
+
+___
+
+###  randomnessCollectiveFlip
+
+• **randomnessCollectiveFlip**: *object*
+
+*Inherited from void*
+
+*Defined in [query.types.ts:214](https://github.com/polkadot-js/api/blob/d6239cbe56/packages/api/src/query.types.ts#L214)*
 
 #### Type declaration:
 
@@ -202,7 +233,7 @@ ___
 
 *Inherited from void*
 
-*Defined in [query.types.ts:103](https://github.com/polkadot-js/api/blob/6b74ea39c2/packages/api/src/query.types.ts#L103)*
+*Defined in [query.types.ts:113](https://github.com/polkadot-js/api/blob/d6239cbe56/packages/api/src/query.types.ts#L113)*
 
 #### Type declaration:
 
@@ -216,7 +247,7 @@ ___
 
 *Inherited from void*
 
-*Defined in [query.types.ts:81](https://github.com/polkadot-js/api/blob/6b74ea39c2/packages/api/src/query.types.ts#L81)*
+*Defined in [query.types.ts:84](https://github.com/polkadot-js/api/blob/d6239cbe56/packages/api/src/query.types.ts#L84)*
 
 #### Type declaration:
 
@@ -230,7 +261,7 @@ ___
 
 *Inherited from void*
 
-*Defined in [query.types.ts:196](https://github.com/polkadot-js/api/blob/6b74ea39c2/packages/api/src/query.types.ts#L196)*
+*Defined in [query.types.ts:197](https://github.com/polkadot-js/api/blob/d6239cbe56/packages/api/src/query.types.ts#L197)*
 
 #### Type declaration:
 
@@ -244,7 +275,7 @@ ___
 
 *Inherited from void*
 
-*Defined in [query.types.ts:27](https://github.com/polkadot-js/api/blob/6b74ea39c2/packages/api/src/query.types.ts#L27)*
+*Defined in [query.types.ts:28](https://github.com/polkadot-js/api/blob/d6239cbe56/packages/api/src/query.types.ts#L28)*
 
 #### Type declaration:
 
@@ -258,7 +289,7 @@ ___
 
 *Inherited from void*
 
-*Defined in [query.types.ts:139](https://github.com/polkadot-js/api/blob/6b74ea39c2/packages/api/src/query.types.ts#L139)*
+*Defined in [query.types.ts:149](https://github.com/polkadot-js/api/blob/d6239cbe56/packages/api/src/query.types.ts#L149)*
 
 #### Type declaration:
 
@@ -272,7 +303,7 @@ ___
 
 *Inherited from void*
 
-*Defined in [query.types.ts:166](https://github.com/polkadot-js/api/blob/6b74ea39c2/packages/api/src/query.types.ts#L166)*
+*Defined in [query.types.ts:167](https://github.com/polkadot-js/api/blob/d6239cbe56/packages/api/src/query.types.ts#L167)*
 
 #### Type declaration:
 
@@ -286,7 +317,21 @@ ___
 
 *Inherited from void*
 
-*Defined in [query.types.ts:57](https://github.com/polkadot-js/api/blob/6b74ea39c2/packages/api/src/query.types.ts#L57)*
+*Defined in [query.types.ts:56](https://github.com/polkadot-js/api/blob/d6239cbe56/packages/api/src/query.types.ts#L56)*
+
+#### Type declaration:
+
+* \[ **index**: *string*\]: [QueryableStorageEntry](../modules/_types_.md#queryablestorageentry)‹ApiType›
+
+___
+
+###  transactionPayment
+
+• **transactionPayment**: *object*
+
+*Inherited from void*
+
+*Defined in [query.types.ts:80](https://github.com/polkadot-js/api/blob/d6239cbe56/packages/api/src/query.types.ts#L80)*
 
 #### Type declaration:
 
@@ -300,7 +345,7 @@ ___
 
 *Inherited from void*
 
-*Defined in [query.types.ts:180](https://github.com/polkadot-js/api/blob/6b74ea39c2/packages/api/src/query.types.ts#L180)*
+*Defined in [query.types.ts:181](https://github.com/polkadot-js/api/blob/d6239cbe56/packages/api/src/query.types.ts#L181)*
 
 #### Type declaration:
 

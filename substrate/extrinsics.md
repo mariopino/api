@@ -21,6 +21,8 @@ The following sections contain Extrinsics methods are part of the default Substr
 
 - **[imOnline](#imOnline)**
 
+- **[nicks](#nicks)**
+
 - **[session](#session)**
 
 - **[staking](#staking)**
@@ -64,7 +66,11 @@ ___
 
 ### transfer(dest: `Address`, value: `Compact<Balance>`)
 - **interface**: api.tx.balances.transfer
-- **summary**: Transfer some liquid free balance to another account.  `transfer` will set the `FreeBalance` of the sender and receiver. It will decrease the total issuance of the system by the `TransferFee`. If the sender's account is below the existential deposit as a result of the transfer, the account will be reaped.  The dispatch origin for this call must be `Signed` by the transactor.  # <weight> - Dependent on arguments but not critical, given proper implementations for input config types. See related functions below. - It contains a limited number of reads and writes internally and no complex computation.  Related functions:  - `ensure_can_withdraw` is always called internally but has a bounded complexity. - Transferring balances to accounts that did not exist before will cause `T::OnNewAccount::on_new_account` to be called. - Removing enough funds from an account will trigger `T::DustRemoval::on_unbalanced` and `T::OnFreeBalanceZero::on_free_balance_zero`.  # </weight>
+- **summary**: Transfer some liquid free balance to another account.  `transfer` will set the `FreeBalance` of the sender and receiver. It will decrease the total issuance of the system by the `TransferFee`. If the sender's account is below the existential deposit as a result of the transfer, the account will be reaped.  The dispatch origin for this call must be `Signed` by the transactor.  # <weight> - Dependent on arguments but not critical, given proper implementations for input config types. See related functions below. - It contains a limited number of reads and writes internally and no complex computation.  Related functions:  - `ensure_can_withdraw` is always called internally but has a bounded complexity. - Transferring balances to accounts that did not exist before will cause `T::OnNewAccount::on_new_account` to be called. - Removing enough funds from an account will trigger `T::DustRemoval::on_unbalanced` and `T::OnFreeBalanceZero::on_free_balance_zero`. - `transfer_keep_alive` works the same way as `transfer`, but has an additional check that the transfer will not kill the origin account.  # </weight>
+
+### transferKeepAlive(dest: `Address`, value: `Compact<Balance>`)
+- **interface**: api.tx.balances.transferKeepAlive
+- **summary**: Same as the [`transfer`] call, but with a check that the transfer will not kill the origin account.  99% of the time you want [`transfer`] instead.  [`transfer`]: struct.Module.html#method.transfer
 
 ___
 
@@ -147,7 +153,7 @@ ___
 
 ### fastTrack(proposal_hash: `Hash`, voting_period: `BlockNumber`, delay: `BlockNumber`)
 - **interface**: api.tx.democracy.fastTrack
-- **summary**: Schedule the currently externally-proposed majority-carries referendum to be tabled immediately. If there is no externally-proposed referendum currently, or if there is one but it is not a majority-carries referendum then it fails.  - `proposal_hash`: The hash of the current external proposal. - `voting_period`: The period that is allowed for voting on this proposal. - `delay`: The number of block after voting has ended in approval and this should be enacted. Increased to `EmergencyVotingPeriod` if too low.
+- **summary**: Schedule the currently externally-proposed majority-carries referendum to be tabled immediately. If there is no externally-proposed referendum currently, or if there is one but it is not a majority-carries referendum then it fails.  - `proposal_hash`: The hash of the current external proposal. - `voting_period`: The period that is allowed for voting on this proposal. Increased to `EmergencyVotingPeriod` if too low. - `delay`: The number of block after voting has ended in approval and this should be enacted. This doesn't have a minimum amount.
 
 ### propose(proposal: `Proposal`, value: `Compact<BalanceOf>`)
 - **interface**: api.tx.democracy.propose
@@ -190,45 +196,25 @@ ___
 
 ## elections
 
-### presentWinner(candidate: `Address`, total: `Compact<BalanceOf>`, index: `Compact<VoteIndex>`)
-- **interface**: api.tx.elections.presentWinner
-- **summary**: Claim that `candidate` is one of the top `carry_count + desired_seats` candidates. Only works iff the presentation period is active. `candidate` should have at least collected some non-zero `total` votes and `origin` must have enough funds to pay for a potential slash.  # <weight> - O(voters) compute. - One DB change. # </weight>
-
-### proxySetApprovals(votes: `Vec<bool>`, index: `Compact<VoteIndex>`, hint: `SetIndex`, value: `Compact<BalanceOf>`)
-- **interface**: api.tx.elections.proxySetApprovals
-- **summary**: Set candidate approvals from a proxy. Approval slots stay valid as long as candidates in those slots are registered.  # <weight> - Same as `set_approvals` with one additional storage read. # </weight>
-
-### reapInactiveVoter(reporter_index: `Compact<u32>`, who: `Address`, who_index: `Compact<u32>`, assumed_vote_index: `Compact<VoteIndex>`)
-- **interface**: api.tx.elections.reapInactiveVoter
-- **summary**: Remove a voter. For it not to be a bond-consuming no-op, all approved candidate indices must now be either unregistered or registered to a candidate that registered the slot after the voter gave their last approval set.  Both indices must be provided as explained in [`voter_at`] function.  May be called by anyone. Returns the voter deposit to `signed`.  # <weight> - O(1). - Two fewer DB entries, one DB change. # </weight>
-
 ### removeMember(who: `Address`)
 - **interface**: api.tx.elections.removeMember
-- **summary**: Remove a particular member from the set. This is effective immediately.  Note: A tally should happen instantly (if not already in a presentation period) to fill the seat if removal means that the desired members are not met.
+- **summary**: Remove a particular member from the set. This is effective immediately.  If a runner-up is available, then the best runner-up will be removed and replaces the outgoing member. Otherwise, a new phragmen round is started.  Note that this does not affect the designated block number of the next election.  # <weight> #### State Reads: O(do_phragmen) Writes: O(do_phragmen) # </weight>
 
-### retractVoter(index: `Compact<u32>`)
-- **interface**: api.tx.elections.retractVoter
-- **summary**: Remove a voter. All votes are cancelled and the voter deposit is returned.  The index must be provided as explained in [`voter_at`] function.  Also removes the lock on the balance of the voter. See [`do_set_approvals()`].  # <weight> - O(1). - Two fewer DB entries, one DB change. # </weight>
+### removeVoter()
+- **interface**: api.tx.elections.removeVoter
+- **summary**: Remove `origin` as a voter. This removes the lock and returns the bond.  # <weight> #### State Reads: O(1) Writes: O(1) # </weight>
 
-### setApprovals(votes: `Vec<bool>`, index: `Compact<VoteIndex>`, hint: `SetIndex`, value: `Compact<BalanceOf>`)
-- **interface**: api.tx.elections.setApprovals
-- **summary**: Set candidate approvals. Approval slots stay valid as long as candidates in those slots are registered.  Locks `value` from the balance of `origin` indefinitely. Only [`retract_voter`] or [`reap_inactive_voter`] can unlock the balance.  `hint` argument is interpreted differently based on: - if `origin` is setting approvals for the first time: The index will be checked for being a valid _hole_ in the voter list. - if the hint is correctly pointing to a hole, no fee is deducted from `origin`. - Otherwise, the call will succeed but the index is ignored and simply a push to the last chunk with free space happens. If the new push causes a new chunk to be created, a fee indicated by [`VotingFee`] is deducted. - if `origin` is already a voter: the index __must__ be valid and point to the correct position of the `origin` in the current voters list.  Note that any trailing `false` votes in `votes` is ignored; In approval voting, not voting for a candidate and voting false, are equal.  # <weight> - O(1). - Two extra DB entries, one DB change. - Argument `votes` is limited in length to number of candidates. # </weight>
+### reportDefunctVoter(target: `Address`)
+- **interface**: api.tx.elections.reportDefunctVoter
+- **summary**: Report `target` for being an defunct voter. In case of a valid report, the reporter is rewarded by the bond amount of `target`. Otherwise, the reporter itself is removed and their bond is slashed.  A defunct voter is defined to be: - a voter whose current submitted votes are all invalid. i.e. all of them are no longer a candidate nor an active member.  # <weight> #### State Reads: O(NLogM) given M current candidates and N votes for `target`. Writes: O(1) # </weight>
 
-### setDesiredSeats(count: `Compact<u32>`)
-- **interface**: api.tx.elections.setDesiredSeats
-- **summary**: Set the desired member count; if lower than the current count, then seats will not be up election when they expire. If more, then a new vote will be started if one is not already in progress.
-
-### setPresentationDuration(count: `Compact<BlockNumber>`)
-- **interface**: api.tx.elections.setPresentationDuration
-- **summary**: Set the presentation duration. If there is currently a vote being presented for, will invoke `finalize_vote`.
-
-### setTermDuration(count: `Compact<BlockNumber>`)
-- **interface**: api.tx.elections.setTermDuration
-- **summary**: Set the presentation duration. If there is current a vote being presented for, will invoke `finalize_vote`.
-
-### submitCandidacy(slot: `Compact<u32>`)
+### submitCandidacy()
 - **interface**: api.tx.elections.submitCandidacy
-- **summary**: Submit oneself for candidacy.  Account must have enough transferrable funds in it to pay the bond.  NOTE: if `origin` has already assigned approvals via [`set_approvals`], it will NOT have any usable funds to pass candidacy bond and must first retract. Note that setting approvals will lock the entire balance of the voter until retraction or being reported.  # <weight> - Independent of input. - Three DB changes. # </weight>
+- **summary**: Submit oneself for candidacy.  A candidate will either: - Lose at the end of the term and forfeit their deposit. - Win and become a member. Members will eventually get their stash back. - Become a runner-up. Runners-ups are reserved members in case one gets forcefully removed.  # <weight> #### State Reads: O(LogN) Given N candidates. Writes: O(1) # </weight>
+
+### vote(votes: `Vec<AccountId>`, value: `Compact<BalanceOf>`)
+- **interface**: api.tx.elections.vote
+- **summary**: Vote for a set of candidates for the upcoming round of election.  The `votes` should: - not be empty. - be less than the number of candidates.  Upon voting, `value` units of `who`'s balance is locked and a bond amount is reserved. It is the responsibility of the caller to not place all of their balance into the lock and keep some for further transactions.  # <weight> #### State Reads: O(1) Writes: O(V) given `V` votes. V is bounded by 16. # </weight>
 
 ___
 
@@ -253,8 +239,29 @@ ___
 
 ## imOnline
 
-### heartbeat(heartbeat: `Heartbeat`, signature: `Signature`)
+### heartbeat(heartbeat: `Heartbeat`, _signature: `Signature`)
 - **interface**: api.tx.imOnline.heartbeat
+
+___
+
+
+## nicks
+
+### clearName()
+- **interface**: api.tx.nicks.clearName
+- **summary**: Clear an account's name and return the deposit. Fails if the account was not named.  The dispatch origin for this call must be _Signed_.  # <weight> - O(1). - One balance operation. - One storage read/write. - One event. # </weight>
+
+### forceName(target: `Address`, name: `Bytes`)
+- **interface**: api.tx.nicks.forceName
+- **summary**: Set a third-party account's name with no deposit.  No length checking is done on the name.  The dispatch origin for this call must be _Root_ or match `T::ForceOrigin`.  # <weight> - O(1). - At most one balance operation. - One storage read/write. - One event. # </weight>
+
+### killName(target: `Address`)
+- **interface**: api.tx.nicks.killName
+- **summary**: Remove an account's name and take charge of the deposit.  Fails if `who` has not been named. The deposit is dealt with through `T::Slashed` imbalance handler.  The dispatch origin for this call must be _Root_ or match `T::ForceOrigin`.  # <weight> - O(1). - One unbalanced handler (probably a balance transfer) - One storage read/write. - One event. # </weight>
+
+### setName(name: `Bytes`)
+- **interface**: api.tx.nicks.setName
+- **summary**: Set an account's name. The name should be a UTF-8-encoded string by convention, though we don't check it.  The name may not be more than `T::MaxLength` bytes, nor less than `T::MinLength` bytes.  If the account doesn't already have a name, then a fee of `ReservationFee` is reserved in the account.  The dispatch origin for this call must be _Signed_.  # <weight> - O(1). - At most one balance operation. - One storage read/write. - One event. # </weight>
 
 ___
 
@@ -278,6 +285,10 @@ ___
 - **interface**: api.tx.staking.bondExtra
 - **summary**: Add some extra amount that have appeared in the stash `free_balance` into the balance up for staking.  Use this if there are additional funds in your stash account that you wish to bond. Unlike [`bond`] or [`unbond`] this function does not impose any limitation on the amount that can be added.  The dispatch origin for this call must be _Signed_ by the stash, not the controller.  # <weight> - Independent of the arguments. Insignificant complexity. - O(1). - One DB entry. # </weight>
 
+### cancelDeferredSlash(era: `EraIndex`, slash_indices: `Vec<u32>`)
+- **interface**: api.tx.staking.cancelDeferredSlash
+- **summary**: Cancel enactment of a deferred slash. Can only be called by the root origin, passing the era and indices of the slashes for that era to kill.  # <weight> - One storage write. # </weight>
+
 ### chill()
 - **interface**: api.tx.staking.chill
 - **summary**: Declare no desire to either validate or nominate.  Effects will be felt at the beginning of the next era.  The dispatch origin for this call must be _Signed_ by the controller, not the stash.  # <weight> - Independent of the arguments. Insignificant complexity. - Contains one read. - Writes are limited to the `origin` account key. # </weight>
@@ -286,9 +297,17 @@ ___
 - **interface**: api.tx.staking.forceNewEra
 - **summary**: Force there to be a new era at the end of the next session. After this, it will be reset to normal (non-forced) behaviour.  # <weight> - No arguments. # </weight>
 
+### forceNewEraAlways()
+- **interface**: api.tx.staking.forceNewEraAlways
+- **summary**: Force there to be a new era at the end of sessions indefinitely.  # <weight> - One storage write # </weight>
+
 ### forceNoEras()
 - **interface**: api.tx.staking.forceNoEras
 - **summary**: Force there to be no new eras indefinitely.  # <weight> - No arguments. # </weight>
+
+### forceUnstake(stash: `AccountId`)
+- **interface**: api.tx.staking.forceUnstake
+- **summary**: Force a current staker to become completely unstaked, immediately.
 
 ### nominate(targets: `Vec<Address>`)
 - **interface**: api.tx.staking.nominate

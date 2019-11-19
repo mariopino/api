@@ -19,6 +19,8 @@ Events are emitted for certain operations on the runtime. The following sections
 
 - **[indices](#indices)**
 
+- **[nicks](#nicks)**
+
 - **[offences](#offences)**
 
 - **[session](#session)**
@@ -130,24 +132,24 @@ ___
 
 ## elections
 
-### BadReaperSlashed(`AccountId`)
-- **summary**: slashed reaper
+### EmptyTerm()
+- **summary**: No (or not enough) candidates existed for this round.
 
-### TallyFinalized(`Vec<AccountId>`, `Vec<AccountId>`)
-- **summary**: A tally (for approval votes of seat(s)) has ended (with one or more new members).
+### MemberKicked(`AccountId`)
+- **summary**: A member has been removed. This should always be followed by either `NewTerm` ot `EmptyTerm`.
 
-### TallyStarted(`u32`)
-- **summary**: A tally (for approval votes of seat(s)) has started.
+### NewTerm(`Vec<(AccountId,Balance)>`)
+- **summary**: A new term with new members. This indicates that enough candidates existed, not that enough have has been elected. The inner value must be examined for this purpose.
 
-### VoterReaped(`AccountId`, `AccountId`)
-- **summary**: reaped voter, reaper
+### VoterReported(`AccountId`, `AccountId`, `bool`)
+- **summary**: A voter (first element) was reported (byt the second element) with the the report being successful or not (third element).
 
 ___
 
 
 ## grandpa
 
-### NewAuthorities(`Vec<(AuthorityId,AuthorityWeight)>`)
+### NewAuthorities(`AuthorityList`)
 - **summary**: New authority set has been applied.
 
 ### Paused()
@@ -161,8 +163,14 @@ ___
 
 ## imOnline
 
+### AllGood()
+- **summary**: At the end of the session, no offence was committed.
+
 ### HeartbeatReceived(`AuthorityId`)
 - **summary**: A new heartbeat was received from `AuthorityId`
+
+### SomeOffline(`Vec<IdentificationTuple>`)
+- **summary**: At the end of the session, at least once validator was found to be offline.
 
 ___
 
@@ -171,6 +179,26 @@ ___
 
 ### NewAccountIndex(`AccountId`, `AccountIndex`)
 - **summary**: A new account index was assigned.  This event is not triggered when an existing index is reassigned to another `AccountId`.
+
+___
+
+
+## nicks
+
+### NameChanged(`AccountId`)
+- **summary**: A name was changed.
+
+### NameCleared(`AccountId`, `Balance`)
+- **summary**: A name was cleared, and the given balance returned.
+
+### NameForced(`AccountId`)
+- **summary**: A name was forcibly set.
+
+### NameKilled(`AccountId`, `Balance`)
+- **summary**: A name was removed and the given balance slashed.
+
+### NameSet(`AccountId`)
+- **summary**: A name was set.
 
 ___
 
@@ -196,8 +224,8 @@ ___
 ### OldSlashingReportDiscarded(`SessionIndex`)
 - **summary**: An old slashing report from a prior era was discarded because it could not be processed.
 
-### Reward(`Balance`)
-- **summary**: All validators have been rewarded by the given balance.
+### Reward(`Balance`, `Balance`)
+- **summary**: All validators have been rewarded by the first balance; the second is the remainder from the maximum amount of reward.
 
 ### Slash(`AccountId`, `Balance`)
 - **summary**: One validator (and its nominators) has been slashed by the given amount.
@@ -281,6 +309,9 @@ ___
 ### Burnt(`Balance`)
 - **summary**: Some of our funds have been burnt.
 
+### Deposit(`Balance`)
+- **summary**: Some funds have been deposited.
+
 ### Proposed(`ProposalIndex`)
 - **summary**: New proposal.
 
@@ -295,4 +326,4 @@ ___
 
 ## utility
 
-### BatchExecuted(`Vec<DispatchResult>`)
+### BatchExecuted(`Vec<Result<Null,DispatchError>>`)
