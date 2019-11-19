@@ -258,6 +258,7 @@ The Codec Base is however required for operating as an encoding/decoding layer
 * [NetworkState](_interfaces_rpc_types_.networkstate.md)
 * [NewAccountOutcome](_interfaces_deprecated_types_.newaccountoutcome.md)
 * [NewBidder](_interfaces_parachains_types_.newbidder.md)
+* [Nominations](_interfaces_staking_types_.nominations.md)
 * [Null](../classes/_primitive_null_.null.md)
 * [OffenceDetails](_interfaces_offences_types_.offencedetails.md)
 * [OpaqueKey](_interfaces_deprecated_types_.opaquekey.md)
@@ -332,8 +333,11 @@ The Codec Base is however required for operating as an encoding/decoding layer
 * [Signature](_interfaces_runtime_types_.signature.md)
 * [SignedBlock](_interfaces_runtime_types_.signedblock.md)
 * [SlashJournalEntry](_interfaces_staking_types_.slashjournalentry.md)
+* [SlashingSpans](_interfaces_staking_types_.slashingspans.md)
 * [SlotNumber](_interfaces_babe_types_.slotnumber.md)
 * [SlotRange](_interfaces_parachains_types_.slotrange.md)
+* [SpanIndex](_interfaces_staking_types_.spanindex.md)
+* [SpanRecord](_interfaces_staking_types_.spanrecord.md)
 * [Sr25519Signature](_interfaces_runtime_types_.sr25519signature.md)
 * [StakingLedger](_interfaces_staking_types_.stakingledger.md)
 * [StorageChangeSet](_interfaces_rpc_types_.storagechangeset.md)
@@ -376,6 +380,7 @@ The Codec Base is however required for operating as an encoding/decoding layer
 * [U8aFixed](../classes/_codec_u8afixed_.u8afixed.md)
 * [UInt](../classes/_codec_uint_.uint.md)
 * [USize](../classes/_primitive_usize_.usize.md)
+* [UnappliedSlash](_interfaces_staking_types_.unappliedslash.md)
 * [UncleEntryItem](_interfaces_authorship_types_.uncleentryitem.md)
 * [Unconstructable](../classes/_primitive_unconstructable_.unconstructable.md)
 * [UnlockChunk](_interfaces_staking_types_.unlockchunk.md)
@@ -423,7 +428,7 @@ The Codec Base is however required for operating as an encoding/decoding layer
 
 • **encodedLength**: *number*
 
-*Defined in [types.ts:77](https://github.com/polkadot-js/api/blob/0a27f63423/packages/types/src/types.ts#L77)*
+*Defined in [types.ts:77](https://github.com/polkadot-js/api/blob/b2daf7482f/packages/types/src/types.ts#L77)*
 
 **`description`** The length of the value when encoded as a Uint8Array
 
@@ -433,7 +438,7 @@ ___
 
 • **hash**: *[IHash](_types_.ihash.md)*
 
-*Defined in [types.ts:82](https://github.com/polkadot-js/api/blob/0a27f63423/packages/types/src/types.ts#L82)*
+*Defined in [types.ts:82](https://github.com/polkadot-js/api/blob/b2daf7482f/packages/types/src/types.ts#L82)*
 
 **`description`** Returns a hash of the value
 
@@ -443,7 +448,7 @@ ___
 
 • **isEmpty**: *boolean*
 
-*Defined in [types.ts:87](https://github.com/polkadot-js/api/blob/0a27f63423/packages/types/src/types.ts#L87)*
+*Defined in [types.ts:87](https://github.com/polkadot-js/api/blob/b2daf7482f/packages/types/src/types.ts#L87)*
 
 **`description`** Checks if the value is an empty value
 
@@ -453,7 +458,7 @@ ___
 
 ▸ **eq**(`other?`: any): *boolean*
 
-*Defined in [types.ts:92](https://github.com/polkadot-js/api/blob/0a27f63423/packages/types/src/types.ts#L92)*
+*Defined in [types.ts:92](https://github.com/polkadot-js/api/blob/b2daf7482f/packages/types/src/types.ts#L92)*
 
 **`description`** Compares the value of the input to see if there is a match
 
@@ -471,7 +476,7 @@ ___
 
 ▸ **toHex**(`isLe?`: undefined | false | true): *string*
 
-*Defined in [types.ts:97](https://github.com/polkadot-js/api/blob/0a27f63423/packages/types/src/types.ts#L97)*
+*Defined in [types.ts:97](https://github.com/polkadot-js/api/blob/b2daf7482f/packages/types/src/types.ts#L97)*
 
 **`description`** Returns a hex string representation of the value. isLe returns a LE (number-only) representation
 
@@ -489,7 +494,7 @@ ___
 
 ▸ **toJSON**(): *[AnyJson](../modules/_types_.md#anyjson)*
 
-*Defined in [types.ts:102](https://github.com/polkadot-js/api/blob/0a27f63423/packages/types/src/types.ts#L102)*
+*Defined in [types.ts:102](https://github.com/polkadot-js/api/blob/b2daf7482f/packages/types/src/types.ts#L102)*
 
 **`description`** Converts the Object to JSON, typically used for RPC transfers
 
@@ -501,7 +506,7 @@ ___
 
 ▸ **toRawType**(): *string*
 
-*Defined in [types.ts:107](https://github.com/polkadot-js/api/blob/0a27f63423/packages/types/src/types.ts#L107)*
+*Defined in [types.ts:107](https://github.com/polkadot-js/api/blob/b2daf7482f/packages/types/src/types.ts#L107)*
 
 **`description`** Returns the base runtime type name for this instance
 
@@ -513,7 +518,7 @@ ___
 
 ▸ **toString**(): *string*
 
-*Defined in [types.ts:112](https://github.com/polkadot-js/api/blob/0a27f63423/packages/types/src/types.ts#L112)*
+*Defined in [types.ts:112](https://github.com/polkadot-js/api/blob/b2daf7482f/packages/types/src/types.ts#L112)*
 
 **`description`** Returns the string representation of the value
 
@@ -525,7 +530,7 @@ ___
 
 ▸ **toU8a**(`isBare?`: undefined | false | true): *Uint8Array*
 
-*Defined in [types.ts:118](https://github.com/polkadot-js/api/blob/0a27f63423/packages/types/src/types.ts#L118)*
+*Defined in [types.ts:118](https://github.com/polkadot-js/api/blob/b2daf7482f/packages/types/src/types.ts#L118)*
 
 **`description`** Encodes the value as a Uint8Array as per the SCALE specifications
 

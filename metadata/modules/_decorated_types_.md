@@ -21,4 +21,4 @@
 
 Ƭ **ModuleConstants**: *Record‹string, Codec›*
 
-*Defined in [Decorated/types.ts:13](https://github.com/polkadot-js/api/blob/0a27f63423/packages/metadata/src/Decorated/types.ts#L13)*
+*Defined in [Decorated/types.ts:13](https://github.com/polkadot-js/api/blob/b2daf7482f/packages/metadata/src/Decorated/types.ts#L13)*
